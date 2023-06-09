@@ -1,0 +1,3 @@
+このフォルダ内のファイルはmackoy氏製作のものです。
+※Bve Trainsim での用途に限り、連絡不要で改変・再頒布可能 https://mackoy.exblog.jp/19134892/
+※一部独自に高画質化処理を行っています。 http://kty-bvememo.hatenablog.jp/entry/deftex_patch

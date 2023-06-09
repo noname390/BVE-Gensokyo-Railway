@@ -1,0 +1,49 @@
+
+CreateMeshBuilder
+Cylinder, 12, 0.1, 0.1, 0.33
+Rotate, 1, 0, 0, 90
+Translate, 0, 0, -0.6
+SetColor,50,50,50,
+GenerateNormals,
+
+
+CreateMeshBuilder
+Cube, 0.260, 0.05, 0.07
+Translate, -0.50,0.03,0.35
+SetColor,50,50,50,
+GenerateNormals,
+
+CreateMeshBuilder
+Cube, 0.260, 0.05, 0.07
+Translate, 0.50,0.03,0.35
+SetColor,50,50,50,
+GenerateNormals,
+
+
+
+
+CreateMeshBuilder
+Cube, 0.145, 0.05, 0.07
+Translate, -0.38,0.03,0
+SetColor,50,50,50,
+GenerateNormals,
+
+CreateMeshBuilder
+Cube, 0.145, 0.05, 0.07
+Translate, 0.38,0.03,0
+SetColor,50,50,50,
+GenerateNormals,
+
+
+CreateMeshBuilder
+Cube, 0.21, 0.13, 0.48
+Translate, 0,0,0
+SetColor,50,50,50,
+GenerateNormals,
+
+CreateMeshBuilder
+Cube, 0.24, 0.13, 0.48
+Translate, 0,-0.035,0
+SetColor,50,50,50,
+GenerateNormals,
+

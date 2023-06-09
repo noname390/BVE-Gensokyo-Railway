@@ -1,0 +1,8 @@
+BveTs Sound List 2.00:
+hakurei2,sound\station\hakureijinjya2.wav
+minamihakurei,sound\station\minami-hakurei.wav
+eientei,sound\station\eientei.wav
+chikurin,sound\station\chikurin.wav
+minaminingen1,sound\station\minami-ningennosato1.wav
+minaminingen2,sound\station\minami-ningennosato2.wav
+ningen1,sound\station\ningennosato1.wav

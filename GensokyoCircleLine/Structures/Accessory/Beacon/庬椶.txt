@@ -1,0 +1,14 @@
+・ats_a_W.x
+　白　※ロング
+
+・ats_a_O.x
+　オレンジ　※直下
+
+・ats_a_R.x
+　赤　※誤出発
+
+・ats_a_G.x
+　緑
+
+・ats_b.x
+　青（SK(A)型）　※SK速照

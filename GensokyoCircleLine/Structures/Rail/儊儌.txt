@@ -1,0 +1,28 @@
+
+【Ballast01フォルダ】
+BallastPC_K_Xa/b	…　PC製枕木
+BallastPC_H_Xa/b	…　PC製枕木・草あり
+
+BallastTR_K_Xa/b	…　木製枕木
+BallastTR_H_Xa/b	…　木製枕木・草あり
+
+※BallastPCとBallastTRは微妙にBallastTRのほうが小さめになっています。
+※BallastTR2_X_5a/bはBallastPCと同じ大きさのBallastTRです、
+　混ぜる場合はこちらを使用すると切り替え面に段差が出ません。
+
+～D	…　暗い
+～NR	…　レール面無し
+
+Bl_CraBalL/R		…　隙間埋めバラスト
+
+
+【Ballast11フォルダ】　…　弾性バラスト軌道
+
+
+---
+
+Long_sw.x
+
+guardr_L/R_3	…　ガーダーレール3m
+guardr_L/R	…　ガーダーレール5m
+

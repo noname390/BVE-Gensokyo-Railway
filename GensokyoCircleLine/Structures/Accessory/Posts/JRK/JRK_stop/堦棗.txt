@@ -1,0 +1,17 @@
+
+棒一覧
+
+・StopBar.x
+｜型
+
+・StopBarUp.x
+｜型 屋根つり下げ用
+
+・StopBarUpB.x
+｜型 屋根つり下げ用（黒）
+
+・StopBarSide1.x
+┌型 短め
+
+・StopBarSide2.x
+┌型 長め
