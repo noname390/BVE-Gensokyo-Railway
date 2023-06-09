@@ -1,0 +1,10 @@
+BveTs Scenario 2.00:
+
+Title = 環状実験線(博麗神社-人間の里)
+Author = noname390(github)
+Route = GensokyoCircleLine\map.txt
+RouteTitle = 環状実験線(博麗神社-人間の里)
+Vehicle = ..\E129\Nii-B11.txt 
+VehicleTitle = JR East E129 series（4 car）
+Image = GensokyoCircleLine\samune.jpg
+Comment = max speed：110km/h

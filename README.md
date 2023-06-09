@@ -1,4 +1,5 @@
 # 环状实验线（幻想乡铁道环状线）Bve Trainsim 5线路
+The readme is currently only in Chinese.But I will try my best to translate it to other languages(for example:English). 
 ## 简介
 幻想乡铁道环状线，是由我（noname390）个人开发的一条虚构线路。是一条假想的由幻想乡旅客铁道株式会社运营，位于东方project幻想乡的环状铁路。
 这个模拟线路以现实中日本信越地方的铁路系统为参考进行开发（此地区被一些人认为是幻想乡存在的区域）<br>
