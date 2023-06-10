@@ -71,7 +71,7 @@ E129系车辆数据的版权方为“Mc_1323”。<br>
 ## 驾驶操作
 见列车作者的网站。
 ## 安装指南
-1. 请确保您在Windows操作系统下，并安装了Bve Trainsim 5以及DirectX组件。
+1. 请确保您在Windows操作系统下，并安装了Bve Trainsim 5以及DirectX组件（也可能出现需要安装.NET的情况）。
 2. 克隆此代码仓库，并从列车作者处获得列车文件，添加列车，即可在Bve trainsim中打开。
 ## 许可协议
 MIT License<br>
