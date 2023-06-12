@@ -3,3 +3,10 @@ rail,Structures\Rail\Ballast01\BallastPC_h_5a.x
 slabrail,Structures\Rail\Slab01\SlabS5m.x
 bridgerail,Structures\Rail\_BridgeRail_5.x
 Tunnelentry,Structures\Tunnel\huku_c1_ent.x
+Tunnelpotal,Structures\Tunnel\huku_c1_Potal1.x
+Tunnellp,Structures\Tunnel\huku_c1_lp.x
+Bg_mt,Structures\Bg\Bg_fine_summer_mt3.x
+stop,Structures\Default\Stop.x
+modernformL,Structures\ACCC\Station\Form51L.x
+modernformR,Structures\ACCC\Station\Form51R.x
+fenceL,Structures\ACCC\Station\Fence6L.x
