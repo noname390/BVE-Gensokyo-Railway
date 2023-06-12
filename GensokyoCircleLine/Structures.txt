@@ -1,6 +1,8 @@
 BveTs Structure List 1.00:UTF-8
 rail,Structures\Rail\Ballast01\BallastPC_h_5a.x
 slabrail,Structures\Rail\Slab01\SlabS5m.x
+slabrailtwo,Structures\Rail\Slab01\Slab2S5m.x
+slabrailtwodark,Structures\Rail\Slab01\Slab2S5m_dark.x
 bridgerail,Structures\Rail\_BridgeRail_5.x
 Tunnelentry,Structures\Tunnel\huku_c1_ent.x
 Tunnelpotal,Structures\Tunnel\huku_c1_Potal1.x
