@@ -203,7 +203,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "rail1.png";
+    "rail1dark.png";
    }
   }
 
@@ -214,7 +214,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "rail1.png";
+    "rail1dark.png";
    }
   }
  }

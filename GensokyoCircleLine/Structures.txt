@@ -6,9 +6,14 @@ slabrailtwodark,Structures\Rail\Slab01\Slab2S5m_dark.x
 bridgerail,Structures\Rail\_BridgeRail_5.x
 Tunnelentry,Structures\Tunnel\huku_c1_ent.x
 Tunnelpotal,Structures\Tunnel\huku_c1_Potal1.x
+Tunnelpotaldark,Structures\Tunnel\huku_c1_Potaldark.x
 Tunnellp,Structures\Tunnel\huku_c1_lp.x
 Bg_mt,Structures\Bg\Bg_fine_summer_mt3.x
 stop,Structures\Default\Stop.x
 modernformL,Structures\ACCC\Station\Form51L.x
 modernformR,Structures\ACCC\Station\Form51R.x
+formL,Structures\Form\Form_Conc_5mL.x
+formR,Structures\Form\Form_Conc_5mR.x
+formgroundL,Structures\Form\Form_Conc_5m3mCL.x
+formgroundR,Structures\Form\Form_Conc_5m3mCR.x
 fenceL,Structures\ACCC\Station\Fence6L.x
