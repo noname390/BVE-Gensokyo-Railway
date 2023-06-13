@@ -373,7 +373,7 @@ Structure.Load('Structures.txt');
 	Repeater['grassland2'].Begin('ground',-102.9,0,0, , , ,0,,49, 'grassland');
 	Gradient.BeginTransition();
 	Track['ground'].Position(0,0,0,0);
-18400;
+18560;
 	Repeater['dikewallR'].Begin0('wallR',3,24.99,25,'dikewallL');
 	Repeater['dikewallL'].Begin0('wallL',3,24.99,25,'dikewallR');
 18670;
