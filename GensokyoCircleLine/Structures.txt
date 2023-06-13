@@ -12,6 +12,8 @@ Bg_mt,Structures\Bg\Bg_fine_summer_mt3.x
 stop,Structures\Default\Stop.x
 modernformL,Structures\ACCC\Station\Form51L.x
 modernformR,Structures\ACCC\Station\Form51R.x
+modernformgroundL,Structures\ACCC\Station\FormCL.x
+modernformgroundR,Structures\ACCC\Station\FormCR.x
 formL,Structures\Form\Form_Conc_5mL.x
 formR,Structures\Form\Form_Conc_5mR.x
 formgroundL,Structures\Form\Form_Conc_5m3mCL.x
