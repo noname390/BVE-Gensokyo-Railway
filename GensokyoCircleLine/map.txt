@@ -9,6 +9,8 @@ Structure.Load('Structures.txt');
 	Background.Change('Bg_mt');
 	Adhesion.Change(0.35, 0, 0.01);
 	Curve.SetGauge(1.067);
+	Track['ground'].Position(-10,0,0,0);
+	Repeater['grassland1'].Begin('ground',0.2,-0.5,0, , , ,1,,5, 'grassland');
 	Track['1'].Position(0,0,0,0);
 	Repeater['slabRail'].Begin0('1',1,4.99,5,'slabrail');
 	SpeedLimit.Begin(110);
@@ -104,6 +106,7 @@ Structure.Load('Structures.txt');
 	Repeater['bridgewallL1'].End();
 	Repeater['bridgewallR1'].End();
 	Curve.BeginTransition();
+
 1566;
 	SpeedLimit.Begin(100);
 	rollingNoise.Change(2);
@@ -352,6 +355,7 @@ Structure.Load('Structures.txt');
 	#Legacy.Fog(60, 70, 0, 0, 0);
 #地下区間
 19170;
+	Repeater['grassland1'].End();
 	Fog.Interpolate(0,0.1,0.1,0.1);
 	Background.Change('');
 	Structure['Tunnelpotal'].Put('1',1.9,-0.25,1.6,,,,,);
