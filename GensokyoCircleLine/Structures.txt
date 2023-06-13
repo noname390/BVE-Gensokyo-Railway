@@ -26,3 +26,6 @@ bridgewallR,Structures\Wall\Wall_QN_R5m.x
 grassland,Structures\Nature\Ground\Grass100m.x
 fieldL,Structures\Nature\Ground\fieldL_25.x
 dikewallL,Structures\Wall\seto_k\WallL6.x
+dikewallR,Structures\Wall\seto_k\WallR6.x
+dikewall,Structures\Wall\seto_k\WallL5_5m.x
+dikewallRR,Structures\Wall\seto_k\WallR5_5m.x
