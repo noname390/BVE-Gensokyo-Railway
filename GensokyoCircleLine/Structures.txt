@@ -24,3 +24,5 @@ pier,Structures\Wall\Pier.x
 bridgewallL,Structures\Wall\Wall_QN_L5m.x
 bridgewallR,Structures\Wall\Wall_QN_R5m.x
 grassland,Structures\Nature\Ground\Grass100m.x
+fieldL,Structures\Nature\Ground\fieldL_25.x
+dikewallL,Structures\Wall\seto_k\WallL6.x
