@@ -32,3 +32,4 @@ dikewallRR,Structures\Wall\seto_k\WallR5_5m.x
 bridgehandleL,Structures\Bridge\red5_bL.x
 bridgehandleR,Structures\Bridge\red5_bR.x
 river,Structures\Nature\River\river50m_green.x
+kasen,Structures\Accessory\E_Poles\kasen\kasen20s.x
