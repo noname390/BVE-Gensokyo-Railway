@@ -34,4 +34,6 @@ bridgehandleR,Structures\Bridge\red5_bR.x
 river,Structures\Nature\River\river50m_green.x
 kasen,Structures\Accessory\E_Poles\kasen\kasen40S.x
 bridgepole,Structures\Accessory\E_Poles\Pole\Pole1_stlA.x
-fukusenpole,Structures\Accessory\E_Poles\Poletruss\PoleTrs06B.x
+pole,Structures\Accessory\E_Poles\Pole\Pole1_stlB.x
+fukusenpole5,Structures\Accessory\E_Poles\Poletruss\PoleTrs05B.x
+fukusenpole8,Structures\Accessory\E_Poles\Poletruss\PoleTrs08B.x
