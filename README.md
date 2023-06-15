@@ -33,7 +33,7 @@ The following is the distance for the section from Hakurei Shrine to Ningennosat
 | Ningennosato | 22.395km |
 
 ### Timetable
-详细的时刻表暂未确定。
+The detailed timetable isn't made currnetly. 
 ## Train information
 The following are recommended trains that can be adjusted as needed,using train data supported by Bve5.
 ### JR East E129 Series
