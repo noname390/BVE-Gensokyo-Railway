@@ -1,80 +1,56 @@
-# 环状实验线（幻想乡铁道环状线）Bve Trainsim 5线路
-The readme is currently only in Chinese.But I will try my best to translate it to other languages(for example:English). 
-## 简介
-幻想乡铁道环状线，是由我（noname390）个人开发的一条虚构线路。是一条假想的由幻想乡旅客铁道株式会社运营，位于东方project幻想乡的环状铁路。
-这个模拟线路以现实中日本信越地方的铁路系统为参考进行开发（此地区被一些人认为是幻想乡存在的区域）<br>
-如果你不是东方众，你也可以把它叫做“环状实验线”，并当作一般的虚构线路游玩。<br>
-这条模拟线路目前包括博丽神社-人间之里的单向运转，在未来它将会延伸，并最终建成环状线路。<br>
-## 更新信息
-- 2023-6-9:建立仓库
-## 线路信息
-目前线路数据包含了博丽神社-人间之里的单向运转。最高速度110千米/小时。含有博丽神社、南博丽、永远亭、竹林、南人间之里、人间之里6个车站。同时包括了普通和快速两种列车<br>
-如果你将这条模拟线路作为东方project的衍生创作，请注意线路中有大量信息均为作者本人的二次设定，在原作中没有出现。并且可能与其他人的想象有出入。<br>
-线路中幻想乡的地理信息来自以下网站：<br>
+# Circular Experimental Line（Gensokyo Railway Circular Line）Bve Trainsim 5 route
+[中文版Readme](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/README_zh_cn.md)<br>
+## Introduction
+The Gensokyo Railway Circular Line is a fictional railway line developed by me. It is an imaginary circular railway located in Gensokyo of the Touhou Project,and operated by the fictional company Gensokyo Passenger Railway Corporation.The development of this simulated line was based on the real-life railway system in the Shinetsu region of Japan, which is believed by someone to be the area where Gensokyo exists.<br>
+If you are not familiar with the Touhou Project, you can refer to this line as the "Circular Experimental Line" and enjoy it as a general fictional railway.
+Currently, the simulated line operates in one direction from the Hakurei Shrine to the Ningennosato, but it will be extended in the future and eventually become a circular line.
+## Updates
+- 2023-6-9:set up repository
+## Route information
+The current route includes one-way operation between the Hakurei Shrine and the Ningennosato in Gensokyo, with a maximum speed of 110 km/h.The route includes 6 stations:  Hakurei Shrine,South Hakurei,Eientei,Chikurin,South Ningennosato, and Ningennosato.Both local and express trains are available. 
+
+If you use this simulated train route as a derivative work in the Touhou Project, please note that many of the details are the author's own interpretation and may differ from others' imaginations or the offical work. The geographic information of Gensokyo in the route comes from the following website:
 [幻想郷・最新版地理考察](https://yotogiluminary.wixsite.com/website/post/000014)<br>
-### 线路图
+### Route Map
 <p align="center">
     <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/Gensokyo_CircleLine_railwaymap.jpg" alt="logo";>
 </p>
 
 ### 里程
-里程数据是作者自己的设定，与原作无关，并且可能与其他人对幻想乡大小的想象不符。<br>
-精确到0.001千米。<br>
-以下为先行开业的区间（博丽神社-人间之里）（博丽神社起计）<br>
+The mileage data is the author's own setting, unrelated to the original work, and may not correspond to the imaginations of others regarding the size of Gensokyo. 
 
-| 车站 | 累计里程 |
+The distance is measured precisely to 0.001 kilometers. 
+
+The following is the distance for the section from Hakurei Shrine to Ningennosato,starting from Hakurei Shrine.
+
+| Station | Mileage |
 |--- |---|
-| 博丽神社 | 0.0km |
-| 南博丽 | 5.100km |
-| 永远亭 | 10.823km |
-| 竹林 | 13.900km |
-| 南人间之里 | 21.040km |
-| 人间之里 | 22.395km |
+| Hakurei Shrine | 0.0km |
+| Minami-Hakurei | 5.100km |
+| Eientei | 10.823km |
+| Chikurin | 13.900km |
+| Minami-Ningennosato | 21.040km |
+| Ningennosato | 22.395km |
 
-计划延伸至守失神社的区间（博丽神社起计），精确到0.1千米。<br>
-
-| 车站 | 累计里程 |
-|--- |---|
-| 人间之里 | 22.4km |
-| 西人间之里 | 未测量 |
-| 命莲寺 | 未测量 |
-| 北命莲寺 | 未测量 |
-| 妖怪树海 | 未测量 |
-| 草田 | 未测量 |
-| 守失神社 | 39.2km |
-
-规划中最后开业，并建成环状线的区间（博丽神社起计）精确到0.1千米。<br>
-
-| 车站 | 累计里程 |
-|--- |---|
-| 守失神社 | 39.2km |
-| 风神之湖 | 未测量 |
-| 玄武之泽 | 未测量 |
-| 香霖堂前 | 未测量 |
-| 魔法之森 | 未测量 |
-| 雾之湖 | 未测量 |
-| 红魔馆 | 未测量 |
-| 上雾之湖 | 未测量 |
-| 北博丽 | 未测量 |
-| 博丽神社 | 未测量 |
-
-### 时刻表
+### Timetable
 详细的时刻表暂未确定。
-## 列车信息
-以下为推荐使用的列车，实际可自行调整，使用Bve5支持的列车数据。
-### JR东日本E129系电力动车组
-E129系电联车是日本铁道公司东日本旅客铁道（JR东日本）于2014年12月6日开始运营的直流一般型电车。目前此模拟线路使用4节编组的此列车。<br>
-[列车数据的链接](https://mc1323bve.blogspot.com/2020/03/jr-e129.html)<br>
-推荐使用B11编成进行运转<br>
-E129系车辆数据的版权方为“Mc_1323”。<br>
-此车辆作者和许多日系文化相关创作者一样有严格的限制作品分发的条款。因此，请前往作者网站获取列车数据。<br>
-## 驾驶操作
-见列车作者的网站。
-## 安装指南
-1. 请确保您在Windows操作系统下，并安装了Bve Trainsim 5以及DirectX组件（也可能出现需要安装.NET的情况）。
-2. 克隆此代码仓库，并从列车作者处获得列车文件，添加列车，即可在Bve trainsim中打开。
-## 许可协议
+## Train information
+The following are recommended trains that can be adjusted as needed,using train data supported by Bve5.
+### JR East E129 Series
+E129 series EMU train is a type of direct current commuter train operated by East Japan Railway Company since December 6, 2014. Currently, this simulated route uses a 4-car formation of this train.
+[Link of the vehicle data](https://mc1323bve.blogspot.com/2020/03/jr-e129.html)<br>
+Operating with the B11 hensei is recommended<br>
+The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
+The creator of this vehicle,like many creators in Japan, has strict distribution terms for their work. Therefore, please visit the creator's website to obtain the train data.<br>
+## Operating method
+please visit the train creator's website
+## Installing Guide
+1. Make sure you are in Windows.Installed Bve Trainsim 5 and DirectX.（Sometimes .NET is also needed）。
+2. Clone this repository or download the releases,and get the vehicle file from the train creator's website，make sure the file path in 1003M.txt is correct.Then you can open the route in Bve trainsim.
+## License
 MIT License<br>
-E129系车辆数据的版权方为“Mc_1323”<br>
-使用素材：<br>
+The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
+strutures:
 かんたんのゆめ汎用ストラクチャセット<br>
+the station music:
+https://commons.nicovideo.jp/users/upload/157209?page=2
