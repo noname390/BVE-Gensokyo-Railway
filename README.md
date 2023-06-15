@@ -16,7 +16,7 @@ If you use this simulated train route as a derivative work in the Touhou Project
     <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/Gensokyo_CircleLine_railwaymap.jpg" alt="logo";>
 </p>
 
-### 里程
+### Mileage
 The mileage data is the author's own setting, unrelated to the original work, and may not correspond to the imaginations of others regarding the size of Gensokyo. 
 
 The distance is measured precisely to 0.001 kilometers. 
