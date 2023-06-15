@@ -9,7 +9,7 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 ## Route information
 The current route includes one-way operation between the Hakurei Shrine and the Ningennosato in Gensokyo, with a maximum speed of 110 km/h.The route includes 6 stations:  Hakurei Shrine,South Hakurei,Eientei,Chikurin,South Ningennosato, and Ningennosato.Both local and express trains are available. 
 
-If you use this simulated train route as a derivative work in the Touhou Project, please note that many of the details are the author's own interpretation and may differ from others' imaginations or the offical work. The geographic information of Gensokyo in the route comes from the following website:
+If you use this simulated train route as a derivative work in the Touhou Project, please note that many of the details are the author's own interpretation and may differ from others' imaginations or the offical work. The geographic information of Gensokyo in the route comes from the following website:<br>
 [幻想郷・最新版地理考察](https://yotogiluminary.wixsite.com/website/post/000014)<br>
 ### Route Map
 <p align="center">
@@ -37,7 +37,7 @@ The detailed timetable isn't made currnetly.
 ## Train information
 The following are recommended trains that can be adjusted as needed,using train data supported by Bve5.
 ### JR East E129 Series
-E129 series EMU train is a type of direct current commuter train operated by East Japan Railway Company since December 6, 2014. Currently, this simulated route uses a 4-car formation of this train.
+E129 series EMU train is a type of direct current commuter train operated by East Japan Railway Company since December 6, 2014. Currently, this simulated route uses a 4-car formation of this train.<br>
 [Link of the vehicle data](https://mc1323bve.blogspot.com/2020/03/jr-e129.html)<br>
 Operating with the B11 hensei is recommended<br>
 The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
