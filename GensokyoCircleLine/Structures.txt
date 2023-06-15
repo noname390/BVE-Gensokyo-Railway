@@ -42,3 +42,11 @@ tunnelpole,Structures\Accessory\E_Poles\acc\MinibeamF02_dark.x
 kasenhang,Structures\Accessory\E_Poles\acc\MinibeamF02.x
 kasenhangL,Structures\Accessory\E_Poles\acc\MinibeamF01R.x
 kasenhangR,Structures\Accessory\E_Poles\acc\MinibeamF02L.x
+mount,Structures\Nature\mount\GrsWallL4.x
+mountR,Structures\Nature\mount\GrsWallR4.x
+tree1,Structures\Nature\trees\tree01_S.x
+tree2,Structures\Nature\trees\tree02_S.x
+tree3,Structures\Nature\trees\tree03_S.x
+tree4,Structures\Nature\trees\tree04_S.x
+dikegrassL,Structures\Nature\Ground\DikegrsL.x
+dikegrassR,Structures\Nature\Ground\DikegrsR.x
