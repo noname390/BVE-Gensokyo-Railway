@@ -44,7 +44,7 @@ The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
 The creator of this vehicle,like many creators in Japan, has strict distribution terms for their work. Therefore, please visit the creator's website to obtain the train data.<br>
 ## Operating method
 please visit the train creator's website
-## Installing Guide
+## Installation Guide
 1. Make sure you are in Windows.Installed Bve Trainsim 5 and DirectX.（Sometimes .NET is also needed）。
 2. Clone this repository or download the releases,and get the vehicle file from the train creator's website，make sure the file path in 1003M.txt is correct.Then you can open the route in Bve trainsim.
 ## License
