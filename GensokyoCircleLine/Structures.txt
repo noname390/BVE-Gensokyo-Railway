@@ -56,3 +56,11 @@ crost,Structures\structure_Cro_st\Cro_st.x
 light,Structures\structure_FL\FL.x
 metalfence,Structures\structure_NF\NF.x
 metalfenceL,Structures\structure_RF\RF.x
+formwallwhite,Structures\lopoli_houses\x\acc\wall\wall_houseL53_5m.x
+formwallgrey,Structures\lopoli_houses\x\acc\wall\wall_houseL54_5m.x
+formwallbrown,Structures\lopoli_houses\x\acc\wall\wall_houseL55_5m.x
+formwallwhiteR,Structures\lopoli_houses\x\acc\wall\wall_houseR53_5m.x
+formwallgreyR,Structures\lopoli_houses\x\acc\wall\wall_houseR54_5m.x
+formwallbrownR,Structures\lopoli_houses\x\acc\wall\wall_houseR55_5m.x
+tunwall,Structures\lopoli_houses\x\acc\wall\wall_houseL04_5mdark.x
+tunwallR,Structures\lopoli_houses\x\acc\wall\wall_houseR04_5mdark.x

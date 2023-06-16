@@ -1,9 +1,0 @@
-BveTs Scenario 2.00:shift_jis
-Title = おうち設置サンプル
-Author = 
-Image =
-Route = 設置例\map.txt
-RouteTitle = 
-Vehicle = 設置例\dummytrain\vehicle.txt
-VehicleTitle = 
-Comment = 

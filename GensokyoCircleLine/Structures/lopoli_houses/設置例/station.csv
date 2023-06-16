@@ -1,8 +1,0 @@
-BveTs Station List 2.00:shift_jis
-#onKey2, stationName2, arrivalTime2, depertureTime2, stoppageTime2, defaultTime2, signalFlag2, alightingTime2, passengers2, arrivalSoundKey2, depertureSoundKey2, doorReopen2, stuckInDoor2
-01, "あまりよくない置き方",,,0,,0,0,0,,,0,0,,,
-02, "少しマシな置き方",,,0,,0,0,0,,,0,0,,,
-03, "└ 線路脇工夫",,,0,,0,0,0,,,0,0,,,
-04, "塀を置いてみる",,,0,,0,0,0,,,0,0,,,
-05, "└ 背景変更",,,0,,0,0,0,,,0,0,,,
-06, "ビルなどを交えて街並みを再現",,,0,,0,0,0,,,0,0,,,
