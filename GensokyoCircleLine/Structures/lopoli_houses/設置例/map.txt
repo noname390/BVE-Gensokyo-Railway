@@ -1,0 +1,635 @@
+BveTs Map 2.02:shift_jis
+
+Structure.Load('structures.csv');
+Station.Load('station.csv');
+
+0;
+	DrawDistance.Change(950);
+
+//家のライン
+	Track['h_L1'].X.Interpolate(-18.5);
+	Track['h_R1'].X.Interpolate(16.5);
+	Track['road'].Position(-8.5,-0.75);
+
+//左道路
+	Repeater['road'].Begin('road', 0, 0.2, 0, 0, 0, 0, 1, 5, 5, 'road_a', 'road_b', 'road_c', 'road_d');
+
+
+
+##////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+##//
+##//　サンプル 01
+##//　あまりよくない置き方
+##//
+##//　同じストラクチャを同じ方向でずらずらと並べると変化のない風景になりがち
+##//
+##////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+40;
+	Station['01'].Put(-1,-5,5);
+0;
+
+//おうち
+	Repeater['houseL1'].Begin('h_L1', 0, -0.8, 0, 0, 0, 0, 0, 12, 12,  'HA01','HA02','HA03','HA04');
+	Repeater['houseR1'].Begin('h_R1', 0, -0.8, 0, 0, 0, 0, 0, 12, 12,  'HA01','HA02','HA03','HA04');
+
+950;
+	Repeater['houseL1'].End();
+	Repeater['houseR1'].End();
+
+
+
+##////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+##//
+##//　サンプル 02
+##//　少しマシな置き方
+##//　
+##//　回転させた家（～R）も用意しているのでこれを混ぜると変化が出てRepeaterでもマシな感じになります
+##//　遠目の家はこれでも行ける
+##//
+##////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+1000-10;
+	Station['02'].Put(-1,-5,5);
+
+//おうち
+	Repeater['houseL1'].Begin('h_L1', 0, -0.8, 0, 0, 0, 0, 0, 15, 15,  'HA01','HA02R','HA52R','HA03','HD02','HB03R','HA51','HB01','HA02R','HB03','HD03R');
+	Repeater['houseR1'].Begin('h_R1', 0, -0.8, 0, 0, 0, 0, 0, 15, 15,  'HB03','HD02','HC03R','HA51','HA02R','HB03','HA53R','HA02','HB03R','HC01');
+
+1950;
+	Repeater['houseL1'].End();
+	Repeater['houseR1'].End();
+
+
+
+##////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+##//
+##//　サンプル 03
+##//　少しマシな置き方＋線路脇の工夫
+##//
+##//　線路わきに雑草を増やすと
+##//
+##////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2000-10;
+	Station['03'].Put(-1,-5,5);
+
+//おうち（サンプル02（1000～）と同じパターン）
+	Repeater['houseL1'].Begin('h_L1', 0, -0.8, 0, 0, 0, 0, 0, 15, 15,  'HA01','HA02R','HA52R','HA03','HD02','HB03R','HA51','HB01','HA02R','HB03','HD03R');
+	Repeater['houseR1'].Begin('h_R1', 0, -0.8, 0, 0, 0, 0, 0, 15, 15,  'HB03','HD02','HC03R','HA51','HA02R','HB03','HA53R','HA02','HB03R','HC01');
+
+//線路脇雑草
+	Repeater['zL'].Begin(0, -3.1, -0.3, 0, 0, -20, 0, 0, 3, 3, 'z01',,'z02','z05',,'z11',,'z03','z12',,'z13','z01',,,'z04',,'z05','z15',);
+	Repeater['zR'].Begin(1,  3.1, -0.3, 0, 0, 20, 0, 0, 3, 3, 'z01','z02',,'z11','z03',,,'z12',,'z13',,,'z01',,'z04','z05','z14',,'z15',);
+
+//右の大き目の雑木
+	Repeater['bR'].Begin(1,  5.2, -1.8, 0, 0, 20, 0, 0, 5, 5, 'b01','b04','b05','b11','b02','b12','b03','b04','b14','b15');
+
+//フェンス
+2000-15;
+	Repeater['FenceL'].Begin(0,  -4.5, -1.0, 0, 0, 0, 0, 1, 2, 2, 'FenceGreen');
+	Repeater['FenceR'].Begin(1,  5.5, -1.0, 0, 0, 0, 0, 1, 2, 2, 'FenceGreen');
+
+2950;
+	Repeater['houseL1'].End();
+	Repeater['houseR1'].End();
+	Repeater['FenceL'].End();
+	Repeater['FenceR'].End();
+
+
+
+##////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+##//
+##//　サンプル 04
+##//　Repeaterで作る出来るだけ違和感の少ない住宅地
+##//
+##//　住宅と塀は15ｍのユニットを作って並べていく
+##//
+##////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+3000-10;
+	Station['04'].Put(-1,-5,5);
+
+//家本体（2000～と基本同じ）
+	Repeater['houseL1'].Begin('h_L1', 0, -0.8, 0, 0, 0, 0, 0, 15, 15,  'HA01','HA02R','HA51R','HA03' ,'HD02','HB03R','HA51','HB01' ,'HA02R','HB03','HD03R','HB04');
+	Repeater['houseR1'].Begin('h_R1', 0, -0.8, 0, 0, 0, 0, 0, 15, 15,  'HB03','HD02','HC03R','HA51','HA02R','HB03','HA53R','HA02','HB03R','HC01');
+
+//庭木
+	Repeater['hometreeL'].Begin('h_L1', 5, 0, -7.5, 0, 0, 0, 0, 15, 15, 'nezuL', ,'uekomiL',  , , 'nezuL', ,  ,'nezuL' , , 'uekomiL','nezuL');
+	Repeater['hometreeR'].Begin('h_R1', -6, 0, -7.5, 0, 0, 0, 0, 15, 15, 'uekomiR', ,'uekomiR',  ,  'nezuR', , ,  'nezuR', , , 'uekomiR','nezuR');
+
+//塀
+	Repeater['homeWallL'].Begin('road', -3.5, 0, -7.5, 0, 0, 0, 0, 15, 15, 'whL04U','whL32U','whL54U','whL51U', 'whL05U','whL03U','whL51U','whL52U', 'whL03U','whL31U','whL04U','whL03U');
+	Repeater['homeWallLS'].Begin('road', -3.5-15, 0, -7.5+14.75, 0, 90, 0, 0, 15, 15, 'whL04L','whL32L','whL54L','whL51L', 'whL05L','whL03L','whL51L','whL52L', 'whL03L','whL31L','whL04L','whL03L');
+
+	Repeater['homeWallR'].Begin(1, 5.5, -0.8, -7.5, 0, 0, 0, 0, 15, 15, 'whR04U','whR32U','whR54U','whR51U', 'whR05U','whR03U','whR51U','whR52U', 'whR03U','whR31U','whR04U','whR03U');
+	Repeater['homeWallRS'].Begin(1, 5.5+15, -0.8, -7.5+14.75, 0, -90, 0, 0, 15, 15, 'whR04L','whR32L','whR54L','whR51L', 'whR05L','whR03L','whR51L','whR52L', 'whR03L','whR31L','whR04L','whR03L');
+
+//フェンス
+3000-15;
+	Repeater['FenceL'].Begin(0,  -4.5, -1.0, 0, 0, 0, 0, 1, 2, 2, 'FenceGreen');
+
+3950;
+	Repeater['houseL1'].End();
+	Repeater['houseR1'].End();
+	Repeater['FenceL'].End();
+	Repeater['FenceR'].End();
+
+	Repeater['hometreeL'].End();
+	Repeater['hometreeR'].End();
+
+	Repeater['homeWallL'].End();
+	Repeater['homeWallLS'].End();
+	Repeater['homeWallR'].End();
+	Repeater['homeWallRS'].End();
+
+
+
+##////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+##//
+##//　サンプル 05
+##//　背景変更
+##//　
+##//　背景画像自体に建物を入れておくと密度が高まる（京成千葉線から借用）
+##//
+##////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+4000-10;
+	Background.Change('BG2');
+	Station['05'].Put(-1,-5,5);
+
+4000;
+//家本体（2000～と基本同じ）
+	Repeater['houseL1'].Begin('h_L1', 0, -0.8, 0, 0, 0, 0, 0, 15, 15,  'HA01','HA02R','HA51R','HA03' ,'HD02','HB03R','HA51','HB01' ,'HA02R','HB03','HD03R','HB04');
+	Repeater['houseR1'].Begin('h_R1', 0, -0.8, 0, 0, 0, 0, 0, 15, 15,  'HB03','HD02','HC03R','HA51','HA02R','HB03','HA53R','HA02','HB03R','HC01');
+
+//庭木
+	Repeater['hometreeL'].Begin('h_L1', 5, 0, -7.5, 0, 0, 0, 0, 15, 15, 'nezuL', ,'uekomiL',  , , 'nezuL', ,  ,'nezuL' , , 'uekomiL','nezuL');
+	Repeater['hometreeR'].Begin('h_R1', -6, 0, -7.5, 0, 0, 0, 0, 15, 15, 'uekomiR', ,'uekomiR',  ,  'nezuR', , ,  'nezuR', , , 'uekomiR','nezuR');
+
+//塀
+	Repeater['homeWallL'].Begin('road', -3.5, 0, -7.5, 0, 0, 0, 0, 15, 15, 'whL04U','whL32U','whL54U','whL51U', 'whL05U','whL03U','whL51U','whL52U', 'whL03U','whL31U','whL04U','whL03U');
+	Repeater['homeWallLS'].Begin('road', -3.5-15, 0, -7.5+14.75, 0, 90, 0, 0, 15, 15, 'whL04L','whL32L','whL54L','whL51L', 'whL05L','whL03L','whL51L','whL52L', 'whL03L','whL31L','whL04L','whL03L');
+
+	Repeater['homeWallR'].Begin(1, 5.5, -0.8, -7.5, 0, 0, 0, 0, 15, 15, 'whR04U','whR32U','whR54U','whR51U', 'whR05U','whR03U','whR51U','whR52U', 'whR03U','whR31U','whR04U','whR03U');
+	Repeater['homeWallRS'].Begin(1, 5.5+15, -0.8, -7.5+14.75, 0, -90, 0, 0, 15, 15, 'whR04L','whR32L','whR54L','whR51L', 'whR05L','whR03L','whR51L','whR52L', 'whR03L','whR31L','whR04L','whR03L');
+
+//フェンス
+4000-15;
+	Repeater['FenceL'].Begin(0,  -4.5, -1.0, 0, 0, 0, 0, 1, 2, 2, 'FenceGreen');
+
+
+4950;
+	Repeater['houseL1'].End();
+	Repeater['houseR1'].End();
+	Repeater['FenceL'].End();
+	Repeater['FenceR'].End();
+
+	Repeater['hometreeL'].End();
+	Repeater['hometreeR'].End();
+
+	Repeater['homeWallL'].End();
+	Repeater['homeWallLS'].End();
+	Repeater['homeWallR'].End();
+	Repeater['homeWallRS'].End();
+
+
+
+
+##////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+##//
+##//　サンプル 06
+##//　
+##//　
+##//　
+##//
+##////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+7000-10;
+	Station['06'].Put(-1,-5,5);
+
+7000-15;
+//フェンス
+	Repeater['FenceL'].Begin(0,  -4.5, -1.0, 0, 0, 0, 0, 1, 2, 2, 'FenceGreen');
+
+////////////////7000～7500 左の建物
+
+	7000;	Structure['HB04'].Put('h_L1', -3, -0.8, 7, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL02U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL02L'].Put('road',-3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+		Structure['nezuL'].Put('road', -4.6, 0, 0, 0, 0, 0, 0, 5);
+
+	7015;	Structure['HA02R'].Put('h_L1', 0, -0.8, 7, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL03U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL03L'].Put('road',-3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+		Structure['uekomiL'].Put('road', -4.2, 0, 0, 0, 0, 0, 0, 5);
+
+	7030;	Structure['AP51R'].Put('h_L1', -3.1, -0.8, 10, 0, 0, 0, 0, 10);		//20mアパート
+		Structure['nezuL'].Put('road', -4.7, 0, 0, 0, 0, 0, 0, 5);
+		Structure['whL51U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL51'].Put('road', -3.4, 0, 15, 0, 0, 0, 0, 15);
+		Structure['whL51L'].Put('road',-3.4-15, 0, 14.5+5, 0, 90, 0, 0, 15);
+
+	7050;	Structure['HC03'].Put('h_L1', -2, -0.8, 6.5, 0, 0, 0, 0, 10);		//15m一軒家大
+		Structure['whL05U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL05L'].Put('road',-3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+		Structure['uekomiL'].Put('road', -4.2, 0, 0, 0, 0, 0, 0, 5);
+
+	7065;	Structure['HA53R'].Put('h_L1', 0, -0.8, 5, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL31U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL31L'].Put('road',-3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+
+	7080;	Structure['HD01R'].Put('h_L1', 0, -0.8, 5, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL52U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL52L'].Put('road',-3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+		Structure['nezuL'].Put('road', -4.7, 0, 0, 0, 0, 0, 0, 5);
+
+	7096.5;	//踏切
+
+
+	7100;	Structure['HA01R'].Put('h_L1', 0, -0.8, 7, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL04U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL04L'].Put('road',-3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+		Structure['nezuL'].Put('road', -4.6, 0, 0, 0, 0, 0, 0, 5);
+
+	7100;	Structure['AP01'].Put('h_L1', -17, -0.8, 10, 0, 0, 0, 0, 10);		//（奥）
+
+	7115;	Structure['HA51'].Put('h_L1', 0, -0.8, 5, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL31U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL31L'].Put('road',-3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+
+	7130;	Structure['AP51R'].Put('h_L1', -3.8, -0.8, 10, 0, 0, 0, 0, 10);		//20mアパート
+		Structure['uekomiL'].Put('road', -4.2, 0, 0, 0, 0, 0, 0, 5);
+		Structure['whL54U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL54'].Put('road', -3.4, 0, 15, 0, 0, 0, 0, 15);
+
+	7150;	Structure['ParkingL2'].Put('road', -3.2, 0, 0, 0, 0, 0, 0, 5);
+
+
+	7170;	Structure['HA03'].Put('h_L1', 0, -0.8, 5, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL04U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL04L'].Put('road', -3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+		Structure['nezuL'].Put('road', -4.6, 0, 0, 0, 0, 0, 0, 5);
+	7170;	Structure['HD03R'].Put('h_L1', -15, -0.8, 10, 0, 0, 0, 0, 10);		//15m一軒家
+	7170;	Structure['HA04R'].Put('h_L1', -15, -0.8, 25, 0, 0, 0, 0, 10);		//15m一軒家
+
+	7185;	Structure['HD03'].Put('h_L1', 0, -0.8, 5, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL51U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL51L'].Put('road', -3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+
+	7200;	Structure['ParkingL2'].Put('road', -3.2, 0, 0, 0, 0, 0, 0, 5);		//駐車場
+
+	7220;	Structure['Bldg4L'].Put('h_L1', 5, -0.8, 0, 0, 0, 0, 0, 10);		//10mビル
+
+	7230;	Structure['HA03R'].Put('h_L1', 0, -0.8, 5, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL31U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL31L'].Put('road', -3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+
+	7245;	Structure['HA51'].Put('h_L1', 0, -0.8, 5, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL51U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL51L'].Put('road', -3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+
+	7260;	Structure['HB02R'].Put('h_L1', 0, -0.8, 7, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL05U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL05L'].Put('road', -3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+		Structure['nezuL'].Put('road', -4.7, 0, 0, 0, 0, 0, 0, 5);
+
+	7275;	Structure['AP01R'].Put('h_L1', 0, -0.8, 15, 0, 180, 0, 0, 10);		//20mアパート
+		Structure['whL01U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL01L'].Put('road', -3.4, 0, 15, 0, 0, 0, 0, 15);
+		Structure['whL01L'].Put('road', -3.4-15, 0, 29.5, 0, 90, 0, 0, 15);
+
+
+	7315;	Structure['Bldg7L'].Put('h_L1', 6, -0.8, 0, 0, 0, 0, 0, 10);		//10mビル・駐車場
+		Structure['Bldg7L'].Put('h_L1', -3.0, -0.8, 0, 0, 0, 0, 0, 10);
+
+	7335;	Structure['HB01R'].Put('h_L1', -2, -0.8, 7, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL32U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL32L'].Put('road', -3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+
+	7350;	Structure['HB03'].Put('h_L1', 0, -0.8, 7, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL02U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL02L'].Put('road', -3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+
+	7365;	Structure['HC01R'].Put('h_L1', -2, -0.8, 10, 0, 0, 0, 0, 10);		//15m一軒家大
+		Structure['whL52U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL52'].Put('road', -3.4, 0, 15, 0, 0, 0, 0, 15);
+		Structure['whL52L'].Put('road', -3.4-15, 0, 10+14.5, 0, 90, 0, 0, 15);
+		Structure['nezuL'].Put('road', -4.7, 0, 0, 0, 0, 0, 0, 5);
+
+	7393;	Structure['road_50'].Put('road', -3.0, 0, 0, 0, -90, 0, 0, 5);
+
+	7395;	Structure['ParkingL2'].Put('road', -3.2, 0, 2.5, 0, 0, 0, 0, 5);
+		Structure['Bldg1L'].Put('h_L1', -15, -0.8-(3*5), 2, 0, 0, 0, 0, 10);
+
+	7420;	Structure['ParkingL2'].Put('road', -3.2, 0, 0, 0, 0, 0, 0, 5);
+
+	7440;	Structure['HD03R'].Put('h_L1', 0, -0.8, 7, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL54U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL54L'].Put('road', -3.4-15, 0, 14.5, 0, 90, 0, 0, 15);
+	7440;	Structure['HD01'].Put('h_L1', 0-15, -0.8, 7, 0, 0, 0, 0, 10);		//15m一軒家
+		Structure['whL54U'].Put('road', -3.4-15, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL54L'].Put('road', -3.4-15-15, 0, 14.5, 0, 90, 0, 0, 15);
+		Structure['uekomiL'].Put('road', -4.2, 0, 0, 0, 0, 0, 0, 5);
+		Structure['nezuL'].Put('road', -18, 0, 0, 0, 0, 0, 0, 5);
+
+	//7450-60F
+
+	7455;	Structure['HC03R'].Put('h_L1', -2, -0.8, 8, 0, 0, 0, 0, 10);		//15m一軒家大
+		Structure['whL05U'].Put('road', -3.4, 0, 0, 0, 0, 0, 0, 15);
+		Structure['whL05L'].Put('road', -3.4-7.5, 0, 15+13, 0, 90+60, 0, 0, 15);
+		Structure['nezuL'].Put('road', -4.7, 0, 0, 0, 0, 0, 0, 5);
+
+
+////////////////7000～7500 右の建物
+	7005;
+	Repeater['houseR1'].Begin('h_R1', 0, -0.8, 7.5, 0, 0, 0, 0, 15, 15,
+			'HA53','HA51R','HA01R','HB03','HC03','HA04');
+	Repeater['homeWallR1'].Begin('h_R1', -7, -0.8, 0, 0, 0, 0, 0, 15, 15,
+			'whR52U','whR51U','whR03U','whR53U','whR32U','whR02U');
+
+	7020;	Structure['uekomiR'].Put(1, 6.9, -1, 0, 0, 0, 0, 0, 5);
+	7035;	Structure['nezuR'].Put(1, 6.9, -1, 0, 0, 0, 0, 0, 5);
+	7115;	Structure['nezuR'].Put(1, 6.9, -1, 0, 0, 0, 0, 0, 5);
+	7175;	Structure['uekomiR'].Put(1, 6.9, -1, 0, 0, 0, 0, 0, 5);
+	7190;	Structure['nezuR'].Put(1, 6.9, -1, 0, 0, 0, 0, 0, 5);
+	7205;	Structure['nezuR'].Put(1, 6.9, -1, 0, 0, 0, 0, 0, 5);
+
+	7100-10;
+	Repeater['houseR1'].End();
+	Repeater['homeWallR1'].End();
+
+	7100;
+	Repeater['houseR1'].Begin('h_R1', 0, -0.8, 7.5, 0, 0, 0, 0, 15, 15,
+			'HB02','HA51R',     ,     ,'HB01','HA04R');
+	Repeater['homeWallR1'].Begin('h_R1', -7, -0.8, 0, 0, 0, 0, 0, 15, 15,
+			'whR04U','whR51U','whR02U','whR02L','whR32U','whR02U');
+
+	7100;	Structure['HA01R'].Put('h_R1', 13, -0.8, 7, 0, 0, 0, 0, 10);		//15m一軒家
+	7145;	Structure['AP04R'].Put('h_R1', 0, -0.8, 0, 0, 0, 0, 0, 10);		//20mアパート
+
+	7240;	Structure['HB01'].Put('h_R1', 19, -0.8, 0, 0, 0, 0, 0, 10);		//10m一軒家
+	7250;	Structure['HA03'].Put('h_R1', 19, -0.8, 0, 0, 0, 0, 0, 10);		//10m一軒家
+	7260;	Structure['HB04'].Put('h_R1', 19, -0.8-3, 0, 0, 0, 0, 0, 10);		//10m一軒家
+	7270;	Structure['HA02'].Put('h_R1', 19, -0.8, 0, 0, 0, 0, 0, 10);		//10m一軒家
+	7285;	Structure['HB03R'].Put('h_R1', 18, -0.8, 0, 0, 0, 0, 0, 10);		//10m一軒家
+
+	7290;
+	Repeater['houseR1'].End();
+	Repeater['homeWallR1'].End();
+
+	7310;
+	//右道路
+	Track['roadR'].Position(12,-0.75);
+	Repeater['roadR'].Begin('roadR', 0, 0.2, 0, 0, 0, 0, 1, 5, 5, 'road_a', 'road_b', 'road_c', 'road_d');
+
+	7315;	Structure['ParkingR'].Put('roadR', 3.6, 0, 0, 0, 0, 0, 0, 5);
+	7317;	Structure['Bldg8R'].Put('roadR', 28, 0, 1, 0, 0, 0, 0, 5);
+
+	7314;	Structure['FenceGreen5'].Put('roadR', 3.5, 0, 0, 0, 0, 0, 0, 5);
+			Structure['FenceGreen5'].Put('roadR', 3.5, 0, 0, 0, 90, 0, 0, 5);
+			Structure['FenceGreen5'].Put('roadR', 3.5+5, 0, 0, 0, 90, 0, 0, 5);
+			Structure['FenceGreen5'].Put('roadR', 3.5+10, 0, 0, 0, 90, 0, 0, 5);
+			Structure['FenceGreen5'].Put('roadR', 3.5+15, 0, 0, 0, 90, 0, 0, 5);
+
+	7337;	Structure['Bldg8R'].Put('roadR', 28, 0, 0, 0, -90, 0, 0, 5);
+	7337;	Structure['Bldg8R'].Put('roadR', 28, 11, 0, 0, -90, 0, 0, 5);
+	7337;	Structure['Bldg8R'].Put('roadR', 3, 0, 9, 0, 90, 0, 0, 5);
+	7337;	Structure['Bldg8R'].Put('roadR', 3, 11, 9, 0, 90, 0, 0, 5);
+
+	7365;	Structure['HC02R'].Put('h_R1', 8, -0.8, 0, 0, 0, 0, 0, 10);		//10m一軒家
+			Structure['uekomiR'].Put(1, 14, -1, -15, 0, 0, 0, 0, 5);
+			Structure['uekomiR'].Put(1, 14, -1, 0, 0, 0, 0, 0, 5);
+	7395;	Structure['HC04'].Put('h_R1', 8, -0.8, 0, 0, -30-90, 0, 0, 10);		//10m一軒家
+
+	7345;	Structure['whR02L'].Put('h_R1', -1, -0.8, 0, 0, 0, 0, 0, 10);
+			Structure['whR02L'].Put('h_R1', -1, -0.8, 15, 0, 0, 0, 0, 10);
+			Structure['whR02L'].Put('h_R1', -1, -0.8, 30, 0, 0, 0, 0, 10);
+			Structure['whR02L'].Put('h_R1', -1, -0.8, 45, 0, 0, 0, 0, 10);
+			Structure['whR02L'].Put('h_R1', -1, -0.8, 60, 0, 0, 0, 0, 10);
+
+	//公園
+	7420;	Structure['tree02_S'].Put('h_R1', 14, -0.8, 0, 0, 45, 0, 0, 10);
+			Structure['tree03_S'].Put('h_R1', 24, -0.8, 0, 0, 45, 0, 0, 10);
+			Structure['tree01_S'].Put('h_R1', 34, -0.8, 0, 0, 45, 0, 0, 10);
+	7440;	Structure['tree04_S'].Put('h_R1', 4, -0.8, 0, 0, 45, 0, 0, 10);
+			Structure['tree03_S'].Put('h_R1', 14, -0.8, 0, 0, 45, 0, 0, 10);
+			Structure['tree02_S'].Put('h_R1', 24, -0.8, 0, 0, 45, 0, 0, 10);
+			Structure['tree01_S'].Put('h_R1', 34, -0.8, 0, 0, 45, 0, 0, 10);
+	7460;	Structure['tree01_S'].Put('h_R1', 4, -0.8, 0, 0, 45, 0, 0, 10);
+			Structure['tree02_S'].Put('h_R1', 14, -0.8, 0, 0, 45, 0, 0, 10);
+			Structure['tree03_S'].Put('h_R1', 24, -0.8, 0, 0, 45, 0, 0, 10);
+			Structure['tree04_S'].Put('h_R1', 34, -0.8, 0, 0, 45, 0, 0, 10);
+	7440;	Structure['FenceGreen5'].Put('roadR', 3.5, 0, 0, 0, 0, 0, 0, 5);
+			Structure['FenceGreen5'].Put('roadR', 3.5, 0, 5, 0, 0, 0, 0, 5);
+			Structure['FenceGreen5'].Put('roadR', 3.5, 0, 10, 0, 0, 0, 0, 5);
+			Structure['FenceGreen5'].Put('roadR', 3.5, 0, 15, 0, 0, 0, 0, 5);
+
+	7435.5;	Structure['FenceGreen5'].Put('roadR', 3.5+2.5, 0, 0, 0, 90+60, 0, 0, 5);
+	7440;	Structure['FenceGreen5'].Put('roadR', 3.5, 0, 0, 0, 90+60, 0, 0, 5);
+
+////////////////7500～8000 左の建物
+
+
+
+
+////////////////7500～8000 右の建物
+
+	//公団団地
+	7500;		Structure['AP91'].Put('h_R1', 45, -0.8, 0, 0, -90, 0, 0, 10);
+				Structure['road_50'].Put('h_R1', 45, -0.8, 12, 0, -90, 0, 0, 10);
+	7500+30*1;	Structure['AP91'].Put('h_R1', 45, -0.8, 0, 0, -90, 0, 0, 10);
+				Structure['road_50'].Put('h_R1', 45, -0.8, 12, 0, -90, 0, 0, 10);
+	7500+30*2;	Structure['AP91'].Put('h_R1', 45, -0.8, 0, 0, -90, 0, 0, 10);
+				Structure['road_50'].Put('h_R1', 45, -0.8, 12, 0, -90, 0, 0, 10);
+	7500+30*3;	Structure['AP91'].Put('h_R1', 45, -0.8, 0, 0, -90, 0, 0, 10);
+
+
+	7630;
+	Repeater['houseR1'].Begin('h_R1', 0, -0.8, 7.5, 0, 0, 0, 0, 15, 15,
+			'HB02','HA52R',     ,'HC01R','HB01','HA03R');
+	Repeater['homeWallR1'].Begin('h_R1', -7, -0.8, 0, 0, 0, 0, 0, 15, 15,
+			'whR04U','whR51U','whR02U','whR02L','whR32U','whR02U');
+
+	Track['h_R1'].X.Interpolate(16.5,600);
+
+	7628;	Structure['road_50'].Put('h_R1', 11, -0.8, 0, 0, 0, 0, 0, 10);
+
+	7635;	Structure['HB01'].Put('h_R1', 19, -0.8, 0, 0, 0, 0, 0, 10);		//10m一軒家
+	7645;	Structure['HA03'].Put('h_R1', 19, -0.8, 0, 0, 0, 0, 0, 10);		//10m一軒家
+	7655;	Structure['HB04'].Put('h_R1', 19, -0.8, 0, 0, 0, 0, 0, 10);		//10m一軒家
+	7665;	Structure['HA02'].Put('h_R1', 19, -0.8, 0, 0, 0, 0, 0, 10);		//10m一軒家
+	7675;	Structure['HB03R'].Put('h_R1', 18, -0.8, 0, 0, 0, 0, 0, 10);		//10m一軒家
+	7685;	Structure['HA01R'].Put('h_R1', 18, -0.8, 0, 0, 0, 0, 0, 10);		//10m一軒家
+	7720;	Structure['HA51'].Put('h_R1', 18, -0.8, 0, 0, 0, 0, 0, 10);		//10m一軒家
+
+	7660;	Structure['uekomiR'].Put(1, 7, -1, -15, 0, 0, 0, 0, 5);
+	7685;	Structure['nezuR'].Put(1, 11, -1, -15, 0, 0, 0, 0, 5);
+
+
+	7660;
+	Repeater['houseR1'].End();	Repeater['homeWallR1'].End();
+
+	7670;
+	Repeater['houseR1'].Begin('h_R1', 4, -0.8, 7.5, 0, 0, 0, 0, 16, 16,
+			'HB02','HA51',     ,'HC01','HB04','HA03R','HA01','HC03R');
+	Repeater['homeWallR1'].Begin('h_R1', -5, -0.8, 0, 0, 0, 0, 0, 16, 16,
+			'whR04U','whR51U','whR02U','whR02U','whR32U','whR02U');
+
+7735;
+	Track['h_R1'].X.Interpolate(25,0);
+7800;
+	Track['h_R1'].X.Interpolate(16.5);
+
+7845;
+	Repeater['houseR1'].End();	Repeater['homeWallR1'].End();
+
+7890;
+	//右道路
+	Track['roadR'].Position(12,-0.75);
+	Repeater['roadR'].Begin('roadR', 0, 0.2, 0, 0, 0, 0, 1, 5, 5, 'road_a', 'road_b', 'road_c', 'road_d');
+
+	7895;	Structure['ParkingR'].Put('roadR', 3.6, 0, 0, 0, 0, 0, 0, 5);
+	7895;	Structure['Bldg6R'].Put('roadR', 25, 0, 1, 0, 0, 0, 0, 5);
+	7895;	Structure['Bldg5R'].Put('roadR', 32, 0, 1, 0, 0, 0, 0, 5);
+
+	7895;	Structure['FenceGreen5'].Put('roadR', 3.5, 0, 0, 0, 0, 0, 0, 5);
+			Structure['FenceGreen5'].Put('roadR', 3.5, 0, 0, 0, 90, 0, 0, 5);
+			Structure['FenceGreen5'].Put('roadR', 3.5+5, 0, 0, 0, 90, 0, 0, 5);
+			Structure['FenceGreen5'].Put('roadR', 3.5+10, 0, 0, 0, 90, 0, 0, 5);
+			Structure['FenceGreen5'].Put('roadR', 3.5+15, 0, 0, 0, 90, 0, 0, 5);
+
+	7935;	Structure['Bldg2'].Put('roadR', 55, 0, 1, 0, 90, 0, 0, 5);
+	7915;	Structure['Bldg3R'].Put('roadR', 3.5, 0, 1, 0, 0, 0, 0, 5);
+	7925;	Structure['Bldg4R'].Put('roadR', 3.5, 0, 1, 0, 0, 0, 0, 5);
+	7935;	Structure['Bldg5R'].Put('roadR', 3.5, 0, 1, 0, 0, 0, 0, 5);
+	7945;	Structure['Bldg6L'].Put('roadR', 3.5, 0, 1, 0, 90, 0, 0, 5);
+	7955;	Structure['Bldg4R'].Put('roadR', 3.5, 0, 1, 0, 0, 0, 0, 5);
+	7970;	Structure['SH01'].Put('roadR', 8.5, 0, 1, 0, 90, 0, 0, 5);
+	7980;	Structure['Bldg5R'].Put('roadR', 3.5, 0, 1, 0, 0, 0, 0, 5);
+
+	8000;	Structure['Bldg1R'].Put('roadR', 9, -0.8, 0, 0, 0, 0, 0, 10);		//マンション
+	8000;	Structure['uekomiR'].Put('roadR', 5, 0, -10, 0, 0, 0, 0, 5);
+	8000;	Structure['uekomiR'].Put('roadR', 5, 0, 5, 0, 0, 0, 0, 5);
+	8030;	Structure['Bldg4R'].Put('roadR', 3.5, 0, 1, 0, 0, 0, 0, 5);
+
+
+////////////////7500～8000 左の建物
+
+	7500;	Structure['Bldg6L'].Put('h_L1', 6.0, -0.8, 0, 0, 0, 0, 0, 10);		//10mビル・駐車場
+
+	7570;	Structure['Bldg2'].Put('h_L1', 0, -0.8, 0, 0, 0, 0, 0, 10);		//60mビル・駐車場
+	7575;	Structure['ParkingL'].Put('road', -3.2, 0, 5, 0, 0, 0, 0, 5);
+	7605;	Structure['road_50'].Put('h_L1', 7, -0.8, 0, 0, -90, 0, 0, 10);
+
+	7554;	Structure['Bldg2'].Put('h_L1', -22, -0.8, 0, 0, -22, 0, 0, 10);		//60mビル・駐車場
+
+	7575;
+		Track['roadR'].Position(12,-0.75);
+	7610;
+		Track['roadR'].Position(18,-0.75);
+	7625;
+		Repeater['roadR'].End();
+		Structure['road_50'].Put('h_R1', 50, -0.8, 0, 0, -90, 0, 0, 10);
+
+	7610;
+		Structure['rikkyo'].Put(0, 2, 0.2, 0, 0, 0, 0, 0, 1);
+
+
+
+
+
+
+
+
+
+
+7000;
+//遠景ビル
+	Repeater['billL1'].Begin('h_L1', -30, -1, 0, 0, 0, 0, 0, 25, 25,  ,'Bldg2',,'Bldg3L',,'Bldg6L','Bldg3L','Bldg5L','Bldg8L',);
+	//Repeater['billL2'].Begin('h_L1', -90, -1, 0, 0, 0, 0, 0, 80, 80,  'Bldg1L',,,'Bldg1L',,);
+	Repeater['billR1'].Begin('h_R1', 50, -1, 0, 0, 0, 0, 0, 30, 30,  'Bldg1R',,,'Bldg3R',,'Bldg5R',,,'Bldg8R',,'Bldg3R',,'Bldg5R',,);
+
+	//Repeater['billR2'].Begin('h_R1', 90, -1, 0, 0, 0, 0, 0, 70, 70,  ,,,'Bldg1R',,);
+
+7380;
+	Repeater['billR1'].Begin('h_R1', 75, -1, 0, 0, 0, 0, 0, 25, 25,  'Bldg1R',,'Bldg3R','Bldg5R',,'Bldg8R',,'Bldg3R',,'Bldg5R',,);
+7680;
+	Repeater['billR1'].Begin('h_R1', 75, 1, 0, 0, 0, 0, 0, 22, 22,  'Bldg8R','Bldg4R','Bldg4R','Bldg3R','Bldg3R','Bldg5R','Bldg7R','Bldg4R','Bldg3R','Bldg5R');
+
+
+	7640;	Structure['Bldg1R'].Put(0, 70, 0, 0, 0, 0, 0, 0, 10);		//マンション
+			Structure['Bldg1R'].Put(0, 75, 0, 28, 0, -90, 0, 0, 10);
+			Structure['Bldg1R'].Put(0, 45.75, 0, 40, 0, 90, 0, 0, 10);
+
+	7810;	Structure['Bldg2'].Put(0, 100, -0.8, 0, 0, 0, 0, 0, 10);
+	
+	7840;	Structure['Bldg1R'].Put(0, 70, 0, 0, 0, 0, 0, 0, 10);		//マンション
+			Structure['Bldg1R'].Put(0, 70, 0, 30, 0, 0, 0, 0, 10);		//マンション
+
+
+
+
+//建物関係以外の線路小物
+	include 'map_other.txt';
+
+
+7200;
+	Gradient.BeginTransition();
+7250;
+	Gradient.Begin(5.1);
+7500;
+	Gradient.BeginTransition();
+7550;
+	Gradient.End();
+
+7600;
+	Curve.BeginTransition();
+7650;
+	Curve.Begin(-500, -0.080);
+7800;
+	Curve.BeginTransition();
+7850;
+	Curve.End();
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//ベース
+
+30;
+	Background.Change('BG1');
+	Repeater['Ground'].Begin(, 0, -1.0, 0, 0, 0, 0, 1, 25, 25, 'Ground');
+
+	Curve.SetGauge(1.067);
+	Repeater['Ballast0'].Begin(0, 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail_a', 'Rail_b');
+	Repeater['Ballast1'].Begin(1, 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail_a', 'Rail_b');
+	Repeater['DikeL'].Begin(0, -0.4, 0.25, 0, 0, 0, 0, 3, 5, 5, 'DikeGrs5mL1','DikeGrs5mL2','DikeGrs5mL3','DikeGrs5mL4','DikeGrs5mL5','DikeGrs5mL6');
+	Repeater['DikeR'].Begin(1, 0.4, 0.25, 0, 0, 0, 0, 3, 5, 5, 'DikeGrs5mR1','DikeGrs5mR2','DikeGrs5mR3','DikeGrs5mR4','DikeGrs5mR5','DikeGrs5mR6');
+
+	Track[1].Position(3.8,0);
+
+//架線
+	$kasen = 50;
+	Repeater['Pole0'].Begin(0, 0, 0, 0, 0, 0, 0, 1, $kasen, $kasen, 'PoleA','PoleB');
+	Repeater['kasen0'].Begin(0, -0.125, 0, 0, 0, 0.285, 0, 1, $kasen, $kasen, 'kasen'+$kasen,);
+	Repeater['kasen1'].Begin(0,  0.125, 0, 0, 0, -0.285, 0, 1, $kasen, $kasen, ,'kasen'+$kasen);
+	Repeater['wire1'].Begin(0, -3.25, 6.45, 0, 0, 0, 0, 1, $kasen, $kasen, 'wire'+$kasen);
+	Repeater['wire2'].Begin(0, -3.95, 6.45, 0, 0, 0, 0, 1, $kasen, $kasen, 'wire'+$kasen);
+	Repeater['wire3'].Begin(0, -1.65, 6.9, 0, 0, 0, 0, 1, $kasen, $kasen, 'wire'+$kasen);
+
+	Repeater['Pole1'].Begin(1, 0, 0, 0, 0, 180, 0, 1, $kasen, $kasen, 'PoleB','PoleA');
+	Repeater['kasen10'].Begin(1, -0.125, 0, 0, 0, 0.285, 0, 1, $kasen, $kasen, 'kasen'+$kasen,);
+	Repeater['kasen11'].Begin(1,  0.125, 0, 0, 0, -0.285, 0, 1, $kasen, $kasen, ,'kasen'+$kasen);
+	Repeater['wire11'].Begin(1, 3.25, 6.45, 0, 0, 0, 0, 1, $kasen, $kasen, 'wire'+$kasen);
+	Repeater['wire12'].Begin(1, 3.95, 6.45, 0, 0, 0, 0, 1, $kasen, $kasen, 'wire'+$kasen);
+	Repeater['wire13'].Begin(1, 1.65, 6.9, 0, 0, 0, 0, 1, $kasen, $kasen, 'wire'+$kasen);
+
+//電柱と電線
+	Repeater['denchuL'].Begin('road', -3.5, 0, 0, 0, 0, 0, 0, 30, 30, 'denchu2b');
+	Repeater['denwire3'].Begin('road', -2.80, 7.50, 0, 0, 0, 0, 1, 30, 30, 'wire30');
+	Repeater['denwire1'].Begin('road', -3.15, 7.50, 0, 0, 0, 0, 1, 30, 30, 'wire30');
+	Repeater['denwire2'].Begin('road', -3.80, 7.50, 0, 0, 0, 0, 1, 30, 30, 'wire30');
+	Repeater['denwire4'].Begin('road', -3.80, 5.10, 0, 0, 0, 0, 1, 30, 30, 'wire30');
+
+50;
+	Repeater['KP'].Begin(0, -2.8, -0.4, 0, 0, 0, 0, 1, 100, 100, 'KP0','KP1','KP2','KP3','KP4','KP5','KP6','KP7','KP8','KP9');

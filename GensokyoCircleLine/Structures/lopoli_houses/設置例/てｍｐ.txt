@@ -1,0 +1,170 @@
+1210;
+	Repeater['houseR1'].End();
+	Track['h_R1'].X.Interpolate(16.5);
+
+1220;
+	Repeater['houseR1'].Begin('h_R1', 0, -0.8, 0, 0, 0, 0, 0, 10, 10,  'HD03',     ,'HA02',     ,'HD01','HA53','HB02',     ,'HA02R',     ,'HA51',     ,'AP01R',     ,     ,'HB03','HA52R',     , ); //200m
+	Track['h_R1'].X.Interpolate(40.5);
+	Repeater['bR'].Begin('h_R1',  -8, -1.2, 0, 0, 55, 0, 0, 5, 5, 'b01','b04','b05','b11','b02','b12','b03','b04','b14','b15');
+
+1320;
+	Track['h_R1'].X.Interpolate(17.5);
+
+1520;
+	Repeater['houseL1'].End();
+	Repeater['houseL2'].End();
+	Repeater['houseR1'].End();
+	Repeater['houseR2'].End();
+
+1550;
+	Structure['rikkyo'].Put(0, 0, 0, 0, 0, 0, 0, 0, 5);
+
+
+//へい（CV:天音かなた）
+1050;
+	Repeater['homeWallL'].Begin('road', -3.5, 0, 0, 0, 0, 0, 0, 5, 5, 'hWallL5');
+	Structure['hWallL5ra'].Put('road', -3.5, 0, 0, 0, 0, 0, 0, 5);
+
+1065;
+	Repeater['homeWallL'].End();
+
+1080;
+	Repeater['homeWallL'].Begin('road', -3.5, 0, 0, 0, 0, 0, 0, 5, 5, 'hWallL6');
+	Structure['hWallL6ra'].Put('road', -3.5, 0, 0, 0, 0, 0, 0, 5);
+
+1105;
+	Repeater['homeWallL'].Begin('road', -3.5, 0, 0, 0, 0, 0, 0, 5, 5, 'hWallL5');
+	Structure['hWallL5ra'].Put('road', -3.5, 0, 0, 0, 0, 0, 0, 5);
+1120;
+	Structure['hWallL5ra'].Put('road', -3.5, 0, 0, 0, 0, 0, 0, 5);
+	Repeater['homeWallL'].Begin('road', -3.5, 0, 0, 0, 0, 0, 0, 5, 5, 'hWallL2');
+
+1160;
+	Repeater['homeWallL'].Begin('road', -3.5, 0, 0, 0, 0, 0, 0, 5, 5, 'hWallL4');
+	Structure['hWallL1ra'].Put('road', -3.5, 0, 0, 0, 0, 0, 0, 5);
+1185;
+	Repeater['homeWallL'].End();
+	Structure['hWallL4ra'].Put('road', -3.5, 0, 0, 0, 0, 0, 0, 5);
+1195;
+	Repeater['homeWallL'].Begin('road', -3.5, 0, 0, 0, 0, 0, 0, 5, 5, 'hWallL2');
+	Structure['hWallL2ra'].Put('road', -3.5, 0, 0, 0, 0, 0, 0, 5);
+
+1215;
+	Repeater['homeWallL'].Begin('road', -3.5, 0, 0, 0, 0, 0, 0, 5, 5, 'hWallL3');
+	Structure['hWallL3ra'].Put('road', -3.5, 0, 0, 0, 0, 0, 0, 5);
+1250;
+	Repeater['homeWallL'].Begin('road', -3.5, 0, 0, 0, 0, 0, 0, 5, 5, 'hWallL2');
+	Structure['hWallL2ra'].Put('road', -3.5, 0, 0, 0, 0, 0, 0, 5);
+1280;
+	Repeater['homeWallL'].End();
+	Structure['hWallL2ra'].Put('road', -3.5, 0, 0, 0, 0, 0, 0, 5);
+1290;
+	Repeater['homeWallL'].Begin('road', -3.5, 0, 0, 0, 0, 0, 0, 5, 5, 'hWallL2');
+	Structure['hWallL2ra'].Put('road', -3.5, 0, 0, 0, 0, 0, 0, 5);
+1305;
+	Repeater['homeWallL'].End();
+	Structure['hWallL3ra'].Put('road', -3.5, 0, 0, 0, 0, 0, 0, 5);
+
+
+1325;
+	Repeater['homeWallL'].End();
+Distance+5;
+	Repeater['homeWallL'].Begin('road', -3.5, 0, 0, 0, 0, 0, 0, 5, 5, 'hWallL1');
+	Structure['hWallL1ra'].Put('road', -3.5, 0, 0, 0, 0, 0, 0, 5);
+
+1350;
+	Repeater['homeWallL'].End();
+
+
+//家の木
+1080;
+	Repeater['homeUekiR'].Begin(1, 7.0, -0.5, 0, 0, 25, 0, 0, 5, 5, 'nezu01','nezu02','nezu03','nezu04');
+1105;
+	Repeater['homeUekiR'].End();
+
+
+1138;
+	Repeater['homeUekiL'].Begin('road', -5.5, -0.5, 0, 0, -25, 0, 0, 3, 3, 'nezu01','nezu02','nezu03','nezu04');
+Distance+20;
+	Repeater['homeUekiL'].End();
+
+1175;
+	Repeater['homeUekiL'].Begin('road', -5.5, -0.5, 0, 0, -25, 0, 0, 3, 3, 'nezu01','nezu02','nezu03','nezu04');
+Distance+10;
+	Repeater['homeUekiL'].End();
+
+1255;
+	Repeater['homeUekiL'].Begin('road', -5.2, -1.5, 0, 0, -25, 0, 0, 3, 3, 'nezu01','nezu02','nezu03','nezu04');
+Distance+25;
+	Repeater['homeUekiL'].End();
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//線形
+1200;
+	Gradient.BeginTransition();
+1250;
+	Gradient.Begin(2.5);
+1500;
+	Gradient.BeginTransition();
+1550;
+	Gradient.End();
+
+1200;
+	Curve.BeginTransition();
+1250;
+	Curve.Begin(-1000, -0.055);
+1450;
+	Curve.BeginTransition();
+1500;
+	Curve.End();
+
+
+1800;
+	Curve.BeginTransition();
+1850;
+	Curve.Begin(300, 0.075);
+2050;
+	Curve.BeginTransition();
+2100;
+	Curve.End();
+
+
+
+2150;
+	Curve.BeginTransition();
+2200;
+	Curve.Begin(-300, -0.075);
+2300;
+	Curve.BeginTransition();
+2350;
+	Curve.End();
+
+
+
+1800; //曲線
+	//Repeater['houseL1'].Begin('h_L1', 0, -0.8, 0, 0, 45, 0, 0, 10, 10,      ,     ,     ,'HA01R',     ,     ,     ,'HA03',     ,     ,     ,'HA02R',     ,     ,     ,     ,'HB01',     ,     ,'HA02',      );
+	//Repeater['houseR1'].Begin('h_R1', 0, -0.8, 0, 0, 45, 0, 0, 10, 10, 'HB01',     ,     ,     ,'HA02R','HB03',     ,'HA04R',     ,     ,'HB01',     ,     ,'HA02',     ,'HA01',     ,     ,'HA03R',     ,'HA01');
+
+2100;
+	Repeater['houseL1'].Begin('h_L1', 0, -0.8, 0, 0, 0, 0, 0, 10, 10,      ,     ,     ,'HA01R',     ,     ,     ,'HA03',     ,     ,     ,'HA02R',     ,     ,     ,     ,'HB01',     ,     ,'HA02',      );
+	Repeater['houseR1'].Begin('h_R1', 0, -0.8, 0, 0, 0, 0, 0, 10, 10, 'HB01',     ,     ,     ,'HA02R','HB03',     ,'HA04R',     ,     ,'HB01',     ,     ,'HA02',     ,'HA01',     ,     ,'HA03R',     ,'HA01');
+
+2150; //曲線
+	Repeater['houseL1'].Begin('h_L1', 0, -0.8, 0, 0, 35, 0, 0, 10, 10,      ,     ,     ,'HA01R',     ,     ,     ,'HA03',     ,     ,     ,'HA02R',     ,     ,     ,     ,'HB01',     ,     ,'HA02',      );
+	Repeater['houseR1'].Begin('h_R1', 0, -0.8, 0, 0, 35, 0, 0, 10, 10, 'HB01',     ,     ,     ,'HA02R','HB03',     ,'HA04R',     ,     ,'HB01',     ,     ,'HA02',     ,'HA01',     ,     ,'HA03R',     ,'HA01');
+
+2350;
+	Repeater['houseL1'].Begin('h_L1', 0, -0.8, 0, 0, 0, 0, 0, 10, 10,      ,     ,     ,'HA01R',     ,     ,     ,'HA03',     ,     ,     ,'HA02R',     ,     ,     ,     ,'HB01',     ,     ,'HA02',      );
+	Repeater['houseR1'].Begin('h_R1', 0, -0.8, 0, 0, 0, 0, 0, 10, 10, 'HB01',     ,     ,     ,'HA02R','HB03',     ,'HA04R',     ,     ,'HB01',     ,     ,'HA02',     ,'HA01',     ,     ,'HA03R',     ,'HA01');
+
+
+
+
+
+
+
+
+
+

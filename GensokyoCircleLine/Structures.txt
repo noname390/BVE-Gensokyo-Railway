@@ -50,3 +50,9 @@ tree3,Structures\Nature\trees\tree03_S.x
 tree4,Structures\Nature\trees\tree04_S.x
 dikegrassL,Structures\Nature\Ground\DikegrsL.x
 dikegrassR,Structures\Nature\Ground\DikegrsR.x
+formendfence,Structures\Tetsu_Otter\form_end_fence\Form_end_fence.x
+carstop,Structures\Tetsu_Otter\carstop\carstop_easy.x
+crost,Structures\structure_Cro_st\Cro_st.x
+light,Structures\structure_FL\FL.x
+metalfence,Structures\structure_NF\NF.x
+metalfenceL,Structures\structure_RF\RF.x

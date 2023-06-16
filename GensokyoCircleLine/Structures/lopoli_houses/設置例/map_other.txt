@@ -1,0 +1,244 @@
+BveTs Map 2.02
+
+7097.5; //F 2m
+	$FML = 4.5;		$FMLF = $FML/2 + 0.4; $FMLN = $FML*10; 
+	Structure['Cr_ban2_'+$FMLN].Put(0, 0, 0, 0, 0, 0, 0, 3, $FML);
+	Structure['Cr_ban2_'+$FMLN].Put(1, 0, 0, 0, 0, 0, 0, 3, $FML);
+	Structure['Cr_base_'+$FMLN+'L'].Put(0, 4.0, 0, 0, 0, 0, 0, 3, $FML);
+	Structure['Cr_base_'+$FMLN+'R'].Put(1, 0, -0.01, 0, 0, 0, 0, 3, $FML);
+	Structure['Cr_base_grd'].Put(0, 3.8, 0, -$FMLF, 0, 0, 0, 3, $FML);
+	Structure['Cr_base_grd'].Put(1, -3.8, -0.01, -$FMLF, 0, 0, 0, 3, $FML);
+
+	Structure['Cr_seigenL_'+$FMLN].Put(0, -3.8, 0, 0, 0, 0, 0, 1, $FML);
+	Structure['Cr_seigenL_'+$FMLN].Put(1, 3.8, 0, 0, 0, 180, 0, 1, $FML);
+
+	Structure['Cr_barL_'+$FMLN].Put(0, -2.4, 0, $FMLF*-1, 0, 0, 0, 1, $FML);
+	Structure['Cr_barR_'+$FMLN].Put(1, 2.4, 0, $FMLF, 0, 0, 0, 1, $FML);
+
+	Structure['Cr_sig1_L'].Put(0, -2.4, 0, $FMLF, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_sig1_R'].Put(1, 2.4, 0, $FMLF*-1, 0, 0, 0, 1, $FMLF);
+	
+	Structure['Cr_zepra_concM'].Put(0, -1.7, 0, $FMLF-0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(0, -1.7, 0, -$FMLF+0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(1, 1.7, 0, $FMLF-0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(1, 1.7, 0, -$FMLF+0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(0, 1.9, 0, $FMLF-0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(0, 1.9, 0, -$FMLF+0.47, 0, 0, 0, 1, $FMLF);
+
+	//器具箱・トウモロコシ
+	Structure['Cr_FmBox'].Put(0, -2.7, 0, -$FML*1, 0, 0, 0, 1, 1);
+	Structure['Cr_hakko'].Put(0, -2.0, 0, -$FML*2, 0, 0, 0, 1, 0.5);
+	Structure['Cr_hakko'].Put(1, 2.0, 0, $FML*2, 0, 0, 0, 1, 0.5);
+
+	//障検（旧型）
+	Structure['Cr_shoken1'].Put(0, -1.8, 0, $FMLF+3, 0, 0, 0, 1, 0.5);
+	Structure['Cr_shoken1'].Put(0, 1.9, 0, $FMLF+3, 0, 0, 0, 1, 0.5);
+	Structure['Cr_shoken1'].Put(0, 1.9, 0, $FMLF+9, 0, 10, 0, 1, 0.5);
+	Structure['Cr_shoken2'].Put(1, 1.8, 0, $FMLF+9, 0, 0, 0, 1, 0.5);
+
+	Structure['Cr_shoken1'].Put(0, 1.9, 0, $FMLF*-1-3, 0, 180, 0, 1, 0.5);
+	Structure['Cr_shoken1'].Put(1, 1.8, 0, $FMLF*-1-3, 0, 180, 0, 1, 0.5);
+	Structure['Cr_shoken2'].Put(0, -1.8, 0, $FMLF*-1-9, 0, 0, 0, 1, 0.5);
+	Structure['Cr_shoken1'].Put(0, 1.9, 0, $FMLF*-1-9, 0, 190, 0, 1, 0.5);
+	Structure['Cr_shoken2'].Put(1, 1.8, 0, $FMLF*-1-9, 0, 0, 0, 1, 0.5);
+
+7098-5;
+	Repeater['FenceL'].End();
+	Repeater['zL'].End();
+	Repeater['FenceR'].End();
+	Repeater['zR'].End();
+	Repeater['bR'].End();
+	Structure['FenceGreenE'].Put(0, -4.5, -1.0, 0, 0, 0, 0, 1, 0.5);
+
+7097+5;
+	Repeater['FenceL'].Begin(0,  -4.5, -1.0, 0, 0, 0, 0, 1, 2, 2, 'FenceGreen');
+	Repeater['zL'].Begin(0, -3.1, -0.3, 0, 0, -20, 0, 0, 3, 3, 'z01',,'z02','z05',,'z11',,'z03','z12',,'z13','z01',,,'z04',,'z05','z15',);
+	Repeater['zR'].Begin(1,  3.1, -0.3, 0, 0, 20, 0, 0, 3, 3, 'z01','z02',,'z11','z03',,,'z12',,'z13',,,'z01',,'z04','z05','z14',,'z15',);
+	Repeater['bR'].Begin(1,  5.2, -1.8, 0, 0, 20, 0, 0, 5, 5, 'b01','b04','b05','b11','b02','b12','b03','b04','b14','b15');
+
+
+
+///////////////////////////////////////////////////////
+
+7310; //F 6m
+	$FML = 7.0;		$FMLF = $FML/2 + 0.4; $FMLN = $FML*10; 
+	Structure['Cr_ban4_'+$FMLN].Put(0, 0, 0, 0, 0, 0, 0, 3, $FML);
+	Structure['Cr_ban4_'+$FMLN].Put(1, 0, 0, 0, 0, 0, 0, 3, $FML);
+	Structure['Cr_base_'+$FMLN+'L'].Put(0, 4.0, 0, 0, 0, 0, 0, 3, $FML);
+	Structure['Cr_base_'+$FMLN+'R'].Put(1, 0, -0.01, 0, 0, 0, 0, 3, $FML);
+	Structure['Cr_base_grd'].Put(0, 3.8, 0, -$FMLF, 0, 0, 0, 3, $FML);
+	Structure['Cr_base_grd'].Put(1, -3.8, -0.01, -$FMLF, 0, 0, 0, 3, $FML);
+
+	Structure['Cr_seigenL_'+$FMLN].Put(0, -3.8, 0, 0, 0, 0, 0, 1, $FML);
+	Structure['Cr_seigenL_'+$FMLN].Put(1, 3.8, 0, 0, 0, 180, 0, 1, $FML);
+
+	Structure['Cr_barL_'+$FMLN].Put(0, -2.4, 0, $FMLF*-1, 0, 0, 0, 1, $FML);
+	Structure['Cr_barR_'+$FMLN].Put(1, 2.4, 0, $FMLF, 0, 0, 0, 1, $FML);
+
+	Structure['Cr_sig1_L'].Put(0, -2.4, 0, $FMLF, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_sig1_R'].Put(1, 2.4, 0, $FMLF*-1, 0, 0, 0, 1, $FMLF);
+	
+	Structure['Cr_zepra_concM'].Put(0, -1.7, 0, $FMLF-0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(0, -1.7, 0, -$FMLF+0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(1, 1.7, 0, $FMLF-0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(1, 1.7, 0, -$FMLF+0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(0, 1.9, 0, $FMLF-0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(0, 1.9, 0, -$FMLF+0.47, 0, 0, 0, 1, $FMLF);
+
+	//器具箱・トウモロコシ
+	Structure['Cr_FmBox'].Put(0, -2.7, 0, -$FML*1, 0, 0, 0, 1, 1);
+	Structure['Cr_hakko'].Put(0, -2.0, 0, -$FML*2, 0, 0, 0, 1, 0.5);
+	Structure['Cr_hakko'].Put(1, 2.0, 0, $FML*2, 0, 0, 0, 1, 0.5);
+
+	//障検（旧型）
+	Structure['Cr_shoken1'].Put(0, -1.8, 0, $FMLF+3, 0, 0, 0, 1, 0.5);
+	Structure['Cr_shoken1'].Put(0, 1.9, 0, $FMLF+3, 0, 0, 0, 1, 0.5);
+	Structure['Cr_shoken1'].Put(0, 1.9, 0, $FMLF+9, 0, 10, 0, 1, 0.5);
+	Structure['Cr_shoken2'].Put(1, 1.8, 0, $FMLF+9, 0, 0, 0, 1, 0.5);
+
+	Structure['Cr_shoken1'].Put(0, 1.9, 0, $FMLF*-1-3, 0, 180, 0, 1, 0.5);
+	Structure['Cr_shoken1'].Put(1, 1.8, 0, $FMLF*-1-3, 0, 180, 0, 1, 0.5);
+	Structure['Cr_shoken2'].Put(0, -1.8, 0, $FMLF*-1-9, 0, 0, 0, 1, 0.5);
+	Structure['Cr_shoken1'].Put(0, 1.9, 0, $FMLF*-1-9, 0, 190, 0, 1, 0.5);
+	Structure['Cr_shoken2'].Put(1, 1.8, 0, $FMLF*-1-9, 0, 0, 0, 1, 0.5);
+
+7311-5;
+	Repeater['FenceL'].End();
+	Repeater['zL'].End();
+	Repeater['FenceR'].End();
+	Repeater['zR'].End();
+	Repeater['bR'].End();
+	Structure['FenceGreenE'].Put(0, -4.5, -1.0, 0, 0, 0, 0, 1, 0.5);
+
+7311+5;
+	Repeater['FenceL'].Begin(0,  -4.5, -1.0, 0, 0, 0, 0, 1, 2, 2, 'FenceGreen');
+	Repeater['zL'].Begin(0, -3.1, -0.3, 0, 0, -20, 0, 0, 3, 3, 'z01',,'z02','z05',,'z11',,'z03','z12',,'z13','z01',,,'z04',,'z05','z15',);
+	Repeater['FenceR'].Begin(1,  4.4, -0.5, 0, 0, 0, 0, 1, 5, 5, 'Rwfence_01', 'Rwfence_02', 'Rwfence_03');
+	Repeater['zR'].Begin(1,  3.1, -0.3, 0, 0, 20, 0, 0, 3, 3, 'z01','z02',,'z11','z03',,,'z12',,'z13',,,'z01',,'z04','z05','z14',,'z15',);
+	//Repeater['bR'].Begin(1,  5.2, -1.8, 0, 0, 20, 0, 0, 5, 5, 'b01','b04','b05','b11','b02','b12','b03','b04','b14','b15');
+
+
+
+///////////////////////////////////////////////////////
+
+7460; //F 7m
+	$t = 90-30; //斜め
+	$FML = 7.0;		$FMLF = $FML/2 + 3.3; $FMLN = $FML*10; 
+	Structure['Cr_ban4_120'].Put(0, 0, 0, 3, 0, 0, 0, 3, $FML);
+	Structure['Cr_ban4_70'].Put(0, 0, -0.001, -5.6, 0, 0, 0, 3, $FML);
+	Structure['Cr_ban4_120'].Put(1, 0, 0, -3.5, 0, 0, 0, 3, $FML);
+	Structure['Cr_ban4_70'].Put(1, 0, -0.001, -11.6-0.5, 0, 0, 0, 3, $FML);
+	Structure['Cr_base_70N'].Put(0, 0, 0, 0, 0, $t, 0, 1, $FML);
+
+7462.9;
+	Structure['Cr_zepra_concL'].Put(0, -1.7, -0.12,  $FMLF , 0, $t, 8.5, 1, $FMLF);
+	Structure['Cr_zepra_concL'].Put(0, -1.7, -0.12, -$FMLF , 0, $t, 8.5, 1, $FMLF);
+7450.2;
+	Structure['Cr_zepra_concL'].Put(1, 1.9, -0.12,   $FMLF , 0, $t, -8.5, 1, $FMLF);
+	Structure['Cr_zepra_concL'].Put(1, 1.9, -0.12,  -$FMLF , 0, $t, -8.5, 1, $FMLF);
+7456.5;
+	Structure['Cr_zepra_concL'].Put(0, 1.9, 0,   $FMLF , 0, $t, 0, 1, $FMLF);
+	Structure['Cr_zepra_concL'].Put(0, 1.9, 0,  -$FMLF , 0, $t, 0, 1, $FMLF);
+
+7460;
+	//器具箱・トウモロコシ
+	Structure['Cr_FmBox'].Put(0, -2.7, 0, -$FML*1, 0, 0, 0, 1, 1);
+	Structure['Cr_hakko'].Put(0, -2.0, 0, -$FML*2, 0, 0, 0, 1, 0.5);
+	Structure['Cr_hakko'].Put(1, 2.0, 0, $FML*2, 0, 0, 0, 1, 0.5);
+
+7462.5;
+	Structure['Cr_barL_70'].Put(0, -2.6, 0, -$FMLF+0.5, 0, 0, 0, 1, $FML);
+	Structure['Cr_barL2_70'].Put(0, -2.6, 0, $FMLF+3.5, 0, 0, 0, 1, $FML);
+	Structure['Cr_seigenL_160'].Put(0, -3.8-0.5, 0, 5, 0, 0, 0, 1, $FML);
+	Structure['Cr_sig2_L'].Put(0, -2.9, 0, $FMLF+2, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_sig2_L'].Put(0, -2.9, 0, -$FMLF+0, 0, 0, 0, 1, $FMLF);
+
+7449;
+	Structure['Cr_barR2_70'].Put(1, 2.6, 0, -$FMLF-2.5, 0, 0, 0, 1, $FML);
+	Structure['Cr_barR_70'].Put(1, 2.6, 0, $FMLF+1.0, 0, 0, 0, 1, $FML);
+	Structure['Cr_seigenL_160'].Put(1, 3.8+0.5, 0, -2, 0, 180, 0, 1, $FML);
+	Structure['Cr_sig2_R'].Put(1, 3.1, 0, -$FMLF-3, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_sig2_R'].Put(1, 3.1, 0, $FMLF-0, 0, 0, 0, 1, $FMLF);
+
+
+7456;
+	Repeater['FenceL'].End();
+	Repeater['zL'].End();
+	Structure['FenceGreenE'].Put(0, -4.5, -1.0, 0, 0, 0, 0, 1, 0.5);
+7435;
+	Repeater['FenceR'].End();
+	Repeater['zR'].End();
+	Repeater['bR'].End();
+
+7477;
+	Repeater['FenceL'].Begin(0,  -4.5, -1.0, 0, 0, 0, 0, 1, 2, 2, 'FenceGreen');
+	Repeater['zL'].Begin(0, -3.1, -0.3, 0, 0, -20, 0, 0, 3, 3, 'z01',,'z02','z05',,'z11',,'z03','z12',,'z13','z01',,,'z04',,'z05','z15',);
+7460;
+	Repeater['FenceR'].Begin(1,  4.4, -0.5, 0, 0, 0, 0, 1, 5, 5, 'Rwfence_01', 'Rwfence_02', 'Rwfence_03');
+	Repeater['zR'].Begin(1,  3.1, -0.3, 0, 0, 20, 0, 0, 3, 3, 'z01','z02',,'z11','z03',,,'z12',,'z13',,,'z01',,'z04','z05','z14',,'z15',);
+	Repeater['bR'].Begin(1,  5.2, -1.8, 0, 0, 20, 0, 0, 5, 5, 'b01','b04','b05','b11','b02','b12','b03','b04','b14','b15');
+
+
+///////////////////////////////////////////////////////
+
+
+7890; //F 6m
+	$FML = 7.0;		$FMLF = $FML/2 + 0.4; $FMLN = $FML*10; 
+	Structure['Cr_ban4_'+$FMLN].Put(0, 0, 0, 0, 0, 0, 0, 3, $FML);
+	Structure['Cr_ban4_'+$FMLN].Put(1, 0, 0, 0, 0, 0, 0, 3, $FML);
+	Structure['Cr_base_'+$FMLN+'L'].Put(0, 4.0, 0, 0, 0, 0, 0, 3, $FML);
+	Structure['Cr_base_'+$FMLN+'R'].Put(1, 0, -0.01, 0, 0, 0, 0, 3, $FML);
+	Structure['Cr_base_grd'].Put(0, 3.8, 0, -$FMLF, 0, 0, 0, 3, $FML);
+	Structure['Cr_base_grd'].Put(1, -3.8, -0.01, -$FMLF, 0, 0, 0, 3, $FML);
+
+	Structure['Cr_seigenL_'+$FMLN].Put(0, -3.8, 0, 0, 0, 0, 0, 1, $FML);
+	Structure['Cr_seigenL_'+$FMLN].Put(1, 3.8, 0, 0, 0, 180, 0, 1, $FML);
+
+	Structure['Cr_barL_'+$FMLN].Put(0, -2.4, 0, $FMLF*-1, 0, 0, 0, 1, $FML);
+	Structure['Cr_barR_'+$FMLN].Put(1, 2.4, 0, $FMLF, 0, 0, 0, 1, $FML);
+
+	Structure['Cr_sig1_L'].Put(0, -2.4, 0, $FMLF, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_sig1_R'].Put(1, 2.4, 0, $FMLF*-1, 0, 0, 0, 1, $FMLF);
+	
+	Structure['Cr_zepra_concM'].Put(0, -1.7, 0, $FMLF-0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(0, -1.7, 0, -$FMLF+0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(1, 1.7, 0, $FMLF-0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(1, 1.7, 0, -$FMLF+0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(0, 1.9, 0, $FMLF-0.47, 0, 0, 0, 1, $FMLF);
+	Structure['Cr_zepra_concM'].Put(0, 1.9, 0, -$FMLF+0.47, 0, 0, 0, 1, $FMLF);
+
+	//器具箱・トウモロコシ
+	Structure['Cr_FmBox'].Put(0, -2.7, 0, -$FML*1, 0, 0, 0, 1, 1);
+	Structure['Cr_hakko'].Put(0, -2.0, 0, -$FML*2, 0, 0, 0, 1, 0.5);
+	Structure['Cr_hakko'].Put(1, 2.0, 0, $FML*2, 0, 0, 0, 1, 0.5);
+
+	//障検（旧型）
+	Structure['Cr_shoken1'].Put(0, -1.8, 0, $FMLF+3, 0, 0, 0, 1, 0.5);
+	Structure['Cr_shoken1'].Put(0, 1.9, 0, $FMLF+3, 0, 0, 0, 1, 0.5);
+	Structure['Cr_shoken1'].Put(0, 1.9, 0, $FMLF+9, 0, 10, 0, 1, 0.5);
+	Structure['Cr_shoken2'].Put(1, 1.8, 0, $FMLF+9, 0, 0, 0, 1, 0.5);
+
+	Structure['Cr_shoken1'].Put(0, 1.9, 0, $FMLF*-1-3, 0, 180, 0, 1, 0.5);
+	Structure['Cr_shoken1'].Put(1, 1.8, 0, $FMLF*-1-3, 0, 180, 0, 1, 0.5);
+	Structure['Cr_shoken2'].Put(0, -1.8, 0, $FMLF*-1-9, 0, 0, 0, 1, 0.5);
+	Structure['Cr_shoken1'].Put(0, 1.9, 0, $FMLF*-1-9, 0, 190, 0, 1, 0.5);
+	Structure['Cr_shoken2'].Put(1, 1.8, 0, $FMLF*-1-9, 0, 0, 0, 1, 0.5);
+
+7891-5;
+	Repeater['FenceL'].End();
+	Repeater['zL'].End();
+	Repeater['FenceR'].End();
+	Repeater['zR'].End();
+	Repeater['bR'].End();
+	Structure['FenceGreenE'].Put(0, -4.5, -1.0, 0, 0, 0, 0, 1, 0.5);
+
+7891+5;
+	Repeater['FenceL'].Begin(0,  -4.5, -1.0, 0, 0, 0, 0, 1, 2, 2, 'FenceGreen');
+	Repeater['zL'].Begin(0, -3.1, -0.3, 0, 0, -20, 0, 0, 3, 3, 'z01',,'z02','z05',,'z11',,'z03','z12',,'z13','z01',,,'z04',,'z05','z15',);
+	Repeater['FenceR'].Begin(1,  4.4, -0.5, 0, 0, 0, 0, 1, 5, 5, 'Rwfence_01', 'Rwfence_02', 'Rwfence_03');
+	Repeater['zR'].Begin(1,  3.1, -0.3, 0, 0, 20, 0, 0, 3, 3, 'z01','z02',,'z11','z03',,,'z12',,'z13',,,'z01',,'z04','z05','z14',,'z15',);
+	//Repeater['bR'].Begin(1,  5.2, -1.8, 0, 0, 20, 0, 0, 5, 5, 'b01','b04','b05','b11','b02','b12','b03','b04','b14','b15');
+
+
+
+///////////////////////////////////////////////////////
