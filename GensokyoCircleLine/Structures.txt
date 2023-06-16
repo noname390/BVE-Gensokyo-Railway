@@ -64,3 +64,4 @@ formwallgreyR,Structures\lopoli_houses\x\acc\wall\wall_houseR54_5m.x
 formwallbrownR,Structures\lopoli_houses\x\acc\wall\wall_houseR55_5m.x
 tunwall,Structures\lopoli_houses\x\acc\wall\wall_houseL04_5mdark.x
 tunwallR,Structures\lopoli_houses\x\acc\wall\wall_houseR04_5mdark.x
+stapier,Structures\Wall\pier.x

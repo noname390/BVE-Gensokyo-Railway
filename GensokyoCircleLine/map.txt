@@ -1129,6 +1129,11 @@ Structure.Load('Structures.txt');
 	Track['6'].Position(-10,-0.01,0,0);
 	Track['7'].Position(14,-0.01,0,0);
 	Track['8'].Position(18,-0.01,0,0);
+	#station piers
+	Repeater['pier02'].Begin('5',-4.9,10,0, ,-90,,3,,30, 'stapier');
+	Repeater['pier04'].Begin('1',-4.9,10,0, ,-90,,3,,30, 'stapier');
+	Repeater['pier06'].Begin('7',-4.9,10,0, ,90,,3,,30, 'stapier');
+	Repeater['pier08'].Begin('3',-4.9,10,0, ,90,,3,,30, 'stapier');
 	#wallend-1ban sen 
 	Repeater['tunwallR10'].End();
 	Repeater['tunwallR20'].End();
@@ -1192,6 +1197,10 @@ Structure.Load('Structures.txt');
 	Structure['stop'].Put('1',2,-0.3,0,,,,,);
 22425;
 	#formend
+	Repeater['pier02'].End();
+	Repeater['pier04'].End();
+	Repeater['pier06'].End();
+	Repeater['pier08'].End();
 	Repeater['modernformL1'].End();
 	Repeater['modernformL2'].End();
         Repeater['modernformL3'].End();
