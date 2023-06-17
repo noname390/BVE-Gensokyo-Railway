@@ -78,3 +78,5 @@ MIT License<br>
 E129系车辆数据的版权方为“Mc_1323”<br>
 使用素材：<br>
 かんたんのゆめ汎用ストラクチャセット<br>
+车站音乐: <br>
+https://commons.nicovideo.jp/users/upload/157209?page=2
