@@ -52,7 +52,7 @@ please visit the train creator's website
 ## License
 MIT License<br>
 The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
-Source of strutures:
+Source of strutures:<br>
 かんたんのゆめ汎用ストラクチャセット<br>
 仙ナセ<br>
 Tetsu_Otter<br>

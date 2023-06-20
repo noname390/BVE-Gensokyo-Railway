@@ -1,2 +1,5 @@
+This helps to stop at right position while arriving stations
+E129-B11:
+(Notch-Speed:Stopdistance)
 B4-110km/h:824m
 B3-45km/h:188m
