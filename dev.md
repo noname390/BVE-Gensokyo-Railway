@@ -1,5 +1,5 @@
 # Devlopper Guide
-this document is not completed.Please wait.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+this document is not completed.Please wait.<br>
 ## Setup develop environment
 1. Download Bve Trainsim 5 from offical website.
 2. Get a text editor.Vscode is recommended.You can also use the Windows notepad since most files here are txt.
@@ -41,48 +41,13 @@ this document is not completed.Please wait.<br><br><br><br><br><br><br><br><br><
 | 19 |上霧の湖 | 	↓	  | 60.2  |            |             | 		 |       |1面1線  　　|地面   | 
 | 20 |北博麗　 | 	↓	  | 61.5  |            |             | 		 |       |1面1線  　　|高架   | 
 | 21 |博麗神社 | 	○	  | 62.8  |            |             | 		 |       |島式2面4線  |高架   |
-### Mileage
-The mileage data is the author's own setting, unrelated to the original work, and may not correspond to the imaginations of others regarding the size of Gensokyo. 
 
-The distance is measured precisely to 0.001 kilometers. 
-
-The following is the distance for the section from Hakurei Shrine to Ningennosato,starting from Hakurei Shrine.
-
-| Station | Mileage |
-|--- |---|
-| Hakurei Shrine | 0.0km |
-| Minami-Hakurei | 5.100km |
-| Eientei | 10.823km |
-| Chikurin | 13.900km |
-| Minami-Ningennosato | 21.040km |
-| Ningennosato | 22.395km |
-
-计划延伸至守失神社的区间（博丽神社起计），精确到0.1千米。<br>
-
-| Station | Mileage |
-|--- |---|
-| Ningennosato | 22.4km |
-| 西人间之里 | 未测量 |
-| Myorenji | 未测量 |
-| Kita-Myorenji | 未测量 |
-| 妖怪树海 | 未测量 |
-| 草田 | 未测量 |
-| Moriya Shrine | 39.2km |
-
-规划中最后开业，并建成环状线的区间（博丽神社起计）精确到0.1千米。<br>
-
-| Station | Mileage |
-|--- |---|
-| Moriya Shrine | 39.2km |
-| 风神之湖 | 未测量 |
-| 玄武之泽 | 未测量 |
-| 香霖堂前 | 未测量 |
-| 魔法之森 | 未测量 |
-| 雾之湖 | 未测量 |
-| Komakan | 未测量 |
-| 上雾之湖 | 未测量 |
-| Kita-Hakurei | 未测量 |
-| Hakurei Shrine | 未测量 |
-
-### 时刻表
-详细的时刻表暂未确定。
+### Train Schedules
+|駅名      |普通 103M|
+|---       |---      |
+|博麗神社  |    0851  | 
+|南博麗    | 	0855  |
+|永遠亭    | 	0900  |
+|竹林      | 	0903  |
+|南人間の里| 	0910  |
+|人間の里  | 	0912  |
