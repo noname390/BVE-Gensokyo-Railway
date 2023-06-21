@@ -20,6 +20,8 @@ formgroundL,Structures\Form\Form_Conc_5m3mCL.x
 formgroundR,Structures\Form\Form_Conc_5m3mCR.x
 fenceL,Structures\ACCC\Station\Fence6L.x
 fenceR,Structures\ACCC\Station\Fence6R.x
+glasswallL,Structures\ACCC\Station\glass6L.x
+glasswallR,Structures\ACCC\Station\glass6R.x
 concbridge,Structures\Bridge\concL_5m.x
 pier,Structures\Wall\Pier.x
 bridgewallL,Structures\Wall\Wall_QN_L5m.x

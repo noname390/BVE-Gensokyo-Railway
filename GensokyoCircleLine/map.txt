@@ -26,6 +26,7 @@ Structure.Load('Structures.txt');
 	Repeater['slabRail4'].Begin0('4',1,4.99,5,'slabrail');
 	Track['mountain'].Position(-60,40,0,0);
 	Track['mountainR'].Position(60,30,0,0);
+	Repeater['glasswallL1'].Begin('3',3,-1, 0, , , ,3,,5, 'glasswallL');
 	Repeater['modernformL1'].Begin('1',0, 0, 0, , , ,3,,5, 'modernformL');
 	Repeater['modernformL2'].Begin('4',0, 0, 0, , , ,3,,5, 'modernformL');
 	Repeater['modernformR1'].Begin('2',0, 0, 0, , , ,3,,5, 'modernformR');
@@ -48,6 +49,7 @@ Structure.Load('Structures.txt');
 	Repeater['modernformR2'].End();
 	Repeater['modernformgroundL1'].End();
 	Repeater['modernformgroundL2'].End();
+	Repeater['glasswallL1'].End();
 	Repeater['pier1'].Begin('3',0, 0, 0, , , ,3,,20, 'pier');
 	Repeater['pier2'].Begin('4',0, 0, 0, , , ,3,,20, 'pier');
 	Repeater['concbridge1'].Begin('1',0,-0.25, 0, , , ,3,,5, 'concbridge');
@@ -892,6 +894,9 @@ Structure.Load('Structures.txt');
 	Repeater['FormroofR2'].Begin('2',5.52,6.77,0,,,90,3,,5, 'dikewall');
 	Repeater['Formroof3'].Begin('1',-4.78,6.77,0,,,90,3,,5, 'dikewall');
 	Repeater['FormroofR3'].Begin('2',7.42,6.77,0,,,90,3,,5, 'dikewall');
+	#lights
+	Repeater['LightL'].Begin('1',-2.5,4.27,0,,,0,3,,3, 'light');
+	Repeater['LightR'].Begin('2',2.5,4.27,0,,,0,3,,3, 'light');
 21050;
 	Station['5'].Put(-1,-5,5);
 	Structure['stop'].Put('1',-2,4.5,0,,,180,,);
@@ -924,6 +929,8 @@ Structure.Load('Structures.txt');
 	Repeater['FormroofR2'].End();
 	Repeater['Formroof3'].End();
 	Repeater['FormroofR3'].End();
+	Repeater['LightL'].End();
+	Repeater['LightR'].End();
 	Repeater['tunwallC1'].End();
 	Repeater['tunwallC2'].End();
 	Repeater['tunwallC3'].End();
@@ -1185,6 +1192,15 @@ Structure.Load('Structures.txt');
 	#Formroof-8bansen
 	Repeater['Formroof18'].Begin('3',-0.98,6.77,0,,,90,3,,5, 'dikewall');
 	Repeater['Formroof28'].Begin('3',-2.88,6.77,0,,,90,3,,5, 'dikewall');
+	#lights
+	Repeater['LightL1'].Begin('1',-2.5,4.27,0,,,0,3,,3, 'light');
+	Repeater['LightR1'].Begin('2',2.5,4.27,0,,,0,3,,3, 'light');
+	Repeater['LightL2'].Begin('7',-2.5,4.27,0,,,0,3,,3, 'light');
+	Repeater['LightR2'].Begin('8',2.5,4.27,0,,,0,3,,3, 'light');
+	Repeater['LightL3'].Begin('5',-2.5,4.27,0,,,0,3,,3, 'light');
+	Repeater['LightR3'].Begin('6',2.5,4.27,0,,,0,3,,3, 'light');
+	Repeater['LightL4'].Begin('3',-2.5,4.27,0,,,0,3,,3, 'light');
+	Repeater['LightR4'].Begin('4',2.5,4.27,0,,,0,3,,3, 'light');
 	#Form
 	Repeater['modernformL1'].Begin('1',0, 0, 0, , , ,3,,5, 'modernformL');
 	Repeater['modernformL2'].Begin('3',0, 0, 0, , , ,3,,5, 'modernformL');
@@ -1252,6 +1268,15 @@ Structure.Load('Structures.txt');
 	Repeater['FormroofR16'].End();
 	Repeater['Formroof26'].End();
 	Repeater['FormroofR26'].End();
+	#lightend
+	Repeater['LightL1'].End();
+	Repeater['LightR1'].End();
+	Repeater['LightL2'].End();
+	Repeater['LightR2'].End();
+	Repeater['LightL3'].End();
+	Repeater['LightR4'].End();
+	Repeater['LightL4'].End();
+	Repeater['LightR4'].End();
 	#temp carstop at 4,5 ban sen
 	Structure['carstop'].Put('1',0,-0,0,,,,,);
 	Structure['carstop'].Put('2',0,-0,0,,,,,);
