@@ -9,8 +9,11 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 - 2023-6-9:set up repository
 - 2023-6-20:Release v0.2 preview and start promoting on video websites
 ## Installation Guide
-1. Make sure you are in Windows.Installed Bve Trainsim 5 and DirectX.（Sometimes .NET is also needed）
-2. Clone this repository or download the releases,and get the vehicle file from the train creator's website，make sure the file path in 1003M.txt is correct.Then you can open the route in Bve trainsim.
+1. Make sure you are in Windows operating system.
+2. Install Bve Trainsim 5 and DirectX.（Sometimes .NET is also needed）
+3. Clone this repository or download the releases and remember the local path of it,you will use it later.
+4. Get the vehicle data from the train creator's website.Remember the local path of it,you will use it later.
+5. Make sure the file paths in 103M.txt is correct.Then you can open the route in Bve trainsim and enjoy it.
 ## Route information
 The current route includes one-way operation between the Hakurei Shrine and the Ningennosato in Gensokyo, with a maximum speed of 110 km/h.The route includes 6 stations:  Hakurei Shrine,South Hakurei,Eientei,Chikurin,South Ningennosato, and Ningennosato.Both local and express trains are available. 
 
@@ -18,7 +21,7 @@ If you use this simulated train route as a derivative work in the Touhou Project
 [幻想郷・最新版地理考察](https://yotogiluminary.wixsite.com/website/post/000014)<br>
 ### Route Map
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/Gensokyo_CircleLine_RailMap.drawio.png" alt="logo";>
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/Gensokyo_CircleLine_RailMap.drawio.png" alt="routemap";>
 </p>
 <br>
 (Thanks for @AshBill who created the new routemap)
@@ -39,6 +42,7 @@ The following is the distance for the section from Hakurei Shrine to Ningennosat
 | Minami-Ningennosato | 21.040km |
 | Ningennosato | 22.395km |
 
+View [Developper Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md)for more detailed information.
 ### Timetable
 The detailed timetable isn't made currnetly. 
 ## Train information
