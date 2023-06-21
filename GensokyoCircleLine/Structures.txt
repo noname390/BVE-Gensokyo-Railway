@@ -57,6 +57,7 @@ formendfence,Structures\Tetsu_Otter\form_end_fence\Form_end_fence.x
 carstop,Structures\Tetsu_Otter\carstop\carstop_easy.x
 crost,Structures\structure_Cro_st\Cro_st.x
 light,Structures\structure_FL\FL.x
+tunlight,Structures\Tunnel\huku_light.x
 metalfence,Structures\structure_NF\NF.x
 metalfenceL,Structures\structure_RF\RF.x
 formwallwhite,Structures\lopoli_houses\x\acc\wall\wall_houseL53_5m.x

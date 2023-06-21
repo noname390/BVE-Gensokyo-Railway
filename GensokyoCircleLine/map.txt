@@ -2,7 +2,7 @@
 
 Curve.SetGauge(1.067);
 Sound.Load('sound.txt');
-Station.Load('Stations.txt');
+Station.Load('Stations103M.txt');
 Structure.Load('Structures.txt');
 #RollingNoise Setting(E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
 0;
@@ -960,6 +960,7 @@ Structure.Load('Structures.txt');
 	Repeater['tunwallL31'].End();
 	Repeater['tunwallR31'].End();
 	Repeater['tunnelwall'].Begin('1',2,-0.25,1.6, , , ,1,,4.99, 'Tunnellp');
+	Repeater['tunnellight1'].Begin('1',1.999,-0.25,1.6, , , ,1,,24.99, 'tunlight');
 	Structure['Tunnelpotaldark'].Put('1',2,-0.25,1.6,,,,,);
 	Repeater['slabRail'].End();
 	Repeater['slabRail2'].End();
@@ -998,6 +999,7 @@ Structure.Load('Structures.txt');
 22050;
 	CabIlluminance.Set(0);
 22055;
+	Repeater['tunnellight1'].End();
 	Repeater['tunnelwall'].End();
 	#Structure['Tunnelpotal'].Put('1',1.9,-0.25,1.6,,,,,);
 	#pointroof
