@@ -1,45 +1,64 @@
 # Devlopper Guide
 this document is not completed.Please wait.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-### 里程
-里程数据是作者自己的设定，与原作无关，并且可能与其他人对幻想乡大小的想象不符。<br>
-精确到0.001千米。<br>
-以下为先行开业的区间（博丽神社-人间之里）（博丽神社起计）<br>
+## Setup develop environment
+1. Download Bve Trainsim 5 from offical website.
+2. Get a text editor.Vscode is recommended.You can also use the Windows notepad since most files here are txt.
+3. Select the path of this project and open in Bve Trainsim 5.
+4. Right cilck in bve and select the"preference",then click"Andvanced Settings"and Enable functions for development.
+5. Now you can develop route in Bve Trainsim.
+## informations
+### Stations
 
-| 车站 | 累计里程 |
+| #| 駅名| 快速停車駅| キロ| 普通‐運行時間| 快速‐運行時間| 最高速度| 線路数| ホーム| 駅構造| 
+| 1| 博麗神社| 	○	| 0	| 0		110	| 複線	| 島式2面4線	| 高架| 
+| 2| 南博麗| 	↓	| 5.1	| 6	| 			| 相対式2面2線	| 地面| 
+| 3| 永遠亭| 	○	| 10.823	| 16| 				| 島式1面2線| 	| 
+| 4| 竹林| 	○	| 13.9	| 23				| 相対式2面2線	| | 
+| 5| 南人間の里| 	↓	| 21.04	| 33| 				| 相対式2面2線	| 地下| 
+| 6| 人間の里| 	○	| 22.395	| 36| 				| 島式4面8線	| | 
+
+### Mileage
+The mileage data is the author's own setting, unrelated to the original work, and may not correspond to the imaginations of others regarding the size of Gensokyo. 
+
+The distance is measured precisely to 0.001 kilometers. 
+
+The following is the distance for the section from Hakurei Shrine to Ningennosato,starting from Hakurei Shrine.
+
+| Station | Mileage |
 |--- |---|
-| 博丽神社 | 0.0km |
-| 南博丽 | 5.100km |
-| 永远亭 | 10.823km |
-| 竹林 | 13.900km |
-| 南人间之里 | 21.040km |
-| 人间之里 | 22.395km |
+| Hakurei Shrine | 0.0km |
+| Minami-Hakurei | 5.100km |
+| Eientei | 10.823km |
+| Chikurin | 13.900km |
+| Minami-Ningennosato | 21.040km |
+| Ningennosato | 22.395km |
 
 计划延伸至守失神社的区间（博丽神社起计），精确到0.1千米。<br>
 
-| 车站 | 累计里程 |
+| Station | Mileage |
 |--- |---|
-| 人间之里 | 22.4km |
+| Ningennosato | 22.4km |
 | 西人间之里 | 未测量 |
-| 命莲寺 | 未测量 |
-| 北命莲寺 | 未测量 |
+| Myorenji | 未测量 |
+| Kita-Myorenji | 未测量 |
 | 妖怪树海 | 未测量 |
 | 草田 | 未测量 |
-| 守失神社 | 39.2km |
+| Moriya Shrine | 39.2km |
 
 规划中最后开业，并建成环状线的区间（博丽神社起计）精确到0.1千米。<br>
 
-| 车站 | 累计里程 |
+| Station | Mileage |
 |--- |---|
-| 守失神社 | 39.2km |
+| Moriya Shrine | 39.2km |
 | 风神之湖 | 未测量 |
 | 玄武之泽 | 未测量 |
 | 香霖堂前 | 未测量 |
 | 魔法之森 | 未测量 |
 | 雾之湖 | 未测量 |
-| 红魔馆 | 未测量 |
+| Komakan | 未测量 |
 | 上雾之湖 | 未测量 |
-| 北博丽 | 未测量 |
-| 博丽神社 | 未测量 |
+| Kita-Hakurei | 未测量 |
+| Hakurei Shrine | 未测量 |
 
 ### 时刻表
 详细的时刻表暂未确定。
