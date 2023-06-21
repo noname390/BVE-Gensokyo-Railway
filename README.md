@@ -8,6 +8,9 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 ## Updates
 - 2023-6-9:set up repository
 - 2023-6-20:Release v0.2 preview and start promoting on video websites
+## Installation Guide
+1. Make sure you are in Windows.Installed Bve Trainsim 5 and DirectX.（Sometimes .NET is also needed）
+2. Clone this repository or download the releases,and get the vehicle file from the train creator's website，make sure the file path in 1003M.txt is correct.Then you can open the route in Bve trainsim.
 ## Route information
 The current route includes one-way operation between the Hakurei Shrine and the Ningennosato in Gensokyo, with a maximum speed of 110 km/h.The route includes 6 stations:  Hakurei Shrine,South Hakurei,Eientei,Chikurin,South Ningennosato, and Ningennosato.Both local and express trains are available. 
 
@@ -48,9 +51,6 @@ The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
 The creator of this vehicle,like many creators in Japan, has strict distribution terms for their work. Therefore, please visit the creator's website to obtain the train data.<br>
 ## Operating method
 please visit the train creator's website
-## Installation Guide
-1. Make sure you are in Windows.Installed Bve Trainsim 5 and DirectX.（Sometimes .NET is also needed）。
-2. Clone this repository or download the releases,and get the vehicle file from the train creator's website，make sure the file path in 1003M.txt is correct.Then you can open the route in Bve trainsim.
 ## License
 MIT License<br>
 The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
