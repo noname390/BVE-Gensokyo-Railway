@@ -4,7 +4,7 @@ this document is not completed.Please wait.<br>
 1. Download Bve Trainsim 5 from offical website.
 2. Get a text editor.Vscode is recommended.You can also use the Windows notepad since most files here are txt.
 3. Select the path of this project and open in Bve Trainsim 5.
-4. Right cilck in bve and select the"preference",then click"Andvanced Settings"and Enable functions for development.
+4. Right cilck in bve and select the"preference",then click"Advanced Settings"and Enable functions for development.
 5. Now you can develop route in Bve Trainsim.
 ## Contribute to this project
 1. Create a fork of this repository.This will generate a repository with the same content under your account.
@@ -15,7 +15,7 @@ this document is not completed.Please wait.<br>
 6. Now you are a contributor of this project.Your username will appear on the right side of the repository page.
 ## informations
 ### Stations(In Japanese)
-
+Loop Line:<br>
 #### HakureiShrine->Ningennosato
 |#   |駅名      |快速停車駅|キロ   |普通‐運行時間|快速‐運行時間| 最高速度| 線路数| ホーム      |駅構造| 
 |--- |---       |---      |---    |---         |---         |---    |---    |---         |---   |
@@ -48,7 +48,14 @@ this document is not completed.Please wait.<br>
 | 19 |上霧の湖 | 	↓	  | 60.2  |            |             | 		 |       |1面1線  　　|地面   | 
 | 20 |北博麗　 | 	↓	  | 61.5  |            |             | 		 |       |1面1線  　　|高架   | 
 | 21 |博麗神社 | 	○	  | 62.8  |            |             | 		 |       |島式2面4線  |高架   |
-
+Hakurei Moriya Line:<br>
+#### HakureiShrine->Ningennosato
+|#   |駅名          |快速停車駅|キロ |普通‐運行時間|快速‐運行時間| 最高速度| 線路数| ホーム      |駅構造| 
+|--- |---          |---       |--- |---         |---         |---    |---    |---         |---   |
+| 1 |博麗神社       | 	○	   | 0  | 	        |            |175	 | 単線	 |島式2面4線    | 高架 | 
+| 2 |獣道          | 	↓	  |    | 	        |            | 		 |       |相対式2面3線 | 高架 | 
+| 3 |きりさめ新都心 | 	↓	   |    |           |            |90      |複線   |島式1面2線   | 地下 | 
+| 4 |人間の里      | 	○	  |    |           |             |		 |       |島式4面8線   | 地下 | 
 ### Train Schedules
 |駅名      |普通 103M|
 |---       |---      |
