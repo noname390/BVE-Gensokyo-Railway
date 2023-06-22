@@ -62,23 +62,23 @@ this document is not completed.Please wait.<br>
 ### Trains
 #### In Using:
 ##### JR East E129 Series
-使用路線：環状線全線
-最高速度：110km/h
-列車種別：普通、快速
+使用路線：環状線全線<br>
+最高速度：110km/h<br>
+列車種別：普通、快速<br>
 #### Unusing
 ##### JR East HB-E300 Series
-使用路線：環状線、湖東線特急
-最高速度：100km/h
-列車種別：特急
+使用路線：環状線、湖東線特急<br>
+最高速度：100km/h<br>
+列車種別：特急<br>
 ##### JR West Kiha120 Series
-使用路線：湖東線
-最高速度：100km/h
-列車種別：普通
+使用路線：湖東線<br>
+最高速度：100km/h<br>
+列車種別：普通<br>
 ##### JR west 681 Series
-使用路線：博麗守矢ライン
-最高速度：175km/h
-列車種別：特別快速
+使用路線：博麗守矢ライン<br>
+最高速度：175km/h<br>
+列車種別：特別快速<br>
 ##### JR Shigoku 2000 Series 
-使用路線：冥界線
-最高速度：120km/h
-列車種別：特急（冥界線は全列車特急）
+使用路線：冥界線<br>
+最高速度：120km/h<br>
+列車種別：特急（冥界線は全列車特急）<br>
