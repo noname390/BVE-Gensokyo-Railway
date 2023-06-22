@@ -99,6 +99,7 @@ L,Nagoya_Common\Railway_Obj\Sign\Limit\L.x
 R,Nagoya_Common\Railway_Obj\Sign\Limit\R.x
 limitpole,Nagoya_Common\Railway_Obj\Sign\Limit\Pole.x
 
+
 #Signals
 #4灯式(YG),,
 Signal1L0,Nagoya_Common/Railway_Obj/Signal/Normal/Signal1L0.x,
