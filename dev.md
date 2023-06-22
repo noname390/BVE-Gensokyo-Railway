@@ -6,6 +6,13 @@ this document is not completed.Please wait.<br>
 3. Select the path of this project and open in Bve Trainsim 5.
 4. Right cilck in bve and select the"preference",then click"Andvanced Settings"and Enable functions for development.
 5. Now you can develop route in Bve Trainsim.
+## Contribute to this project
+1. Create a fork of this repository.This will generate a repository with the same content under your account.
+2. Clone the repository.You can do this with Git or Github Desktop.And you will find the repository in your local machine.
+3. Develop on your local machine.
+4. After you complete something,push the commits to your forked repository.
+5. Merge your commits to the main repository with pull requests.
+6. Now you are a contributor of this project.Your username will appear on the right side of the repository page.
 ## informations
 ### Stations(In Japanese)
 
