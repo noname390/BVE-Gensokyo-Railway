@@ -19,6 +19,9 @@ formR,Structures\Form\Form_Conc_5mR.x
 formgroundL,Structures\Form\Form_Conc_5m3mCL.x
 formgroundR,Structures\Form\Form_Conc_5m3mCR.x
 fenceL,Structures\ACCC\Station\Fence6L.x
+fenceR,Structures\ACCC\Station\Fence6R.x
+glasswallL,Structures\ACCC\Station\glass6L.x
+glasswallR,Structures\ACCC\Station\glass6R.x
 concbridge,Structures\Bridge\concL_5m.x
 pier,Structures\Wall\Pier.x
 bridgewallL,Structures\Wall\Wall_QN_L5m.x
@@ -54,6 +57,7 @@ formendfence,Structures\Tetsu_Otter\form_end_fence\Form_end_fence.x
 carstop,Structures\Tetsu_Otter\carstop\carstop_easy.x
 crost,Structures\structure_Cro_st\Cro_st.x
 light,Structures\structure_FL\FL.x
+tunlight,Structures\Tunnel\huku_light.x
 metalfence,Structures\structure_NF\NF.x
 metalfenceL,Structures\structure_RF\RF.x
 formwallwhite,Structures\lopoli_houses\x\acc\wall\wall_houseL53_5m.x
@@ -65,6 +69,8 @@ formwallbrownR,Structures\lopoli_houses\x\acc\wall\wall_houseR55_5m.x
 tunwall,Structures\lopoli_houses\x\acc\wall\wall_houseL04_5mdark.x
 tunwallR,Structures\lopoli_houses\x\acc\wall\wall_houseR04_5mdark.x
 stapier,Structures\Wall\pier.x
+E129F,Structures\e131\e131\e131Mc.x
+E129B,Structures\e131\e131\e130Tc_end.x
 
 #Fancy-N700S 
 #Limit
