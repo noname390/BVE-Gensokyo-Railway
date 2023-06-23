@@ -112,6 +112,10 @@ GPUU,Structures\Accessory\Posts\GradientPost\Gp_UU.x
 TunD,Structures\Accessory\Posts\Tunnel\t_pitchD.x
 TunL,Structures\Accessory\Posts\Tunnel\t_pitchL.x
 TunU,Structures\Accessory\Posts\Tunnel\t_pitchU.x
+#teisha
+100t,Structures\GSR\100mteimae.x
+200t,Structures\GSR\200mteimae.x
+300t,Structures\GSR\300mteimae.x
 #Signals
 #4灯式(YG),,
 Signal1L0,..\..\Nagoya_Common/Railway_Obj/Signal/Normal/Signal1L0.x,
