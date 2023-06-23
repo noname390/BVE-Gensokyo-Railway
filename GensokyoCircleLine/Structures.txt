@@ -85,6 +85,22 @@ crost,Structures\structure_Cro_st\Cro_st.x
 metalfence,Structures\structure_NF\NF.x
 metalfenceL,Structures\structure_RF\RF.x
 stop,Structures\Default\Stop.x
+#GradientPost
+GPDD,Structures\Accessory\Posts\GradientPost\Gp_DD.x
+GPDL,Structures\Accessory\Posts\GradientPost\Gp_DL.x
+GPDU,Structures\Accessory\Posts\GradientPost\Gp_DU.x
+GPLD,Structures\Accessory\Posts\GradientPost\Gp_LD.x
+GPLU,Structures\Accessory\Posts\GradientPost\Gp_LU.x
+GPUD,Structures\Accessory\Posts\GradientPost\Gp_UD.x
+GPUL,Structures\Accessory\Posts\GradientPost\Gp_UL.x
+GPUU,Structures\Accessory\Posts\GradientPost\Gp_UU.x
+TunD,Structures\Accessory\Posts\Tunnel\t_pitchD.x
+TunL,Structures\Accessory\Posts\Tunnel\t_pitchL.x
+TunU,Structures\Accessory\Posts\Tunnel\t_pitchU.x
+#teisha
+100t,Structures\GSR\100mteimae.x
+200t,Structures\GSR\200mteimae.x
+300t,Structures\GSR\300mteimae.x
 
 #Fancy-N700S 
 #Limit
