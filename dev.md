@@ -14,6 +14,12 @@ this document is not completed.Please wait.<br>
 5. Merge your commits to the main repository with pull requests.
 6. Now you are a contributor of this project.Your username will appear on the right side of the repository page.
 ## informations
+### Routemap
+#### HakureiShrine->Ningennosato
+<p align="center">
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/route_design_Hakurei-ningen.jpg" alt="routemap";>
+</p>
+<br>
 ### Stations(In Japanese)
 Loop Line:<br>
 #### HakureiShrine->Ningennosato
