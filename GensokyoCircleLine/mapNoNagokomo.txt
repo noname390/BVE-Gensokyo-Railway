@@ -6,6 +6,7 @@ Station.Load('Stations103M.txt');
 Structure.Load('StructuresNonagokomo.txt');
 #RollingNoise Setting(E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
 0;
+	include 'mapsignals.txt';
 	Background.Change('Bg_mt');
 	Adhesion.Change(0.35, 0, 0.01);
 	Curve.SetGauge(1.067);
