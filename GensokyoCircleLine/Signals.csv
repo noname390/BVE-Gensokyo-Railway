@@ -1,9 +1,13 @@
 BveTs Signal Aspects List 2.00
 #四灯 YG
 type1,Signal1L0,,Signal1L2,Signal1L3,Signal1L4,,
+,Signal1G0,,Signal1G2,Signal1G3,Signal1G4,,
 #三灯
 type3,Signal3L0,,Signal3L2,,Signal3L4,,
+,Signal3G0,,Signal3G2,,Signal3G4,,
 #五灯 GG
 type8,Signal8L0,,Signal8L2,Signal8L3,Signal8L4,Signal8L5,
+,Signal8G0,,Signal8G2,Signal8G3,Signal8G4,Signal8G5,
 #预告
 Rep0,Rep0,Rep1,Rep1,Rep1,Rep4,Rep4,
+RepGG,RepGGN,RepGGN,RepGGN,RepGGN,RepGGN,RepGG,
