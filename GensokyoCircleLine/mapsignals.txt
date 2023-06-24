@@ -1,4 +1,4 @@
-BveTs Map 2.02
+BveTs Map 2.00
 
 50;
 	$sig=distance;
