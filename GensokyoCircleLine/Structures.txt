@@ -197,3 +197,7 @@ SigTun_R,..\Nagoya_Common/Railway_Obj/SigPole/TunR.x,
 PBeacon1,..\Nagoya_Common\Railway_Obj\Signal\Beacon\P.x
 PBeacon2,..\Nagoya_Common\Railway_Obj\Signal\Beacon\P2.x
 PS,..\Nagoya_Common\Railway_Obj\Sign\Test_Route\PS.x
+check,..\Nagoya_Common\Railway_Obj\Sign\Check\Check.x
+check_departure,..\Nagoya_Common\Railway_Obj\Sign\Check\Check_Departure.x
+check_home,..\Nagoya_Common\Railway_Obj\Sign\Check\Check_Home.x
+check_relay,..\Nagoya_Common\Railway_Obj\Sign\Check\Check_relay.x
