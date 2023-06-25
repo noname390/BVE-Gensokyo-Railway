@@ -4,9 +4,11 @@ Curve.SetGauge(1.067);
 Sound.Load('sound.txt');
 Station.Load('Stations103M.txt');
 Structure.Load('StructuresNonagokomo.txt');
+Signal.Load('Signals.csv');
+Signal.SpeedLimit(0,25,55,75,110);
 #RollingNoise Setting(E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
 0;
-	include 'mapsignals.txt';
+	include 'MapSignalsNoNagokomo.txt';
 	Background.Change('Bg_mt');
 	Adhesion.Change(0.35, 0, 0.01);
 	Curve.SetGauge(1.067);
