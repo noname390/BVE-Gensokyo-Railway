@@ -148,14 +148,14 @@ Signal3G0,..\Nagoya_Common/Railway_Obj/Signal/Glare/R.x,
 Signal3G2,..\Nagoya_Common/Railway_Obj/Signal/Glare/Y.x,
 Signal3G4,..\Nagoya_Common/Railway_Obj/Signal/Glare/G.x,
 #4灯式（YY）,,
-#,Signal4L0,..\Nagoya_Common/Railway_Obj/Signal/Normal/Signal4L0.x
-#,Signal4L1,..\Nagoya_Common/Railway_Obj/Signal/Normal/Signal4L1.x
-#,Signal4L2,..\Nagoya_Common/Railway_Obj/Signal/Normal/Signal4L2.x
-#,Signal4L4,..\Nagoya_Common/Railway_Obj/Signal/Normal/Signal4L4.x
-#,Signal4G0,..\Nagoya_Common/Railway_Obj/Signal/Glare/R.x
-#,Signal4G1,..\Nagoya_Common/Railway_Obj/Signal/Glare/YY.x
-#,Signal4G2,..\Nagoya_Common/Railway_Obj/Signal/Glare/Y.x
-#,Signal4G4,..\Nagoya_Common/Railway_Obj/Signal/Glare/G.x
+Signal4L0,..\Nagoya_Common/Railway_Obj/Signal/Normal/Signal4L0.x
+Signal4L1,..\Nagoya_Common/Railway_Obj/Signal/Normal/Signal4L1.x
+Signal4L2,..\Nagoya_Common/Railway_Obj/Signal/Normal/Signal4L2.x
+Signal4L4,..\Nagoya_Common/Railway_Obj/Signal/Normal/Signal4L4.x
+Signal4G0,..\Nagoya_Common/Railway_Obj/Signal/Glare/R.x
+Signal4G1,..\Nagoya_Common/Railway_Obj/Signal/Glare/YY.x
+Signal4G2,..\Nagoya_Common/Railway_Obj/Signal/Glare/Y.x
+Signal4G4,..\Nagoya_Common/Railway_Obj/Signal/Glare/G.x
 #5灯式（RG）,,
 #,Signal5L0,..\Nagoya_Common/Railway_Obj/Signal/Normal/Signal5L0.x
 #,Signal5L1,..\Nagoya_Common/Railway_Obj/Signal/Normal/Signal5L1.x
@@ -185,6 +185,16 @@ Rep4,..\Nagoya_Common/Railway_Obj/Signal/Rep/G.x,
 RepGGN,..\Nagoya_Common/Railway_Obj/Signal/Rep/GGN.x,
 RepGG,..\Nagoya_Common/Railway_Obj/Signal/Rep/GG.x,
 ,,
+CR1,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\1.x,
+CR2,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\2.x,
+CR3,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\3.x,
+CR4,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\4.x,
+CR5,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\5.x,
+CR6,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\6.x,
+CR7,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\7.x,
+CR8,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\8.x,
+CRC,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\-.x,
+,,
 SigPole,..\Nagoya_Common/Railway_Obj/SigPole/Pole.x,
 SigPole_C,..\Nagoya_Common/Railway_Obj/SigPole/Pole_C.x,
 SigPole_L,..\Nagoya_Common/Railway_Obj/SigPole/Pole_L.x,
@@ -193,6 +203,7 @@ SigPole_R,..\Nagoya_Common/Railway_Obj/SigPole/Pole_R.x,
 SigPole_S,..\Nagoya_Common/Railway_Obj/SigPole/PoleS.x,
 SigTun_L,..\Nagoya_Common/Railway_Obj/SigPole/TunL.x,
 SigTun_R,..\Nagoya_Common/Railway_Obj/SigPole/TunR.x,
+,,
 
 PBeacon1,..\Nagoya_Common\Railway_Obj\Signal\Beacon\P.x
 PBeacon2,..\Nagoya_Common\Railway_Obj\Signal\Beacon\P2.x
