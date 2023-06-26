@@ -992,13 +992,23 @@ Signal.SpeedLimit(0,25,55,75,110);
 21050;
 	Station['5'].Put(-1,-5,5);
 	Structure['stop'].Put('1',-2,4.5,0,,,180,,);
+#Advertisemet(experimental)
+21069.99;
+	//Train.Add('adboard','Structures\adboard\moveable\move.txt','ad',1);
+	//Track['ad'].Position(-5.5,-10,0,0);
+	//Train['adboard'].Enable('09:10:00');
+	//Train['adboard'].Stop(0,0,1,2);
 21070;
-	#Advertisemet(experimental)
+	//Train['adboard'].Stop(1,10,1,2);
 	Structure['adboard'].Put('0',-5.5,4,-0.6,,90,-90,,);
 	Structure['updown'].Put('0',-5.5,1.6,-0.61,,90,-90,,);
 	Structure['updown'].Put('0',-5.5,9,-0.61,,90,-90,,);
 	//Structure['adboardback'].Put('0',-5.501,1.6,-0.57,,90,-90,,);
 	Structure['kirisame'].Put('0',-5.502,4,-0.55,,90,-90,,);
+	//Structure['nitori'].Put('0',-5.502,4,-0.55,,90,-90,,);
+21070.01;
+	//Track['ad'].Position(-5.5,10,0,0);
+21070;
 	#normal strutures
 	Repeater['wallL1'].End();
 	Repeater['wallL2'].End();
