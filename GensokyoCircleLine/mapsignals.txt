@@ -13,7 +13,7 @@ BveTs Map 2.00
 	Signal['type1'].Put(0,'1',-2.2,4,0,,,,,);
 	
 	Structure['SigPole_L'].Put('1',-2.4,5,0,,,,,);
-	//Structure['PS'].Put('1',-2.2,3,0.5,,,,,);
+	Structure['PS'].Put('1',-2.2,3,0.5,,,,,);
 1200;
 	Section.Begin(0,2,3,4);
 	Signal['type1'].Put(0,'1',-2.2,4,0,,,,,);
@@ -40,8 +40,8 @@ BveTs Map 2.00
 	Structure['SigPole_L'].Put('1',5.9,5,0,0,15,,,);
 2300;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,4,0,,,,,);
-	Structure['SigPole_L'].Put('1',-2.4,5,0,,,,,);
+	Signal['type1'].Put(0,'1',6.1,4,0,0,10,,,);
+	Structure['SigPole_L'].Put('1',5.9,5,0,0,10,,,);
 	$sig=distance;
 	$sig-30;
 	Beacon.Put(5,1,0);
@@ -447,12 +447,12 @@ BveTs Map 2.00
 	Beacon.Put(3,1,0);
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 18900;
-	Signal['Rep0'].Put(1,'1',-2.6,3,0,0,0,,,);
-
+	Signal['Rep0'].Put(1,'1',-2.2,4,0,0,0,,,);
+	Structure['SigPole_L'].Put('1',-2.4,5,0,,,,,);
 19250;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,2,0,,,,,);
-
+	Signal['type1'].Put(0,'1',-2.15,2,0,,,,,);
+	Structure['SigTun_L'].Put('1',-2,2.5,0,,,,,);
 	$sig=distance;
 	$sig-30;
 	Beacon.Put(5,1,0);
@@ -468,8 +468,8 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 20000;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,2,0,,,,,);
-
+	Signal['type1'].Put(0,'1',-2.15,2,0,,,,,);
+	Structure['SigTun_L'].Put('1',-2,2.5,0,,,,,);
 	$sig=distance;
 	$sig-30;
 	Beacon.Put(5,1,0);
@@ -485,7 +485,8 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 20800;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,2,0,,,,,);
+	Signal['type1'].Put(0,'1',-2.15,2,0,,,,,);
+	Structure['SigTun_L'].Put('1',-2,2.5,0,,,,,);
 	$sig=distance;
 	$sig-25;
 	Beacon.Put(4,1,0);
@@ -511,6 +512,7 @@ BveTs Map 2.00
 21075;
 	Section.Begin(0,2,4);
 	Signal['type1'].Put(0,'1',-2,2.8,0,,,,,);
+	Structure['SigTun_L'].Put('1',-2,3.5,0,,,,,);
 	$sig=distance;
 	$sig-25;
 	Beacon.Put(4,1,0);
@@ -532,7 +534,8 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 21700;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,2,0,,,,,);
+	Signal['type1'].Put(0,'1',-2.15,2,0,,,,,);
+	Structure['SigTun_L'].Put('1',-2,2.5,0,,,,,);
 
 	$sig=distance;
 	$sig-30;
@@ -547,9 +550,35 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,1,0);
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
-22200;
-	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2,2.8,0,,,,,);
+22117;
+	Section.Begin(0,1,2,4);
+	Signal['type4'].Put(0,'1',-1.8,4,-0.1,,,,,);
+	Structure['Signal4L0'].Put('1',-2.3,4.5,0,,,,,);
+	Structure['SigPole_L'].Put('1',-2.2,5.5,,,,,,);
+	Structure['CR4'].Put('1',-2,3.5,0.5,,,,,);	
+	$sig=distance;
+	$sig-25;
+	Beacon.Put(4,1,0);
+	Structure['PBeacon2'].Put('1',0,0,0,,,,,);
+	$sig-50;
+	Beacon.Put(3,1,0);
+	Structure['PBeacon1'].Put('1',0,0,0,,,,,);	
+	$sig-85;
+	Beacon.Put(3,1,0);
+	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
+	$sig-130;
+	Beacon.Put(3,1,0);
+	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
+	$sig-180;
+	Beacon.Put(3,1,0);
+	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
+	$sig-220;
+	Beacon.Put(3,1,0);
+	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
+22255;
+	Section.Begin(0,1,2,4);
+	Signal['type4'].Put(0,'1',-2,2.8,0,,,,,);
+	Structure['SigTun_L'].Put('1',-2,3.5,0,,,,,);
 	$sig=distance;
 	$sig-25;
 	Beacon.Put(4,1,0);
@@ -575,6 +604,7 @@ BveTs Map 2.00
 22435;
 	Section.Begin(0,2,4);
 	Signal['type1'].Put(0,'1',-2,2.8,0,,,,,);
+	Structure['SigTun_L'].Put('1',-2,3.5,0,,,,,);
 	$sig=distance;
 	$sig-25;
 	Beacon.Put(4,1,0);
@@ -620,3 +650,30 @@ BveTs Map 2.00
 	$sig=distance;
 	$sig-400;
 	Beacon.Put(9,0,400035);
+//ATS-P Signals End
+890;
+Structure['check'].Put('1',-2.6,3,0,0,0,0,,);
+1955;
+Structure['check_relay'].Put('1',-2.6,3,-0.1,0,0,0,,);
+2155;
+Structure['check'].Put('1',-2.6,3,-0.1,0,0,0,,);
+2715;
+Structure['check'].Put('1',-2.6,3,-0.1,0,0,0,,);
+3475;
+Structure['check_relay'].Put('1',-2.6,3,-0.1,0,0,0,,);
+3755;
+Structure['check'].Put('1',-2.6,3,-0.1,0,0,0,,);
+4315;
+Structure['check_relay'].Put('1',-2.6,3,-0.1,0,0,0,,);
+4515;
+Structure['check_relay'].Put('1',-2.6,3,-0.1,0,0,0,,);
+4715;
+Structure['check_home'].Put('1',-2.6,3,-0.1,0,0,0,,);
+4835;
+Structure['check_departure'].Put('1',-2.6,3,-0.1,0,0,0,,);
+5380;
+Structure['check_relay'].Put('1',-2.6,3,-0.1,0,0,0,,);
+5660;
+Structure['check_relay'].Put('1',-2.6,3,-0.1,0,0,0,,);
+5940;
+Structure['check'].Put('1',-2.6,3,-0.1,0,0,0,,);
