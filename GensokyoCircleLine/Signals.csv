@@ -8,6 +8,9 @@ type3,Signal3L0,,Signal3L2,,Signal3L4,,
 #五灯 GG
 type8,Signal8L0,,Signal8L2,Signal8L3,Signal8L4,Signal8L5,
 ,Signal8G0,,Signal8G2,Signal8G3,Signal8G4,Signal8G5,
+#四灯 YY
+type4,Signal4L0,Signal4L1,Signal4L2,,Signal4L4,,
+,Signal4G0,Signal4G1,Signal4G2,,Signal4G4,,
 #预告
 Rep0,Rep0,Rep1,Rep1,Rep1,Rep4,Rep4,
 RepGG,RepGGN,RepGGN,RepGGN,RepGGN,RepGGN,RepGG,
