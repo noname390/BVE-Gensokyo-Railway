@@ -1,0 +1,15 @@
+BveTs Train 1.00
+
+[Structure]
+key= kirisame
+distance= 0.1
+span= 0
+z= 5
+
+[Structure]
+key= nitori
+distance= 0
+span= 0
+z= 5
+
+

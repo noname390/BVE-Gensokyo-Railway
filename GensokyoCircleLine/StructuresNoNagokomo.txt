@@ -89,6 +89,8 @@ stop,Structures\Default\Stop.x
 adboard,Structures\adboard\board.x
 adboardback,Structures\adboard\back.x
 kirisame,Structures\adboard\kirisame.x
+nitori,Structures\adboard\nitoricomputer.x
+updown,Structures\adboard\updown.x
 #Limit
 9,Structures\Default\SpeedLim9.x
 8,Structures\Default\SpeedLim8.x

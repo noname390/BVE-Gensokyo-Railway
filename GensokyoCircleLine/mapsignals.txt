@@ -180,7 +180,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,1,0);
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
-7300;
+7280;
 	Section.Begin(0,2,3,4);
 	Signal['type1'].Put(0,'1',-2.2,4,0,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,5,0,,,,,);
@@ -203,7 +203,7 @@ BveTs Map 2.00
 	Beacon.Put(9,0,400100);
 8177;
 	Beacon.Put(19,0,0);
-8500;
+8480;
 	Section.Begin(0,2,3,4);
 	Signal['type1'].Put(0,'1',-2.2,4,0,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,5,0,,,,,);
@@ -220,7 +220,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,1,0);
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
-9400;
+9380;
 	Section.Begin(0,2,3,4);
 	Signal['type1'].Put(0,'1',-2.2,4,0,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,5,0,,,,,);
