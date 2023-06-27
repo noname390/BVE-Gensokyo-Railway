@@ -115,4 +115,6 @@ Hakurei Moriya Line:<br>
 ### experimental features
 #### Movable advertisement board
 An advertsement board was put at position of the platform end wall at minami-ningennosato station.<br>
-And it will become movable in the future.
+And it will become movable in the future.<br>
+Added Jun 27:<br>
+This seems hard to achive.Need more time working on it.
