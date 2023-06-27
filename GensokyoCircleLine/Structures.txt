@@ -216,3 +216,7 @@ check,..\Nagoya_Common\Railway_Obj\Sign\Check\Check.x
 check_departure,..\Nagoya_Common\Railway_Obj\Sign\Check\Check_Departure.x
 check_home,..\Nagoya_Common\Railway_Obj\Sign\Check\Check_Home.x
 check_relay,..\Nagoya_Common\Railway_Obj\Sign\Check\Check_relay.x
+Couse_check,..\Nagoya_Common\Railway_Obj\Sign\Test_Route\Couse.x
+Daiyo,..\Nagoya_Common\Railway_Obj\Sign\Test_Route\Daiyo.x
+Class,..\Nagoya_Common\Railway_Obj\Sign\Test_Route\Class.x
+StopPass,..\Nagoya_Common\Railway_Obj\Sign\Test_Route\StopPass.x
