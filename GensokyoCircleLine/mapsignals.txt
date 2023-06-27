@@ -11,9 +11,12 @@ BveTs Map 2.00
 50;
 	Section.Begin(0,2,4);
 	Signal['type1'].Put(0,'1',-2.2,4,0,,,,,);
-	
 	Structure['SigPole_L'].Put('1',-2.4,5,0,,,,,);
 	Structure['PS'].Put('1',-2.2,3,0.5,,,,,);
+
+	Structure['Signal1L0'].Put('3',-2.2,4,0,,,,,);
+	Structure['SigPole_L'].Put('3',-2.4,5,0,,,,,);
+	Structure['PS'].Put('3',-2.2,3,0.5,,,,,);
 1200;
 	Section.Begin(0,2,3,4);
 	Signal['type1'].Put(0,'1',-2.2,4,0,,,,,);
@@ -556,6 +559,7 @@ BveTs Map 2.00
 	Structure['Signal4L0'].Put('1',-2.3,4.5,0,,,,,);
 	Structure['SigPole_L'].Put('1',-2.2,5.5,,,,,,);
 	Structure['CR4'].Put('1',-2,3.5,0.5,,,,,);	
+	Structure['Couse_check'].Put('1',-2,1.7,0.5,,,,,);	
 	$sig=distance;
 	$sig-25;
 	Beacon.Put(4,1,0);
