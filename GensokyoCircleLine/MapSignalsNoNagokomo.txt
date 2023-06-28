@@ -13,8 +13,8 @@ BveTs Map 2.00
 	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
 	//Structure['PS'].Put('1',-2.2,3,0.5,,,,,);
-	Structure['Signal1L0'].Put('3',-2.2,4,0,,,,,);
-	Structure['SigPole_L'].Put('3',-2.4,5,0,,,,,);
+	Structure['Signal1L0'].Put('3',-2.4,4.5,0,,,,,);
+	Structure['SigPole_L'].Put('3',-2.4,0,0,,,,,);
 1200;
 	Section.Begin(0,2,3,4);
 	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
@@ -296,7 +296,7 @@ BveTs Map 2.00
 	Beacon.Put(19,0,0);
 11600;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,4.5,-0.1,,,,,);
+	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
 	$sig=distance;
 	$sig-30;
@@ -313,7 +313,7 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 12500;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,4.5,-0.1,,,,,);
+	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
 	$sig=distance;
 	$sig-30;
@@ -330,7 +330,7 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 13650;//场内
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,4.5,-0.1,,,,,);
+	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
 	$sig=distance;
 	$sig-25;
@@ -356,7 +356,7 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 13950; //出发
 	Section.Begin(0,2,4);
-	Signal['type1'].Put(0,'1',-2.2,4.5,-0.1,,,,,);
+	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
 	$sig=distance;
 	$sig-25;
@@ -380,7 +380,7 @@ BveTs Map 2.00
 
 15000;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,4.5,-0.1,,,,,);
+	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
 	$sig=distance;
 	$sig-30;
@@ -397,7 +397,7 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 16150;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,4.5,-0.1,,,,,);
+	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
 	$sig=distance;
 	$sig-30;
@@ -414,7 +414,7 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 17000;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,4.5,-0.1,,,,,);
+	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
 	$sig=distance;
 	$sig-30;
@@ -431,7 +431,7 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 18300;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,4.5,-0.1,,,,,);
+	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
 	$sig=distance;
 	$sig-30;
@@ -447,11 +447,10 @@ BveTs Map 2.00
 	Beacon.Put(3,1,0);
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 18900;
-	Signal['Rep0'].Put(1,'1',-2.6,3,0,0,0,,,);
-
+	Signal['Rep0'].Put(1,'1',-2.5,3,0,0,0,,,);
 19250;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,2,0,,,,,);
+	Signal['type1'].Put(0,'1',-2,2.5,0,,,,,);
 
 	$sig=distance;
 	$sig-30;
@@ -468,7 +467,7 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 20000;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,2,0,,,,,);
+	Signal['type1'].Put(0,'1',-2,2.5,0,,,,,);
 	$sig=distance;
 	$sig-30;
 	Beacon.Put(5,1,0);
@@ -484,7 +483,7 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 20800;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,2,0,,,,,);
+	Signal['type1'].Put(0,'1',-2,2.5,0,,,,,);
 	$sig=distance;
 	$sig-25;
 	Beacon.Put(4,1,0);
@@ -509,7 +508,7 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 21075;
 	Section.Begin(0,2,4);
-	Signal['type1'].Put(0,'1',-2,2.8,0,,,,,);
+	Signal['type1'].Put(0,'1',-1.82,3.5,0,,,,,);
 	$sig=distance;
 	$sig-25;
 	Beacon.Put(4,1,0);
@@ -531,7 +530,7 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 21700;
 	Section.Begin(0,2,3,4);
-	Signal['type1'].Put(0,'1',-2.2,2,0,,,,,);
+	Signal['type1'].Put(0,'1',-2,2.5,0,,,,,);
 
 	$sig=distance;
 	$sig-30;
@@ -548,9 +547,9 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 22117;
 	Section.Begin(0,1,2,4);
-	Signal['type4'].Put(0,'1',-1.8,4,-0.1,,,,,);
-	Structure['Signal4L0'].Put('1',-2.3,4.5,0,,,,,);
-	Structure['SigPole_L'].Put('1',-2.2,5.5,,,,,,);
+	Signal['type4'].Put(0,'1',-1.65,4.8,-0.1,,,,,);
+	Structure['Signal4L0'].Put('1',-2.25,4.8,0,,,,,);
+	//Structure['SigPole_L'].Put('1',-2.2,5.5,,,,,,);
 	Structure['CR4'].Put('1',-2,3.5,0.5,,,,,);	
 	Structure['Couse_check'].Put('1',-2,1.7,0.5,,,,,);	
 	$sig=distance;
@@ -574,7 +573,7 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 22255;
 	Section.Begin(0,1,2,4);
-	Signal['type4'].Put(0,'1',-2,2.8,0,,,,,);
+	Signal['type4'].Put(0,'1',-1.82,3.5,0,,,,,);
 	//Structure['SigTun_L'].Put('1',-2,3.5,0,,,,,);
 	$sig=distance;
 	$sig-25;
@@ -600,7 +599,7 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 22435;
 	Section.Begin(0,2,4);
-	Signal['type1'].Put(0,'1',-2,2.8,0,,,,,);
+	Signal['type1'].Put(0,'1',-1.82,3.5,0,,,,,);
 	$sig=distance;
 	$sig-25;
 	Beacon.Put(4,1,0);
