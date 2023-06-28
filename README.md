@@ -13,10 +13,11 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 2. Install Bve Trainsim 5 and DirectX.（Sometimes .NET is also needed）
 3. Clone this repository or download the releases and remember the local path of it,you will use it later.
 4. Get the vehicle data from the train creator's website.Remember the local path of it,you will use it later.
-5. Notice:this route have a version using Nagoya Common.If you want to use this version,please download it from the following website:<br>
+5. Notice:this route have a version using Nagoya Common.If you want to use this version,please download nagoya common from the following website:<br>
 http://moffbarrel.stars.ne.jp/Nagoya_Common.html<br>
 Then put it in the same local path of the code repository.(Warning:Don't put it into repository!)<br>
-6. Make sure the file paths in 103M.txt is correct.Then you can open the route in Bve trainsim and enjoy it.
+6. Make sure the file paths in 103M.txt is correct.Then you can open the route in Bve trainsim and enjoy it.<br>
+Notice:Currently,the"no nagoya common"version is not fully"no nagoya common",we have to use some strutures in it.However,You can still operate the route without Nagokomo although some signs were missed. 
 ## Route information
 The current route includes one-way operation between the Hakurei Shrine and the Ningennosato in Gensokyo, with a maximum speed of 110 km/h.The route includes 6 stations:  Hakurei Shrine,South Hakurei,Eientei,Chikurin,South Ningennosato, and Ningennosato.Both local and express trains are available. 
 
