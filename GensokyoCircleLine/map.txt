@@ -17,7 +17,6 @@ include'mapsignals.txt';
 	Repeater['grassland1'].Begin('ground',0,0,0, , , ,1,,49, 'grassland');
 	Track['1'].Position(0,0,0,0);
 	Repeater['slabRail'].Begin0('1',1,4.99,5,'slabrail');
-	//SpeedLimit.Begin(110);
 	Background.Change(''); 	
 	Light.Ambient(1,1,1);
 	CabIlluminance.Set(1);
@@ -1464,7 +1463,7 @@ include'mapsignals.txt';
 	#凸→口-2,3ban sen
 	Repeater['tunwallL312'].Begin('5',-2.6,3.1,0, , , -45,3,,5, 'tunwall');
 	Repeater['tunwallR312'].Begin('6',2.6,3.1,0,, ,45 ,3,,5, 'tunwallR');
-
+	#
 	Structure['Daiyo'].Put('1',-1.9,1.5,-0.05,,,,,);
 	Structure['Daiyo'].Put('1',-8.1,1.5,-0.05,,,,,);	
 	Structure['Daiyo'].Put('4',1.9,1.5,-0.05,,,,,);

@@ -244,7 +244,6 @@ BveTs Map 2.00
 	$sig=distance;
 	$sig-400;
 	Beacon.Put(9,0,400105);
-
 10600; //场内
 	Section.Begin(0,2,3,4);
 	Signal['type1'].Put(0,'1',-2.2,4,0,,,,,);
@@ -539,7 +538,6 @@ BveTs Map 2.00
 	Section.Begin(0,2,3,4);
 	Signal['type1'].Put(0,'1',-2.15,2,0,,,,,);
 	Structure['SigTun_L'].Put('1',-2,2.5,0,,,,,);
-
 	$sig=distance;
 	$sig-30;
 	Beacon.Put(5,1,0);
