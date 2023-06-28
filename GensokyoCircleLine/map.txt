@@ -1430,6 +1430,7 @@ include'mapsignals.txt';
 	Repeater['LightL2'].End();
 	Repeater['LightR2'].End();
 	Repeater['LightL3'].End();
+	Repeater['LightR3'].End();
 	Repeater['LightR4'].End();
 	Repeater['LightL4'].End();
 	Repeater['LightR4'].End();
