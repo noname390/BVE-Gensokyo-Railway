@@ -79,6 +79,12 @@ stapier,Structures\Wall\pier.x
 #train
 E129F,Structures\e131\e131\e131Mc.x
 E129B,Structures\e131\e131\e130Tc_end.x
+#ekimei
+Ningennosato,Structures\ekimeihyo\Ningennosato.x
+Mningen,Structures\ekimeihyo\Minaminingen.x
+Chikurin,Structures\ekimeihyo\Chikurin.x
+eientei,Structures\ekimeihyo\eientei.x
+Mhakurei,Structures\ekimeihyo\Mhakurei.x
 #other
 carstop,Structures\Tetsu_Otter\carstop\carstop_easy.x
 crost,Structures\structure_Cro_st\Cro_st.x
