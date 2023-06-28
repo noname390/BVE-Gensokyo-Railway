@@ -16,7 +16,8 @@
 5. 注意:这个线路有一个使用NagoyaCommon的版本.如果你想要使用这个版本，请在下面的网站下载NagoyaCommon:<br>
 http://moffbarrel.stars.ne.jp/Nagoya_Common.html<br>
 然后把它放在和代码仓库相同的本地路径。(注意不要放进代码仓库)<br>
-6. 确保103M.txt内的文件路径是准确的，即可在Bve trainsim中打开线路。
+6. 确保103M.txt内的文件路径是准确的，即可在Bve trainsim中打开线路。<br>
+注意：“No Nagoya Common"版本目前并没有完全不使用Nagoya common。但是你仍然可以在没有Nagoya Common的情况下驾驶它，虽然一些标志会丢失。
 ## 线路信息
 目前线路数据包含了博丽神社-人间之里的单向运转。最高速度110千米/小时。含有博丽神社、南博丽、永远亭、竹林、南人间之里、人间之里6个车站。同时包括了普通和快速两种列车<br>
 如果你将这条模拟线路作为东方project的衍生创作，请注意线路中有大量信息均为作者本人的二次设定，在原作中没有出现。并且可能与其他人的想象有出入。<br>
@@ -67,5 +68,6 @@ Tetsu_Otter<br>
 Nakano_Kazusa<br>
 NT/fiv<br>
 Takamizawa<br>
+Yukkuri_Bve<br>
 车站音乐: <br>
 https://commons.nicovideo.jp/users/upload/157209?page=2
