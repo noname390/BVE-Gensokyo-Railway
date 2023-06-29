@@ -27,7 +27,7 @@ Mesh {
    0.600000;0.600000;0.600000;;
 
    TextureFilename {
-    "teisha.png";
+    "Chikurin.png";
    }
   }
  }

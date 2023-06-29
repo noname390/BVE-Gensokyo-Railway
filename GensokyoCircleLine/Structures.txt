@@ -118,6 +118,9 @@ teisha,Structures\GSR\teisha.x
 teishaT,Structures\GSR\teishaT.x
 Tningen,Structures\GSR\tsta\Ningennosato.x
 Tmningen,Structures\GSR\tsta\Mningen.x
+Tchikurin,Structures\GSR\tsta\Chikurin.x
+Teientei,Structures\GSR\tsta\Eientei.x
+Tmhakurei,Structures\GSR\tsta\Mhakurei.x
 #Fancy-N700S 
 #Limit
 100,..\Nagoya_Common\Railway_Obj\Sign\Limit\100.x

@@ -135,6 +135,9 @@ teisha,Structures\GSR\teisha.x
 teishaT,Structures\GSR\teishaT.x
 Tningen,Structures\GSR\tsta\Ningennosato.x
 Tmningen,Structures\GSR\tsta\Mningen.x
+Tchikurin,Structures\GSR\tsta\Chikurin.x
+Teientei,Structures\GSR\tsta\Eientei.x
+Tmhakurei,Structures\GSR\tsta\Mhakurei.x
 #beacon
 PBeacon1,Structures\Default\Beacon4.x
 PBeacon2,Structures\Default\Beacon3.x
