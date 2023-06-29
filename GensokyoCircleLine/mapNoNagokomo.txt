@@ -1654,4 +1654,6 @@ include 'MapSignalsNoNagokomo.txt';
 	Repeater['kasen2'].End();
 	Repeater['kasen3'].End();
 	Repeater['kasen4'].End();
+	Repeater['tunnelwall'].End();
+	
 
