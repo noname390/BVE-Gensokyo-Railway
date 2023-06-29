@@ -111,7 +111,8 @@ TunU,Structures\Accessory\Posts\Tunnel\t_pitchU.x
 100t,Structures\GSR\100mteimae.x
 200t,Structures\GSR\200mteimae.x
 300t,Structures\GSR\300mteimae.x
-
+teisha,Structures\GSR\teisha.x
+teishaT,Structures\GSR\teishaT.x
 #Fancy-N700S 
 #Limit
 100,..\Nagoya_Common\Railway_Obj\Sign\Limit\100.x
