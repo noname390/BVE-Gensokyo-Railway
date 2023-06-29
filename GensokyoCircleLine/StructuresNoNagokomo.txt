@@ -130,6 +130,8 @@ TunU,Structures\Accessory\Posts\Tunnel\t_pitchU.x
 300t,Structures\GSR\300mteimae.x
 teisha,Structures\GSR\teisha.x
 teishaT,Structures\GSR\teishaT.x
+Tningen,Structures\GSR\tsta\Ningennosato.x
+Tmningen,Structures\GSR\tsta\Mningen.x
 #beacon
 PBeacon1,Structures\Default\Beacon4.x
 PBeacon2,Structures\Default\Beacon3.x
