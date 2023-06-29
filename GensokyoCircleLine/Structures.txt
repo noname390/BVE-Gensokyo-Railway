@@ -46,6 +46,9 @@ tree3,Structures\Nature\trees\tree03_S.x
 tree4,Structures\Nature\trees\tree04_S.x
 dikegrassL,Structures\Nature\Ground\DikegrsL.x
 dikegrassR,Structures\Nature\Ground\DikegrsR.x
+bamboo1,Structures\Bamboo\bamboo1.x
+bamboo2,Structures\Bamboo\bamboo2.x
+bamboo3,Structures\Bamboo\bamboo3.x
 #wall
 dikewallL,Structures\Wall\seto_k\WallL6.x
 dikewallR,Structures\Wall\seto_k\WallR6.x
@@ -113,6 +116,8 @@ TunU,Structures\Accessory\Posts\Tunnel\t_pitchU.x
 300t,Structures\GSR\300mteimae.x
 teisha,Structures\GSR\teisha.x
 teishaT,Structures\GSR\teishaT.x
+Tningen,Structures\GSR\tsta\Ningennosato.x
+Tmningen,Structures\GSR\tsta\Mningen.x
 #Fancy-N700S 
 #Limit
 100,..\Nagoya_Common\Railway_Obj\Sign\Limit\100.x

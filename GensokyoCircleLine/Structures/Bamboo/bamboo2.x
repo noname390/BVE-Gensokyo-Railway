@@ -27,7 +27,7 @@ Mesh {
    0.600000;0.600000;0.600000;;
 
    TextureFilename {
-    "bamboo1.png";
+    "bamboo2.png";
    }
   }
  }
