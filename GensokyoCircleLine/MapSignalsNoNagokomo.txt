@@ -45,7 +45,7 @@ BveTs Map 2.00
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
 	$sig=distance;
 	$sig-30;
-	//Beacon.Put(5,1,0);
+	Beacon.Put(5,1,0);
 	Structure['PBeacon2'].Put('1',0,0,0,,,,,);
 	$sig-85;
 	Beacon.Put(3,-1,0);
@@ -109,6 +109,8 @@ BveTs Map 2.00
 	Structure['SigPole_L'].Put('1',5.9,0,0,0,10,,,);
 4737;
 	Beacon.Put(19,0,0);
+4799;
+	Section.Begin(0,2,3,4);
 4800;
 	Section.Begin(0,2,3,4);
 	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
@@ -135,7 +137,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,1,0);
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
-5160;
+5160;//南博丽出发
 	Section.Begin(0,2,4);
 	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
@@ -242,7 +244,9 @@ BveTs Map 2.00
 	$sig=distance;
 	$sig-400;
 	Beacon.Put(9,0,400105);
-10600; //场内
+10599;
+	Section.Begin(0,2,3,4);
+10600; //永远亭场内
 	Section.Begin(0,2,3,4);
 	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
@@ -268,13 +272,13 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,1,0);
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
-10880; //出发
+10880; //永远亭出发
 	Section.Begin(0,2,4);
 	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
 	$sig=distance;
 	$sig-25;
-	//Beacon.Put(4,1,0);
+	Beacon.Put(4,1,0);
 	Structure['PBeacon2'].Put('1',0,0,0,,,,,);
 	$sig-50;
 	Beacon.Put(3,1,0);
@@ -328,7 +332,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,1,0);
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
-13650;//场内
+13650;//竹林场内
 	Section.Begin(0,2,3,4);
 	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
@@ -354,7 +358,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,1,0);
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
-13950; //出发
+13950; //竹林出发
 	Section.Begin(0,2,4);
 	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
