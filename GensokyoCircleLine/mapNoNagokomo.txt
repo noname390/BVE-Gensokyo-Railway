@@ -1125,9 +1125,10 @@ include 'MapSignalsNoNagokomo.txt';
 	Structure['stop'].Put('1',-2,4.5,0,,,180,,);
 21070;
 	#Advertisemet(experimental)
-	Structure['adboard'].Put('0',-5.5,3.6,-0.6,,90,-90,,);
-	Structure['adboardback'].Put('0',-5.501,3.6,-0.5,,90,-90,,);
-	Structure['kirisame'].Put('0',-5.502,3.6,-0.55,,90,-90,,);
+	Structure['adboard'].Put('0',-4.8,1.4,-0.41,,,,,);
+	Structure['kirisame'].Put('0',-4.8,1.4,-0.409,,,,,);
+	Structure['adboard'].Put('2',4.8,1.4,-0.41,,,,,);
+	Structure['nitori'].Put('2',4.8,1.4,-0.409,,,,,);
 	#normal strutures
 	Repeater['ekimei1'].End();
 	Repeater['ekimei2'].End();
