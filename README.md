@@ -1,10 +1,10 @@
-# Gensokyo Railway Circular Line Bve Trainsim 5 route
+# Gensokyo Railway Bve Trainsim 5 route
 [中文版Readme](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/README_zh_cn.md)<br>
 [Developper Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md)<br>
 ## Introduction
-The Gensokyo Railway Circular Line is a fictional railway line developed by me and the contributors. It is an imaginary circular railway located in Gensokyo of the Touhou Project,and operated by the fictional company Gensokyo Passenger Railway Corporation.The development of this simulated line was based on the real-life railway system in the Shinetsu region of Japan, which is believed by someone to be the area where Gensokyo exists.<br>
-If you are not familiar with the Touhou Project, you can refer to this line as the "Circular Experimental Line" and enjoy it as a general fictional railway.
-Currently, the simulated line operates in one direction from the Hakurei Shrine to the Ningennosato, but it will be extended in the future and eventually become a circular line.
+The Gensokyo Railway is a fictional railway system developed by me and the contributors. It is an imaginary circular railway system located in Gensokyo of the Touhou Project,and operated by the fictional company Gensokyo Passenger Railway Corporation.The development of this simulated route was based on the real-life railway system in the Shinetsu region of Japan, which is believed by someone to be the area where Gensokyo exists.<br>
+If you are not familiar with the Touhou Project, you can also enjoy it as a general fictional railway.
+Currently, the simulated line operates in one direction from the Hakurei Shrine to the Ningennosato on the Loop Line, but it will be extended in the future and eventually become a circular line.
 ## Updates
 - 2023-6-9:set up repository
 - 2023-6-20:Release v0.2 preview and start promoting on video websites
@@ -20,7 +20,7 @@ Then put it in the same local path of the code repository.(Warning:Don't put it 
 6. Make sure the file paths in 103M.txt is correct.Then you can open the route in Bve trainsim and enjoy it.<br>
 Notice:Currently,the"no nagoya common"version is not fully"no nagoya common",we have to use some strutures in it.However,You can still operate the route without Nagokomo although some signs were missed. 
 ## Route information
-The current route includes one-way operation between the Hakurei Shrine and the Ningennosato in Gensokyo, with a maximum speed of 110 km/h.The route includes 6 stations:  Hakurei Shrine,South Hakurei,Eientei,Chikurin,South Ningennosato, and Ningennosato.Both local and express trains are available. 
+The current route includes one-way operation between the Hakurei Shrine and the Ningennosato on Gensokyo Loop Line, with a maximum speed of 110 km/h.The route includes 6 stations:  Hakurei Shrine,South Hakurei,Eientei,Chikurin,South Ningennosato, and Ningennosato.Both local and express trains are available. 
 
 If you use this simulated train route as a derivative work in the Touhou Project, please note that many of the details are the author's own interpretation and may differ from others' imaginations or the offical work. The geographic information of Gensokyo in the route comes from the following website:<br>
 [幻想郷・最新版地理考察](https://yotogiluminary.wixsite.com/website/post/000014)<br>
@@ -32,7 +32,7 @@ If you use this simulated train route as a derivative work in the Touhou Project
 (Thanks for @AshBill who created the new routemap)
 
 ### Mileage
-The mileage data is the author's own setting, unrelated to the original work, and may not correspond to the imaginations of others regarding the size of Gensokyo. 
+The mileage data is the author's own setting, unrelated to the original work of touhou peoject, and may not correspond to the imaginations of others regarding the size of Gensokyo. 
 
 The distance is measured precisely to 0.001 kilometers. 
 
