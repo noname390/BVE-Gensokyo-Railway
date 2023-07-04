@@ -16,7 +16,7 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 4. Get the vehicle data from the train creator's website.Remember the local path of it,you will use it later.
 5. Notice:this route have a version using Nagoya Common.If you want to use this version,please download nagoya common from the following website:<br>
 http://moffbarrel.stars.ne.jp/Nagoya_Common.html<br>
-Then put it in the same local path of the code repository.(Warning:Don't put it into repository!)<br>
+Then put it in the empty folder "Nagoya_common" of the code repository.<br>
 6. Make sure the file paths in 103M.txt is correct.Then you can open the route in Bve trainsim and enjoy it.<br>
 Notice:Currently,the"no nagoya common"version is not fully"no nagoya common",we have to use some strutures in it.However,You can still operate the route without Nagokomo although some signs were missed. 
 ## Route information
