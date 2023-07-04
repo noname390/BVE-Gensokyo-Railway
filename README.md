@@ -20,7 +20,7 @@ Then put it in the empty folder "Nagoya_common" of the code repository.<br>
 6. Make sure the file paths in 103M.txt is correct.Then you can open the route in Bve trainsim and enjoy it.<br>
 Notice:Currently,the"no nagoya common"version is not fully"no nagoya common",we have to use some strutures in it.However,You can still operate the route without Nagokomo although some signs were missed. 
 ## Route information
-The current route includes one-way operation between the Hakurei Shrine and the Ningennosato on Gensokyo Loop Line, with a maximum speed of 110 km/h.The route includes 6 stations:  Hakurei Shrine,South Hakurei,Eientei,Chikurin,South Ningennosato, and Ningennosato.Both local and express trains are available. 
+The current route includes one-way operation between the Hakurei Shrine and the Ningennosato on Gensokyo Loop Line, with a maximum speed of 110 km/h.The route includes 6 stations:  Hakurei Shrine,South Hakurei,Eientei,Chikurin,South Ningennosato, and Ningennosato.Currently,all trains are local service. 
 
 If you use this simulated train route as a derivative work in the Touhou Project, please note that many of the details are the author's own interpretation and may differ from others' imaginations or the offical work. The geographic information of Gensokyo in the route comes from the following website:<br>
 [幻想郷・最新版地理考察](https://yotogiluminary.wixsite.com/website/post/000014)<br>
