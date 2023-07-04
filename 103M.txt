@@ -1,4 +1,4 @@
-BveTs Scenario 2.00:
+BveTs Scenario 2.00:UTF-8
 
 Title = Gensokyo Loop Line Local 103M(Hakurei Shrine-Ningennosato)
 Author = SapporoNingyo(github)
