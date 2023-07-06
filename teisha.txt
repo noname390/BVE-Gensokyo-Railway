@@ -1,4 +1,5 @@
 This helps to stop at right position while arriving stations
+这些信息可以帮助提高对标准确性
 E129-B11:
 (Notch-Speed:Stopdistance)
 B4-110km/h:824m
