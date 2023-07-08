@@ -63,7 +63,7 @@ Operating with the B11 hensei is recommended<br>
 The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
 The creator of this vehicle,like many creators in Japan, has strict distribution terms for their work. Therefore, please visit the creator's website to obtain the train data.<br>
 ## Operating method
-please visit the train creator's website
+Please visit the train creator's website
 ## License
 MIT License<br>
 The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
