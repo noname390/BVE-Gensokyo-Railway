@@ -554,8 +554,8 @@ BveTs Map 2.00
 	Signal['type4'].Put(0,'1',-1.65,4.8,-0.1,,,,,);
 	Structure['Signal4L0'].Put('1',-2.25,4.8,0,,,,,);
 	//Structure['SigPole_L'].Put('1',-2.2,5.5,,,,,,);
-	Structure['CR4'].Put('1',-2,3.5,0.5,,,,,);	
-	Structure['Couse_check'].Put('1',-2,1.7,0.5,,,,,);	
+	Structure['CR4'].Put('1',-2,3.1,0.5,,,,,);	
+	//Structure['Couse_check'].Put('1',-2,1.7,0.5,,,,,);	
 	$sig=distance;
 	$sig-25;
 	Beacon.Put(4,1,0);

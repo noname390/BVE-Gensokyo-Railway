@@ -170,15 +170,10 @@ Rep4,Structures\Default\signalrep4.x
 #RepGGN,..\Nagoya_Common/Railway_Obj/Signal/Rep/GGN.x,
 #RepGG,..\Nagoya_Common/Railway_Obj/Signal/Rep/GG.x,
 #進路表示
-CR1,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\1.x,
-CR2,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\2.x,
-CR3,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\3.x,
-CR4,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\4.x,
-CR5,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\5.x,
-CR6,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\6.x,
-CR7,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\7.x,
-CR8,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\8.x,
-CRC,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\-.x,
+#CR1,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\1.x,
+#CR2,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\2.x,
+#CR3,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\3.x,
+CR4,Structures\CR\CR4.x,
 ,,
 #信号ポール
 SigPole,Structures\Default\Sigpole.x
@@ -189,7 +184,6 @@ check,..\Nagoya_Common\Railway_Obj\Sign\Check\Check.x
 check_departure,..\Nagoya_Common\Railway_Obj\Sign\Check\Check_Departure.x
 check_home,..\Nagoya_Common\Railway_Obj\Sign\Check\Check_Home.x
 check_relay,..\Nagoya_Common\Railway_Obj\Sign\Check\Check_relay.x
-Couse_check,..\Nagoya_Common\Railway_Obj\Sign\Test_Route\Couse.x
 Daiyo,..\Nagoya_Common\Railway_Obj\Sign\Test_Route\Daiyo.x
 Class,..\Nagoya_Common\Railway_Obj\Sign\Test_Route\Class.x
 StopPass,..\Nagoya_Common\Railway_Obj\Sign\Test_Route\StopPass.x
