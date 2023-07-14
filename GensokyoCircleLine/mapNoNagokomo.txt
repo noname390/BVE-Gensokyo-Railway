@@ -433,8 +433,6 @@ include 'MapSignalsNoNagokomo.txt';
 	Structure['end'].Put('1',-2.4,-0.25,0,,,,,);
 	Structure['limitpole'].Put('1',-2.4,-0.2,0,,,,,);
 	Curve.End();
-4195;
-	Structure['StopPass'].Put('1',-2.6,2.5,0,,,,,);
 4397;
 	Curve.BeginTransition();
 4417;
