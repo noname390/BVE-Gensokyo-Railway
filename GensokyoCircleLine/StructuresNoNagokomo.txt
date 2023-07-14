@@ -167,8 +167,8 @@ Signal4G4,Structures\Default\Signal4yy4.x
 Rep0,Structures\Default\signalrep0.x
 Rep1,Structures\Default\signalrep1.x
 Rep4,Structures\Default\signalrep4.x
-RepGGN,..\Nagoya_Common/Railway_Obj/Signal/Rep/GGN.x,
-RepGG,..\Nagoya_Common/Railway_Obj/Signal/Rep/GG.x,
+#RepGGN,..\Nagoya_Common/Railway_Obj/Signal/Rep/GGN.x,
+#RepGG,..\Nagoya_Common/Railway_Obj/Signal/Rep/GG.x,
 #進路表示
 CR1,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\1.x,
 CR2,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\2.x,
