@@ -12,7 +12,7 @@ BveTs Map 2.00
 	Section.Begin(0,2,4);
 	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
-	//Structure['PS'].Put('1',-2.2,3,0.5,,,,,);
+	Structure['PS'].Put('1',-2.4,3,-0.05,,,,,);
 	Structure['Signal1L0'].Put('3',-2.4,4.5,0,,,,,);
 	Structure['SigPole_L'].Put('3',-2.4,0,0,,,,,);
 1200;
