@@ -15,11 +15,18 @@ this document is not completed.Please wait.<br>
 6. Now you are a contributor of this project.Your username will appear on the right side of the repository page.
 ## informations
 ### Routes
+#### RouteMap
+<p align="center">
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/Gensokyo_CircleLine_RailMap_Planned.jpg" alt="routemap";>
+</p>
+<br>
+(Thanks for @AshBill who created the new routemap)
+
 #### Loop line（環状線）
 #### Hakurei Moriya line（博麗守矢ライン）
 #### Koto line（湖東線）
 #### Meikai line（冥界線）
-### Routemap
+### Routedesign
 #### HakureiShrine->Ningennosato
 <p align="center">
     <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/route_design_Hakurei-ningen.jpg" alt="routemap";>
