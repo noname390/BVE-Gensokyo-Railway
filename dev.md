@@ -118,8 +118,4 @@ Hakurei Moriya Line:<br>
 最高速度：120km/h<br>
 列車種別：特急（冥界線は全列車特急）<br>
 ### experimental features
-#### Movable advertisement board
-An advertsement board was put at position of the platform end wall at minami-ningennosato station.<br>
-And it will become movable in the future.<br>
-Added Jun 27:<br>
-This seems hard to achive.Need more time working on it.
+no content

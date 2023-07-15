@@ -49,7 +49,18 @@ The following is the distance for the section from Hakurei Shrine to Ningennosat
 
 View [Developper Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md)for more detailed information.
 ### Timetable
-The detailed timetable isn't made currnetly. 
+#### Loop Line
+
+|駅名      |普通 103M|
+|---       |---      |
+|博麗神社  |    0851  | 
+|南博麗    | 	0855  |
+|永遠亭    | 	0900  |
+|竹林      | 	0903  |
+|南人間の里| 	0910  |
+|人間の里  | 	0912  |
+|         | 	=	  | 
+
 ## Train information
 The following are recommended trains that can be adjusted as needed,using train data supported by Bve5.
 ### JR East E129 Series
