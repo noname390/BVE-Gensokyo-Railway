@@ -179,10 +179,8 @@ CR4,Structures\CR\CR4.x,
 SigPole,Structures\Default\Sigpole.x
 SigPole_L,Structures\Default\Sigpole.x
 #その他
-PS,..\Nagoya_Common\Railway_Obj\Sign\Test_Route\PS.x
-check,..\Nagoya_Common\Railway_Obj\Sign\Check\Check.x
-check_departure,..\Nagoya_Common\Railway_Obj\Sign\Check\Check_Departure.x
-check_home,..\Nagoya_Common\Railway_Obj\Sign\Check\Check_Home.x
-check_relay,..\Nagoya_Common\Railway_Obj\Sign\Check\Check_relay.x
-Daiyo,..\Nagoya_Common\Railway_Obj\Sign\Test_Route\Daiyo.x
-Class,..\Nagoya_Common\Railway_Obj\Sign\Test_Route\Class.x
+PS,Structures\GSR\ATSP.x
+check,Structures\CHECKING\CK.x
+check_departure,Structures\CHECKING\CKD.x
+check_home,Structures\CHECKING\CKJ.x
+check_relay,Structures\CHECKING\CKC.x
