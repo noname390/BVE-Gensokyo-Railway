@@ -17,6 +17,6 @@ Sound['go04go05-1'].Play();
 20140;
 Sound['go04go05-2'].Play();
 21060;
-Sound['go05go06-1'].Play();
+//Sound['go05go06-1'].Play();
 21395;
 Sound['go05go06-2'].Play();
