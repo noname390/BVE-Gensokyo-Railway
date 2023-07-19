@@ -6,3 +6,13 @@ chikurin,sound\station\chikurin.wav
 minaminingen1,sound\station\minami-ningennosato1.wav
 minaminingen2,sound\station\minami-ningennosato2.wav
 ningen1,sound\station\ningennosato1.wav
+go01go02-1,sound\shanai\hakurei-mhakurei1.wav
+go01go02-2,sound\shanai\hakurei-mhakurei2.wav
+go02go03-1,sound\shanai\mhakurei-eientei1.wav
+go02go03-2,sound\shanai\mhakurei-eientei2.wav
+go03go04-1,sound\shanai\eientei-chikurin1.wav
+go03go04-2,sound\shanai\eientei-chikurin2.wav
+go04go05-1,sound\shanai\chikurin-minaminingennosato1.wav
+go04go05-2,sound\shanai\chikurin-minaminingennosato2.wav
+go05go06-1,sound\shanai\minaminingennosato-ningennosato1.wav
+go05go06-2,sound\shanai\minaminingennosato-ningennosato2.wav
