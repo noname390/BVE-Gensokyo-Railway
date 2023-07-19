@@ -28,7 +28,7 @@ The next station is Chikurin.
 eientei-chikurin2:
 まもなく、竹林、竹林です。お出口は、左側です。
 We will soon arrive at Chikurin.The doors on the left side will open.
-列车即将到达永远亭站，左侧的车门将会打开。
+列车即将到达竹林站，左侧的车门将会打开。
 
 chikurin-minaminingennosato1:
 次は、南人間の里、南人間の里です。
