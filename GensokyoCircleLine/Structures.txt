@@ -68,6 +68,11 @@ kasenhangR,Structures\Accessory\E_Poles\acc\MinibeamF02L.x
 #light
 light,Structures\structure_FL\FL.x
 tunlight,Structures\Tunnel\huku_light.x
+#roof
+roof,Structures\lopoli_houses\x\acc\wall\roof\roof.x
+#stawall
+stawall,Structures\lopoli_houses\x\acc\wall\wall_houseL04_5m.x
+stawallR,Structures\lopoli_houses\x\acc\wall\wall_houseR04_5m.x
 #formwall
 formwallwhite,Structures\lopoli_houses\x\acc\wall\wall_houseL53_5m.x
 formwallgrey,Structures\lopoli_houses\x\acc\wall\wall_houseL54_5m.x
