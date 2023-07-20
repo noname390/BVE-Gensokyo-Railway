@@ -96,6 +96,8 @@ Mhakurei,Structures\ekimeihyo\Mhakurei.x
 #road
 road2line_a,Structures\Road\road_070_d.x
 road2line_b,Structures\Road\road_070_c.x
+#frameworks
+staframework,Structures\GSR\frameworks\staframework.x
 #other
 carstop,Structures\Tetsu_Otter\carstop\carstop_easy.x
 crost,Structures\structure_Cro_st\Cro_st.x
