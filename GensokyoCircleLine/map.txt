@@ -541,7 +541,11 @@ include 'Mapsound103M.txt';
 	Structure['bushb4'].Put('1',-29,-1.8,0.3,,,,,);
 	Structure['bushb3'].Put('1',-31,-1.7,0.2,,,,,);
 	Structure['bushb2'].Put('1',-33,-1.6,0.5,,,,,);
-	Structure['bushb1'].Put('1',-35,-1.6,0.1,,,,,);
+	Structure['bushb1'].Put('1',-35,-1.6,0.6,,,,,);
+	Structure['bushb1'].Put('1',-37,-1.8,0.2,,,,,);
+	Structure['bushb2'].Put('1',-39,-1.8,0.5,,,,,);
+	Structure['bushb3'].Put('1',-41,-1.6,0.3,,,,,);
+	Structure['bushb4'].Put('1',-43,-1.8,0.4,,,,,);
 
 2850;
 	Repeater['tree5'].Begin('ground',-14,-0.1,0, , , ,3,,50, 'tree1');
