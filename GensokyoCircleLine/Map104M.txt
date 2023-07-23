@@ -1,8 +1,10 @@
 BveTs Map 2.02
 
-22310;
+22315;
 //Train.Add('104M','Structures\e131\move\104M.txt',2,-1);
 Train['104M'].Load('Structures\e131\move\104M.txt','2',-1);
 Train['104M'].Enable('08:52:00');
+Train['104M'].Stop(2,90,2,90);
+20070;
 Train['104M'].Stop(2,90,2,90);
 
