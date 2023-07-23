@@ -133,6 +133,8 @@ stop,Structures\Default\Stop.x
 koudanapr,Structures\lopoli_houses\x\kodan_apart\kodan.x
 apr,Structures\lopoli_houses\x\apart\AP01_51.x
 woodho1,Structures\lopoli_houses\x\woodhouse\H01_01.x
+woodho4,Structures\lopoli_houses\x\woodhouse\H01_04.x
+woodapr1,Structures\lopoli_houses\x\woodapart\AP01_01.x
 woodapr2,Structures\lopoli_houses\x\woodapart\AP01_02.x
 #experimental
 adboard,Structures\adboard\out.x
