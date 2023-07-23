@@ -1,15 +1,26 @@
 BveTs Train 1.00
 
 [Structure]
-key= E129F
+key= E129B
 distance= 20
 span= 20
 z= 10
 
 [Structure]
-key= E129B
-distance= 40.1
+key= E129F
+distance= 40
 span= 20
 z= 10
 
+[Structure]
+key= E129B
+distance= 60
+span= 20
+z= 10
+
+[Structure]
+key= E129F
+distance= 80
+span= 20
+z= 10
 
