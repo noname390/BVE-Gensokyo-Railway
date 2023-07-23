@@ -1905,6 +1905,8 @@ include 'Map104M.txt';
 19160;
 	Repeater['woodapr1L'].End();
 	Repeater['woodapr2L'].End();
+	Repeater['roada'].End();
+	Repeater['roadb'].End();
 #地下区間
 19170;
 	Repeater['pole1'].End();
