@@ -10,6 +10,7 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 - 2023-6-20:Release v0.2 preview and start promoting on video websites
 - 2023-6-30:Release v0.3 preview
 - 2023-7-20:Release v0.4 preview
+- 2023-7-23:Basic strutures (HKR-NNS) completed.
 ## Installation Guide
 1. Make sure you are in Windows operating system.
 2. Install Bve Trainsim 5 and DirectX.（Sometimes .NET is also needed）
