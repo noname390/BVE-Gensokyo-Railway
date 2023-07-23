@@ -1888,7 +1888,8 @@ include 'Map104M.txt';
 	Repeater['woodho2L'].End();
 	Repeater['woodho3L'].End();
 18765;
-	
+	Repeater['woodapr1L'].Begin('ground',-17,-0,,,90, ,3,0,60, 'woodapr1');
+	Repeater['woodapr2L'].Begin('ground',-15,-0,30,,90, ,3,0,60, 'woodapr2');
 18973;
 	Curve.BeginTransition();
 18993;
@@ -1901,6 +1902,9 @@ include 'Map104M.txt';
 19155;
 	Fog.Interpolate(0.002,0,0,0);
 	#Legacy.Fog(60, 70, 0, 0, 0);
+19160;
+	Repeater['woodapr1L'].End();
+	Repeater['woodapr2L'].End();
 #地下区間
 19170;
 	Repeater['pole1'].End();
