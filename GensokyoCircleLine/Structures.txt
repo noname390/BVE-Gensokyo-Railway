@@ -132,6 +132,7 @@ stop,Structures\Default\Stop.x
 #bulidings
 koudanapr,Structures\lopoli_houses\x\kodan_apart\kodan.x
 apr,Structures\lopoli_houses\x\apart\AP01_51.x
+woodho1R,Structures\lopoli_houses\x\woodhouse\H01_01R.x
 #experimental
 adboard,Structures\adboard\out.x
 kirisame,Structures\adboard\kirisame.x

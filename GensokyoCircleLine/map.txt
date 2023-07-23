@@ -1729,6 +1729,9 @@ include 'Map104M.txt';
 	//Structure['limitpole'].Put('1',-2.4,0.4,0,,,,,);
 18000;
 	track['road'].Position(12,0,650,0);
+	Structure['woodho1R'].Put('ground',6.3,0,,,0,,,);
+18120;
+
 18300;
 	Repeater['fieldL'].End();
 	track['road'].Position(70,0,0,0);
