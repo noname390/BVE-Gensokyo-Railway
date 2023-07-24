@@ -2,7 +2,7 @@ BveTs Scenario 2.00:UTF-8
 
 Title = Gensokyo Loop Line Local 103M(Hakurei Shrine-Ningennosato)
 Author = SapporoNingyo(github)
-Route = GensokyoCircleLine\map.txt
+Route = GensokyoCircleLine\Map103M.txt
 RouteTitle = Gensokyo Loop Line
 Vehicle = ..\E129\Nii-B11.txt 
 VehicleTitle = JR East E129 series（4 car）
