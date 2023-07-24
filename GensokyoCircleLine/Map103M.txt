@@ -1,4 +1,5 @@
 BveTs Map 2.02
+$dist1=0;
 
 Structure.Load('Structures.txt');
 Sound.Load('sound.txt');
@@ -8,8 +9,6 @@ Signal.SpeedLimit(0,25,55,75,110);
 include 'MapSignals103M.txt';
 include 'Mapsound103M.txt';
 include 'Map104M.txt';
-
-$dist1=0;
 
 0+$dist1;
 include 'mapA.txt';

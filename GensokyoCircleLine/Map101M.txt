@@ -1,5 +1,5 @@
 BveTs Map 2.02
-
+$dist1=1490;
 Structure.Load('Structures.txt');
 Sound.Load('sound.txt');
 Station.Load('Stations101M.txt');
@@ -8,11 +8,12 @@ Signal.SpeedLimit(0,25,55,75,110);
 include 'MapSignals101M.txt';
 include 'Mapsound101M.txt';
 //include 'Map104M.txt';
-
-$dist1=0;
-
+0;
+	include 'MapHRDepot.txt';
+10;
+	Station['0'].Put(0,-5,5);
 0+$dist1;
-include 'mapA.txt';
+	include 'mapA.txt';
 10+$dist1;
 	Station['1'].Put(-1,-5,5);
 5110+$dist1;
