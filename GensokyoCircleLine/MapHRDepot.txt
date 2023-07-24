@@ -81,7 +81,8 @@ BveTs Map 2.02
     Repeater['bridgewallL2'].Begin('3',-0.2,-0.5,0, , , ,3,,5, 'bridgewallL');
     Repeater['bridgewallR2'].Begin('3',0.2,-0.5,0, , , ,3,,5, 'bridgewallR');
     Repeater['concbridge2'].Begin('3',0,-0.25,0, , , ,3,5,5, 'concbridge');
-    Structure['bridgewallL'].Put('2',-3.1,-0.5,1.6,,-90,,,);
+    Structure['bridgewallL'].Put('2',-3.1,-0.5,2.7,,-90,,,);
+    Structure['bridgewallL'].Put('2',-3.85,-0.5,2.701,,-90,,,);
 952.5;
     Track['3'].Position(-5,0,-1400,0);
 925;
