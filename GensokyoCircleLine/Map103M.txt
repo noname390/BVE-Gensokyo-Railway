@@ -5,14 +5,14 @@ Sound.Load('sound.txt');
 Station.Load('Stations103M.txt');
 Signal.Load('Signals.csv');
 Signal.SpeedLimit(0,25,55,75,110);
-include 'MapSignals.txt';
+include 'MapSignals103M.txt';
 include 'Mapsound103M.txt';
 include 'Map104M.txt';
 
 $dist1=0;
 
 0+$dist1;
-include 'map.txt';
+include 'mapA.txt';
 10+$dist1;
 	Station['1'].Put(-1,-5,5);
 5110+$dist1;
