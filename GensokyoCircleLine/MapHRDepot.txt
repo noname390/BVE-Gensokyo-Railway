@@ -157,6 +157,11 @@ BveTs Map 2.02
 	Repeater['bushL13'].Begin('ground',-5,-1.9,12, , , ,3,5,25, 'bush3');
 	Repeater['bushL14'].Begin('ground',-5,-1.4,17, , , ,3,5,25, 'bush4');
 	Repeater['bushL15'].Begin('ground',-5,-1.6,22, , , ,3,5,25, 'bush5');
+    Repeater['bushL21'].Begin('ground',-7,-1.5,0, , , ,3,5,25, 'bush1');
+	Repeater['bushL22'].Begin('ground',-7,-1.8,5, , , ,3,5,25, 'bush2');
+	Repeater['bushL23'].Begin('ground',-7,-1.9,10, , , ,3,5,25, 'bush3');
+	Repeater['bushL24'].Begin('ground',-7,-1.4,15, , , ,3,5,25, 'bush4');
+	Repeater['bushL25'].Begin('ground',-7,-1.6,20, , , ,3,5,25, 'bush5');
     Repeater['bushR11'].Begin('ground',5,-1.5,2, , , ,3,5,25, 'bush1');
 	Repeater['bushR12'].Begin('ground',5,-1.8,7, , , ,3,5,25, 'bush2');
 	Repeater['bushR13'].Begin('ground',5,-1.9,12, , , ,3,5,25, 'bush3');
@@ -214,6 +219,11 @@ BveTs Map 2.02
     Repeater['bushL13'].End();
     Repeater['bushL14'].End();
     Repeater['bushL15'].End();
+    Repeater['bushL21'].End();
+    Repeater['bushL22'].End();
+    Repeater['bushL23'].End();
+    Repeater['bushL24'].End();
+    Repeater['bushL25'].End();
     Repeater['bushR11'].End();
     Repeater['bushR12'].End();
     Repeater['bushR13'].End();
