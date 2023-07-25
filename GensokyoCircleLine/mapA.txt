@@ -78,7 +78,7 @@ Curve.SetGauge(1.067);
 10-100+$dist1;
 	Structure['100t'].Put('3',-6,0.8,0,,,,,);
 	Structure['limitpole'].Put('3',-6,1.2,0,,,,,);
-	Structure['100t'].Put('1',-2.2,2.3,0,,,,,);
+	Structure['100t'].Put('1',-2.25,2.3,0,,,,,);
 10+$dist1;
 	Background.Change('Bg_mt');
 	Structure['stop'].Put('1',2,-0.3,0,,,,,);
