@@ -146,6 +146,7 @@ Curve.SetGauge(1.067);
 	Repeater['LightR1'].End();
 	Repeater['LightL2'].End();
 	Repeater['LightR2'].End();
+	SpeedLimit.Begin(0);
 40+$dist1;
 	Repeater['concpole11'].End();
 	Repeater['concpole12'].End();
