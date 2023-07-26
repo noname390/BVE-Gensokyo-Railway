@@ -354,6 +354,11 @@ BveTs Map 2.02
 	Repeater['stawallR2'].Begin('4',1.79,5.3, , , , 45,3,5,5, 'stawallR');
 	Repeater['stawallL2'].Begin('3',-1.79,5.3, , , ,-45 ,3,5,5, 'stawall');
 	Repeater['staroof'].Begin('1',2,6.3,2.5,-90,, ,3,5,5, 'roof');
+    Repeater['staroofout'].Begin('1',2,7.8,2.5,90,, ,3,5,5, 'roofout');
+    Repeater['staoutwallL1'].Begin('3',-2.06,-1,2.5,90,90,,3,5,5, 'staoutwall');
+    Repeater['staoutwallR1'].Begin('4',2.06,-1,2.5,-90,-90,,3,5,5, 'staoutwall');
+    Repeater['staoutwallL2'].Begin('3',-2.06,7.8,2.5,90,90,,3,5,5, 'staoutwall1');
+    Repeater['staoutwallR2'].Begin('4',2.06,7.8,2.5,-90,-90,,3,5,5, 'staoutwall1');
 	Repeater['modernformL1'].Begin('1',0, 0, 0, , , ,3,,5, 'modernformL');
 	Repeater['modernformL2'].Begin('4',0, 0, 0, , , ,3,,5, 'modernformL');
 	Repeater['modernformR1'].Begin('2',0, 0, 0, , , ,3,,5, 'modernformR');
@@ -395,6 +400,7 @@ BveTs Map 2.02
 	Structure['formendfence'].Put('4',-3.7,1.2,0.3,,,,,);
     Structure['stapier'].Put('1',-4,8.4,-0.5,,,,,);
 	Structure['stapier'].Put('4',-4,8.4,-0.5,,,,,);
+    Structure['stafrontwall'].Put('1',2,7.8,-0.01,,,,,);
     #ekimei
 	Repeater['ekimei1'].Begin('1',-4,0.5,15, ,-90,,3,,30, 'hakurei');
 	Repeater['ekimei2'].Begin('2',4,0.5,15, ,90,,3,,30, 'hakurei');
