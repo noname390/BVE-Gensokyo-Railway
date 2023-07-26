@@ -113,6 +113,7 @@ Mningen,Structures\ekimeihyo\Minaminingen.x
 Chikurin,Structures\ekimeihyo\Chikurin.x
 eientei,Structures\ekimeihyo\eientei.x
 Mhakurei,Structures\ekimeihyo\Mhakurei.x
+hakurei,Structures\ekimeihyo\hakurei.x
 #road
 road2line_a,Structures\Road\road_070_d.x
 road2line_b,Structures\Road\road_070_c.x
