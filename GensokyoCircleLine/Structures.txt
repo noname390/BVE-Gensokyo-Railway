@@ -111,6 +111,8 @@ stapier,Structures\Wall\pier.x
 #train
 E129F,Structures\e131\e131\e131Mc.x
 E129B,Structures\e131\e131\e130Tc_end.x
+E129F1,Structures\e131\e131\e131Mc2.x
+E129B1,Structures\e131\e131\e130Tc_end2.x
 #ekimei
 Ningennosato,Structures\ekimeihyo\Ningennosato.x
 Mningen,Structures\ekimeihyo\Minaminingen.x

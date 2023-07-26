@@ -4020,7 +4020,7 @@ Mesh  {
    1.000000;1.000000;1.000000;;
 
    TextureFilename  {
-    "destination.png";
+    "hakurei.png";
    }
   }
 
@@ -4074,7 +4074,7 @@ Mesh  {
    1.000000;1.000000;1.000000;;
 
    TextureFilename  {
-    "Train_no.png";
+    "104m.png";
    }
   }
 

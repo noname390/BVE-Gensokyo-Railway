@@ -4020,7 +4020,7 @@ Mesh  {
    1.000000;1.000000;1.000000;;
 
    TextureFilename  {
-    "hakurei.png";
+    "ningen.png";
    }
   }
 
@@ -4074,7 +4074,7 @@ Mesh  {
    1.000000;1.000000;1.000000;;
 
    TextureFilename  {
-    "104m.png";
+    "101m.png";
    }
   }
 
