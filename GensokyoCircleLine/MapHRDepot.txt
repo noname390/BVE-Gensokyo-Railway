@@ -407,10 +407,12 @@ BveTs Map 2.02
     Repeater['ekimei3'].Begin('1',-4.05,0.5,10, ,90,,3,,20, 'hakurei');
 	Repeater['ekimei4'].Begin('2',4.05,0.5,10, ,-90,,3,,20, 'hakurei');
     #led
-    
     Repeater['led1'].Begin('3',3.30,0.5,17, ,0,,3,,40, 'hakurei1');
     Repeater['led3'].Begin('2',3.30,0.5,17, ,0,,3,,40, 'hakurei3');
     Repeater['led4'].Begin('4',-3.30,0.5,17, ,0,,3,,40, 'hakurei4');
+    Repeater['led1b'].Begin('3',3.30,0.5,17.05, ,180,,3,,40, 'hakurei1');
+    Repeater['led3b'].Begin('2',3.30,0.5,17.05, ,180,,3,,40, 'hakurei3');
+    Repeater['led4b'].Begin('4',-3.30,0.5,17.05, ,180,,3,,40, 'hakurei4');
     #formpoles
     $polepositionx1=-3;
     $polepositiony1=0.5;
