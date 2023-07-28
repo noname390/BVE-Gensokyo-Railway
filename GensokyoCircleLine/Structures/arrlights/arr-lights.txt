@@ -1,0 +1,902 @@
+BveTs Train 1.00
+
+[Structure]
+key= arrlight
+distance= -50
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -100
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -150
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-200
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-250
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-300
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-350
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-400
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -450
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -500
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -550
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -600
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -650
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-700
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-750
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-800
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-850
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-900
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -950
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -1000
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -1050
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -1100
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -1150
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-1200
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-1250
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-1300
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-1350
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-1400
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -1450
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -1500
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -1550
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -1600
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -1650
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-1700
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-1750
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-1800
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-1850
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-1900
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -1950
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -2000
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -2050
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -2100
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -2150
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-2200
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-2250
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-2300
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-2350
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-2400
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -2450
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -2500
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -2550
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -2600
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -2650
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-2700
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-2750
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-2800
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-2850
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-2900
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -2950
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -3000
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -3050
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -3100
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -3150
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-3200
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-3250
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-3300
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-3350
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-3400
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -3450
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -3500
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -3550
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -3600
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -3650
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-3700
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-3750
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-3800
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-3850
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-3900
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -3950
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -4000
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -4050
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -4100
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -4150
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-4200
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-4250
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-4300
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-4350
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-4400
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -4450
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -4500
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -4550
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -4600
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -4650
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-4700
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-4750
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-4800
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-4850
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-4900
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -4950
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -5000
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -5050
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -5100
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -5150
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-5200
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-5250
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-5300
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-5350
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-5400
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -5450
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -5500
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -5550
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -5600
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -5650
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-5700
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-5750
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-5800
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-5850
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-5900
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -5950
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -6000
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -6050
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -6100
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -6150
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-6200
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-6250
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-6300
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-6350
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-6400
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -6450
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -6500
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -6550
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -6600
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -6650
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-6700
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-6750
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-6800
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-6850
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-6900
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -6950
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -7000
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -7050
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -7100
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -7150
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-7200
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-7250
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-7300
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-7350
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance=-7400
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -450
+span= 50
+z= 50
+
+[Structure]
+key= arrlight
+distance= -7500
+span= 50
+z= 50
+

@@ -160,10 +160,14 @@ woodapr2,Structures\lopoli_houses\x\woodapart\AP01_02.x
 #elevator
 ele-front,Structures\elevator\ele-front.x
 ele-side,Structures\elevator\ele-side.x
+#stairs
+stairsup,Structures\stairs\stairsup.x
+stairsside,Structures\stairs\stairsside.x
 #experimental
 adboard,Structures\adboard\out.x
 kirisame,Structures\adboard\kirisame.x
 nitori,Structures\adboard\nitoricomputer.x
+arrlight,Structures\arrlights\arrlight.x
 #Limit
 9,Structures\Default\SpeedLim9.x
 8,Structures\Default\SpeedLim8.x
