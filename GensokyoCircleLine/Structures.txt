@@ -157,6 +157,9 @@ woodho1,Structures\lopoli_houses\x\woodhouse\H01_01.x
 woodho4,Structures\lopoli_houses\x\woodhouse\H01_04.x
 woodapr1,Structures\lopoli_houses\x\woodapart\AP01_01.x
 woodapr2,Structures\lopoli_houses\x\woodapart\AP01_02.x
+#elevator
+ele-front,Structures\elevator\ele-front.x
+ele-side,Structures\elevator\ele-side.x
 #experimental
 adboard,Structures\adboard\out.x
 kirisame,Structures\adboard\kirisame.x

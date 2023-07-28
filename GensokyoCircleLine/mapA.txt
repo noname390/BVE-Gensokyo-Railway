@@ -81,6 +81,8 @@ Curve.SetGauge(1.067);
 10+$dist1;
 	Background.Change('Bg_mt');
 	Structure['stop'].Put('1',2,-0.3,0,,,,,);
+27+$dist1;
+	Structure['ele-front'].Put('1',-4,1.1,0,,,,,);
 30+$dist1;
 	Repeater['modernformL1'].End();
 	Repeater['modernformL2'].End();
