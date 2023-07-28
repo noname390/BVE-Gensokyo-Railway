@@ -124,4 +124,3 @@ Hakurei Moriya Line:<br>
 最高速度：120km/h<br>
 列車種別：特急（冥界線は全列車特急）<br>
 ### experimental features
-no content
