@@ -1,13 +1,14 @@
 BveTs Map 2.02
 
+0+$dist1;
+Track['light1'].Position(-216,-301.15,600,0);
 19000+$dist1;
 Track['light1'].Position(-216,-301.15,600,0);
 20075+$dist1;
 Track['light1'].Position(-116,1.11,-600,0);
 20436+$dist1;
 Track['light1'].Position(-2.9,1.11,0,0);
-20000+$dist1;
-Track['light1'].Position(-2.9,1.11,0,0);
+0+$dist1;
 Train['arr1'].Load('Structures\arrlights\arr-lights.txt','light1',1);
 Train['arr1'].Enable('07:39:13');
 Train['arr2'].Load('Structures\arrlights\arr-lights.txt','light1',1);
@@ -170,7 +171,7 @@ Train['arrb39'].Enable('09:09:51');
 Train['arrb40'].Load('Structures\arrlights\arr-lights.txt','light1',1);
 Train['arrb40'].Enable('09:09:52');
 
-20050+$dist1;
+50+$dist1;
 Train['arr1'].Stop(10,1,9999900,54000);
 Train['arr2'].Stop(10,1,9999900,54000);
 Train['arr3'].Stop(10,1,9999900,54000);
@@ -252,6 +253,8 @@ Train['arrb37'].Stop(10,1,9999900,54000);
 Train['arrb38'].Stop(10,1,9999900,54000);
 Train['arrb39'].Stop(10,1,9999900,54000);
 Train['arrb40'].Stop(10,1,9999900,54000);
+20550+$dist1;
+Track['light1'].Position(-2.9,1.11,0,0);
 21090+$dist1;
 Track['light1'].Position(-2.9,1.11,0,0);
 21500+$dist1;
