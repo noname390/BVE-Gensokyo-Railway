@@ -12,6 +12,7 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 - 2023-7-20:Release v0.4 preview
 - 2023-7-23:Release v0.5 preview,Basic strutures (HKR-NNS) completed.
 - 2023-7-28:Release v0.6 preview
+- 2023-7-30:Release v0.7 preview
 
 ## Installation Guide
 1. Make sure you are in Windows operating system.
