@@ -7,6 +7,7 @@ minaminingen1,sound\station\minami-ningennosato1.wav
 minaminingen2,sound\station\minami-ningennosato2.wav
 ningen1,sound\station\ningennosato1.wav
 go01go02-1,sound\shanai\hakurei-mhakurei1.wav
+go01go02-101M,sound\shanai\hakurei-mhakurei101M.wav
 go01go02-2,sound\shanai\hakurei-mhakurei2.wav
 go02go03-1,sound\shanai\mhakurei-eientei1.wav
 go02go03-2,sound\shanai\mhakurei-eientei2.wav
