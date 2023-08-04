@@ -1,6 +1,6 @@
 # Gensokyo Railway Bve Trainsim 5 route
 [中文版Readme](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/README_zh_cn.md)<br>
-[Developper Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md)<br>
+[Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md)<br>
 ## Introduction
 The Gensokyo Railway is a fictional railway system developed by me and the contributors. It is an imaginary circular railway system located in Gensokyo of the Touhou Project,and operated by the fictional company Gensokyo Passenger Railway Corporation.The development of this simulated route was based on the real-life railway system in the Shinetsu region of Japan, which is believed by someone to be the area where Gensokyo exists.<br>
 If you are not familiar with the Touhou Project, you can also enjoy it as a general fictional railway.

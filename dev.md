@@ -1,4 +1,4 @@
-# Devlopper Guide
+# Developer Guide
 this document is not completed.Please wait.<br>
 ## Setup develop environment
 1. Download Bve Trainsim 5 from offical website.
