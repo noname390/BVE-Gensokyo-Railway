@@ -32,7 +32,7 @@ If you use this simulated train route as a derivative work in the Touhou Project
 [幻想郷・最新版地理考察](https://yotogiluminary.wixsite.com/website/post/000014)<br>
 ### Route Map
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/Gensokyo_CircleLine_RailMap.drawio.png" alt="routemap";>
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/Gensokyo_CircleLine_RailMap.png" alt="routemap";>
 </p>
 <br>
 (Thanks for @AshBill who created the new routemap)
