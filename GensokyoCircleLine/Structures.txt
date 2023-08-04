@@ -144,6 +144,12 @@ concpole50cm,Structures\GSR\frameworks\pole1.x
 cross1,Structures\Accessory\Cross\Cr_ban2_045.x
 crossbar1,Structures\Accessory\Cross\Cr_barL_045.x
 crossbar1R,Structures\Accessory\Cross\Cr_barR_045.x
+#firstday
+hakureikaigyo,Structures\firstday\hakureikaigyo.x
+redground,Structures\firstday\redground.x
+tapecut,Structures\firstday\tapecut.x
+#people
+
 #other
 carstop,Structures\Tetsu_Otter\carstop\carstop_easy.x
 crost,Structures\structure_Cro_st\Cro_st.x

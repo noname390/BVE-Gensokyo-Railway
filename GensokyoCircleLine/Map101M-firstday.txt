@@ -10,6 +10,7 @@ include 'Mapsound101M.txt';
 include 'Mapot103M.txt';
 0;
 	include 'MapHRDepot.txt';
+	include 'firstday.txt';
 10;
 	Station['0'].Put(0,-5,5);
 1320;
