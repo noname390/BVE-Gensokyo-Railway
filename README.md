@@ -57,15 +57,15 @@ View [Developper Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/m
 ### Timetable
 #### Loop Line
 
-|駅名      |普通 103M|
-|---       |---      |
-|博麗神社  |    0851  | 
-|南博麗    | 	0855  |
-|永遠亭    | 	0900  |
-|竹林      | 	0903  |
-|南人間の里| 	0910  |
-|人間の里  | 	0912  |
-|         | 	=	  | 
+|駅名      |普通 103M|普通 101M|
+|---       |---      |---     |
+|博麗神社  |    0851  | 0721   | 
+|南博麗    | 	0855  |0725   |
+|永遠亭    | 	0900  |0730    |
+|竹林      | 	0903  |0733   |
+|南人間の里| 	0910  |0740    |
+|人間の里  | 	0912  |0742    |
+|         | 	=	  |  =     |
 
 ## Train information
 The following are recommended trains that can be adjusted as needed,using train data supported by Bve5.
