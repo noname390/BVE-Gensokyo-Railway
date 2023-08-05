@@ -1,5 +1,5 @@
 # Developer Guide
-this document is not completed.Please wait.<br>
+Note:this document contains untranslated parts.<br>
 ## Setup develop environment
 1. Download Bve Trainsim 5 from offical website.
 2. Get a text editor.Vscode is recommended.You can also use the Windows notepad since most files here are txt.
@@ -63,7 +63,7 @@ Loop Line:<br>
 | 15 |香霖堂前 | 	○	  | 52.8   |           |             |		 |       |相対式2面2線 | 地面 | 
 | 16 |魔法の森 | 	↓	  | 55.0   |           |            | 		 |       |1面1線      |地面  | 
 | 17 |霧の湖   | 	↓	  | 57.3  |            |             | 		 |       |1面1線      |地面  | 
-| 18 |紅魔館 　| 	○	  | 58.5  |            |             |110    |       |相対式2面3線 |地面  | 
+| 18 |紅魔館 　| 	○	  | 58.5  |            |             |       |       |相対式2面3線 |地面  | 
 | 19 |上霧の湖 | 	↓	  | 60.2  |            |             | 		 |       |1面1線  　　|地面   | 
 | 20 |北博麗　 | 	↓	  | 61.5  |            |             | 		 |       |1面1線  　　|高架   | 
 | 21 |博麗神社 | 	○	  | 62.8  |            |             | 		 |       |島式2面4線  |高架   |
@@ -94,8 +94,8 @@ Koto・Meikai Line:<br>
 ↑湖東線--冥界口--⇂冥界線--冥界トンネル--幽明结界
 |#   |駅名          |優等列車停車駅|キロ |普通‐運行時間|快速‐運行時間| 最高速度| 線路数| ホーム      |駅構造| 
 |--- |---          |---       |--- |---         |---         |---    |---    |---         |---   |
-|  |冥界口      | 	○	  |    |           |             |		 |       |島式2面4線   | 地面 | 
-|  |幽明结界     | 	○	  |    |           |             |		 |       |相対式2面2線   | 地面 | 
+|  |冥界口      | 	○	  |    |           |             |		 |65       |島式2面4線   | 地面 | 
+|  |幽明结界     | 	○	  |    |           |             |		 |85       |相対式2面2線   | 地面 | 
 |  |…      | 		  |    |           |             |		 |       |   |  | 
 |  |白玉楼     | 	○	  |    |           |             |		 |       |相対式2面2線   | 地面 |
 |  |西行妖     | 	○	  |    |           |             |		 |       |1面1線   | 地面 |
