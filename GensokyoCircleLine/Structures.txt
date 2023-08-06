@@ -263,7 +263,7 @@ Sw_On,../Nagoya_Common/Railway_Obj/Signal/Switch/Switch/On.x,
 Sw_R_R,../Nagoya_Common/Railway_Obj/Signal/Switch/Switch/R_R.x,
 Sw_R_Y,../Nagoya_Common/Railway_Obj/Signal/Switch/Switch/R_Y.x,
 Sw_Y,../Nagoya_Common/Railway_Obj/Signal/Switch/Switch/Y.x,
-Track_N,../Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\-.x
-Track_2,../Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\2.x
+Track_N,Structures\CR\N.x
+Track_2,Structures\CR\2.x
 SN1,../Nagoya_Common\Railway_Obj\Signal\Beacon\SN1.x
 SN2,../Nagoya_Common\Railway_Obj\Signal\Beacon\SN2.x

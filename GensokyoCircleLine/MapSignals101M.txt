@@ -13,18 +13,15 @@ BveTs Map 2.00
 	Structure['Sw_R_Y'].Put('4',-2.2,1.5,0,0,0,0,0,2);
 	Structure['Sw_Off'].Put('4',-2.2,1.3,0,0,0,0,0,2);
 	Structure['SigPole_L'].Put('4',-2.2,-3.5,0.1,,,,,);	
-
 995;
 	Section.Begin(0,5);
 	Signal['shunt'].Put(0,'',-2.2,2);
 	Signal['shunt2'].Put(0,'',-2.2,1.8);
-	Signal['track'].Put(0,'',-2.2,1);	
+	Signal['track'].Put(0,'',-2.2,0.5);	
 	Structure['SigPole_L'].Put('',-2.2,-3,0.1,,,,,);
-
 1200;
 	Beacon.Put(0,1,0);
 	Structure['SN1'].Put0('',0,1);
-
 50+$dist1;
 	$sig=distance;
 	$sig-10;
