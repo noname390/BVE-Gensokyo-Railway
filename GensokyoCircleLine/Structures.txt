@@ -149,7 +149,7 @@ hakureikaigyo,Structures\firstday\hakureikaigyo.x
 redground,Structures\firstday\redground.x
 tapecut,Structures\firstday\tapecut.x
 #people
-
+rumia-1,Structures\people\rumia-1.x
 #other
 carstop,Structures\Tetsu_Otter\carstop\carstop_easy.x
 crost,Structures\structure_Cro_st\Cro_st.x
