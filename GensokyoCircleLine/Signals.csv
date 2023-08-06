@@ -8,3 +8,11 @@ type4,Signal4L0,Signal4L1,Signal4L2,,Signal4L4,,
 #预告
 Rep0,Rep0,Rep1,Rep1,Rep1,Rep4,Rep4,
 #RepGG,RepGGN,RepGGN,RepGGN,RepGGN,RepGGN,RepGG,
+#入换信号机
+shunt,Sw_R_Y,,,,,Sw_Y,
+#,Sw_R_R,,,,,Sw_Y,
+shunt2,Sw_Off,,,,,Sw_On,
+#,Sw_Off,,,,,Sw_On,
+
+track,Track_N,,,,,Track_2,
+#,Track_N,,,,,Track_2,

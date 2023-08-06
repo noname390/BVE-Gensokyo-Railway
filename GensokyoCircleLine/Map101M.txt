@@ -4,7 +4,7 @@ Structure.Load('Structures.txt');
 Sound.Load('sound.txt');
 Station.Load('Stations101M.txt');
 Signal.Load('Signals.csv');
-Signal.SpeedLimit(0,25,55,75,110);
+Signal.SpeedLimit(0,25,55,75,110,45);
 include 'MapSignals101M.txt';
 include 'Mapsound101M.txt';
 include 'Mapot103M.txt';
