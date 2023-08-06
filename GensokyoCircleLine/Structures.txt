@@ -260,10 +260,10 @@ check_relay,Structures\CHECKING\CKC.x
 
 Sw_Off,Structures\whse_Shunting\body.x
 Sw_On,Structures\whse_Shunting\body.x
-Sw_R_R,../Nagoya_Common/Railway_Obj/Signal/Switch/Switch/R_R.x,
+Sw_R_R,Structures\whse_Shunting\light.x
 Sw_R_Y,Structures\whse_Shunting\light.x
 Sw_Y,Structures\whse_Shunting\light2.x
 Track_N,Structures\CR\N.x
 Track_2,Structures\CR\2.x
-SN1,../Nagoya_Common\Railway_Obj\Signal\Beacon\SN1.x
-SN2,../Nagoya_Common\Railway_Obj\Signal\Beacon\SN2.x
+SN1,Structures\Default\Beacon0.x
+SN2,Structures\Default\Beacon1.x
