@@ -2687,6 +2687,12 @@ track['road'].Position(200,0,0,0);
 	Repeater['LightR4'].End();
 	Repeater['LightL4'].End();
 	Repeater['LightR4'].End();
+	#bansensign-end
+	Repeater['bansen1'].End();
+	Repeater['bansen1b'].End();
+	Repeater['bansen2'].End();
+	Repeater['bansen3'].End();
+	Repeater['bansen4'].End();
 	#temp carstop at 4,5 ban sen
 	Structure['carstop'].Put('1',0,-0,0,,,,,);
 	Structure['carstop'].Put('2',0,-0,0,,,,,);
