@@ -143,9 +143,5 @@ Koto・Meikai Line:<br>
 使用路線：博麗守矢ライン<br>
 最高速度：165km/h<br>
 列車種別：急行<br>
-##### JR Shigoku 2000 Series 
-使用路線：湖東線、冥界線<br>
-最高速度：120km/h<br>
-列車種別：特急（冥界線は全列車特急）<br>
 ### experimental features
 #### Platform lights at Minami-ningennosato station
