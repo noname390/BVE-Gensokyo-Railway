@@ -1,4 +1,8 @@
 # 幻想乡铁道 Bve Trainsim 5线路
+<p align="center">
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/GensokyoCircleLine\Structures\firstday\hakureikaigyo.png" alt="release";>
+</p>
+<br>
 
 ## 简介
 幻想乡铁道，是由我（noname390）和Github上的贡献者（见页面右侧）开发的一条虚构线路。是假想的由"幻想乡旅客铁道株式会社"运营，位于东方project幻想乡的铁路系统。
@@ -15,6 +19,7 @@
 - 2023-7-30:发布预览版本v0.7
 - 2023-8-4:发布预览版本v0.8
 - 2023-8-5:发布预览版本v0.9
+- 2023-8-10:发布预览版本v1.0
 
 ## 安装指南
 1. 请确保您在Windows操作系统下。
