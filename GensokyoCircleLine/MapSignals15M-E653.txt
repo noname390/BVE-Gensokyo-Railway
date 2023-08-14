@@ -56,6 +56,8 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['PBeacon2'].Put('1',0,0,0,,,,,);
+2330+$dist1;
+	Beacon.Put(19,0,0);
 3000+$dist1;
 	Section.Begin(0,2,3,4);
 	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
@@ -139,11 +141,11 @@ BveTs Map 2.00
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 5160+$dist1;//南博丽出发
 	Section.Begin(0,2,4);
-	Signal['type1'].Put(4,'1',-2.4,4.5,-0.1,,,,,);
+	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
 	$sig=distance;
 	$sig-25;
-	Beacon.Put(4,1,0);
+	Beacon.Put(3,1,0);
 	Structure['PBeacon2'].Put('1',0,0,0,,,,,);
 	$sig-50;
 	Beacon.Put(3,1,0);
@@ -155,10 +157,10 @@ BveTs Map 2.00
 	Beacon.Put(3,1,0);
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
+	Beacon.Put(3,1,0);
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 	$sig-220;
-	Beacon.Put(3,-1,0);
+	Beacon.Put(3,1,0);
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 5550+$dist1;
 	Signal['Rep0'].Put(1,'1',6,4.5,0,0,15,,,);
