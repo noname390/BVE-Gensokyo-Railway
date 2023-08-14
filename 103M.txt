@@ -7,4 +7,4 @@ RouteTitle = Gensokyo Loop Line
 Vehicle = ..\E129\Nii-B11.txt 
 VehicleTitle = JR East E129 series（4 car）
 Image = GensokyoCircleLine\samune.jpg
-Comment = Max speed：110km/h Platform: Hakurei② Ningen④
+Comment = [ATS-P] Max speed：110km/h Platform: Hakurei② Ningen④
