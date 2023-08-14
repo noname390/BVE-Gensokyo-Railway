@@ -131,9 +131,9 @@ Koto・Meikai Line:<br>
 最高速度：110km/h<br>
 列車種別：普通、快速<br>
 #### Unusing
-##### JR East HB-E300 Series
+##### JR East E653 Series
 使用路線：環状線、湖東線、冥界線特急<br>
-最高速度：100km/h<br>
+最高速度：130km/h<br>
 列車種別：特急<br>
 ##### JR West Kiha120 Series
 使用路線：湖東線<br>
