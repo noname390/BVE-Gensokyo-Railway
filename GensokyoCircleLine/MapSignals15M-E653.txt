@@ -140,7 +140,7 @@ BveTs Map 2.00
 	Beacon.Put(3,1,0);
 	Structure['PBeacon1'].Put('1',0,0,0,,,,,);
 5160+$dist1;//南博丽出发
-	Section.Begin(0,2,4);
+	//Section.Begin(0,2,4);
 	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
 	Structure['SigPole_L'].Put('1',-2.4,0,0,,,,,);
 	$sig=distance;

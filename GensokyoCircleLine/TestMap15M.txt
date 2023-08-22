@@ -5,7 +5,7 @@ Structure.Load('Structures.txt');
 Sound.Load('sound.txt');
 Station.Load('Stations15M.txt');
 Signal.Load('Signals.csv');
-Signal.SpeedLimit(0,25,55,75,130);
+Signal.SpeedLimit(0,25,55,75,110);
 include 'MapSignals15M-E653.txt';
 //include 'Mapsound103M.txt';
 //include 'Map104M.txt';
