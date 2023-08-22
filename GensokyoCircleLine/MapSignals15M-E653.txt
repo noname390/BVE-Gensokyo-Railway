@@ -112,7 +112,7 @@ BveTs Map 2.00
 4737+$dist1;
 	Beacon.Put(19,0,0);
 4799+$dist1;
-	Section.Begin(0,2,3,4);
+	//Section.Begin(0,2,3,4);
 4800+$dist1;
 	Section.Begin(0,2,3,4);
 	Signal['type1'].Put(0,'1',-2.4,4.5,-0.1,,,,,);
