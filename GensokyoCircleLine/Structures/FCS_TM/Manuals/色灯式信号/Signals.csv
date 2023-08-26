@@ -1,0 +1,71 @@
+BveTs Signal Aspects List 2.00:shift_jis
+
+#M†
+#2“”®(GRŒ^)
+Type2gr,           Sig20,,,,                                           Sig24
+       ,         Flare20,,,,                                         Flare24
+#2“”®(YRŒ^)
+Type2yr,           Sig20,,                   Sig22,,
+       ,         Flare20,,                 Flare22,,
+#2“”®(]‘®M†)
+Type2E,                 ,,                  Sig2E2,,                  Sig2E4
+      ,                 ,,                Flare2E2,,                 Flare24
+#3“”®
+Type3,             Sig30,,                   Sig32,,                   Sig34
+     ,           Flare30,,                 Flare32,,                 Flare34
+#3“”®(”w”Â–³‚µ)
+Type3bn,           Sig30,,                   Sig32,,                   Sig34
+       ,         Flare30,,                 Flare32,,                 Flare34
+#3“”®(GRŒ^)
+Type3gr,         Sig3Yx0,,,,                                         Sig3Yx4
+       ,         Flare30,,,,                                         Flare34
+#3“”®(YRŒ^)
+Type3yr,         Sig3Gx0,,                 Sig3Gx2,,
+       ,         Flare30,,                 Flare22,,
+#4“”®(Œx‰ú)
+Type4yy,         Sig4yy0,     Sig4yy1,     Sig4yy2,,                 Sig4yy4
+       ,       Flare4yy0,   Flare4yy1,   Flare4yy2,,               Flare4yy4
+#4“”®(Œ¸‘¬)
+Type4yg,         Sig4yy0,,                 Sig4yg2,     Sig4yg3,     Sig4yg4
+       ,       Flare4yy0,,               Flare4yg2,   Flare4yg3,   Flare4yg4
+#4“”®(‰“•û)
+Type4E,                 ,,                  Sig4E2,      Sig4E3,      Sig4E4
+      ,                 ,,               Flare4yg2,   Flare4yg3,   Flare4yg4
+#5“”®
+Type5,             Sig50,       Sig51,       Sig52,       Sig53,       Sig54
+     ,           Flare50,     Flare51,     Flare52,     Flare53,     Flare54
+
+#M†(LED®)
+#èM†‘ã—pŠí
+Type2t_LED,   Sig2T0_LED,,,,                                      Sig2T4_LED
+
+#2“”®(GRŒ^)
+Type2gr_LED, Sig2GR0_LED,,,,                                     Sig2GR4_LED
+           ,     Flare20,,,,                                         Flare24
+#2“”®(YRŒ^)
+Type2yr_LED, Sig2YR0_LED,,             Sig2YR2_LED,,
+           ,     Flare20,,                 Flare22,,
+#2“”®(]‘®M†)
+Type2E_LED,             ,,              Sig2E2_LED,,              Sig2E4_LED
+          ,             ,,                Flare2E2,,                 Flare24
+#3“”®
+Type3_LED,     Sig30_LED,,               Sig32_LED,,               Sig34_LED
+         ,       Flare30,,                 Flare32,,                 Flare34
+#3“”®(GRŒ^)
+Type3gr_LED, Sig3Yx0_LED,,,,                                     Sig3Yx4_LED
+           ,     Flare30,,,,                                         Flare34
+#3“”®(YRŒ^)
+Type3yr_LED, Sig3Gx0_LED,,             Sig3Gx2_LED,,
+           ,     Flare30,,                 Flare22,,
+#4“”®(Œx‰ú)
+Type4yy_LED, Sig4yy0_LED, Sig4yy1_LED, Sig4yy2_LED,,             Sig4yy4_LED
+           ,   Flare4yy0,   Flare4yy1,   Flare4yy2,,               Flare4yy4
+#4“”®(Œ¸‘¬)
+Type4yg_LED, Sig4yg0_LED,,             Sig4yg2_LED, Sig4yg3_LED, Sig4yg4_LED
+           ,   Flare4yy0,,               Flare4yg2,   Flare4yg3,   Flare4yg4
+#4“”®(‰“•û)
+Type4E_LED,             ,,                  Sig4E2,      Sig4E3,      Sig4E4
+          ,             ,,               Flare4yg2,   Flare4yg3,   Flare4yg4
+#5“”®
+Type5_LED,     Sig50_LED,   Sig51_LED,   Sig52_LED,   Sig53_LED,   Sig54_LED
+         ,       Flare50,     Flare51,     Flare52,     Flare53,     Flare54

@@ -1,0 +1,40 @@
+BveTs Structure List 2.00:shift_jis
+
+#地上子
+ATS-P_1way   ,Structures\FCS_TM\Beacon\ATS-P_1way.x
+ATS-P_2way1  ,Structures\FCS_TM\Beacon\ATS-P_2way1.x
+ATS-P_2way1P ,Structures\FCS_TM\Beacon\ATS-P_2way1P.x
+ATS-P_2way2  ,Structures\FCS_TM\Beacon\ATS-P_2way2.x
+ATS-P_2way2P ,Structures\FCS_TM\Beacon\ATS-P_2way2P.x
+ATS-P_Muden  ,Structures\FCS_TM\Beacon\ATS-P_Muden.x
+ATS-S_L      ,Structures\FCS_TM\Beacon\ATS-S_L.x      # ロング
+ATS-S_S      ,Structures\FCS_TM\Beacon\ATS-S_S.x      # 直下、誤出発
+ATS-S_Speed  ,Structures\FCS_TM\Beacon\ATS-S_Speed.x  # 速度照査
+
+#中継
+Relay0       ,Structures\FCS_TM\RelaySignal\Relay0.x
+Relay1       ,Structures\FCS_TM\RelaySignal\Relay1.x
+Relay4       ,Structures\FCS_TM\RelaySignal\Relay4.x
+
+#中継LED
+Relay0_LED   ,Structures\FCS_TM\RelaySignal\Relay0_LED.x
+Relay1_LED   ,Structures\FCS_TM\RelaySignal\Relay1_LED.x
+Relay4_LED   ,Structures\FCS_TM\RelaySignal\Relay4_LED.x
+FlareR0      ,Structures\FCS_TM\RelaySignal\FlareR0.x
+FlareR1      ,Structures\FCS_TM\RelaySignal\FlareR1.x
+FlareR4      ,Structures\FCS_TM\RelaySignal\FlareR4.x
+
+#入換信号機(入換標識)
+SigI0W       ,Structures\FCS_TM\SwitchSig\SigSb_0W.x # 停止_白タイプ
+SigI0R       ,Structures\FCS_TM\SwitchSig\SigSb_0R.x # 停止_赤タイプ
+SigI4        ,Structures\FCS_TM\SwitchSig\SigSb_4.x
+SigI0W_LED   ,Structures\FCS_TM\SwitchSig\SigSb_0W_LED.x # 停止_白タイプ
+SigI0R_LED   ,Structures\FCS_TM\SwitchSig\SigSb_0R_LED.x # 停止_赤タイプ
+SigI4_LED    ,Structures\FCS_TM\SwitchSig\SigSb_4_LED.x
+SigI_Arm     ,Structures\FCS_TM\SwitchSig\SigSb_Arm.x
+
+#入換信号機識別標識
+Sigib_off    ,Structures\FCS_TM\SwitchSig\Sigib_off.x
+Sigib_on     ,Structures\FCS_TM\SwitchSig\Sigib_on.x
+Sigib_off_LED,Structures\FCS_TM\SwitchSig\Sigib_off_LED.x
+Sigib_on_LED ,Structures\FCS_TM\SwitchSig\Sigib_on_LED.x

@@ -1,0 +1,61 @@
+BveTs Structure List 2.00:shift_jis
+
+##進路表示機
+#2進路用
+SigR20         ,Structures\FCS_TM\RouteIL\2way_type1_0.x
+SigR2L         ,Structures\FCS_TM\RouteIL\2way_type1_L.x
+SigR2R         ,Structures\FCS_TM\RouteIL\2way_type1_R.x
+
+#2進路用LED
+SigR20_LED     ,Structures\FCS_TM\RouteIL\2way_type1_LED_0.x
+SigR2L_LED     ,Structures\FCS_TM\RouteIL\2way_type1_LED_L.x
+SigR2R_LED     ,Structures\FCS_TM\RouteIL\2way_type1_LED_R.x
+
+#3進路用
+SigR30         ,Structures\FCS_TM\RouteIL\3way_type2_0.x
+SigR3L         ,Structures\FCS_TM\RouteIL\3way_type2_L.x
+SigR3C         ,Structures\FCS_TM\RouteIL\3way_type2_C.x
+SigR3R         ,Structures\FCS_TM\RouteIL\3way_type2_R.x
+
+#3進路用LED
+SigR30_LED     ,Structures\FCS_TM\RouteIL\3way_type2_LED_0.x
+SigR3L_LED     ,Structures\FCS_TM\RouteIL\3way_type2_LED_L.x
+SigR3C_LED     ,Structures\FCS_TM\RouteIL\3way_type2_LED_C.x
+SigR3R_LED     ,Structures\FCS_TM\RouteIL\3way_type2_LED_R.x
+
+#入換3進路用
+SigIR3X        ,Structures\FCS_TM\RouteIL\3way_type1_X.x
+SigIR30        ,Structures\FCS_TM\RouteIL\3way_type1_0.x
+SigIR3L        ,Structures\FCS_TM\RouteIL\3way_type1_L.x
+SigIR3C        ,Structures\FCS_TM\RouteIL\3way_type1_C.x
+SigIR3R        ,Structures\FCS_TM\RouteIL\3way_type1_R.x
+
+#取付金具
+SigR2_Arm      ,Structures\FCS_TM\RouteIL\2way_type1_Arm.x
+SigR3_Arm      ,Structures\FCS_TM\RouteIL\3way_type2_Arm.x
+
+#入換多進路用
+SigIRMN        ,Structures\FCS_TM\RouteIL\MultiR_t3_n.x
+
+#入換多進路用LED
+SigIRMN_LED    ,Structures\FCS_TM\RouteIL\MultiR_t3_LED_n.x
+
+
+##進路予告機
+#背板ありLED
+SigY0_LED      ,Structures\FCS_TM\RouteIL\3way_yokoku_0.x
+SigYL_LED      ,Structures\FCS_TM\RouteIL\3way_yokoku_L.x
+SigYC_LED      ,Structures\FCS_TM\RouteIL\3way_yokoku_C.x
+SigYR_LED      ,Structures\FCS_TM\RouteIL\3way_yokoku_R.x
+Flare_yc       ,Structures\FCS_TM\RouteIL\Flare_yc.x
+Flare_yl       ,Structures\FCS_TM\RouteIL\Flare_yl.x
+Flare_yr       ,Structures\FCS_TM\RouteIL\Flare_yr.x
+
+#背板なしLED
+SigYn0_LED     ,Structures\FCS_TM\RouteIL\3way_yokoku_0n.x
+SigYnL_LED     ,Structures\FCS_TM\RouteIL\3way_yokoku_Ln.x
+SigYnC_LED     ,Structures\FCS_TM\RouteIL\3way_yokoku_Cn.x
+SigYnR_LED     ,Structures\FCS_TM\RouteIL\3way_yokoku_Rn.x
+
+#取付金具
+SigY_Arm       ,Structures\FCS_TM\RouteIL\3way_yokoku_Arm.x
