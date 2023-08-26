@@ -236,18 +236,254 @@ Signal4G1,Structures\Default\Signal4yy1.x
 Signal4G2,Structures\Default\Signal4yy2.x
 Signal4G4,Structures\Default\Signal4yy4.x
 ,,
+
+#信号柱
+Sig_Pole     ,Structures\FCS_TM\SigPole\Sig_Pole.x
+Sig_Base     ,Structures\FCS_TM\SigPole\Sig_Base.x
+Sig_Base_Step,Structures\FCS_TM\SigPole\Sig_Base_Step.x
+SigBasket    ,Structures\FCS_TM\SigPole\SigBasket.x
+SigBasket2   ,Structures\FCS_TM\SigPole\SigBasket2.x
+Sig_Arm_SU   ,Structures\FCS_TM\SigPole\Back_Arm_SU.x
+Sig_Arm_SD   ,Structures\FCS_TM\SigPole\Back_Arm_SD.x
+Sig_Arm_MU   ,Structures\FCS_TM\SigPole\Back_Arm_MU.x
+Sig_Arm_MD   ,Structures\FCS_TM\SigPole\Back_Arm_MD.x
+Sig_Arm_LU   ,Structures\FCS_TM\SigPole\Back_Arm_LU.x
+Sig_Arm_LD   ,Structures\FCS_TM\SigPole\Back_Arm_LD.x
+
+
+#信号(電球式)
+#2灯式
+Sig20        ,Structures\FCS_TM\ColorSignal\Sig2b0.x
+Sig22        ,Structures\FCS_TM\ColorSignal\Sig2b2.x    #GY型
+Sig24        ,Structures\FCS_TM\ColorSignal\Sig2b4.x    #GR型
+Sig2E2       ,Structures\FCS_TM\ColorSignal\Sig2Eb2.x   #従属信号
+Sig2E4       ,Structures\FCS_TM\ColorSignal\Sig2Eb4.x   #従属信号
+Flare20      ,Structures\FCS_TM\ColorSignal\Flare20.x
+Flare22      ,Structures\FCS_TM\ColorSignal\Flare22.x
+Flare2E2     ,Structures\FCS_TM\ColorSignal\Flare2E2.x  #従属信号用
+Flare24      ,Structures\FCS_TM\ColorSignal\Flare24.x
+
+#3灯式
+Sig3N        ,Structures\FCS_TM\ColorSignal\Sig3bN.x    #使用停止
+Sig30        ,Structures\FCS_TM\ColorSignal\Sig3b0.x
+Sig30_BN     ,Structures\FCS_TM\ColorSignal\Sig3b0_BN.x #背板無
+Sig32        ,Structures\FCS_TM\ColorSignal\Sig3b2.x
+Sig32_BN     ,Structures\FCS_TM\ColorSignal\Sig3b2_BN.x #背板無
+Sig34        ,Structures\FCS_TM\ColorSignal\Sig3b4.x
+Sig34_BN     ,Structures\FCS_TM\ColorSignal\Sig3b4_BN.x #背板無
+Sig3YxN      ,Structures\FCS_TM\ColorSignal\Sig3bYxN.x  #GR型 使用停止
+Sig3Yx0      ,Structures\FCS_TM\ColorSignal\Sig3bYx0.x  #GR型
+Sig3Yx4      ,Structures\FCS_TM\ColorSignal\Sig3bYx4.x  #GR型
+Sig3GxN      ,Structures\FCS_TM\ColorSignal\Sig3bGxN.x  #GY型 使用停止
+Sig3Gx0      ,Structures\FCS_TM\ColorSignal\Sig3bGx0.x  #GY型
+Sig3Gx2      ,Structures\FCS_TM\ColorSignal\Sig3bGx2.x  #GY型
+Flare30      ,Structures\FCS_TM\ColorSignal\Flare30.x
+Flare32      ,Structures\FCS_TM\ColorSignal\Flare32.x
+Flare34      ,Structures\FCS_TM\ColorSignal\Flare34.x
+
+#4灯式(YY現示)
+Sig4N        ,Structures\FCS_TM\ColorSignal\Sig4bN.x    #使用停止
+Sig4yy0      ,Structures\FCS_TM\ColorSignal\Sig4byy0.x
+Sig4yy1      ,Structures\FCS_TM\ColorSignal\Sig4byy1.x
+Sig4yy2      ,Structures\FCS_TM\ColorSignal\Sig4byy2.x
+Sig4yy4      ,Structures\FCS_TM\ColorSignal\Sig4byy4.x
+Flare4yy0    ,Structures\FCS_TM\ColorSignal\Flare4yy0.x
+Flare4yy1    ,Structures\FCS_TM\ColorSignal\Flare4yy1.x
+Flare4yy2    ,Structures\FCS_TM\ColorSignal\Flare4yy2.x
+Flare4yy4    ,Structures\FCS_TM\ColorSignal\Flare4yy4.x
+
+#4灯式(YG現示) 停止現示はSig4yy0で代用
+Sig4yg2      ,Structures\FCS_TM\ColorSignal\Sig4byg2.x
+Sig4yg3      ,Structures\FCS_TM\ColorSignal\Sig4byg3.x
+Sig4yg4      ,Structures\FCS_TM\ColorSignal\Sig4byg4.x
+Sig4EN       ,Structures\FCS_TM\ColorSignal\Sig4EbN.x   #遠方信号 使用停止
+Sig4E2       ,Structures\FCS_TM\ColorSignal\Sig4Eb2.x   #遠方信号
+Sig4E3       ,Structures\FCS_TM\ColorSignal\Sig4Eb3.x   #遠方信号
+Sig4E4       ,Structures\FCS_TM\ColorSignal\Sig4Eb4.x   #遠方信号
+Flare4yg2    ,Structures\FCS_TM\ColorSignal\Flare4yg2.x
+Flare4yg3    ,Structures\FCS_TM\ColorSignal\Flare4yg3.x
+Flare4yg4    ,Structures\FCS_TM\ColorSignal\Flare4yg4.x
+
+#5灯式
+Sig5N        ,Structures\FCS_TM\ColorSignal\Sig5bN.x    #使用停止
+Sig50        ,Structures\FCS_TM\ColorSignal\Sig5b0.x
+Sig51        ,Structures\FCS_TM\ColorSignal\Sig5b1.x
+Sig52        ,Structures\FCS_TM\ColorSignal\Sig5b2.x
+Sig53        ,Structures\FCS_TM\ColorSignal\Sig5b3.x
+Sig54        ,Structures\FCS_TM\ColorSignal\Sig5b4.x
+Flare50      ,Structures\FCS_TM\ColorSignal\Flare50.x
+Flare51      ,Structures\FCS_TM\ColorSignal\Flare51.x
+Flare52      ,Structures\FCS_TM\ColorSignal\Flare52.x
+Flare53      ,Structures\FCS_TM\ColorSignal\Flare53.x
+Flare54      ,Structures\FCS_TM\ColorSignal\Flare54.x
+
+
+#信号(LED式)
+#手信号代用器
+Sig2TN_LED   ,Structures\FCS_TM\ColorSignal\Sig2TN_LED.x #無灯状態
+Sig2T0_LED   ,Structures\FCS_TM\ColorSignal\Sig2T0_LED.x
+Sig2T4_LED   ,Structures\FCS_TM\ColorSignal\Sig2T4_LED.x
+Sig2T_Arm    ,Structures\FCS_TM\ColorSignal\Sig2T_Arm.x
+
+#2灯式
+Sig2GR0_LED  ,Structures\FCS_TM\ColorSignal\Sig2bGR0_LED.x  #GR型
+Sig2GR4_LED  ,Structures\FCS_TM\ColorSignal\Sig2bGR4_LED.x  #GR型
+Sig2YR0_LED  ,Structures\FCS_TM\ColorSignal\Sig2bYR0_LED.x  #YR型
+Sig2YR2_LED  ,Structures\FCS_TM\ColorSignal\Sig2bYR2_LED.x  #YR型
+Sig2E2_LED   ,Structures\FCS_TM\ColorSignal\Sig2Eb2_LED.x   #従属信号
+Sig2E4_LED   ,Structures\FCS_TM\ColorSignal\Sig2Eb4_LED.x   #従属信号
+
+#3灯式
+Sig3N_LED    ,Structures\FCS_TM\ColorSignal\Sig3bN_LED.x
+Sig30_LED    ,Structures\FCS_TM\ColorSignal\Sig3b0_LED.x
+Sig32_LED    ,Structures\FCS_TM\ColorSignal\Sig3b2_LED.x
+Sig34_LED    ,Structures\FCS_TM\ColorSignal\Sig3b4_LED.x
+Sig3GxN_LED  ,Structures\FCS_TM\ColorSignal\Sig3bGxN_LED.x
+Sig3Gx0_LED  ,Structures\FCS_TM\ColorSignal\Sig3bGx0_LED.x
+Sig3Gx2_LED  ,Structures\FCS_TM\ColorSignal\Sig3bGx2_LED.x
+Sig3YxN_LED  ,Structures\FCS_TM\ColorSignal\Sig3bYxN_LED.x
+Sig3Yx0_LED  ,Structures\FCS_TM\ColorSignal\Sig3bYx0_LED.x
+Sig3Yx4_LED  ,Structures\FCS_TM\ColorSignal\Sig3bYx4_LED.x
+
+#4灯式(YY現示)
+Sig4yyN_LED  ,Structures\FCS_TM\ColorSignal\Sig4byyN_LED.x
+Sig4yy0_LED  ,Structures\FCS_TM\ColorSignal\Sig4byy0_LED.x
+Sig4yy1_LED  ,Structures\FCS_TM\ColorSignal\Sig4byy1_LED.x
+Sig4yy2_LED  ,Structures\FCS_TM\ColorSignal\Sig4byy2_LED.x
+Sig4yy4_LED  ,Structures\FCS_TM\ColorSignal\Sig4byy4_LED.x
+
+#4灯式(YG現示)
+Sig4ygN_LED  ,Structures\FCS_TM\ColorSignal\Sig4bygN_LED.x
+Sig4yg0_LED  ,Structures\FCS_TM\ColorSignal\Sig4byg0_LED.x
+Sig4yg2_LED  ,Structures\FCS_TM\ColorSignal\Sig4byg2_LED.x
+Sig4yg3_LED  ,Structures\FCS_TM\ColorSignal\Sig4byg3_LED.x
+Sig4yg4_LED  ,Structures\FCS_TM\ColorSignal\Sig4byg4_LED.x
+Sig4EN_LED   ,Structures\FCS_TM\ColorSignal\Sig4EbN_LED.x
+Sig4E2_LED   ,Structures\FCS_TM\ColorSignal\Sig4Eb2_LED.x
+Sig4E3_LED   ,Structures\FCS_TM\ColorSignal\Sig4Eb3_LED.x
+Sig4E4_LED   ,Structures\FCS_TM\ColorSignal\Sig4Eb4_LED.x
+
+#5灯式
+Sig5N_LED    ,Structures\FCS_TM\ColorSignal\Sig5bN_LED.x
+Sig50_LED    ,Structures\FCS_TM\ColorSignal\Sig5b0_LED.x
+Sig51_LED    ,Structures\FCS_TM\ColorSignal\Sig5b1_LED.x
+Sig52_LED    ,Structures\FCS_TM\ColorSignal\Sig5b2_LED.x
+Sig53_LED    ,Structures\FCS_TM\ColorSignal\Sig5b3_LED.x
+Sig54_LED    ,Structures\FCS_TM\ColorSignal\Sig5b4_LED.x
+
+#地上子
+ATS-P_1way   ,Structures\FCS_TM\Beacon\ATS-P_1way.x
+ATS-P_2way1  ,Structures\FCS_TM\Beacon\ATS-P_2way1.x
+ATS-P_2way1P ,Structures\FCS_TM\Beacon\ATS-P_2way1P.x
+ATS-P_2way2  ,Structures\FCS_TM\Beacon\ATS-P_2way2.x
+ATS-P_2way2P ,Structures\FCS_TM\Beacon\ATS-P_2way2P.x
+ATS-P_Muden  ,Structures\FCS_TM\Beacon\ATS-P_Muden.x
+ATS-S_L      ,Structures\FCS_TM\Beacon\ATS-S_L.x      # ロング
+ATS-S_S      ,Structures\FCS_TM\Beacon\ATS-S_S.x      # 直下、誤出発
+ATS-S_Speed  ,Structures\FCS_TM\Beacon\ATS-S_Speed.x  # 速度照査
+
+#中継
+Relay0       ,Structures\FCS_TM\RelaySignal\Relay0.x
+Relay1       ,Structures\FCS_TM\RelaySignal\Relay1.x
+Relay4       ,Structures\FCS_TM\RelaySignal\Relay4.x
+
+#中継LED
+Relay0_LED   ,Structures\FCS_TM\RelaySignal\Relay0_LED.x
+Relay1_LED   ,Structures\FCS_TM\RelaySignal\Relay1_LED.x
+Relay4_LED   ,Structures\FCS_TM\RelaySignal\Relay4_LED.x
+FlareR0      ,Structures\FCS_TM\RelaySignal\FlareR0.x
+FlareR1      ,Structures\FCS_TM\RelaySignal\FlareR1.x
+FlareR4      ,Structures\FCS_TM\RelaySignal\FlareR4.x
+
+#入換信号機(入換標識)
+SigI0W       ,Structures\FCS_TM\SwitchSig\SigSb_0W.x # 停止_白タイプ
+SigI0R       ,Structures\FCS_TM\SwitchSig\SigSb_0R.x # 停止_赤タイプ
+SigI4        ,Structures\FCS_TM\SwitchSig\SigSb_4.x
+SigI0W_LED   ,Structures\FCS_TM\SwitchSig\SigSb_0W_LED.x # 停止_白タイプ
+SigI0R_LED   ,Structures\FCS_TM\SwitchSig\SigSb_0R_LED.x # 停止_赤タイプ
+SigI4_LED    ,Structures\FCS_TM\SwitchSig\SigSb_4_LED.x
+SigI_Arm     ,Structures\FCS_TM\SwitchSig\SigSb_Arm.x
+
+#入換信号機識別標識
+Sigib_off    ,Structures\FCS_TM\SwitchSig\Sigib_off.x
+Sigib_on     ,Structures\FCS_TM\SwitchSig\Sigib_on.x
+Sigib_off_LED,Structures\FCS_TM\SwitchSig\Sigib_off_LED.x
+Sigib_on_LED ,Structures\FCS_TM\SwitchSig\Sigib_on_LED.x
+
+##進路表示機
+#2進路用
+SigR20         ,Structures\FCS_TM\RouteIL\2way_type1_0.x
+SigR2L         ,Structures\FCS_TM\RouteIL\2way_type1_L.x
+SigR2R         ,Structures\FCS_TM\RouteIL\2way_type1_R.x
+
+#2進路用LED
+SigR20_LED     ,Structures\FCS_TM\RouteIL\2way_type1_LED_0.x
+SigR2L_LED     ,Structures\FCS_TM\RouteIL\2way_type1_LED_L.x
+SigR2R_LED     ,Structures\FCS_TM\RouteIL\2way_type1_LED_R.x
+
+#3進路用
+SigR30         ,Structures\FCS_TM\RouteIL\3way_type2_0.x
+SigR3L         ,Structures\FCS_TM\RouteIL\3way_type2_L.x
+SigR3C         ,Structures\FCS_TM\RouteIL\3way_type2_C.x
+SigR3R         ,Structures\FCS_TM\RouteIL\3way_type2_R.x
+
+#3進路用LED
+SigR30_LED     ,Structures\FCS_TM\RouteIL\3way_type2_LED_0.x
+SigR3L_LED     ,Structures\FCS_TM\RouteIL\3way_type2_LED_L.x
+SigR3C_LED     ,Structures\FCS_TM\RouteIL\3way_type2_LED_C.x
+SigR3R_LED     ,Structures\FCS_TM\RouteIL\3way_type2_LED_R.x
+
+#入換3進路用
+SigIR3X        ,Structures\FCS_TM\RouteIL\3way_type1_X.x
+SigIR30        ,Structures\FCS_TM\RouteIL\3way_type1_0.x
+SigIR3L        ,Structures\FCS_TM\RouteIL\3way_type1_L.x
+SigIR3C        ,Structures\FCS_TM\RouteIL\3way_type1_C.x
+SigIR3R        ,Structures\FCS_TM\RouteIL\3way_type1_R.x
+
+#取付金具
+SigR2_Arm      ,Structures\FCS_TM\RouteIL\2way_type1_Arm.x
+SigR3_Arm      ,Structures\FCS_TM\RouteIL\3way_type2_Arm.x
+
+#入換多進路用
+SigIRMN        ,Structures\FCS_TM\RouteIL\MultiR_t3_n.x
+
+#入換多進路用LED
+SigIRMN_LED    ,Structures\FCS_TM\RouteIL\MultiR_t3_LED_n.x
+
+
+##進路予告機
+#背板ありLED
+SigY0_LED      ,Structures\FCS_TM\RouteIL\3way_yokoku_0.x
+SigYL_LED      ,Structures\FCS_TM\RouteIL\3way_yokoku_L.x
+SigYC_LED      ,Structures\FCS_TM\RouteIL\3way_yokoku_C.x
+SigYR_LED      ,Structures\FCS_TM\RouteIL\3way_yokoku_R.x
+Flare_yc       ,Structures\FCS_TM\RouteIL\Flare_yc.x
+Flare_yl       ,Structures\FCS_TM\RouteIL\Flare_yl.x
+Flare_yr       ,Structures\FCS_TM\RouteIL\Flare_yr.x
+
+#背板なしLED
+SigYn0_LED     ,Structures\FCS_TM\RouteIL\3way_yokoku_0n.x
+SigYnL_LED     ,Structures\FCS_TM\RouteIL\3way_yokoku_Ln.x
+SigYnC_LED     ,Structures\FCS_TM\RouteIL\3way_yokoku_Cn.x
+SigYnR_LED     ,Structures\FCS_TM\RouteIL\3way_yokoku_Rn.x
+
+#取付金具
+SigY_Arm       ,Structures\FCS_TM\RouteIL\3way_yokoku_Arm.x
+
 #中继
 Rep0,Structures\Default\signalrep0.x
 Rep1,Structures\Default\signalrep1.x
 Rep4,Structures\Default\signalrep4.x
 #RepGGN,..\Nagoya_Common/Railway_Obj/Signal/Rep/GGN.x,
 #RepGG,..\Nagoya_Common/Railway_Obj/Signal/Rep/GG.x,
+
 #進路表示
 #CR1,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\1.x,
 #CR2,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\2.x,
 #CR3,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\3.x,
 CR4,Structures\CR\CR4.x,
 ,,
+
 #信号ポール
 SigPole,Structures\Default\Sigpole.x
 SigPole_L,Structures\Default\Sigpole.x

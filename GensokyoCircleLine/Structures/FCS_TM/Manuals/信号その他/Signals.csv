@@ -1,0 +1,10 @@
+BveTs Signal Aspects List 2.00:shift_jis
+
+#M†
+#’†ŒpM†
+Relay,        Relay0,        Relay1,                  ,               ,    Relay4
+            ,FlareR0,       FlareR1,                  ,               ,   FlareR4
+
+#’†ŒpM†(LED®)
+Relay_LED,   Relay0_LED,  Relay1_LED,                 ,               ,Relay4_LED
+            ,FlareR0,        FlareR1,                 ,               ,   FlareR4
