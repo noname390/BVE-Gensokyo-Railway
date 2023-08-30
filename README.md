@@ -56,7 +56,7 @@ The following is the distance for the section from Hakurei Shrine to Ningennosat
 | Minami-Ningennosato | 21.040km |
 | Ningennosato | 22.395km |
 
-View [Developper Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md)for more detailed information.
+View [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md)for more detailed information.
 ### Timetable
 #### Loop Line
 
