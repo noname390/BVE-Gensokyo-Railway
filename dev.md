@@ -156,16 +156,16 @@ Koto・Meikai Line:<br>
 列車種別：普通、快速<br>
 #### Unusing
 ##### JR East E653 Series
-使用路線：環状線、湖東線、冥界線特急<br>
+使用路線：環状線、湖東線特急<br>
 最高速度：130km/h<br>
 列車種別：特急<br>
 ##### JR West Kiha120 Series
 使用路線：湖東線<br>
 最高速度：100km/h<br>
 列車種別：普通<br>
-##### JR west 681 Series
-使用路線：博麗守矢ライン<br>
-最高速度：165km/h<br>
+##### JNR 485 Series
+使用路線：湖東線、冥界線、博麗守矢ライン<br>
+最高速度：140km/h<br>
 列車種別：急行<br>
 ### experimental features
 #### Platform lights at Minami-ningennosato station
