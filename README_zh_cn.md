@@ -32,6 +32,7 @@
 如果你将这条模拟线路作为东方project的衍生创作，请注意线路中有大量信息均为作者本人的二次设定，在原作中没有出现。并且可能与其他人的想象有出入。<br>
 线路中幻想乡的地理信息来自以下网站：<br>
 [幻想郷・最新版地理考察](https://yotogiluminary.wixsite.com/website/post/000014)<br>
+[此页面在互联网时光机的备份](https://web.archive.org/web/20230901101451/https://yotogiluminary.wixsite.com/website/post/000014)<br>
 ### 线路图
 <p align="center">
     <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/Gensokyo_CircleLine_RailMap.png" alt="routemap";>
