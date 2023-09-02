@@ -2932,8 +2932,10 @@ track['road'].Position(200,0,0,0);
 	rollingNoise.Change(2);
 27302+$dist1;
 	//Start of myoren bridge
+	rollingNoise.Change(3);
 27470+$dist1;
 	//End of myoren bridge
+	rollingNoise.Change(2);
 28311+$dist1;
 	Curve.BeginTransition();
 28331+$dist1;
