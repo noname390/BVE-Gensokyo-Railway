@@ -2882,22 +2882,38 @@ track['road'].Position(200,0,0,0);
 22610+$dist1;
 	Track['3'].Position(4,-0.01,0,0);
 	Track['4'].Position(0,-0.01,0,0);
-	Repeater['tunnelwall'].Begin('1',2,-0.25,1.6, , , ,1,,4.99, 'Tunnellp');
+	Repeater['tunnelwall'].Begin('1',2,-0.25,1.6, , , ,3,5,5, 'Tunnellp');
 	Structure['Tunnelpotaldark'].Put('1',2,-0.25,1.6,,,,,);
+	Curve.BeginTransition();
+22630+$dist1;
+	Curve.Begin(-472,-0.10);
+23603+$dist1;
+	Curve.BeginTransition();
+23623+$dist1;
+	Curve.End();
+24000+$dist1;
+	CabIlluminance.Set(0);
 #地下→高架
 24005+$dist1;
+	CabIlluminance.Set(1);
+	Repeater['slabRail2'].End();
 	Repeater['slabRail3'].End();
 	Repeater['slabRail4'].End();
 	Repeater['kasen3'].End();
 	Repeater['kasen4'].End();
 	Repeater['tunnelwall'].End();
+	Repeater['slabRail'].Begin0('1',1,4.99,5,'slabrailtwo');
+	Repeater['slabRail2'].Begin0('2',1,4.99,5,'slabrailtwo');
 	Background.Change('Bg_mt');
+	Repeater['tunnelpole1'].End();
 	Fog.Interpolate(0,0.9,0.9,0.9);
+	rollingNoise.Change(0);
 #高架→地面
 24835+$dist1;
-	Repeater['slabRail1'].End();
+	Repeater['slabRail'].End();
 	Repeater['slabRail2'].End();
 	Repeater['Rail'].Begin0('1',1,4.99,5,'rail');
 	Repeater['Rail2'].Begin0('2',1,4.99,5,'rail');
+	rollingNoise.Change(2);
 	
 
