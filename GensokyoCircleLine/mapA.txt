@@ -2930,6 +2930,10 @@ track['road'].Position(200,0,0,0);
 	Repeater['Rail'].Begin0('1',1,4.99,5,'rail');
 	Repeater['Rail2'].Begin0('2',1,4.99,5,'rail');
 	rollingNoise.Change(2);
+27302+$dist1;
+	//Start of myoren bridge
+27470+$dist1;
+	//End of myoren bridge
 28311+$dist1;
 	Curve.BeginTransition();
 28331+$dist1;
