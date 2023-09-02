@@ -2123,7 +2123,7 @@ track['road'].Position(200,0,0,0);
 	Repeater['tunwallC3'].Begin('1',1.9,2.6,0, , , ,3,,10, 'tunwallR');
 	Repeater['tunwallC4'].Begin('1',1.9,4.4,0, , , ,3,,10, 'tunwallR');
 	Repeater['tunwallC5'].Begin('1',1.9,6.2,0, , , ,3,,10, 'tunwallR');
-	include 'arr-lights.txt';
+	//include 'arr-lights.txt';
 20900+$dist1;
 	Repeater['tunwallL1'].End();
 	Repeater['tunwallL2'].End();
