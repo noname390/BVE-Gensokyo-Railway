@@ -3046,10 +3046,12 @@ track['road'].Position(200,0,0,0);
 	Curve.End();
 33459+$dist1;
 	//Entrance of Jyukai Tunnel
+	rollingNoise.Change(4);
 33889+$dist1;
 	Curve.BeginTransition();
 33909+$dist1;
 	//Exit of Jyukai Tunnel
+	rollingNoise.Change(2);
 	Curve.Begin(800,0.09);
 34345+$dist1;
 	Curve.BeginTransition();
@@ -3129,16 +3131,20 @@ track['road'].Position(200,0,0,0);
 	Curve.End();
 38145+$dist1;
 	//Entrance of No1 Moriya Tunnel
+	rollingNoise.Change(4);
 38414+$dist1;
 	//Exit of No1 Moriya Tunnel
+	rollingNoise.Change(2);
 38619+$dist1;
 	//Entrance of No2 Moriya Tunnel
+	rollingNoise.Change(4);
 38697+$dist1;
 	Curve.BeginTransition();
 38717+$dist1;
 	Curve.Begin(600,0.1);
 38946+$dist1;
 	//Exit of No2 Moriya Tunnel
+	rollingNoise.Change(2);
 39132+$dist1;
 	Curve.BeginTransition();
 39152+$dist1;
