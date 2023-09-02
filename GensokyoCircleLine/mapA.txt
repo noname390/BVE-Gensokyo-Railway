@@ -2634,7 +2634,7 @@ track['road'].Position(200,0,0,0);
 	Repeater['ekimei8'].End();
 	Repeater['modernformL1'].End();
 	Repeater['modernformL2'].End();
-        Repeater['modernformL3'].End();
+    Repeater['modernformL3'].End();
 	Repeater['modernformL4'].End();
 	Repeater['modernformR1'].End();
 	Repeater['modernformR2'].End();
@@ -2694,8 +2694,8 @@ track['road'].Position(200,0,0,0);
 	Repeater['bansen3'].End();
 	Repeater['bansen4'].End();
 	#temp carstop at 4,5 ban sen
-	Structure['carstop'].Put('1',0,-0,0,,,,,);
-	Structure['carstop'].Put('2',0,-0,0,,,,,);
+	//Structure['carstop'].Put('1',0,-0,0,,,,,);
+	//Structure['carstop'].Put('2',0,-0,0,,,,,);
 	#endwall-1ban sen
 	Structure['formendfence'].Put('4',3.5,1.2,-0.3,,,,,);
 	Structure['formwallbrownR'].Put('4',7.1,1.2,-0.4,,-90,,,);
@@ -2884,15 +2884,13 @@ track['road'].Position(200,0,0,0);
 	Track['4'].Position(0,-0.01,0,0);
 	Repeater['tunnelwall'].Begin('1',2,-0.25,1.6, , , ,1,,4.99, 'Tunnellp');
 	Structure['Tunnelpotaldark'].Put('1',2,-0.25,1.6,,,,,);
-25000+$dist1;
-	Repeater['slabRail'].End();
-	Repeater['slabRail2'].End();
+24005+$dist1;
 	Repeater['slabRail3'].End();
 	Repeater['slabRail4'].End();
-	Repeater['kasen1'].End();
-	Repeater['kasen2'].End();
 	Repeater['kasen3'].End();
 	Repeater['kasen4'].End();
 	Repeater['tunnelwall'].End();
+	Background.Change('Bg_mt');
+	Fog.Interpolate(0,0.9,0.9,0.9);
 	
 
