@@ -3081,9 +3081,11 @@ track['road'].Position(200,0,0,0);
 	SpeedLimit.End();
 33459+$dist1;
 	//Entrance of Jyukai Tunnel
-	Repeater['tunnelwall'].Begin('1',2,-0.25,1.6, , , ,3,5,5, 'Tunnellp');
-	Structure['Tunnelpotal'].Put('1',2,-0.25,1.6,,,,,);
+	Structure['Tunnelpotal'].Put('1',2,-0,,,,,,);
+	Structure['Tunnelentry'].Put('1',2,-0,,,,,,);
 	rollingNoise.Change(4);
+33464+$dist1;
+	Repeater['tunnelwall'].Begin('1',2,-0,, , , ,3,5,5, 'Tunnellp');
 33889+$dist1;
 	Curve.BeginTransition();
 33909+$dist1;
