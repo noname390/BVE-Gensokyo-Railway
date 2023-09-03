@@ -11,9 +11,9 @@ Tunnelpotal,Structures\Tunnel\huku_c1_Potal1.x
 Tunnelpotaldark,Structures\Tunnel\huku_c1_Potaldark.x
 Tunnellp,Structures\Tunnel\huku_c1_lp.x
 Tunnelentry-tansen,Structures\Tunnel\1go_c1_ent.x
-Tunnelpotal-tansen,Structures\Tunnel\1go_c1_Potal1.x
-Tunnelpotaldark-tansen,Structures\Tunnel\1go_c1_Potal1.x
-Tunnellp-tansen,Structures\Tunnel\1go_c1_lp.x
+Tunnelpotal-tansen,Structures\Tunnel\kouK1_c1_Potal.x
+Tunnelpotaldark-tansen,Structures\Tunnel\kouK1_c1_Potal.x
+Tunnellp-tansen,Structures\Tunnel\kouK1_cr1_lp.x
 #Platform
 modernformL,Structures\ACCC\Station\Form51L.x
 modernformR,Structures\ACCC\Station\Form51R.x

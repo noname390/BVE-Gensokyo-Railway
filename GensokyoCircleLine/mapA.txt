@@ -3158,6 +3158,7 @@ track['road'].Position(200,0,0,0);
 37826+$dist1;
 	Curve.Begin(-300,-0.15);
 	SpeedLimit.Begin(65);
+	Track['2'].Position(4,0,0,0);
 37924+$dist1;
 	Curve.BeginTransition();
 37944+$dist1;
@@ -3168,19 +3169,31 @@ track['road'].Position(200,0,0,0);
 38009+$dist1;
 	Curve.Begin(500,0.10);
 	SpeedLimit.Begin(75);
+	Track['2'].Position(12,0,0,0);
 38119+$dist1;
 	Curve.BeginTransition();
 38139+$dist1;
 	Curve.End();
+	Track['2'].Position(12,0,0,0);
 	SpeedLimit.End();
 38145+$dist1;
 	//Entrance of No1 Moriya Tunnel
+	Repeater['tunnelwall'].Begin('1',0,1.2,0, , , ,3,5,5, 'Tunnellp-tansen');
+	Repeater['tunnelwall2'].Begin('2',0,1.2,0, , , ,3,5,5, 'Tunnellp-tansen');
+	Structure['Tunnelpotal-tansen'].Put('1',0,1.2,0,,,,,);
+	Structure['Tunnelpotal-tansen'].Put('2',0,1.2,0,,,,,);
 	rollingNoise.Change(4);
 38414+$dist1;
 	//Exit of No1 Moriya Tunnel
+	Repeater['tunnelwall'].End();
+	Repeater['tunnelwall2'].End();
 	rollingNoise.Change(2);
 38619+$dist1;
 	//Entrance of No2 Moriya Tunnel
+	Repeater['tunnelwall'].Begin('1',0,1.2,0, , , ,3,5,5, 'Tunnellp-tansen');
+	Repeater['tunnelwall2'].Begin('2',0,1.2,0, , , ,3,5,5, 'Tunnellp-tansen');
+	Structure['Tunnelpotal-tansen'].Put('1',0,1.2,0,,,,,);
+	Structure['Tunnelpotal-tansen'].Put('2',0,1.2,0,,,,,);
 	rollingNoise.Change(4);
 38697+$dist1;
 	Curve.BeginTransition();
@@ -3189,6 +3202,8 @@ track['road'].Position(200,0,0,0);
 	SpeedLimit.Begin(	85);
 38946+$dist1;
 	//Exit of No2 Moriya Tunnel
+	Repeater['tunnelwall'].End();
+	Repeater['tunnelwall2'].End();
 	rollingNoise.Change(2);
 39132+$dist1;
 	Curve.BeginTransition();
