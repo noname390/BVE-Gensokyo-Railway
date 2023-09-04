@@ -3395,15 +3395,18 @@ track['road'].Position(200,0,0,0);
 	Structure['stop'].Put('1',2,-0.3,0,,,,,);
 39455+$dist1;
 	Track['2'].Position(8,0,-300,0);
-	Track['3'].Position(-8,0,300,0);
+	Track['3'].Position(-8,0,200,0);
+39490+$dist1;
+	Track['3'].Position(-4,0,-200,0);
 39505+$dist1;
 	Track['2'].Position(4,0,300,0);
-	Track['3'].Position(-4,0,-300,0);
+39525+$dist1;
+	Track['3'].Position(-0,-0.001);
 39555+$dist1;
 	Track['2'].Position(0,-0.001);
-	Track['3'].Position(-0,-0.001);
 	Repeater['Rail2'].End();
 	Repeater['Rail3'].End();
+	Repeater['Kasen2'].End();
 
 
 
