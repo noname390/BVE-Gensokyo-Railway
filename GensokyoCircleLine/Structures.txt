@@ -37,6 +37,7 @@ bridgewallL,Structures\Wall\Wall_QN_L5m.x
 bridgewallR,Structures\Wall\Wall_QN_R5m.x
 bridgehandleL,Structures\Bridge\red5_bL.x
 bridgehandleR,Structures\Bridge\red5_bR.x
+bridgeban,Structures\Bridge\red5_b_ban.x
 #background
 Bg_mt,Structures\Bg\Bg_fine_summer_mt3.x
 #nature
