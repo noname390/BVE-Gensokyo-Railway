@@ -3048,6 +3048,7 @@ track['road'].Position(200,0,0,0);
 24763+$dist1;
 	Track['2'].Position(4,0,0,0);
 	Legacy.Curve(0,0);
+	Repeater['fukusenpole1'].Begin('1',2,0,0, , , ,3,40,40, 'fukusenpole5');
 #高架→地面
 24835+$dist1;
 	Repeater['slabRail'].End();
@@ -3131,6 +3132,7 @@ track['road'].Position(200,0,0,0);
 	Track['ground'].Position(0,-1,0,0);
 27711+$dist1;
 	Track['2'].Position(4,0,2000,0);
+		Repeater['fukusenpole1'].End();
 27761+$dist1;
 	Track['2'].Position(5,0,-2000,0);
 27811+$dist1;
