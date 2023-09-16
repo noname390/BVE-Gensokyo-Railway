@@ -3749,7 +3749,7 @@ track['road'].Position(200,0,0,0);
 	Repeater['slabRail'].End();
 	Repeater['slabRail2'].End();
 	Track['ground'].Position(0,-10,0,0);
-	rollingNoise.Change(2);
+	rollingNoise.Change(3);
 	CabIlluminance.Set(1);
 38414+$dist1;
 	Repeater['bridgerail'].Begin('1', 0, 0, 0, , , , 3,5,5, 'bridgerail');
