@@ -49,6 +49,7 @@ fieldL,Structures\Nature\Ground\fieldL_25.x
 river,Structures\Nature\River\river50m_green.x
 mount,Structures\Nature\mount\GrsWallL4.x
 mountR,Structures\Nature\mount\GrsWallR4.x
+mounttun,Structures\Nature\mount\GrsWall_TunL02.x
 tree1,Structures\Nature\trees\tree01_S.x
 tree2,Structures\Nature\trees\tree02_S.x
 tree3,Structures\Nature\trees\tree03_S.x
