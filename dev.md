@@ -80,6 +80,7 @@ Hakurei Moriya Line:<br>
 Koto・YoukaiYama・Yuumeikekkai・Meikai Line:<br>
 #### Komakan->Saigyoayakashi
 紅魔館--⚡DC 1500v<->⚡AC 20kv--ヴワル<br>
+注意：因为缺乏地理信息，一部分站名为自行创作<br>
 Note:Due to the lack of geography information,some station names are originally created.<br>
 ##### 湖東線
 |#   |駅名          |優等列車停車駅|キロ |普通‐運行時間|快速‐運行時間| 最高速度| 線路数| ホーム      |駅構造| 
