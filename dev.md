@@ -17,7 +17,7 @@ Note:this document contains untranslated parts.<br>
 ### Routes
 #### RouteMap
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/Gensokyo_CircleLine_RailMap_Planned.jpg" alt="routemap";>
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/Gensokyo_CircleLine_RailMap_Planned.png" alt="routemap";>
 </p>
 <br>
 (Thanks for @AshBill who created the new routemap)
