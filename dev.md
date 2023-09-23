@@ -29,7 +29,7 @@ Note: This document contains untranslated parts.<br>
 ### Route Design
 #### HakureiShrine->Ningennosato
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/haisennryakuzu/N01_N06.jpg" alt="routemap";>
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/N01_N06.jpg" alt="routemap";>
 </p>
 <br>
 
