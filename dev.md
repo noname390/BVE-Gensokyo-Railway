@@ -1,35 +1,35 @@
 # Developer Guide
-Note:this document contains untranslated parts.<br>
+Note: This document contains untranslated parts.<br>
 ## Setup develop environment
-1. Download Bve Trainsim 5 from offical website.
-2. Get a text editor.Vscode is recommended.You can also use the Windows notepad since most files here are txt.
+1. Download Bve Trainsim 5 from the offical website.
+2. Get a text editor. Vscode is recommended. You can also use the Windows notepad since most files here are txt.
 3. Select the path of this project and open in Bve Trainsim 5.
-4. Right cilck in bve and select the"preference",then click"Advanced Settings"and Enable functions for development.
+4. Right-click in bve and select the "preference", then click "Advanced Settings" and Enable functions for development.
 5. Now you can develop route in Bve Trainsim.
 ## Contribute to this project
-1. Create a fork of this repository.This will generate a repository with the same content under your account.
-2. Clone the repository.You can do this with Git or Github Desktop.And you will find the repository in your local machine.
+1. Create a fork of this repository. This will generate a repository with the same content under your account.
+2. Clone the repository. You can do this with Git or Github Desktop. And you will find the repository in your local machine.
 3. Develop on your local machine.
-4. After you complete something,push the commits to your forked repository.
+4. After you complete something, push the commits to your forked repository.
 5. Merge your commits to the main repository with pull requests.
-6. Now you are a contributor of this project.Your username will appear on the right side of the repository page.
-## informations
+6. Now you are a contributor of this project. Your username will appear on the right side of the repository page.
+## Informations
 ### Routes
 #### RouteMap
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/Gensokyo_CircleLine_RailMap_Planned.png" alt="routemap";>
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/Gensokyo_System_Map.png" alt="routemap";>
 </p>
 <br>
 (Thanks for @AshBill who created the new routemap)
 
-#### Loop line（環状線）
-#### Hakurei Moriya line（博麗守矢ライン）
-#### Koto line（湖東線）
-#### Meikai line（冥界線）
-### Routedesign
+#### Loop Line（環状線）
+#### Hakurei Moriya Line（博麗守矢ライン）
+#### Koto Line（湖東線）
+#### Meikai Line（冥界線）
+### Route Design
 #### HakureiShrine->Ningennosato
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/route_design_Hakurei-ningen.jpg" alt="routemap";>
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/haisennryakuzu/N01_N06.jpg" alt="routemap";>
 </p>
 <br>
 
@@ -81,7 +81,7 @@ Koto・YoukaiYama・Yuumeikekkai・Meikai Line:<br>
 #### Komakan->Saigyoayakashi
 紅魔館--⚡DC 1500v<->⚡AC 20kv--ヴワル<br>
 注意：因为缺乏地理信息，一部分站名为自行创作<br>
-Note:Due to the lack of geography information,some station names are originally created.<br>
+Note: Due to the lack of geography information, some station names were originally created.<br>
 ##### 湖東線
 |#   |駅名          |優等列車停車駅|キロ |普通‐運行時間|快速‐運行時間| 最高速度| 線路数| ホーム      |駅構造| 
 |--- |---          |---          |--- |---         |---         |---    |---    |---         |---   |
@@ -182,12 +182,12 @@ Note:Due to the lack of geography information,some station names are originally 
 |北博麗　 | 		  |        |       | 
 |博麗神社 | 		  |        |       | 
 ### Trains
-#### In Using:
+#### In Use:
 ##### JR East E129 Series
 使用路線：環状線全線<br>
 最高速度：110km/h<br>
 列車種別：普通、快速<br>
-#### Unusing
+#### Not in Use (or not implemented):
 ##### JR East E653 Series
 使用路線：環状線、湖東線特急<br>
 最高速度：130km/h<br>
@@ -200,5 +200,5 @@ Note:Due to the lack of geography information,some station names are originally 
 使用路線：冥界方面、博麗守矢ライン<br>
 最高速度：140km/h<br>
 列車種別：特急、急行<br>
-### experimental features
+### Experimental Features
 #### Platform lights at Minami-ningennosato station
