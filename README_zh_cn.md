@@ -36,7 +36,7 @@
 [此页面在互联网时光机的备份](https://web.archive.org/web/20230901101451/https://yotogiluminary.wixsite.com/website/post/000014)<br>
 ### 线路图
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/Gensokyo_CircleLine_RailMap.png" alt="routemap";>
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/CircleLine_Map_Planned.png" alt="routemap";>
 </p>
 <br>
 (感谢@AshBill绘制线路图)

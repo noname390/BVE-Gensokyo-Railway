@@ -17,7 +17,7 @@ Note: This document contains untranslated parts.<br>
 ### Routes
 #### RouteMap
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/Gensokyo_CircleLine_RailMap_Planned.png" alt="routemap";>
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/maps/Gensokyo_System_Map.png" alt="routemap";>
 </p>
 <br>
 (Thanks for @AshBill who created the new routemap)
@@ -29,7 +29,7 @@ Note: This document contains untranslated parts.<br>
 ### Route Design
 #### HakureiShrine->Ningennosato
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/intro/route_design_Hakurei-ningen.jpg" alt="routemap";>
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/haisennryakuzu/N01_N06.jpg" alt="routemap";>
 </p>
 <br>
 
