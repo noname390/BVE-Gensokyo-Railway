@@ -191,7 +191,7 @@ Note: Due to the lack of geography information, some station names were original
 ##### JR East E653 Series
 使用路線：環状線、湖東線特急<br>
 最高速度：130km/h<br>
-列車種別：特急<br>
+列車種別：特急、急行<br>
 ##### JR Hokkaido 711 Series
 使用路線：湖東線<br>
 最高速度：95km/h<br>
