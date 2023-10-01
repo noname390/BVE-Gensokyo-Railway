@@ -84,7 +84,8 @@ Please visit the train creator's website
 ## License
 MIT License<br>
 The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
-Source of structures:<br>
+<br>
+Source of structures or creator of them:<br>
 かんたんのゆめ汎用ストラクチャセット<br>
 仙ナセ<br>
 Tetsu_Otter<br>
@@ -94,5 +95,5 @@ FCS_TM<br>
 Takamizawa<br>
 Yukkuri_Bve<br>
 雑庫Site<br>
-the station music:<br>
+some station music are from this page:<br>
 https://commons.nicovideo.jp/users/upload/157209?page=2

@@ -82,7 +82,8 @@ E129系车辆数据的版权方为“Mc_1323”。<br>
 ## 许可协议
 MIT License<br>
 E129系车辆数据的版权方为“Mc_1323”<br>
-使用素材或其作者：<br>
+<br>
+使用的素材或其作者：<br>
 かんたんのゆめ汎用ストラクチャセット<br>
 仙ナセ<br>
 Tetsu_Otter<br>
@@ -92,5 +93,5 @@ FCS_TM<br>
 Takamizawa<br>
 Yukkuri_Bve<br>
 雑庫Site<br>
-车站音乐: <br>
+一些车站音乐来自以下网页: <br>
 https://commons.nicovideo.jp/users/upload/157209?page=2
