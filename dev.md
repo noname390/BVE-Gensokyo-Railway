@@ -174,6 +174,7 @@ Note: Due to the lack of geography information, some station names were original
 |草田     | 		  |        |↓       | 
 |守矢神社 | 		  |        |1004    | 
 |風神の湖 | 		  |        |↓        | 
+|玄武の沢 | 		  |        |↓        | 
 |香霖堂前 | 		  |        |        | 
 |魔法の森 | 		  |        |↓       | 
 |霧の湖   | 		  |        |↓       | 
