@@ -18,8 +18,8 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 - 2023-8-5:Release v0.9 preview
 - [x] 2023-8-10:Release v1.0(Loop line from HKR-NNS)
 - 2023-9-13:Release v1.1 preview
-- [] 2023-?-?:Release v2.0(Loop line from NNS-MRY)
-- [] 2023-?-?:Release v3.0(Loop line complete)
+- [ ] 2023-?-?:Release v2.0(Loop line from NNS-MRY)
+- [ ] 2023-?-?:Release v3.0(Loop line complete)
 ## Installation Guide
 1. Make sure you are in the Windows operating system.
 2. Install Bve Trainsim 5 and DirectX.（Sometimes .NET is also needed）
