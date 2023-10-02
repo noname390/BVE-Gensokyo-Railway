@@ -52,7 +52,9 @@ grassland,Structures\Nature\Ground\Grass100m.x
 fieldL,Structures\Nature\Ground\fieldL_25.x
 river,Structures\Nature\River\river50m_green.x
 mount,Structures\Nature\mount\GrsWallL4.x
+mountH,Structures\Nature\mount\GrsWallHL.x
 mountR,Structures\Nature\mount\GrsWallR4.x
+mountHR,Structures\Nature\mount\GrsWallHR.x
 mounttun,Structures\Nature\mount\GrsWall_TunL02.x
 tree1,Structures\Nature\trees\tree01_S.x
 tree2,Structures\Nature\trees\tree02_S.x
