@@ -3094,7 +3094,7 @@ track['road'].Position(200,0,0,0);
 24835+$dist1;
 	Repeater['slabRail'].End();
 	Repeater['slabRail2'].End();
-	Repeater['Rail'].Begin0('1',1,4.99,5,'rail');
+	Repeater['Rail'].Begin0('1',1,4.99,5,'railtwo');
 	Repeater['Rail2'].Begin0('2',1,4.99,5,'rail');
 	Structure['rail'].Put('1',0,-2.55,-4.33,-30,0,0,0,);
 	Structure['rail'].Put('2',0,-2.55,-4.33,-30,0,0,0,);
