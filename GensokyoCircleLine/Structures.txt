@@ -102,6 +102,7 @@ tunnelpole,Structures\Accessory\E_Poles\acc\MinibeamF02_dark.x
 kasenhang,Structures\Accessory\E_Poles\acc\MinibeamF02.x
 kasenhangL,Structures\Accessory\E_Poles\acc\MinibeamF01R.x
 kasenhangR,Structures\Accessory\E_Poles\acc\MinibeamF02L.x
+wire40m_L,Structures\GSR\frameworks\wire40m_L.x
 #light
 light,Structures\structure_FL\FL.x
 tunlight,Structures\Tunnel\huku_light.x
