@@ -56,6 +56,7 @@ mountH,Structures\Nature\mount\GrsWallHL.x
 mountR,Structures\Nature\mount\GrsWallR4.x
 mountHR,Structures\Nature\mount\GrsWallHR.x
 mounttun,Structures\Nature\mount\GrsWall_TunL02.x
+Grass,Structures\Nature\mount\Grass.x
 tree1,Structures\Nature\trees\tree01_S.x
 tree2,Structures\Nature\trees\tree02_S.x
 tree3,Structures\Nature\trees\tree03_S.x
