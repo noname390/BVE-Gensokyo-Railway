@@ -4084,14 +4084,10 @@ track['road'].Position(200,0,0,0);
 39300+$dist1;
 	Repeater['kasen4'].End();
 #Signs of Moriya Shrine sta
-39425-1000+$dist1;
-	Structure['Tmoriya'].Put('1',-2.3,1.1,-0.01,,,,,);
-	Structure['limitpole'].Put('1',-2.3,1,,,,,,);
-	Structure['limitpole'].Put('1',-2.3,-0.1,,,,,,);
-39425-900+$dist1;
-	Structure['teisha'].Put('1',-2.3,1.1,0,,,,,);
-	Structure['limitpole'].Put('1',-2.3,1,,,,,,);
-	Structure['limitpole'].Put('1',-2.3,-0.2,,,,,,);
+39425-700+$dist1;
+	Structure['Tmoriya'].Put('1',-2.1,0.6,-0.01,,,,,);
+39425-600+$dist1;
+	Structure['teisha'].Put('1',-2.1,0.6,0,,,,,);
 39425-300+$dist1;
 	Structure['300t'].Put('1',-2.3,-0.5,0,,,,,);
 	Structure['limitpole'].Put('1',-2.3,-0.1,0,,,,,);
