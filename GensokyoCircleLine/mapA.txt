@@ -3550,6 +3550,8 @@ track['road'].Position(200,0,0,0);
 	Track['mountain'].Position(-240,0,0,0);	
 	Repeater['mountainR'].End();	
 	Repeater['mountain'].End();
+	Repeater['dikegrsL1'].Begin('1',0,0,0, ,, ,3,25,25, 'dikegrassL');
+	Repeater['dikegrsR1'].Begin('2',0,0,0, ,, ,3,25,25, 'dikegrassR');
 31000+$dist1;
 	Gradient.Begin(5.4);
 	Structure['GPUD'].Put('1',-2.3,-0.6,0,,0,,,);
@@ -3666,6 +3668,8 @@ track['road'].Position(200,0,0,0);
 	Repeater['MountHL'].End();
 	Track['mountainR'].Position(181,140,0,0);	
 	Repeater['MountHR'].End();
+	Repeater['dikegrsL1'].End();
+	Repeater['dikegrsR1'].End();
 	//Entrance of Jyukai Tunnel
 	Structure['mount'].Put('2',0,67,53.5,0,52.5,0,3,);	
 	Structure['mount'].Put('2',-50,67,53.5,0,52.5,0,3,);	
