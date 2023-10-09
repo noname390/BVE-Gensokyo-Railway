@@ -1584,10 +1584,11 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('1',2.4,4.5,0,,180,,,5);
 	Structure['Sig_Arm_SD'].Put('1',2.4,3.38,0,,180,,,5);
 	Structure['Sig_Base_Step'].Put('1',2.4,-0.6,0,,180,,,5);
+//曲线制限
 13965+$dist1;
 	$sig=distance;
 	$sig-400;
-	Beacon.Put(9,0,400085);
+	Beacon.Put(9,0,300085);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 14398+$dist1;
@@ -1597,7 +1598,7 @@ BveTs Map 2.00
 16487+$dist1;
 	$sig=distance;
 	$sig-400;
-	Beacon.Put(9,0,400095);
+	Beacon.Put(9,0,300095);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 16673+$dist1;
@@ -1607,7 +1608,7 @@ BveTs Map 2.00
 17149+$dist1;
 	$sig=distance;
 	$sig-400;
-	Beacon.Put(9,0,400055);
+	Beacon.Put(9,0,300055);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 17230+$dist1;
@@ -1617,16 +1618,30 @@ BveTs Map 2.00
 19170+$dist1;
 	$sig=distance;
 	$sig-400;
-	Beacon.Put(9,0,400100);
+	Beacon.Put(9,0,300100);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 22255+$dist1;
 	$sig=distance;
 	$sig-400;
-	Beacon.Put(9,0,400035);
+	Beacon.Put(9,0,300035);
 	Structure['ATS-P_Muden'].Put('1',0,0.1,0,,,,,);
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
-//ATS-P Signals End
+22355+$dist1;
+	Beacon.Put(19,0,0);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
+22630+$dist1;
+	$sig=distance;
+	$sig-400;
+	Beacon.Put(9,0,300085);
+	Structure['ATS-P_Muden'].Put('1',0,0.1,0,,,,,);
+	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
+23623+$dist1;
+	Beacon.Put(19,0,0);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
+//唤呼标
 890+$dist1;
 Structure['check'].Put('1',-2.6,3,-0.15,0,0,0,,);
 1955+$dist1;
