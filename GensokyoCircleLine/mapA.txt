@@ -3051,7 +3051,7 @@ track['road'].Position(200,0,0,0);
 	Track['4'].Position(14,0,-700,0);
 	Legacy.Curve(6000,0);
 	Gradient.BeginTransition();
-	Structure['GPDL'].Put('1',-2.3,-0.6,0,,0,,,);
+	Structure['GPDL'].Put('3',-2.3,-0.6,5,,0,,,);
 	Track['ground'].Position(0,-6,0,0);
 	Repeater['concbridge1'].Begin('1',0,-0.25, 0, , , ,3,5,5, 'concbridge');
 	Repeater['concbridge2'].Begin('2',0,-0.25, 0, , , ,3,5,5, 'concbridge');
