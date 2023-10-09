@@ -894,9 +894,9 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SD'].Put('2',2.1,2.0,0,,,,,5);
 23300+$dist1;//人里-西人里 第一闭塞
 	Section.Begin(0,2,4);
-	Signal['Type4yg_LED'].Put(0,'1',-1.72,3.5,-0.05,,,,,);
-	Structure['Sig_Arm_SU'].Put('1',-2.11,3.6,-0.38,,-90,,,5);
-	Structure['Sig_Arm_SD'].Put('1',-2.11,2.38,-0.38,,-90,,,5);
+	Signal['Type4yg_LED'].Put(0,'2',1.72,3.5,-0.05,,,,,);
+	Structure['Sig_Arm_SU'].Put('2',2.11,3.6,-0.38,,-90,,,5);
+	Structure['Sig_Arm_SD'].Put('2',2.11,2.38,-0.38,,-90,,,5);
 	$sig=distance;
 	$sig-30;
 	Beacon.Put(5,1,0);
@@ -1653,8 +1653,8 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 29121+$dist1;
 	$sig=distance;
-	$sig-400;
-	Beacon.Put(9,0,300075);
+	$sig-100;
+	Beacon.Put(9,0,100075);
 	Structure['ATS-P_Muden'].Put('1',0,0.1,0,,,,,);
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 29417+$dist1;
@@ -1664,7 +1664,7 @@ BveTs Map 2.00
 30386+$dist1;
 	$sig=distance;
 	$sig-400;
-	Beacon.Put(9,0,300095);
+	Beacon.Put(9,0,400095);
 	Structure['ATS-P_Muden'].Put('1',0,0.1,0,,,,,);
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 30493+$dist1;
@@ -1683,8 +1683,8 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 31562+$dist1;
 	$sig=distance;
-	$sig-400;
-	Beacon.Put(9,0,300085);
+	$sig-200;
+	Beacon.Put(9,0,200085);
 	Structure['ATS-P_Muden'].Put('1',0,0.1,0,,,,,);
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 31781+$dist1;
@@ -1693,8 +1693,8 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 31886+$dist1;
 	$sig=distance;
-	$sig-400;
-	Beacon.Put(9,0,300105);
+	$sig-100;
+	Beacon.Put(9,0,100105);
 	Structure['ATS-P_Muden'].Put('1',0,0.1,0,,,,,);
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 32024+$dist1;
@@ -1703,8 +1703,8 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 32160+$dist1;
 	$sig=distance;
-	$sig-400;
-	Beacon.Put(9,0,300085);
+	$sig-100;
+	Beacon.Put(9,0,100085);
 	Structure['ATS-P_Muden'].Put('1',0,0.1,0,,,,,);
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 32332+$dist1;
@@ -1714,7 +1714,7 @@ BveTs Map 2.00
 33059+$dist1;
 	$sig=distance;
 	$sig-400;
-	Beacon.Put(9,0,300080);
+	Beacon.Put(9,0,400080);
 	Structure['ATS-P_Muden'].Put('1',0,0.1,0,,,,,);
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 33157+$dist1;
@@ -1743,8 +1743,8 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 38009+$dist1;
 	$sig=distance;
-	$sig-400;
-	Beacon.Put(9,0,300085);
+	$sig-60;
+	Beacon.Put(9,0,100085);
 	Structure['ATS-P_Muden'].Put('1',0,0.1,0,,,,,);
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 38139+$dist1;
@@ -1757,10 +1757,14 @@ BveTs Map 2.00
 	Beacon.Put(9,0,300095);
 	Structure['ATS-P_Muden'].Put('1',0,0.1,0,,,,,);
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
+39150+$dist1;
+	Beacon.Put(19,0,0);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 39152+$dist1;
 	$sig=distance;
-	$sig-400;
-	Beacon.Put(9,0,300045);
+	$sig-1;
+	Beacon.Put(9,0,100045);
 	Structure['ATS-P_Muden'].Put('1',0,0.1,0,,,,,);
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 //唤呼标
@@ -1790,47 +1794,100 @@ Structure['check_relay'].Put('1',-2.6,3,-0.25,0,0,0,,);
 Structure['check_relay'].Put('1',-2.6,3,-0.25,0,0,0,,);
 5940+$dist1;
 Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
-8470;
+6980+$dist1;
 Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
-9670;
+9670-1490+$dist1;
 Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
-10750;
+10750-1490+$dist1;
 Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
-11950;
+11950-1490+$dist1;
 Structure['check_home'].Put('1',-2.6,3,-0.2,0,0,0,,);
-12190;
+12190-1490+$dist1;
 Structure['check_departure'].Put('1',-2.6,3,-0.15,0,0,0,,);
-12910;
+12910-1490+$dist1;
 Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
-13790;
+13790-1490+$dist1;
 Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
-14950;
+14950-1490+$dist1;
 Structure['check_home'].Put('1',-2.6,3,-0.2,0,0,0,,);
-15270;
+15270-1490+$dist1;
 Structure['check_departure'].Put('1',-2.6,3,-0.15,0,0,0,,);
-16340;
+16340-1490+$dist1;
 Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
-17500;
+17500-1490+$dist1;
 Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
-18300;
+18300-1490+$dist1;
 Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
-19455;
+19455-1490+$dist1;
 Structure['check'].Put('1',-2.4,3,-0.25,0,0,0,,);
-20050;
+20050-1490+$dist1;
 Structure['check_relay'].Put('1',-2.4,3,-0.25,0,0,0,,);
-20530;
+20530-1490+$dist1;
 Structure['check'].Put('1',-2.4,3,-0.25,0,0,0,,);
-21345;
+21345-1490+$dist1;
 Structure['check'].Put('1',-2.15,2.5,-0.25,0,0,0,,);
-21945;
+21945-1490+$dist1;
 Structure['check_home'].Put('1',-2.15,2.5,-0.2,0,0,0,,);
-22360;
+22360-1490+$dist1;
 Structure['check_departure'].Put('1',-2.15,2.5,-0.15,0,0,0,,);
-23000;
+23000-1490+$dist1;
 Structure['check'].Put('1',-2.15,2.5,-0.25,0,0,0,,);
-23400;
+23400-1490+$dist1;
 Structure['check_home'].Put('1',-2.15,2.5,-0.2,0,0,0,,);
-23608;
+23608-1490+$dist1;
 Structure['check_home'].Put('1',-2.05,2.5,-0.2,0,0,0,,);
-23745;
+23745-1490+$dist1;
 Structure['check_departure'].Put('1',-2,1,-0.15,0,0,0,,);
+23000-125+$dist1;//闭塞中继
+Structure['check_relay'].Put('1',-2,2.5,0,0,0,0,,);
+23300-125+$dist1;//人里-西人里 第一闭塞
+Structure['check'].Put('1',-2,2.5,0,0,0,0,,);
+24045+$dist1;//西人里场内
+Structure['check_home'].Put('1',-2.6,3,-0.25,0,0,0,,);
+24473-188+$dist1; //西人里出发
+Structure['check_departure'].Put('1',2.65,3,-0.05,0,0,0,,);
+Structure['check_departure'].Put('3',-2.65,3,-0.45,0,0,0,,);
+25400-277+$dist1;//西人里-命莲寺 第一闭塞
+Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+25990-267+$dist1;//人里车辆中心
+Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+26550-267+$dist1;//西人里-命莲寺 第二闭塞
+Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+27700-210+$dist1;//西人里-命莲寺 第三闭塞
+Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+28805-205+$dist1;//命莲寺场内
+Structure['check_home'].Put('1',-2.6,3,-0.25,0,0,0,,);
+29029-200+$dist1; //命莲寺出发
+Structure['check_departure'].Put('1',2.65,4.5,-0.05,0,0,0,,);
+30171-251+$dist1;//北命莲寺场内
+Structure['check_home'].Put('1',-2.6,3,-0.25,0,0,0,,);
+30311-94+$dist1; //北命莲寺出发
+Structure['check_departure'].Put('1',-5.05,4.5,-0.25,0,0,0,,);
+31150-230+$dist1;//闭塞中继
+Structure['check_relay'].Put('1',-2.6,3,-0.25,0,0,0,,);
+31450-130+$dist1;//北命莲寺-树海 第一闭塞
+Structure['check'].Put('1',-2.6,3,-0.5,0,0,0,,);
+32050-210+$dist1;//闭塞中继
+Structure['check_relay'].Put('1',-2.6,3,-0.25,0,0,0,,);
+32550-230+$dist1;//北命莲寺-树海 第二闭塞
+Structure['check'].Put('1',-2.6,3,-0.5,0,0,0,,);
+33700-200+$dist1;//北命莲寺-树海 第三闭塞
+Structure['check'].Put('1',-2,2.5,0,0,0,0,,);
+34862-262+$dist1;//树海场内
+Structure['check_home'].Put('1',-2.6,3,-0.25,0,0,0,,);
+34982-102+$dist1; //树海出发
+Structure['check_departure'].Put('1',-5.05,4.5,-0.35,0,0,0,,);
+35810-250+$dist1;//树海-草田 第一闭塞
+Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+36610-250+$dist1;//树海-草田 第二闭塞
+Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+37458-258+$dist1;//草田场内
+Structure['check_home'].Put('1',-2.6,3,-0.25,0,0,0,,);
+37563-83+$dist1; //草田出发
+Structure['check_departure'].Put('1',-5.05,4.5,-0.35,0,0,0,,);
+38480-250+$dist1; //草田-守失 第一闭塞
+Structure['check'].Put('1',-2.1,2.5,0,0,0,0,,);
+39145-185+$dist1;//守失场内
+Structure['check_home'].Put('1',-2.6,3,-0.25,0,0,0,,);
+39460-200+$dist1; //守失出发
+Structure['check_departure'].Put('1',-2.65,4.5,-0.05,0,0,0,,);
