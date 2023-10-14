@@ -1,7 +1,7 @@
 BveTs Map 2.00
 25;
 	Section.Begin(0,5);
-	Signal['SigI_LED'].Put(0,'',-2.5,1.2,0.51,,,,,);
+	Signal['SigI_LEDW'].Put(0,'',-2.5,1.2,0.51,,,,,);
 	Structure['Sig_Pole'].Put('',-2.5,-4.25,0,,,,,);
 	Structure['SigI0W_LED'].Put('2',-2.5,1.2,0.51,0,0,0,0,2);
 	Structure['Sig_Pole'].Put('2',-2.5,-4.25,0,,,,,);	
@@ -11,7 +11,7 @@ BveTs Map 2.00
 	Structure['Sig_Pole'].Put('4',-2.5,-4.25,0,,,,,);	
 995;
 	Section.Begin(0,5);
-	Signal['SigI_LED'].Put(0,'',-2,1.2,0.51,,,,,);
+	Signal['SigI_LEDW'].Put(0,'',-2,1.2,0.51,,,,,);
 	Signal['track'].Put(0,'',-2,0.4);	
 	Structure['Sig_Pole'].Put('',-2,-4.25,0,,,,,);
 1200;

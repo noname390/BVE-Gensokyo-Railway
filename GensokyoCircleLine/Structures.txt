@@ -275,6 +275,9 @@ Sig_Arm_MD   ,Structures\FCS_TM\SigPole\Back_Arm_MD.x
 Sig_Arm_LU   ,Structures\FCS_TM\SigPole\Back_Arm_LU.x
 Sig_Arm_LD   ,Structures\FCS_TM\SigPole\Back_Arm_LD.x
 
+#信号ゲージ
+J_Ref        ,Structures\FCS_TM\Reference\Jounai_reference.x    #場内信号設置参考図
+S_Ref        ,Structures\FCS_TM\Reference\Shuppatsu_reference.x #出発信号設置参考図
 
 #信号(電球式)
 #2灯式
@@ -495,6 +498,50 @@ SigYnR_LED     ,Structures\FCS_TM\RouteIL\3way_yokoku_Rn.x
 #取付金具
 SigY_Arm       ,Structures\FCS_TM\RouteIL\3way_yokoku_Arm.x
 
+#信号喚呼位置標
+0_N         ,Structures\e_line\Sign\Kanko\0_N.x
+0_NW        ,Structures\e_line\Sign\Kanko\0_NW.x
+0_O         ,Structures\e_line\Sign\Kanko\0_O.x
+0_OW        ,Structures\e_line\Sign\Kanko\0_OW.x
+1_N         ,Structures\e_line\Sign\Kanko\1_N.x
+1_NW        ,Structures\e_line\Sign\Kanko\1_NW.x
+1_O         ,Structures\e_line\Sign\Kanko\1_O.x
+1_OW        ,Structures\e_line\Sign\Kanko\1_OW.x
+2_N         ,Structures\e_line\Sign\Kanko\2_N.x
+2_NW        ,Structures\e_line\Sign\Kanko\2_NW.x
+2_O         ,Structures\e_line\Sign\Kanko\2_O.x
+2_OW        ,Structures\e_line\Sign\Kanko\2_OW.x
+3_N         ,Structures\e_line\Sign\Kanko\3_N.x
+3_NW        ,Structures\e_line\Sign\Kanko\3_NW.x
+3_O         ,Structures\e_line\Sign\Kanko\3_O.x
+3_OW        ,Structures\e_line\Sign\Kanko\3_OW.x
+4_N         ,Structures\e_line\Sign\Kanko\4_N.x
+4_NW        ,Structures\e_line\Sign\Kanko\4_NW.x
+4_O         ,Structures\e_line\Sign\Kanko\4_O.x
+4_OW        ,Structures\e_line\Sign\Kanko\4_OW.x
+5_N         ,Structures\e_line\Sign\Kanko\5_N.x
+5_NW        ,Structures\e_line\Sign\Kanko\5_NW.x
+5_O         ,Structures\e_line\Sign\Kanko\5_O.x
+5_OW        ,Structures\e_line\Sign\Kanko\5_OW.x
+6_N         ,Structures\e_line\Sign\Kanko\6_N.x
+6_NW        ,Structures\e_line\Sign\Kanko\6_NW.x
+6_O         ,Structures\e_line\Sign\Kanko\6_O.x
+6_OW        ,Structures\e_line\Sign\Kanko\6_OW.x
+7_O         ,Structures\e_line\Sign\Kanko\7_O.x
+7_OW        ,Structures\e_line\Sign\Kanko\7_OW.x
+8_O         ,Structures\e_line\Sign\Kanko\8_O.x
+8_OW        ,Structures\e_line\Sign\Kanko\8_OW.x
+9_O         ,Structures\e_line\Sign\Kanko\9_O.x
+9_OW        ,Structures\e_line\Sign\Kanko\9_OW.x
+10_O        ,Structures\e_line\Sign\Kanko\10_O.x
+10_OW       ,Structures\e_line\Sign\Kanko\10_OW.x
+Chukei_N    ,Structures\e_line\Sign\Kanko\Chukei_N.x
+Chukei_NW   ,Structures\e_line\Sign\Kanko\Chukei_NW.x
+Jonai_N     ,Structures\e_line\Sign\Kanko\Jonai_N.x
+Jonai_NW    ,Structures\e_line\Sign\Kanko\Jonai_NW.x
+Shuppatsu_N ,Structures\e_line\Sign\Kanko\Shuppatsu_N.x
+Shuppatsu_NW,Structures\e_line\Sign\Kanko\Shuppatsu_NW.x
+
 #中继
 Rep0,Structures\Default\signalrep0.x
 Rep1,Structures\Default\signalrep1.x
@@ -519,11 +566,6 @@ check_departure,Structures\CHECKING\CKD.x
 check_home,Structures\CHECKING\CKJ.x
 check_relay,Structures\CHECKING\CKC.x
 
-Sw_Off,Structures\whse_Shunting\body.x
-Sw_On,Structures\whse_Shunting\body.x
-Sw_R_R,Structures\whse_Shunting\light.x
-Sw_R_Y,Structures\whse_Shunting\light.x
-Sw_Y,Structures\whse_Shunting\light2.x
 Track_N,Structures\CR\N.x
 Track_2,Structures\CR\2.x
 SN1,Structures\Default\Beacon0.x
