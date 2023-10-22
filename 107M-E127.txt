@@ -2,7 +2,7 @@ BveTs Scenario 2.00:UTF-8
 
 Title = Gensokyo Loop Line Rapid "Moriya" 107M(Hakurei Shrine-Moriya Shrine)
 Author = SapporoNingyo&Contributors on Github
-Route = GensokyoCircleLine\Map105M.txt
+Route = GensokyoCircleLine\Map107M.txt
 RouteTitle = Gensokyo Loop Line
 Vehicle = ..\jre127\Vehicle_1M1T_0.txt 
 VehicleTitle = JR East E127 series（2 car）
