@@ -190,6 +190,10 @@ Note: Due to the lack of geography information, some station names were original
 最高速度：110km/h<br>
 列車種別：普通、快速<br>
 #### Not in Use (or not implemented):
+##### JR East E127 Series
+使用路線：環状線全線<br>
+最高速度：110km/h<br>
+列車種別：普通、快速<br>
 ##### JR East E653 Series
 使用路線：環状線、湖東線特急<br>
 最高速度：130km/h<br>
