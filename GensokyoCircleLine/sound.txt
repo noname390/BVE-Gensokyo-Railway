@@ -9,10 +9,13 @@ minaminingen1,sound\station\minami-ningennosato1.wav
 minaminingen2,sound\station\minami-ningennosato2.wav
 ningen1,sound\station\ningennosato1.wav
 105m-ningen,sound\station\105m-ningen.wav
+nishiningen1,sound\station\nishiningen1.wav
+nishiningen2,sound\station\nishiningen2.wav
 myorenji,sound\station\myorenji.wav
 kitamyorenji,sound\station\kita-myorenji.wav
 jyukai,sound\station\jyukai.wav
 kusada,sound\station\kusada.wav
+moriya1,sound\station\moriya1.wav
 go01go02-1,sound\shanai\hakurei-mhakurei1.wav
 go01go02-101M,sound\shanai\hakurei-mhakurei101M.wav
 go01go02-2,sound\shanai\hakurei-mhakurei2.wav
