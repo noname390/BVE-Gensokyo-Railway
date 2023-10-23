@@ -1,7 +1,7 @@
 BveTs Scenario 2.00:UTF-8
 
 Title = [Test]GSR L Express "Sanae" 15M(Hakurei-Ningen-Moriya-Komakan-Hakurei)
-Author = SapporoNingyo(github)
+Author = SapporoNingyo&Contributors on Github
 Route = GensokyoCircleLine\TestMap15M.txt
 RouteTitle = Gensokyo Loop Line
 Vehicle = ..\JR-East_E653\Vehicle\Nii\1100_Shirayuki_DC.txt
