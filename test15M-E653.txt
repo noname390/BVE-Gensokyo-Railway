@@ -7,4 +7,4 @@ RouteTitle = Gensokyo Loop Line
 Vehicle = ..\JR-East_E653\Vehicle\Nii\1100_Shirayuki_DC.txt
 VehicleTitle = JR East E653-1100 series（4 car）
 Image = GensokyoCircleLine\samune.jpg
-Comment = [ATS-P] Max speed：110km/h Platform: Hakurei② Ningen④
+Comment = [ATS-P] Max speed：120km/h Platform: Hakurei② Ningen④ Moriya②
