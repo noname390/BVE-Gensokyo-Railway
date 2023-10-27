@@ -3,7 +3,7 @@ BveTs Map 2.00
 50+$dist1;
 	$sig=distance;
 	$sig-10;
-	Beacon.Put(4,1,0);
+	Beacon.Put(1,1,0);
 	Structure['ATS-P_2way1P'].Put('1',0,0.1,0,,,,,);
 	Structure['ATS-P_2way1P'].Put('3',0,0.1,0,,,,,);
 	$sig-30;
