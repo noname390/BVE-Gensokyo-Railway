@@ -21,6 +21,8 @@ Tunnelpotaldark-tansen,Structures\Tunnel\kouK1_c1_Potal.x
 Tunnellp-tansen,Structures\Tunnel\kouK1_cr1_lp.x
 #TunnelSign
 jyukai,Structures\GSR\tunnel\jyukai.x
+no1moriya,Structures\GSR\tunnel\no1moriya.x
+no2moriya,Structures\GSR\tunnel\no2moriya.x
 #Platform
 modernformL,Structures\ACCC\Station\Form51L.x
 modernformR,Structures\ACCC\Station\Form51R.x
