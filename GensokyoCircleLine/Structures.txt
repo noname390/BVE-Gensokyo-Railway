@@ -19,6 +19,8 @@ Tunnelentry-tansen,Structures\Tunnel\1go_c1_ent.x
 Tunnelpotal-tansen,Structures\Tunnel\kouK1_c1_Potal.x
 Tunnelpotaldark-tansen,Structures\Tunnel\kouK1_c1_Potal.x
 Tunnellp-tansen,Structures\Tunnel\kouK1_cr1_lp.x
+#TunnelSign
+jyukai,Structures\GSR\tunnel\jyukai.x
 #Platform
 modernformL,Structures\ACCC\Station\Form51L.x
 modernformR,Structures\ACCC\Station\Form51R.x
@@ -517,6 +519,7 @@ SigPole,Structures\Default\Sigpole.x
 SigPole_L,Structures\Default\Sigpole.x
 #その他
 PS,Structures\GSR\ATSP.x
+SN,Structures\GSR\SN.x
 check,Structures\CHECKING\CK.x
 check_departure,Structures\CHECKING\CKD.x
 check_home,Structures\CHECKING\CKJ.x
