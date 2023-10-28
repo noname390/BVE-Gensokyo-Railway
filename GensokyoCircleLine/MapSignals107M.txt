@@ -66,12 +66,6 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.4,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.5,0,,,,,5);
 	Structure['Sig_Base_Step'].Put('1',-2.4,-0.6,0,,,,,5);
-3759+$dist1;
-	$sig=distance;
-	$sig-500;
-	Beacon.Put(9,0,500085);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 3900+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.4,-0.05,,,,,);
@@ -83,12 +77,6 @@ BveTs Map 2.00
 	$sig-0;
 	Beacon.Put(1,1,0);
 	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
-4417+$dist1;
-	$sig=distance;
-	$sig-250;
-	Beacon.Put(9,0,250110);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 4500+$dist1;
 	Signal['Relay_LED'].Put(1,'1',6,4.5,-0.1,,15,,,);
 	Structure['Sig_Pole'].Put('1',6,-0.6,0,,15,,,5);
@@ -101,10 +89,6 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('1',6,4.4,0,,15,,,5);
 	Structure['Sig_Arm_SD'].Put('1',6,3.5,0,,15,,,5);
 	Structure['Sig_Base_Step'].Put('1',6,-0.6,0,,15,,,5);
-4737+$dist1;
-	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 4799+$dist1;
 4800+$dist1;
 	Section.Begin(0,2,3,4);
