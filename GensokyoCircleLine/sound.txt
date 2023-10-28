@@ -20,6 +20,7 @@ kusada,sound\station\kusada.wav
 moriya1,sound\station\moriya1.wav
 go01go02-1,sound\shanai\hakurei-mhakurei1.wav
 go01go02-101M,sound\shanai\hakurei-mhakurei101M.wav
+go01go03-107M,sound\shanai\hakurei-eientei1-107m.wav
 go01go02-2,sound\shanai\hakurei-mhakurei2.wav
 go02go03-1,sound\shanai\mhakurei-eientei1.wav
 go02go03-2,sound\shanai\mhakurei-eientei2.wav
