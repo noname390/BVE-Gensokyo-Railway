@@ -18,6 +18,7 @@ kitamyorenji,sound\station\kita-myorenji.wav
 jyukai,sound\station\jyukai.wav
 kusada,sound\station\kusada.wav
 moriya1,sound\station\moriya1.wav
+
 go01go02-1,sound\shanai\hakurei-mhakurei1.wav
 go01go02-101M,sound\shanai\hakurei-mhakurei101M.wav
 go01go03-107M,sound\shanai\hakurei-eientei1-107m.wav
@@ -26,6 +27,7 @@ go02go03-1,sound\shanai\mhakurei-eientei1.wav
 go02go03-2,sound\shanai\mhakurei-eientei2.wav
 go03go04-1,sound\shanai\eientei-chikurin1.wav
 go03go04-2,sound\shanai\eientei-chikurin2.wav
+go03go06-1-107M,eientei-ningennosato1-107m.wav
 go04go05-1,sound\shanai\chikurin-minaminingennosato1.wav
 go04go05-2,sound\shanai\chikurin-minaminingennosato2.wav
 go05go06-1,sound\shanai\minaminingennosato-ningennosato1.wav
