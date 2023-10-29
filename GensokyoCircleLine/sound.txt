@@ -27,8 +27,10 @@ go02go03-1,sound\shanai\mhakurei-eientei1.wav
 go02go03-2,sound\shanai\mhakurei-eientei2.wav
 go03go04-1,sound\shanai\eientei-chikurin1.wav
 go03go04-2,sound\shanai\eientei-chikurin2.wav
-go03go06-1-107M,eientei-ningennosato1-107m.wav
+go03go06-1-107M,sound\shanai\eientei-ningennosato1-107m.wav
 go04go05-1,sound\shanai\chikurin-minaminingennosato1.wav
 go04go05-2,sound\shanai\chikurin-minaminingennosato2.wav
 go05go06-1,sound\shanai\minaminingennosato-ningennosato1.wav
 go05go06-2,sound\shanai\minaminingennosato-ningennosato2.wav
+go03go06-2-107M,sound\shanai\eientei-ningennosato2-107m.wav
+go06go07-1-107M,
