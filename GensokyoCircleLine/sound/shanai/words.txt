@@ -74,7 +74,7 @@ The next station is Ningennosato.
 minaminingennosato-ningennosato2-105107m:
 まもなく、人間の里、人間の里です。お出口は、左側です。幻想郷モノレールはお乗り換えです。
 We will soon arrive at Ningennosato.The doors on the left side will open.Please change here for the Gensokyo Monorail.
-列车即将到达南人间之里站，左侧的车门将会打开。可换乘幻想乡单轨电车。
+列车即将到达人间之里站，左侧的车门将会打开。可换乘幻想乡单轨电车。
 
 ningennosato-nishiningennosato1-107m:
 本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、環状線、快速もりや、守矢神社ゆきです。西人間の里、命蓮寺、終点、守矢神社の順に止まります。次は、西人間の里、西人間の里です。
