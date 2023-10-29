@@ -10,7 +10,7 @@ Sound['go03go06-1-107M'].Play();
 Sound['go03go06-2-107M'].Play();
 22405+50+$dist1;
 Sound['go06go07-1-107M'].Play();
-24433-900+$dist1;
+24433-500+$dist1;
 Sound['go06go07-2-107M'].Play();
 24433+50+$dist1;
 Sound['go07go08-1-107M'].Play();
