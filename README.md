@@ -35,7 +35,7 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 2. Install Bve Trainsim 5 and DirectX.（Sometimes .NET is also needed）
 3. Clone this repository or download the releases and remember the local path of it, you will use it later.
 4. Get the vehicle data from the train creator's website. Remember the local path of it, you will use it later.
-5. Make sure the file paths in 103M.txt are correct. Then you can open the route in Bve trainsim and enjoy it.<br>
+5. Make sure the file paths in 101M.txt and 103M.txt are correct. Then you can open the route in Bve trainsim and enjoy it.<br>
 
 Notice:
 1. If the routes don't display on the interface of "select route" in BVE 5.8, please check the paths in the text files such as 103M.txt and so on. If the problem still exists, report it in "Issues".    
