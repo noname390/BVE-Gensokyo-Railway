@@ -58,7 +58,7 @@ The mileage data is the author's own setting, unrelated to the original work of 
 
 The distance is measured precisely to 0.001 kilometers. 
 
-The following is the distance for the section from Hakurei Shrine to Ningennosato, starting from Hakurei Shrine.
+The following is the distance for the section from Hakurei Shrine to Moriya Shrine, starting from Hakurei Shrine.
 
 | Station | Mileage |
 |--- |---|
