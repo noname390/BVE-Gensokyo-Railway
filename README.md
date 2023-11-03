@@ -68,6 +68,12 @@ The following is the distance for the section from Hakurei Shrine to Ningennosat
 | Chikurin | 13.900km |
 | Minami-Ningennosato | 21.040km |
 | Ningennosato | 22.395km |
+| Nishi-Ningennosato | 24.433km |
+| Myorenji | 28.989km |
+| Kita-Myorenji | 30.291km |
+| Youkainojyukai | 34.972km |
+| Kusada | 37.553km |
+| Moriya Shrine | 39.425km |
 
 View [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md) for more detailed information.
 ### Timetable
