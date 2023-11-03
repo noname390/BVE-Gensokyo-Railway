@@ -41,7 +41,7 @@ Notice:
 1. If the routes don't display on the interface of "select route" in BVE 5.8, please check the paths in the text files such as 103M.txt and so on. If the problem still exists, report it in "Issues".    
 
 ## Route Information
-The current route includes one-way operation between the Hakurei Shrine and the Ningennosato on Gensokyo Loop Line, with a maximum speed of 110 km/h. The route includes 6 stations:  Hakurei Shrine, South Hakurei, Eientei, Chikurin, South Ningennosato, and Ningennosato. Currently, all trains are local service. 
+The current route includes one-way operation between the Hakurei Shrine and the Moriya Shrine on Gensokyo Loop Line, with a maximum speed of 110 km/h. The route includes 12 stations:  Hakurei Shrine, South Hakurei, Eientei, Chikurin, South Ningennosato,Ningennosato,West Ningennosato,Myorenji,North Myorenji,Youkai no Jyukai,Kusada,and Moriya Shrine.Currently, the route contains local and rapid service. 
 
 If you use this simulated train route as a derivative work in the Touhou Project, please note that many of the details are the author's own interpretation and may differ from others' imaginations or the official work. The geographic information of Gensokyo in the route comes from the following website:<br>
 [幻想郷・最新版地理考察](https://yotogiluminary.wixsite.com/website/post/000014)<br>
