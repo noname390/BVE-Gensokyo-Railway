@@ -87,18 +87,19 @@ View [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/ma
 The following are recommended trains that can be adjusted as needed, using train data supported by Bve5.
 ### JR East E127 Series
 E127 series EMU train is a type of direct current commuter train operated by East Japan Railway Company since May 8, 1995. Currently, this simulated route uses a 2-car formation of this train.<br>
-The copyright owner of the E129 series vehicle data is "BVE Workshop".<br>
+The copyright owner of the E127 series vehicle data is "BVE Workshop".<br>
 This vehicle data is licensed under [CC BY-NC 2.1 JP DEED license](https://creativecommons.org/licenses/by-nc/2.1/jp/deed.en) and embedded in the route data with some modifications<br>
 ### JR East E129 Series
 E129 series EMU train is a type of direct current commuter train operated by East Japan Railway Company since December 6, 2014. Currently, this simulated route uses a 4-car formation of this train.<br>
 [Link of the vehicle data](https://mc1323bve.blogspot.com/2020/03/jr-e129.html)<br>
 Operating with the B11 hensei is recommended<br>
 The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
-The creator of this vehicle, like many creators in Japan, has strict distribution terms for their work. Therefore, please visit the creator's website to obtain the train data.<br>
+The creator of this vehicle has strict distribution terms for their work. Therefore, please visit the creator's website to obtain the train data.<br>
 ## Operating method
 Please visit the train creator's website
 ## License
 MIT License<br>
+The copyright owner of the E127 series vehicle data is "BVE Workshop".<br>
 The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
 <br>
 Source of structures or creator of them:<br>
