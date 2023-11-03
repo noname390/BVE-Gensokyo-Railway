@@ -73,8 +73,8 @@ View [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/ma
 ### Timetable
 #### Loop Line
 
-|駅名      |普通 103M|普通 101M|普通 105M|
-|---       |---      |---     |---      |
+|駅名      |普通 103M|普通 101M|普通 105M|普通 107M|
+|---       |---      |---     |---      |---     |
 |博麗神社  |    0851  |0721    |0910     | 
 |南博麗    | 	0855  |0725   |0915      | 
 |永遠亭    | 	0900  |0730    |0919     | 
