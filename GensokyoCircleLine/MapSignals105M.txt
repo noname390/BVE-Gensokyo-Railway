@@ -1858,7 +1858,7 @@ Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
 28805-205+$dist1;//命莲寺场内
 Structure['check_home'].Put('1',-2.6,3,-0.25,0,0,0,,);
 29029-200+$dist1; //命莲寺出发
-Structure['check_departure'].Put('1',2.65,4.5,-0.05,0,0,0,,);
+Structure['check_departure'].Put('1',2.65,4.05,-0.05,0,0,0,,);
 30171-251+$dist1;//北命莲寺场内
 Structure['check_home'].Put('1',-2.6,3,-0.25,0,0,0,,);
 30311-94+$dist1; //北命莲寺出发
