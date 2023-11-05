@@ -115,7 +115,7 @@ light,Structures\structure_FL\FL.x
 tunlight,Structures\Tunnel\huku_light.x
 #roof
 roof,Structures\lopoli_houses\x\acc\wall\roof\roof.x
-roofnarrow,Structures\lopoli_houses\x\acc\wall\roof\roof.x
+roofnarrow,Structures\lopoli_houses\x\acc\wall\roof\roofnarrow.x
 roofdark,Structures\lopoli_houses\x\acc\wall\roof\roofdark.x
 roofout,Structures\lopoli_houses\x\acc\wall\roof\roofout.x
 #stawall
