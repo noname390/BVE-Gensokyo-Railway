@@ -118,12 +118,14 @@ roof,Structures\lopoli_houses\x\acc\wall\roof\roof.x
 roofnarrow,Structures\lopoli_houses\x\acc\wall\roof\roofnarrow.x
 roofdark,Structures\lopoli_houses\x\acc\wall\roof\roofdark.x
 roofout,Structures\lopoli_houses\x\acc\wall\roof\roofout.x
+roofoutnarrow,Structures\lopoli_houses\x\acc\wall\roof\roofnarrowout.x
 #stawall
 stawall,Structures\lopoli_houses\x\acc\wall\wall_houseL04_5m.x
 stawallR,Structures\lopoli_houses\x\acc\wall\wall_houseR04_5m.x
 staoutwall,Structures\GSR\frameworks\staoutwall.x
 staoutwall1,Structures\GSR\frameworks\staoutwall1.x
 stafrontwall,Structures\GSR\frameworks\stafrontwall.x
+stafrontwallnarrow,Structures\GSR\frameworks\stafrontwallnarrow.x
 #formwall
 formwallwhite,Structures\lopoli_houses\x\acc\wall\wall_houseL53_5m.x
 formwallgrey,Structures\lopoli_houses\x\acc\wall\wall_houseL54_5m.x
