@@ -204,6 +204,8 @@ ele-side,Structures\elevator\ele-side.x
 #stairs
 stairsup,Structures\stairs\stairsup.x
 stairsside,Structures\stairs\stairsside.x
+stairoL,Structures\StructureSet\station\opposed\stairL.x
+stairoR,Structures\StructureSet\station\opposed\stairR.x
 #experimental
 adboard,Structures\adboard\out.x
 kirisame,Structures\adboard\kirisame.x
