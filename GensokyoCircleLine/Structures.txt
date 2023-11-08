@@ -149,6 +149,7 @@ E129B,Structures\e131\e131\e130Tc_end.x
 E129F1,Structures\e131\e131\e131Mc2.x
 E129B1,Structures\e131\e131\e130Tc_end2.x
 #ekimei
+Jyukai,Structures\ekimeihyo\Jyukai.x
 Kmyoren,Structures\ekimeihyo\Kmyoren.x
 Myoren,Structures\ekimeihyo\Myorenji.x
 Wningen,Structures\ekimeihyo\Nishiningen.x
