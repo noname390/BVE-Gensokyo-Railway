@@ -1,0 +1,50 @@
+hakurei-mhakurei1-105m:
+本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、守矢神社ゆきです。列車は事故防止のため、やむを得ず急停車することがありますので、お立ちの客様は、つり革や手すりにおつかまりください。次は、南博麗、南博麗です。
+Thank you for using Gensokyo Railway.This is the local train bound for Moriya Shrine.The next station is Minami-Hakurei.It may be neccesary for the train to stop suddenly,to emergency accident.So please be careful.
+感谢您乘坐幻想乡铁道。本次列车是普通列车，开往守失神社。下一站是南博丽。为了防止事故，列车在行驶中可能会突然刹车，请您多加小心。
+
+ご乗車くださいましてありがとうございます。この電車は普通電車守矢神社行きです。南博麗、永遠亭、竹林、南人間の里、人間の里、西人間の里、命蓮寺、北命蓮寺、妖怪の樹海、草田の順に、終点の守矢神社まで各駅に停車して参ります。この先、各駅の到着時刻をご案内します。次の南博麗には九時十四分、永遠亭九時十九分、竹林九時二十二分、南人間の里九時二十九分、人間の里九時三十一分、西人間の里九時三十六分、命蓮寺九時四十分、北命蓮寺九時四十三分、妖怪の樹海九時四十八分、草田九時五十一分。終点の守矢神社には九時五十四分の到着です。列車は四両編成です。お手洗いは二か所、いち両目と一番後ろ、よん両目の車両にございます。ご乗車くださいましてありがとうございます。次は、南博麗、南博麗に止まります。
+
+ningennosato-nishiningennosato1-105m:
+本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、守矢神社ゆきです。次は、西人間の里、西人間の里です。
+Thank you for using Gensokyo Railway.This is the local train bound for Moriya Shrine.The next station is Nishiningennosato.
+感谢您乘坐幻想乡铁道。本次列车是普通列车，开往守失神社。列车前方停车站是，西人间之里。
+
+myoren-Kmyoren1:
+次は、北命蓮寺、北命蓮寺です。
+The next station is Kita-Miorenji.
+列车前方停车站是，北命莲寺。
+
+myoren-Kmyoren2:
+まもなく、北命蓮寺、北命蓮寺です。お出口は、左側です。
+We will soon arrive at Kita-Miorenji.The doors on the left side will open.
+列车即将到达，北命莲寺站，左侧的车门将会打开。
+
+Kmyoren-jyukai1:
+次は、妖怪の樹海、妖怪の樹海です。
+The next station is Youkai-no-Jyukai.
+列车前方停车站是，妖怪之树海。
+
+Kmyoren-jyukai2:
+まもなく、妖怪の樹海、妖怪の樹海です。お出口は、左側です。
+We will soon arrive at Youkai-no-Jyukai.The doors on the left side will open.
+列车即将到达，妖怪之树海站，左侧的车门将会打开。
+
+jyukai-kusada1:
+次は、草田、草田です。
+The next station is Youkai-no-Jyukai.
+列车前方停车站是，草田。
+jyukai-kusada2:
+まもなく、草田、草田です。お出口は、左側です。
+We will soon arrive at Kusada.The doors on the left side will open.
+列车即将到达，草田站，拆左边门。
+
+
+
+
+
+
+
+
+
+

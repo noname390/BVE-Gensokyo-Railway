@@ -76,6 +76,11 @@ minaminingennosato-ningennosato2-105107m:
 We will soon arrive at Ningennosato.The doors on the left side will open.Please change here for the Gensokyo Monorail.
 列车即将到达人间之里站，左侧的车门将会打开。可换乘幻想乡单轨电车。
 
+ningennosato-nishiningennosato1-105m:
+本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、守矢神社ゆきです。次は、西人間の里、西人間の里です。
+Thank you for using Gensokyo Railway.This is the local train bound for Moriya Shrine.The next station is Nishiningennosato.
+感谢您乘坐幻想乡铁道。本次列车是普通列车，开往守失神社。列车前方停车站是，西人间之里。
+
 ningennosato-nishiningennosato1-107m:
 本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、環状線、快速もりや、守矢神社ゆきです。西人間の里、命蓮寺、終点、守矢神社の順に止まります。次は、西人間の里、西人間の里です。
 Thank you for using Gensokyo Railway.This is the Loop line rapid service train "Moriya" bound for Moriya Shrine.We will stop at,Nishiningennosato,Myorenji,and Moriya Shrine teminal.The next station is Nishiningennosato.
@@ -95,6 +100,36 @@ nishiningennosato-myorenji2-105107m:
 まもなく、命蓮寺、命蓮寺です。お出口は、右側です。幻想郷モノレールはお乗り換えです。
 We will soon arrive at Myorenji.The doors on the right side will open.Please change here for the Gensokyo Monorail.
 列车即将到达命莲寺站，右侧的车门将会打开。可换乘幻想乡单轨电车。
+
+myoren-Kmyoren1:
+次は、北命蓮寺、北命蓮寺です。
+The next station is Kita-Miorenji.
+列车前方停车站是，北命莲寺。
+
+myoren-Kmyoren2:
+まもなく、北命蓮寺、北命蓮寺です。お出口は、左側です。
+We will soon arrive at Kita-Miorenji.The doors on the left side will open.
+列车即将到达，北命莲寺站，左侧的车门将会打开。
+
+Kmyoren-jyukai1:
+次は、妖怪の樹海、妖怪の樹海です。
+The next station is Youkai-no-Jyukai.
+列车前方停车站是，妖怪之树海。
+
+Kmyoren-jyukai2:
+まもなく、妖怪の樹海、妖怪の樹海です。お出口は、左側です。
+We will soon arrive at Youkai-no-Jyukai.The doors on the left side will open.
+列车即将到达，妖怪之树海站，左侧的车门将会打开。
+
+jyukai-kusada1:
+次は、草田、草田です。
+The next station is Youkai-no-Jyukai.
+列车前方停车站是，草田。
+
+jyukai-kusada2:
+まもなく、草田、草田です。お出口は、左側です。
+We will soon arrive at Kusada.The doors on the left side will open.
+列车即将到达，草田站，拆左边门。
 
 Nextmoriya-Terminal:
 次は、終点守矢神社、守矢神社です。
