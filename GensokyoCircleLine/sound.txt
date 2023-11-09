@@ -44,3 +44,5 @@ go07go08-2-107M,sound\shanai\nishiningennosato-myorenji2-107m.wav
 go08go14-1-107M,sound\shanai\Nextmoriya-Terminal-e127.wav
 go08go14-2-107M,sound\shanai\Soonmoriya-Terminal-e127.wav
 #105M
+go11go12-1-107M,sound\shanai\Nextmoriya-Terminal-e129.wav
+go11go12-2-107M,sound\shanai\Soonmoriya-Terminal-e129.wav
