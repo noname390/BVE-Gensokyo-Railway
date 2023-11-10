@@ -32,7 +32,7 @@ We will soon arrive at Youkai-no-Jyukai.The doors on the left side will open.
 
 jyukai-kusada1:
 次は、草田、草田です。
-The next station is Youkai-no-Jyukai.
+The next station is Kusada.
 列车前方停车站是，草田。
 jyukai-kusada2:
 まもなく、草田、草田です。お出口は、左側です。
