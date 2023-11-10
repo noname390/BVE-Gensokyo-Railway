@@ -32,7 +32,12 @@ go04go05-1,sound\shanai\chikurin-minaminingennosato1.wav
 go04go05-2,sound\shanai\chikurin-minaminingennosato2.wav
 go05go06-1,sound\shanai\minaminingennosato-ningennosato1.wav
 go05go06-2,sound\shanai\minaminingennosato-ningennosato2.wav
-
+go08go09-1,sound\shanai\Myorenji-Kmyoren1.wav
+go08go09-2,sound\shanai\Myorenji-Kmyoren2.wav
+go09go10-1,sound\shanai\Kmyoren-jyukai1.wav
+go09go10-2,sound\shanai\Kmyoren-jyukai2.wav
+go10go11-1,sound\shanai\Jyukai-kusada1.wav
+go10go11-2,sound\shanai\Jyukai-kusada2.wav
 #107M
 go01go03-107M,sound\shanai\hakurei-eientei1-107m.wav
 go03go06-1-107M,sound\shanai\eientei-ningennosato1-107m.wav
@@ -44,8 +49,10 @@ go07go08-2-107M,sound\shanai\nishiningennosato-myorenji2-107m.wav
 go08go14-1-107M,sound\shanai\Nextmoriya-Terminal-e127.wav
 go08go14-2-107M,sound\shanai\Soonmoriya-Terminal-e127.wav
 #105M
+go01go02-1-105M,sound\shanai\hakurei-mhakurei105M.wav
 go05go06-1-105M,sound\shanai\minaminingennosato-ningennosato1-105m.wav
 go05go06-2-105M,sound\shanai\minaminingennosato-ningennosato2-105m.wav
+go06go07-1-105M,sound\shanai\ningennosato-nishiningennosato1-105m.wav
 go06go07-2-105M,sound\shanai\ningennosato-nishiningennosato2-105m.wav
 go07go08-1-105M,sound\shanai\nishiningennosato-myorenji1-105m.wav
 go07go08-2-105M,sound\shanai\nishiningennosato-myorenji2-105m.wav
