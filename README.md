@@ -23,6 +23,7 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 - 2023-11-1:Release v1.4 preview
 - 2023-11-3:Release v1.5 preview
 - 2023-11-8:Release v1.6 preview
+- 2023-11-10:Release v1.7 preview
 - [ ] 2023-?-?:Release v2.0(Loop line from NNS-MRY)
 - [ ] 2023-?-?:Release v2.5(Loop line from MRY-East MRY)
 - [ ] ?-?-?:Release v3.0(Loop line complete)
