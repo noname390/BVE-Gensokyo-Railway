@@ -4324,7 +4324,7 @@ track['road'].Position(200,0,0,0);
 	Structure['Tunnelentry'].Put('1',2,-0,,,,,,);
 	Repeater['slabRail'].Begin0('1',3,4.99,5,'slabraildark');
 	Repeater['slabRail2'].Begin0('2',3,4.99,5,'slabraildark');
-	Structure['jyukai'].Put('1',-2.5,2,0,0,0,0,3,);	
+	Structure['jyukaiTun'].Put('1',-2.5,2,0,0,0,0,3,);	
 	rollingNoise.Change(4);
 	CabIlluminance.Set(1);
 33464+$dist1;
