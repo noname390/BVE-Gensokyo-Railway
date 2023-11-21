@@ -2950,7 +2950,7 @@ track['road'].Position(200,0,0,0);
 	Track['2'].Position(4,0,3000,0);
 	Legacy.Curve(-6000,0);
 	Gradient.BeginTransition();
-	Track['ground'].Position(0,0,0,0);
+	Track['ground'].Position(0,-0.1,0,0);
 	Repeater['grassland1'].Begin('ground',0,0,0, , , ,3,49,49, 'grassland');
 	Repeater['concbridge1'].Begin('1',0,-0.25, 0, , , ,3,,5, 'concbridge');
 	Repeater['concbridge2'].Begin('2',0,-0.25, 0, , , ,3,,5, 'concbridge');
