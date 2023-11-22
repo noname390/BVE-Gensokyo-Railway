@@ -3027,8 +3027,7 @@ track['road'].Position(200,0,0,0);
 24210+$dist1;
 	Repeater['pole1'].End();
 	Repeater['pole2'].End();
-	Structure['woodapr1'].Put('ground',-40,-0.4,,,0,,,);
-	Structure['woodapr1'].Put('ground',-40,-0.4,10,,0,,,);
+	Repeater['woodapr2L'].Begin('ground',-40,-0.4,,,180, ,3,0,20, 'woodapr1');
 	Repeater['woodapr1L'].Begin('ground',-19,-3.5,,,180, ,3,0,20, 'woodapr2');
 24245+$dist1;
 	Structure['kasenhangL'].Put('3',-1.9,0,0,0,0,0,3,);
@@ -3065,6 +3064,8 @@ track['road'].Position(200,0,0,0);
 	Repeater['bridgewallR1'].End();	
 	Repeater['bridgewallL2'].End();
 	Repeater['bridgewallR2'].End();	
+	Repeater['woodapr2L'].End();
+	Repeater['woodapr1L'].End();	
 	//Form start
 	Repeater['modernformL1'].Begin('3',0, 0, 0, , , ,3,,5, 'modernformL');
 	Repeater['modernformR1'].Begin('1',0, 0, 0, , , ,3,,5, 'modernformR');
