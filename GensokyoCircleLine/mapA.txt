@@ -4865,6 +4865,9 @@ track['road'].Position(200,0,0,0);
 	Repeater['fukusenpole8'].End();
 	Repeater['fukusenpole1'].Begin('1',2,0,0, , , ,3,40,40, 'fukusenpole5');
 	Repeater['kasenhang1'].Begin('1',2,-0,0, , , ,3,40,40, 'kasenhang');
+37790+$dist1;
+	Repeater['fukusenpole1'].End();
+	Repeater['kasenhang1'].End();
 37800+$dist1;
 	Gradient.BeginTransition();
 	Structure['GPUL'].Put('1',-2.3,-0.6,0,,0,,,);
@@ -4879,8 +4882,6 @@ track['road'].Position(200,0,0,0);
 	Structure['5'].Put('1',-2.3,-0.25,0,,,,,);
 	Structure['limitpole'].Put('1',-2.4,-0.2,0,,,,,);
 	Track['2'].Position(4,0,0,0);
-	Repeater['fukusenpole1'].End();
-	Repeater['kasenhang1'].End();
 
 	Repeater['bushR11'].Begin('2',5,-1.5,2, , , ,3,5,25, 'bush1');
 	Repeater['bushR12'].Begin('2',5,-1.8,7, , , ,3,5,25, 'bush2');
