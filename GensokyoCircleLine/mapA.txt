@@ -1788,6 +1788,7 @@ Curve.SetGauge(1.067);
 	//Structure['limitpole'].Put('1',-2.4,0.4,0,,,,,);
 18000+$dist1;
 	track['road'].Position(12,0,650,0);
+//---↓街並み区間開始↓---
 18100+$dist1;
 	Repeater['bushL41'].End();
 	Repeater['bushL42'].End();
@@ -3264,7 +3265,7 @@ track['road'].Position(200,0,0,0);
 24643+$dist1;
 	Repeater['bridgewallL2'].End();
 	Repeater['bridgewallR2'].End();	
-24720+$dist1;
+24750+$dist1;
 	Repeater['pole1'].End();
 	Repeater['pole2'].End();
 24763+$dist1;
@@ -3441,6 +3442,7 @@ track['road'].Position(200,0,0,0);
 	Repeater['treeR3'].Begin('ground',21,-1,30, ,, ,3,45,45, 'treeb3');
 26600+80+$dist1;
 	Repeater['wallR1'].End();
+//---↑街並み区間終了↑---
 27182+$dist1;
 	Gradient.BeginTransition();
 	Structure['GPUL'].Put('1',-2.3,-0.6,0,,0,,,);
