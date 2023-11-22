@@ -3106,6 +3106,11 @@ track['road'].Position(200,0,0,0);
 	Repeater['Ekimei2'].Begin('1',5,0.5,6,,90,0,3,20,20, 'Wningen');
 	Repeater['Ekimei21'].Begin('1',5.05,0.5,6,,-90,0,3,20,20, 'Wningen');
 	Repeater['Ekimei3'].Begin('4',5.8,0,6,,90,0,3,20,20, 'Wningen');
+	#bansenboard
+	Repeater['bansen1'].Begin('3',-4.50,1,20, ,0,,3,,30, 'ningen1');
+	Repeater['bansen2'].Begin('1',2.50,1,20, ,0,,3,,30, 'ningen2');
+	Repeater['bansen3'].Begin('2',-2.50,1,20, ,0,,3,,30, 'ningen3');
+	Repeater['bansen4'].Begin('4',4.50,1,20, ,0,,3,,30, 'ningen4');
 24320+$dist1;
 	Repeater['woodho1L'].Begin('ground',-20,0,,,80, ,3,0,75, 'woodho1');
 	Repeater['woodho2L'].Begin('ground',-19,-3.5,15,,30, ,3,0,75, 'woodho1');
