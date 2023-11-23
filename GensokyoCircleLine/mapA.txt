@@ -4343,6 +4343,10 @@ track['road'].Position(200,0,0,0);
 	Track['mountain'].Position(-40,25,0,0);
 	Track['mountainR'].Position(0,-10,0,0);
 	Repeater['mountainR'].Begin0('mountainR',3,49.99,50, 'mountR');
+30210+$dist1;
+	Structure['crost'].Put('2',4,2,0,,135,,,);
+30280+$dist1;
+	Structure['crost'].Put('1',-4,2,0,,-45,,,);
 #Signs of Kita-Myorenji sta
 30291-700+$dist1;
 	Structure['Tkmyoren'].Put('1',-2.3,1.1,-0.01,,,,,);
@@ -4848,6 +4852,10 @@ track['road'].Position(200,0,0,0);
 	Repeater['ekimeipole2B'].Begin('2',6.22,1.2,14.35,,, ,3,,30, 'limitpole');
 34880+$dist1;
 	Repeater['fukusenpole8'].Begin('1',2,0,0, , , ,3,40,40, 'fukusenpole8');
+34880+$dist1;
+	Structure['crost'].Put('2',6,2,0,,135,,,);
+34960+$dist1;
+	Structure['crost'].Put('1',-6,2,0,,-45,,,);
 #Signs of YoukaiNoJyukai sta
 34972-1000+$dist1;
 	Structure['Tjyukai'].Put('1',-2.3,1.1,-0.01,,,,,);
