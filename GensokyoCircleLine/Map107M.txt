@@ -3,6 +3,7 @@ $dist1=1490;
 
 Structure.Load('Structures.txt');
 Sound.Load('sound.txt');
+Sound3D.Load('sound3d.txt');
 Station.Load('Stations107M.txt');
 Signal.Load('Signals.csv');
 Signal.SpeedLimit(0,25,55,75,110);
@@ -35,6 +36,7 @@ include 'mapA.txt';
 	Station['5'].Put(-1,-5,5);
 22405+$dist1;
 	Station['6'].Put(-1,-5,5);
+	Sound3D['pin_pon'].Put(-2,2);
 24433+$dist1;
 	Station['7'].Put(1,-5,5);
 28989+$dist1;

@@ -3,6 +3,7 @@ $dist1=1490;
 
 Structure.Load('Structures.txt');
 Sound.Load('sound.txt');
+Sound3D.Load('sound3d.txt');
 Station.Load('Stations105M.txt');
 Signal.Load('Signals.csv');
 Signal.SpeedLimit(0,25,55,75,110);
