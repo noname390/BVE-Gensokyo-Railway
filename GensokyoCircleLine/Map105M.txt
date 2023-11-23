@@ -36,6 +36,7 @@ include 'mapA.txt';
 	Station['5'].Put(-1,-5,5);
 22405+$dist1;
 	Station['6'].Put(-1,-5,5);
+	Sound3D['pin_pon'].Put(-3,2);
 24433+$dist1;
 	Station['7'].Put(1,-5,5);
 28989+$dist1;
