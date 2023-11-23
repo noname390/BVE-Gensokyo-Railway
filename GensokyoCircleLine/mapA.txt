@@ -5224,6 +5224,7 @@ track['road'].Position(200,0,0,0);
 38550+$dist1;
 	Gradient.Begin(1.2);
 	Structure['TunU'].Put('1',-2.1,0.6,,,0,,,);
+	Structure['cirno-1'].Put('1',-2,4,0,0,0,0,3,);	
 38619+$dist1;
 	//Entrance of No2 Moriya Tunnel
 	Structure['mount'].Put('2',0,67,52.5,0,53,0,3,);	
