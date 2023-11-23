@@ -38,6 +38,7 @@ Note: This document contains untranslated parts.<br>
     <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/GO06_GO12.png" alt="routemap";>
 </p>
 <br>
+
 ### Stations(In Japanese)
 Loop Line:<br>
 #### HakureiShrine->Ningennosato
