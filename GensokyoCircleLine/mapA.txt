@@ -4816,6 +4816,8 @@ track['road'].Position(200,0,0,0);
 	Structure['metalfenceL'].Put('2',2.4,2.5,13.69,30,,,,);
 	Structure['pier'].Put('2',4.9,11,0,0,90,,,);
 	Structure['pier'].Put('1',-4.9,11,0,0,-90,,,);
+
+	Structure['aya-1'].Put('1',2,10.8,0.5,,0,,,);
 34872+$dist1;
 	Track['mountain'].Position(-700,280,0,0);	
 	Repeater['fukusenpole1'].End();
