@@ -313,7 +313,6 @@ Curve.SetGauge(1.067);
 	Track['mountain'].Position(-280,40,0,0);
 #高架区間end
 1555+$dist1;
-	include 'rumia.txt';
 	Repeater['slabRail'].End();
 	Repeater['slabRail2'].End();
 	Structure['rail'].Put('1',0,-2.55,-4.33,-30,0,0,0,);

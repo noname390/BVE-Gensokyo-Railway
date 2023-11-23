@@ -8,6 +8,7 @@ Signal.Load('Signals.csv');
 Signal.SpeedLimit(0,25,55,75,110);
 include 'MapSignals107M.txt';
 include 'Mapsound107M.txt';
+include 'rumia107M.txt';
 //include 'Map104M.txt';
 0;
 	include 'MapHRDepot.txt';
