@@ -2067,6 +2067,7 @@ track['road'].Position(200,0,0,0);
 	Repeater['slabRail2'].Begin0('2',1,4.99,5,'slabrailtwodark');
 	Repeater['tunnelwall'].Begin('1',1.9,-0.25,1.6, , , ,1,4.99,4.99, 'Tunnellp');
 	#Fog.Interpolate(0.04,0,0,0);
+19180+$dist1;
 	CabIlluminance.Set(0);
 19200+$dist1;
 	Repeater['tunnelpole1'].Begin('1',1.9, 0, 0, , , ,3,,40, 'tunnelpole');
