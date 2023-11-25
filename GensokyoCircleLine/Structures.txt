@@ -150,6 +150,9 @@ E129F,Structures\e131\e131\e131Mc.x
 E129B,Structures\e131\e131\e130Tc_end.x
 E129F1,Structures\e131\e131\e131Mc2.x
 E129B1,Structures\e131\e131\e130Tc_end2.x
+
+E127F,Structures\JR121\Mc121.x
+E127B,Structures\JR121\Tc120.x
 #ekimei
 Moriya,Structures\ekimeihyo\Moriya.x
 Kusada,Structures\ekimeihyo\Kusada.x
