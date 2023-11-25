@@ -1,0 +1,2 @@
+This train data is modified to E127 series.
+The modifaction is under original creator's license.
