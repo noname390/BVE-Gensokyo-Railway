@@ -6,7 +6,7 @@ Train['106M'].Enable('9:10:00');
 Train['106M'].Stop(2,30,2,45);
 4950+$dist1;
 Train['106M'].Stop(2,30,2,100);
-10733+$dist1;
+10793+$dist1;
 Train['106M'].Stop(2,30,2,110);
 13830+$dist1;
 Train['106M'].Stop(2,30,2,110);
