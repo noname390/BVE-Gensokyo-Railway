@@ -2622,7 +2622,7 @@ track['road'].Position(200,0,0,0);
 22405+$dist1;
 	Structure['stop'].Put('1',2,-0.3,0,,,,,);
 22415-80+$dist1;	
-	SpeedLimit.Begin(90);	
+	SpeedLimit.Begin(90);
 22425+$dist1;
 	CabIlluminance.Set(0.7);
 	#formend
