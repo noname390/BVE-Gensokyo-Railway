@@ -208,6 +208,7 @@ crost,Structures\structure_Cro_st\Cro_st.x
 metalfence,Structures\structure_NF\NF.x
 metalfenceL,Structures\structure_RF\RF.x
 stop,Structures\Default\Stop.x
+ropeway,Structures\GSR\signs\ropeway.x
 #bulidings
 koudanapr,Structures\lopoli_houses\x\kodan_apart\kodan.x
 apr,Structures\lopoli_houses\x\apart\AP01_51.x
