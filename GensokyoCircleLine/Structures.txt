@@ -115,6 +115,7 @@ wire40m_L,Structures\GSR\frameworks\wire40m_L.x
 #light
 light,Structures\structure_FL\FL.x
 tunlight,Structures\Tunnel\huku_light.x
+polelight,Structures\StructureSet\other\light\light.x
 #roof
 roof,Structures\lopoli_houses\x\acc\wall\roof\roof.x
 roofnarrow,Structures\lopoli_houses\x\acc\wall\roof\roofnarrow.x

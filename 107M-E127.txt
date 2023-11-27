@@ -6,5 +6,5 @@ Route = GensokyoCircleLine\Map107M.txt
 RouteTitle = Gensokyo Loop Line
 Vehicle = trains\jre127\Vehicle_1M1T_0.txt
 VehicleTitle = JR East E127-100 series（2 car）
-Image = GensokyoCircleLine\samune.jpg
+Image = GensokyoCircleLine\samune2.jpg
 Comment = [ATS-SN] Max speed：110km/h Platform: Hakurei② Ningen④ Moriya②
