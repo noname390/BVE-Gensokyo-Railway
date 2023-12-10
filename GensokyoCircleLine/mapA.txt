@@ -5630,9 +5630,12 @@ track['road'].Position(200,0,0,0);
 	Repeater['MountHL'].End();
 	Track['mountainR'].Position(365,295,0,0);	
 40000+$dist1;
+	Curve.BeginTransition();
 	Repeater['Rail'].End();
 	Repeater['Kasen1'].End();
 	Repeater['pole1'].End();
+40001+$dist1;
+	Curve.End();
 
 
 
