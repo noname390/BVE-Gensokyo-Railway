@@ -207,10 +207,10 @@ Note: Due to the lack of geography information, some station names were original
 列車種別：普通<br>
 ##### JNR 485 Series
 使用路線：環状線、湖東線特急，冥界方面、博麗守矢ライン<br>
-最高速度：140km/h<br>
+最高速度：150km/h<br>
 列車種別：特急、急行<br>
 ##### JNR EF81
-使用路線：冥界方面<br>
+使用路線：環状線（急行と臨時列車）、冥界方面<br>
 最高速度：110km/h<br>
 列車種別：寝台急行、特急<br>
 ### Experimental Features
