@@ -1,5 +1,5 @@
 # Developer Guide
-Note: This document contains untranslated parts.<br>
+Note: This document contains untranslated parts.(Chinese and Japanese words)<br>
 ## Setup develop environment
 1. Download Bve Trainsim 5 from the offical website.
 2. Get a text editor. Vscode is recommended. You can also use the Windows notepad since most files here are txt.
@@ -22,7 +22,9 @@ Note: This document contains untranslated parts.<br>
 <br>
 (Thanks for @AshBill who created the new routemap)
 
+### Intro
 #### Loop Line（環状線）
+幻想乡铁道最主要的线路，并且是唯一的环状线路。线路从博丽神社出发，向南穿过迷途竹林后北折，进入人间之里。这一段较为平坦，一共3座桥梁，无穿山隧道，博丽神社附近为高架。在南人间之里附近进入地下。到达人间之里站后，从人间之里向西出发经过命莲寺，北折穿过妖怪树海后到达山脚的守矢神社站。这一区间有桥梁2座，穿山隧道3座，在西人间之里站前由地下进入高架。在守失神社站东折，沿玄武之泽北岸行进后进入魔法之森、沿雾之湖南岸延伸，到达红魔馆后向南转向，回到博丽神社站。
 #### Hakurei Moriya Line（博麗守矢ライン）
 #### Koto Line（湖東線）
 #### Meikai Line（冥界線）
