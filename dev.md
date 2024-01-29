@@ -31,8 +31,9 @@ Note: This document contains untranslated parts.(Chinese and Japanese words)<br>
 #### Hakurei Moriya Line（博麗守矢ライン）
 连接博丽神社站与人间之里站的高速线路。全程为高架及地下线路。
 #### Koto Line（湖東線）
-从红魔馆站出发，沿雾之湖东岸延伸，至無縁塚的单线线路。
+从红魔馆站出发，沿雾之湖东岸延伸，至无缘冢的单线线路。
 #### Yokainoyama Line（妖怪山線）
+从无缘冢站出发，在新无缘冢信号场折向西北方向，路线规格较高。在中宁~东文间有长12千米的妖怪山隧道。经过最高点文站附近后转向东北方向，到达八云邸站。全程桥梁、隧道非常多。
 #### Meikai Line（冥界線）
 ### Route Design
 #### HakureiShrine->Ningennosato
