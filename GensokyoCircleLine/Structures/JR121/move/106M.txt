@@ -1,0 +1,15 @@
+BveTs Train 1.00
+
+[Structure]
+key= E127B
+distance= -20
+span= 20
+z= 10
+
+[Structure]
+key= E127F
+distance= -40
+span= 20
+z= 10
+
+

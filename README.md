@@ -19,8 +19,16 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 - [x] **2023-8-10:Release v1.0(Loop line from HKR-NNS)**
 - 2023-9-13:Release v1.1 preview
 - 2023-10-10:Release v1.2 preview
-- [ ] 2023-?-?:Release v2.0(Loop line from NNS-MRY)
-- [ ] 2023-?-?:Release v3.0(Loop line complete)
+- 2023-10-26:Release v1.3 preview
+- 2023-11-1:Release v1.4 preview
+- 2023-11-3:Release v1.5 preview
+- 2023-11-8:Release v1.6 preview
+- 2023-11-10:Release v1.7 preview
+- 2023-11-22:Release v1.8 preview
+- 2023-11-27:Release v1.9 preview
+- [x] **2023-12-1:Release v2.0(Loop line from NNS-MRY)**
+- [ ] ?-?-?:Release v2.5(Loop line from KMK-HKR)
+- [ ] ?-?-?:Release v3.0(Loop line complete)
 - [ ] ?-?-?:Release v4.0(Koto line)
 - [ ] ?-?-?:Release v5.0(YoukainoYama line)
 - [ ] ?-?-?:Release v6.0(Yuumeikekkai line)
@@ -32,13 +40,13 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 2. Install Bve Trainsim 5 and DirectX.（Sometimes .NET is also needed）
 3. Clone this repository or download the releases and remember the local path of it, you will use it later.
 4. Get the vehicle data from the train creator's website. Remember the local path of it, you will use it later.
-5. Make sure the file paths in 103M.txt are correct. Then you can open the route in Bve trainsim and enjoy it.<br>
+5. Make sure the file paths in 101M.txt and 103M.txt are correct. Then you can open the route in Bve trainsim and enjoy it.<br>
 
 Notice:
 1. If the routes don't display on the interface of "select route" in BVE 5.8, please check the paths in the text files such as 103M.txt and so on. If the problem still exists, report it in "Issues".    
 
 ## Route Information
-The current route includes one-way operation between the Hakurei Shrine and the Ningennosato on Gensokyo Loop Line, with a maximum speed of 110 km/h. The route includes 6 stations:  Hakurei Shrine, South Hakurei, Eientei, Chikurin, South Ningennosato, and Ningennosato. Currently, all trains are local service. 
+The current route includes one-way operation between the Hakurei Shrine and the Moriya Shrine on Gensokyo Loop Line, with a maximum speed of 110 km/h. The route includes 12 stations:  Hakurei Shrine, South Hakurei, Eientei, Chikurin, South Ningennosato,Ningennosato,West Ningennosato,Myorenji,North Myorenji,Youkai no Jyukai,Kusada,and Moriya Shrine.Currently, the route contains local and rapid service. 
 
 If you use this simulated train route as a derivative work in the Touhou Project, please note that many of the details are the author's own interpretation and may differ from others' imaginations or the official work. The geographic information of Gensokyo in the route comes from the following website:<br>
 [幻想郷・最新版地理考察](https://yotogiluminary.wixsite.com/website/post/000014)<br>
@@ -55,7 +63,7 @@ The mileage data is the author's own setting, unrelated to the original work of 
 
 The distance is measured precisely to 0.001 kilometers. 
 
-The following is the distance for the section from Hakurei Shrine to Ningennosato, starting from Hakurei Shrine.
+The following is the distance for the section from Hakurei Shrine to Moriya Shrine, starting from Hakurei Shrine.
 
 | Station | Mileage |
 |--- |---|
@@ -65,33 +73,50 @@ The following is the distance for the section from Hakurei Shrine to Ningennosat
 | Chikurin | 13.900km |
 | Minami-Ningennosato | 21.040km |
 | Ningennosato | 22.395km |
+| Nishi-Ningennosato | 24.433km |
+| Myorenji | 28.989km |
+| Kita-Myorenji | 30.291km |
+| Youkainojyukai | 34.972km |
+| Kusada | 37.553km |
+| Moriya Shrine | 39.425km |
 
 View [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md) for more detailed information.
 ### Timetable
 #### Loop Line
 
-|駅名      |普通 103M|普通 101M|
-|---       |---      |---     |
-|博麗神社  |    0851  | 0721   | 
-|南博麗    | 	0855  |0725   |
-|永遠亭    | 	0900  |0730    |
-|竹林      | 	0903  |0733   |
-|南人間の里| 	0910  |0740    |
-|人間の里  | 	0912  |0742    |
-|         | 	=	  |  =     |
+|駅名      |普通 103M|普通 101M|普通 105M|快速もりや 107M|
+|---       |---      |---     |---      |---           |
+|博麗神社  |    0851  |0721    |0940     |1002          |  
+|南博麗    | 	0855  |0725   |0945      |↓             | 
+|永遠亭    | 	0900  |0730    |0950     |1010          | 
+|竹林      | 	0903  |0733   |0953      |↓             | 
+|南人間の里| 	0910  |0740    |0959      |↓             | 
+|人間の里  | 	0912  |0742    |1003      |1022          | 
+|西人間の里| 	=	  | =      |1006      |1025          | 
+|命蓮寺    | 		  |       |1011       |1029          | 
+|北命蓮寺   | 		  |        |1013      |↓             | 
+|妖怪の樹海| 		  |        |1019      |↓             | 
+|草田     | 		  |        |1022      |↓             | 
+|守矢神社 | 		  |        |1024      |1038          | 
+|         | 		  |        |=         |=             | 
 
 ## Train information
 The following are recommended trains that can be adjusted as needed, using train data supported by Bve5.
+### JR East E127 Series
+E127 series EMU train is a type of direct current commuter train operated by East Japan Railway Company since May 8, 1995. Currently, this simulated route uses a 2-car formation of this train.<br>
+The copyright owner of the E127 series vehicle data is "BVE Workshop".<br>
+This vehicle data is licensed under [CC BY-NC 2.1 JP DEED license](https://creativecommons.org/licenses/by-nc/2.1/jp/deed.en) and embedded in the route data with some modifications.<br>
 ### JR East E129 Series
 E129 series EMU train is a type of direct current commuter train operated by East Japan Railway Company since December 6, 2014. Currently, this simulated route uses a 4-car formation of this train.<br>
 [Link of the vehicle data](https://mc1323bve.blogspot.com/2020/03/jr-e129.html)<br>
 Operating with the B11 hensei is recommended<br>
 The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
-The creator of this vehicle, like many creators in Japan, has strict distribution terms for their work. Therefore, please visit the creator's website to obtain the train data.<br>
+The creator of this vehicle has strict distribution terms for their work. Therefore, please visit the creator's website to obtain the train data.<br>
 ## Operating method
 Please visit the train creator's website
 ## License
 MIT License<br>
+The copyright owner of the E127 series vehicle data is "BVE Workshop".<br>
 The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
 <br>
 Source of structures or creator of them:<br>
@@ -104,5 +129,7 @@ FCS_TM<br>
 Takamizawa<br>
 Yukkuri_Bve<br>
 雑庫Site<br>
+うたたね<br>
+P車解結可6連<br>
 some station music are from this page:<br>
 https://commons.nicovideo.jp/users/upload/157209?page=2
