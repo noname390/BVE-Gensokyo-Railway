@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-02-04T12:53:00.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="_ngKcNTQOvhjm0VMw_dF" version="23.0.2" type="device">
+<mxfile host="Electron" modified="2024-02-04T13:13:33.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="x_NmOfCnIofTS_tuiLos" version="23.0.2" type="device">
   <diagram name="Page-1" id="u8aUBlL13KQeWDRxbzS9">
-    <mxGraphModel dx="570" dy="1330" grid="1" gridSize="5" guides="0" tooltips="1" connect="0" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="694" dy="1426" grid="1" gridSize="5" guides="0" tooltips="1" connect="0" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -794,7 +794,7 @@
         <mxCell id="tzKpOQWYOQej8DqPO7ZZ-4" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;永&amp;nbsp; 遠&amp;nbsp; 亭&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="275" y="185" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-5" value="" style="endArrow=none;html=1;rounded=1;entryX=-0.004;entryY=0.518;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#ff0000;strokeWidth=5;curved=0;" edge="1" parent="1" source="2lCTwFAhln7CDwlXWDaY-9" target="tzKpOQWYOQej8DqPO7ZZ-4">
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-5" value="" style="endArrow=none;html=1;rounded=1;strokeColor=#ff0000;strokeWidth=5;curved=0;" edge="1" parent="1" source="2lCTwFAhln7CDwlXWDaY-9" target="tzKpOQWYOQej8DqPO7ZZ-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="205" as="sourcePoint" />
             <mxPoint x="290" y="155" as="targetPoint" />
@@ -811,6 +811,81 @@
         </mxCell>
         <mxCell id="2lCTwFAhln7CDwlXWDaY-16" value="&lt;b style=&quot;font-size: 10px;&quot;&gt;竹林&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="2lCTwFAhln7CDwlXWDaY-18" vertex="1">
           <mxGeometry x="5" y="10" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-6" value="" style="endArrow=none;html=1;rounded=1;strokeColor=#FF9933;curved=0;strokeWidth=6;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tzKpOQWYOQej8DqPO7ZZ-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="260" as="sourcePoint" />
+            <mxPoint x="305" y="205" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="305" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300.0011111111111" y="225" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="275.0011111111111" y="255" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="255.00111111111107" y="255" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="235.00111111111107" y="255" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="215.00111111111107" y="255" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="195.00111111111107" y="255" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="175.00111111111107" y="255" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="155.00111111111107" y="255" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-16" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="135.00111111111107" y="255" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-17" value="&lt;b&gt;ひまわり畑&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="225" width="60" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-18" value="&lt;b&gt;幻想風穴&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-19" value="&lt;b&gt;深道&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-20" value="&lt;b&gt;水橋&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-21" value="&lt;b&gt;サトリ&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="210" y="275" width="35" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-23" value="&lt;b&gt;星熊温泉&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="187.8" y="280" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-24" value="&lt;b&gt;東旧都&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="170" y="275" width="35" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-25" value="&lt;b&gt;旧都&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="151.46" y="271.46" width="25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-26" value="&lt;b&gt;下旧都&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="130" y="275" width="35" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-27" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="115.00111111111107" y="255" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-28" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="95.00111111111107" y="255" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-29" value="&lt;b&gt;上古明地&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="105" y="275" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="tzKpOQWYOQej8DqPO7ZZ-30" value="&lt;b&gt;地霊殿&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="90" y="274.7" width="35" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
