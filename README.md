@@ -114,6 +114,9 @@ The copyright owner of the E129 series vehicle data is "Mc_1323".<br>
 The creator of this vehicle has strict distribution terms for their work. Therefore, please visit the creator's website to obtain the train data.<br>
 ## Operating method
 Please visit the train creator's website
+## Contact us
+mail：2147483647e308@gmail.com
+Youtube/bilibili：札幌人形
 ## License
 MIT License<br>
 The copyright owner of the E127 series vehicle data is "BVE Workshop".<br>
