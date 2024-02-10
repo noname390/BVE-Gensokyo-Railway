@@ -13,7 +13,7 @@ BveTs Map 2.00
 50+$dist1;
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
-	Structure['check_departure'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Shuppatsu_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -28,7 +28,7 @@ BveTs Map 2.00
 1200+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.4,-0.06,,,,,);
-	Structure['check'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['4_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -59,11 +59,11 @@ BveTs Map 2.00
 	$sig=distance;
 	$sig-300;
 	Beacon.Put(9,0,300100);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 2100+$dist1;
 	Signal['Relay_LED'].Put(2,'1',6,4.5,-0.1,,15,,,);
-	Structure['check_relay'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Chukei_N'].Put('1',6,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',6,-0.6,0,,15,,,5);
 	Structure['Sig_Arm_SU'].Put('1',6,4.4,0,,15,,,5);
 	Structure['Sig_Arm_SD'].Put('1',6,3.5,0,,15,,,5);
@@ -71,7 +71,7 @@ BveTs Map 2.00
 2300+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',6,4.4,-0.05,,10,,,);
-	Structure['check'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['3_N'].Put('1',6,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',6,-0.6,0,,15,,,5);
 	Structure['Sig_Arm_SU'].Put('1',6,4.5,0,,15,,,5);
 	Structure['Sig_Arm_SD'].Put('1',6,3.38,0,,15,,,5);
@@ -101,7 +101,7 @@ BveTs Map 2.00
 3000+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.4,-0.05,,,,,);
-	Structure['check'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['2_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -130,7 +130,7 @@ BveTs Map 2.00
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 3700+$dist1;
 	Signal['Relay_LED'].Put(2,'1',-2.4,4.5,-0.1,,,,,);
-	Structure['check_relay'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Chukei_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.4,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.5,0,,,,,5);
@@ -139,12 +139,12 @@ BveTs Map 2.00
 	$sig=distance;
 	$sig-500;
 	Beacon.Put(9,0,500085);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 3900+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.4,-0.05,,,,,);
-	Structure['check'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['1_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -175,30 +175,30 @@ BveTs Map 2.00
 	$sig=distance;
 	$sig-250;
 	Beacon.Put(9,0,250110);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 4500+$dist1;
 	Signal['Relay_LED'].Put(2,'1',6,4.5,-0.1,,15,,,);
-	Structure['check_relay'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Chukei_N'].Put('1',6,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',6,-0.6,0,,15,,,5);
 	Structure['Sig_Arm_SU'].Put('1',6,4.4,0,,15,,,5);
 	Structure['Sig_Arm_SD'].Put('1',6,3.5,0,,15,,,5);
 	Structure['Sig_Base_Step'].Put('1',6,-0.6,0,,15,,,5);
 4650+$dist1;
 	Signal['Relay_LED'].Put(2,'1',6,4.5,-0.1,,15,,,);
-	Structure['check_relay'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Chukei_N'].Put('1',6,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',6,-0.6,0,,15,,,5);
 	Structure['Sig_Arm_SU'].Put('1',6,4.4,0,,15,,,5);
 	Structure['Sig_Arm_SD'].Put('1',6,3.5,0,,15,,,5);
 	Structure['Sig_Base_Step'].Put('1',6,-0.6,0,,15,,,5);
 4737+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 4800+$dist1;
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
-	Structure['check_home'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Jonai_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -228,7 +228,7 @@ BveTs Map 2.00
 5160+$dist1;//南博丽出发
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
-	Structure['check_departure'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Shuppatsu_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -254,14 +254,14 @@ BveTs Map 2.00
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 5550+$dist1;
 	Signal['Relay_LED'].Put(2,'1',6,4.5,-0.1,,15,,,);
-	Structure['check_relay'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Chukei_N'].Put('1',6,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',6,-0.6,0,,15,,,5);
 	Structure['Sig_Arm_SU'].Put('1',6,4.4,0,,15,,,5);
 	Structure['Sig_Arm_SD'].Put('1',6,3.5,0,,15,,,5);
 	Structure['Sig_Base_Step'].Put('1',6,-0.6,0,,15,,,5);
 5800+$dist1;
 	Signal['Relay_LED'].Put(2,'1',6,4.5,-0.1,,15,,,);
-	Structure['check_relay'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Chukei_N'].Put('1',6,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',6,-0.6,0,,15,,,5);
 	Structure['Sig_Arm_SU'].Put('1',6,4.4,0,,15,,,5);
 	Structure['Sig_Arm_SD'].Put('1',6,3.5,0,,15,,,5);
@@ -269,7 +269,7 @@ BveTs Map 2.00
 6150+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
-	Structure['check'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['4_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -299,7 +299,7 @@ BveTs Map 2.00
 7280+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
-	Structure['check'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['3_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -330,16 +330,16 @@ BveTs Map 2.00
 	$sig=distance;
 	$sig-400;
 	Beacon.Put(9,0,400100);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 8177+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 8480+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
-	Structure['check'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['2_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -369,7 +369,7 @@ BveTs Map 2.00
 9380+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
-	Structure['check'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['1_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -400,14 +400,14 @@ BveTs Map 2.00
 	$sig=distance;
 	$sig-400;
 	Beacon.Put(9,0,400105);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 10599+$dist1;
 
 10600+$dist1; //永远亭场内
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
-	Structure['check_home'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Jonai_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -437,7 +437,7 @@ BveTs Map 2.00
 10880+$dist1; //永远亭出发
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
-	Structure['check_departure'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['Shuppatsu_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -463,12 +463,12 @@ BveTs Map 2.00
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 11086+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 11600+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
-	Structure['check'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['2_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -498,7 +498,7 @@ BveTs Map 2.00
 12500+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
-	Structure['check'].Put('1',-2.4,3,-0.1,,,,,);
+	Structure['1_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -528,6 +528,7 @@ BveTs Map 2.00
 13650+$dist1;//竹林场内
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
+	Structure['Jonai_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -557,6 +558,7 @@ BveTs Map 2.00
 13950+$dist1; //竹林出发
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
+	Structure['Shuppatsu_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -584,6 +586,7 @@ BveTs Map 2.00
 15000+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
+	Structure['6_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -613,6 +616,7 @@ BveTs Map 2.00
 16150+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
+	Structure['5_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -642,6 +646,7 @@ BveTs Map 2.00
 17000+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
+	Structure['4_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -671,6 +676,7 @@ BveTs Map 2.00
 18300+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.4,4.5,-0.05,,,,,);
+	Structure['3_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('1',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.4,3.38,0,,,,,5);
@@ -706,6 +712,7 @@ BveTs Map 2.00
 19250+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.1,2.5,-0.05,,,,,);
+	Structure['2_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Arm_SU'].Put('1',-2.49,2.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.49,1.48,-0.38,,-90,,,5);
 	$sig=distance;
@@ -733,6 +740,7 @@ BveTs Map 2.00
 20000+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.1,2.5,-0.05,,,,,);
+	Structure['1_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Arm_SU'].Put('1',-2.49,2.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.49,1.48,-0.38,,-90,,,5);
 	$sig=distance;
@@ -760,6 +768,7 @@ BveTs Map 2.00
 20800+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-2.1,2.5,-0.05,,,,,);
+	Structure['2_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Arm_SU'].Put('1',-2.49,2.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.49,1.48,-0.38,,-90,,,5);
 	$sig=distance;
@@ -787,6 +796,7 @@ BveTs Map 2.00
 21075+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(1,'1',-1.72,3.5,-0.05,,,,,);
+	Structure['2_N'].Put('1',-2.4,3,-0.1,,,,,);
 	Structure['Sig_Arm_SU'].Put('1',-2.11,3.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.11,2.48,-0.38,,-90,,,5);
 	$sig=distance;
@@ -811,6 +821,7 @@ BveTs Map 2.00
 21700+$dist1;
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(1,'1',-2,2.5,-0.05,,,,,);
+	Structure['2_N'].Put('1',-2.4,3,-0.1,,,,,);
 	//Signal['SigYnC_LED'].Put(1,'1',-2,3.1,-0.05,,,,,);
 	Structure['Sig_Arm_SU'].Put('1',-2.39,2.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.39,1.38,-0.38,,-90,,,5);
@@ -1604,37 +1615,37 @@ BveTs Map 2.00
 	$sig=distance;
 	$sig-400;
 	Beacon.Put(9,0,300085);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 14398+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 16487+$dist1;
 	$sig=distance;
 	$sig-400;
 	Beacon.Put(9,0,300095);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 16673+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 17149+$dist1;
 	$sig=distance;
 	$sig-400;
 	Beacon.Put(9,0,300055);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 17230+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 19170+$dist1;
 	$sig=distance;
 	$sig-400;
 	Beacon.Put(9,0,300100);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 22255+$dist1;
 	$sig=distance;
@@ -1644,7 +1655,7 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 22410+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 22630+$dist1;
 	$sig=distance;
@@ -1654,7 +1665,7 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 23623+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 28331+$dist1;
 	$sig=distance;
@@ -1664,7 +1675,7 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 28787+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 29121+$dist1;
 	$sig=distance;
@@ -1674,7 +1685,7 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 29417+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 30386+$dist1;
 	$sig=distance;
@@ -1684,7 +1695,7 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 30493+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 31193+$dist1;
 	$sig=distance;
@@ -1694,7 +1705,7 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 31347+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 31562+$dist1;
 	$sig=distance;
@@ -1704,7 +1715,7 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 31781+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 31886+$dist1;
 	$sig=distance;
@@ -1714,7 +1725,7 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 32024+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 32160+$dist1;
 	$sig=distance;
@@ -1724,7 +1735,7 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 32332+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 33059+$dist1;
 	$sig=distance;
@@ -1734,7 +1745,7 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 33157+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 33909+$dist1;
 	$sig=distance;
@@ -1744,7 +1755,7 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 34365+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 37826+$dist1;
 	$sig=distance;
@@ -1754,7 +1765,7 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 37944+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 38009+$dist1;
 	$sig=distance;
@@ -1764,7 +1775,7 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 38139+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 38717+$dist1;
 	$sig=distance;
@@ -1774,7 +1785,7 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 39150+$dist1;
 	Beacon.Put(19,0,0);
-	Structure['ATS-P_Muden'].Put('1',0,0.01,1,,,,3,);
+	Structure['ATS-P_Muden'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-P_Muden'].Put('1',0,0.01,-1,,,,3,);
 39152+$dist1;
 	$sig=distance;
@@ -1784,126 +1795,126 @@ BveTs Map 2.00
 	Structure['ATS-P_Muden'].Put('1',0,0.05,-1,,,,,);
 //唤呼标
 890+$dist1;
-Structure['check'].Put('1',-2.6,3,-0.15,0,0,0,,);
+Structure['4_N'].Put('1',-2.6,3,-0.15,0,0,0,,);
 1955+$dist1;
-Structure['check_relay'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['Chukei_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 2155+$dist1;
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['3_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 2715+$dist1;
-Structure['check'].Put('1',-2.6,3,-0.15,0,0,0,,);
+Structure['2_N'].Put('1',-2.6,3,-0.15,0,0,0,,);
 3475+$dist1;
-Structure['check_relay'].Put('1',-2.6,3,-0.15,0,0,0,,);
+Structure['Chukei_N'].Put('1',-2.6,3,-0.15,0,0,0,,);
 3755+$dist1;
-Structure['check'].Put('1',-2.6,3,-0.15,0,0,0,,);
+Structure['1_N'].Put('1',-2.6,3,-0.15,0,0,0,,);
 4315+$dist1;
-Structure['check_relay'].Put('1',-2.6,3,-0.15,0,0,0,,);
+Structure['Chukei_N'].Put('1',-2.6,3,-0.15,0,0,0,,);
 4515+$dist1;
-Structure['check_relay'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['Chukei_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 4715+$dist1;
-Structure['check_home'].Put('1',-2.6,3,-0.2,0,0,0,,);
+Structure['Jonai_N'].Put('1',-2.6,3,-0.2,0,0,0,,);
 4835+$dist1;
-Structure['check_departure'].Put('1',-2.6,3,-0.15,0,0,0,,);
+Structure['Shuppatsu_N'].Put('1',-2.6,3,-0.15,0,0,0,,);
 5380+$dist1;
-Structure['check_relay'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['Chukei_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 5660+$dist1;
-Structure['check_relay'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['Chukei_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 5940+$dist1;
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['4_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 6980+$dist1;
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['3_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 9670-1490+$dist1;
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['2_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 10750-1490+$dist1;
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['1_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 11950-1490+$dist1;
-Structure['check_home'].Put('1',-2.6,3,-0.2,0,0,0,,);
+Structure['Jonai_N'].Put('1',-2.6,3,-0.2,0,0,0,,);
 12190-1490+$dist1;
-Structure['check_departure'].Put('1',-2.6,3,-0.15,0,0,0,,);
+Structure['Shuppatsu_N'].Put('1',-2.6,3,-0.15,0,0,0,,);
 12910-1490+$dist1;
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['2_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 13790-1490+$dist1;
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['1_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 14950-1490+$dist1;
-Structure['check_home'].Put('1',-2.6,3,-0.2,0,0,0,,);
+Structure['Jonai_N'].Put('1',-2.6,3,-0.2,0,0,0,,);
 15270-1490+$dist1;
-Structure['check_departure'].Put('1',-2.6,3,-0.15,0,0,0,,);
+Structure['Shuppatsu_N'].Put('1',-2.6,3,-0.15,0,0,0,,);
 16340-1490+$dist1;
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['6_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 17500-1490+$dist1;
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['5_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 18300-1490+$dist1;
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['4_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 19455-1490+$dist1;
-Structure['check'].Put('1',-2.4,3,-0.25,0,0,0,,);
+Structure['3_N'].Put('1',-2.4,3,-0.25,0,0,0,,);
 20050-1490+$dist1;
-Structure['check_relay'].Put('1',-2.4,3,-0.25,0,0,0,,);
+Structure['Chukei_N'].Put('1',-2.4,3,-0.25,0,0,0,,);
 20530-1490+$dist1;
-Structure['check'].Put('1',-2.4,3,-0.25,0,0,0,,);
+Structure['2_N'].Put('1',-2.4,3,-0.25,0,0,0,,);
 21345-1490+$dist1;
-Structure['check'].Put('1',-2.15,2.5,-0.25,0,0,0,,);
+Structure['1_N'].Put('1',-2.15,2.5,-0.25,0,0,0,,);
 21945-1490+$dist1;
-Structure['check_home'].Put('1',-2.15,2.5,-0.2,0,0,0,,);
+Structure['Jonai_N'].Put('1',-2.15,2.5,-0.2,0,0,0,,);
 22360-1490+$dist1;
-Structure['check_departure'].Put('1',-2.15,2.5,-0.15,0,0,0,,);
+Structure['Shuppatsu_N'].Put('1',-2.15,2.5,-0.15,0,0,0,,);
 23000-1490+$dist1;
-Structure['check'].Put('1',-2.15,2.5,-0.25,0,0,0,,);
+Structure['1_N'].Put('1',-2.15,2.5,-0.25,0,0,0,,);
 23400-1490+$dist1;
-Structure['check_home'].Put('1',-2.15,2.5,-0.2,0,0,0,,);
+Structure['Jonai_N'].Put('1',-2.15,2.5,-0.2,0,0,0,,);
 23608-1490+$dist1;
-Structure['check_home'].Put('1',-2.05,2.5,-0.2,0,0,0,,);
+Structure['Jonai_N'].Put('1',-2.05,2.5,-0.2,0,0,0,,);
 23745-1490+$dist1;
-Structure['check_departure'].Put('1',-2,1,-0.15,0,0,0,,);
+Structure['Shuppatsu_N'].Put('1',-2,1,-0.15,0,0,0,,);
 23000-125+$dist1;//闭塞中继
-Structure['check_relay'].Put('1',-2,2.5,0,0,0,0,,);
+Structure['Chukei_N'].Put('1',-2,2.5,0,0,0,0,,);
 23300-125+$dist1;//人里-西人里 第一闭塞
-Structure['check'].Put('1',-2,2.5,0,0,0,0,,);
+Structure['1_N'].Put('1',-2,2.5,0,0,0,0,,);
 24045+$dist1;//西人里场内
-Structure['check_home'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['Jonai_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 24473-188+$dist1; //西人里出发
-Structure['check_departure'].Put('1',2.65,3,-0.05,0,0,0,,);
-Structure['check_departure'].Put('3',-2.65,3,-0.45,0,0,0,,);
+Structure['Shuppatsu_N'].Put('1',2.65,3,-0.05,0,0,0,,);
+Structure['Shuppatsu_N'].Put('3',-2.65,3,-0.45,0,0,0,,);
 25400-277+$dist1;//西人里-命莲寺 第一闭塞
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['4_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 25990-267+$dist1;//人里车辆中心
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['3_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 26550-267+$dist1;//西人里-命莲寺 第二闭塞
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['2_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 27700-210+$dist1;//西人里-命莲寺 第三闭塞
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['1_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 28805-205+$dist1;//命莲寺场内
-Structure['check_home'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['Jonai_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 29029-200+$dist1; //命莲寺出发
-Structure['check_departure'].Put('1',2.65,4.05,-0.05,0,0,0,,);
+Structure['Shuppatsu_N'].Put('1',2.65,4.05,-0.05,0,0,0,,);
 30171-251+$dist1;//北命莲寺场内
-Structure['check_home'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['Jonai_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 30311-94+$dist1; //北命莲寺出发
-Structure['check_departure'].Put('1',-5.05,4.5,-0.25,0,0,0,,);
+Structure['Shuppatsu_N'].Put('1',-5.05,4.5,-0.25,0,0,0,,);
 31150-230+$dist1;//闭塞中继
-Structure['check_relay'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['Chukei_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 31450-130+$dist1;//北命莲寺-树海 第一闭塞
-Structure['check'].Put('1',-2.6,3,-0.5,0,0,0,,);
+Structure['3_N'].Put('1',-2.6,3,-0.5,0,0,0,,);
 32050-210+$dist1;//闭塞中继
-Structure['check_relay'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['Chukei_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 32550-230+$dist1;//北命莲寺-树海 第二闭塞
-Structure['check'].Put('1',-2.6,3,-0.5,0,0,0,,);
+Structure['2_N'].Put('1',-2.6,3,-0.5,0,0,0,,);
 33700-200+$dist1;//北命莲寺-树海 第三闭塞
-Structure['check'].Put('1',-2,2.5,0,0,0,0,,);
+Structure['1_N'].Put('1',-2,2.5,0,0,0,0,,);
 34862-262+$dist1;//树海场内
-Structure['check_home'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['Jonai_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 34982-102+$dist1; //树海出发
-Structure['check_departure'].Put('1',-5.05,4.5,-0.35,0,0,0,,);
+Structure['Shuppatsu_N'].Put('1',-5.05,4.5,-0.35,0,0,0,,);
 35810-250+$dist1;//树海-草田 第一闭塞
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['3_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 36610-250+$dist1;//树海-草田 第二闭塞
-Structure['check'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['2_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 37458-258+$dist1;//草田场内
-Structure['check_home'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['Jonai_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 37563-83+$dist1; //草田出发
-Structure['check_departure'].Put('1',-5.05,4.5,-0.35,0,0,0,,);
+Structure['Shuppatsu_N'].Put('1',-5.05,4.5,-0.35,0,0,0,,);
 38480-250+$dist1; //草田-守失 第一闭塞
-Structure['check'].Put('1',-2.1,2.5,0,0,0,0,,);
+Structure['1_N'].Put('1',-2.1,2.5,0,0,0,0,,);
 39145-185+$dist1;//守失场内
-Structure['check_home'].Put('1',-2.6,3,-0.25,0,0,0,,);
+Structure['Jonai_N'].Put('1',-2.6,3,-0.25,0,0,0,,);
 39460-160+$dist1; //守失出发
-Structure['check_departure'].Put('1',-2.65,4.7,0.95,0,0,0,,);
-Structure['check_departure'].Put('3',2.65,4.7,0.95,0,0,0,,);
+Structure['Shuppatsu_N'].Put('1',-2.65,4.7,0.95,0,0,0,,);
+Structure['Shuppatsu_N'].Put('3',2.65,4.7,0.95,0,0,0,,);
