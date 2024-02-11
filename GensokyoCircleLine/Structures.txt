@@ -599,8 +599,10 @@ CR4,Structures\CR\CR4.x,
 #信号ポール
 SigPole,Structures\Default\Sigpole.x
 SigPole_L,Structures\Default\Sigpole.x
+
 #その他
 PS,Structures\GSR\ATSP.x
+PtoS,Structures\GSR\ATSPtoS.x
 SN,Structures\GSR\SN.x
 check,Structures\CHECKING\CK.x
 check_departure,Structures\CHECKING\CKD.x

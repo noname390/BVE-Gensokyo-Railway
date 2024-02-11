@@ -1656,7 +1656,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SD'].Put('2',2.4,3.38,0,,180,,,5);
 	Structure['Sig_Base_Step'].Put('2',2.4,-0.6,0,,180,,,5);
 39465+$dist1; //守失出发
-	Structure['Sig30_LED'].Put('3',-2.4,4.5,0,,,,,5);
+	Structure['Sig30_LED'].Put('3',-2.4,4.5,-0.05,,,,,5);
 	Structure['Sig_Pole'].Put('3',-2.4,-0.6,0,,,,,5);
 	Structure['Sig_Arm_SU'].Put('3',-2.4,4.5,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('3',-2.4,3.38,0,,,,,5);
