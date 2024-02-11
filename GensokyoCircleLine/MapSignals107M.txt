@@ -872,7 +872,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('1',-2.5,4,0,,,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.5,2.98,0,,,,,5);
 
-	Signal['SigYR'].Put(1,'1',-2.6,2,0,,,,,);
+	Signal['SigYR_LED'].Put(1,'1',-2.6,2,0,,,,,);
 	Structure['SigY_Arm'].Put('1',-2.6,2,0,,,,,5);
 
 	$sig=distance;
