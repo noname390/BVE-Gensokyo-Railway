@@ -487,7 +487,7 @@ BveTs Map 2.00
 	Beacon.Put(1,1,0);
 	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
-	Beacon.Put(0,2,0);
+	Beacon.Put(0,1,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 22255+$dist1;
 	Section.Begin(0,1,2,4);
@@ -499,6 +499,9 @@ BveTs Map 2.00
 	$sig-25;
 	Beacon.Put(1,1,0);
 	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,3,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 22435+$dist1;//人里出发
 	Section.Begin(0,2,4);
 	Signal['Type4yg'].Put(0,'1',-1.72,3.5,-0.05,,,,,);
@@ -509,6 +512,9 @@ BveTs Map 2.00
 	$sig-25;
 	Beacon.Put(1,1,0);
 	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
+	$sig-600;
+	Beacon.Put(0,3,0);
+	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 23000+$dist1;//闭塞中继
 	Signal['Relay'].Put(1,'2',2.1,3,0,,,,,);
 	Structure['Sig_Arm_SU'].Put('2',2.1,2.9,0,,,,,5);
