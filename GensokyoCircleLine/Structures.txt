@@ -596,6 +596,28 @@ Rep4,Structures\Default\signalrep4.x
 CR4,Structures\CR\CR4.x,
 ,,
 
+#信号標識
+ATSPcheck,          Structures\JRE_common\other\ATSPcheck.x
+ATSPtoScheck,       Structures\JRE_common\other\ATSPtoScheck.x
+ATSStoPcheck,       Structures\JRE_common\other\ATSStoPcheck.x
+ATSPcheck1,         Structures\JRE_common\other\ATSPcheck1.x
+ATSPtoScheck1,      Structures\JRE_common\other\ATSPtoScheck1.x
+ATSStoPcheck1,      Structures\JRE_common\other\ATSStoPcheck1.x
+car_stopper,        Structures\JRE_common\other\car stopper.x
+klaxon,             Structures\JRE_common\other\klaxon.x
+off_for_rapid,      Structures\JRE_common\other\off for rapid.x
+off,                Structures\JRE_common\other\off.x
+on,                 Structures\JRE_common\other\on.x
+regulations_end,    Structures\JRE_common\other\regulations end.x
+regulations_start,  Structures\JRE_common\other\regulations start.x
+stic1,              Structures\JRE_common\other\stic1.x
+stic2,              Structures\JRE_common\other\stic2.x
+stic3,              Structures\JRE_common\other\stic3.x
+stic4,              Structures\JRE_common\other\stic4.x
+Stop_for_a_while,   Structures\JRE_common\other\Stop for a while.x
+stop_EOA,           Structures\JRE_common\other\stop.x
+tsunami_regulations,Structures\JRE_common\other\tsunami regulations.x
+
 #信号ポール
 SigPole,Structures\Default\Sigpole.x
 SigPole_L,Structures\Default\Sigpole.x
