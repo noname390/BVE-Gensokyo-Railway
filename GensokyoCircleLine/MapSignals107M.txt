@@ -240,8 +240,7 @@ BveTs Map 2.00
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 10144+$dist1;
 	$sig=distance;
-	$sig-400;
-	Beacon.Put(9,0,400105);
+	Beacon.Put(9,0,105);
 	Structure['ATS-S_Speed'].Put('1',0,0.01,0,,,,3,);
 	Structure['ATS-S_Speed'].Put('1',0,0.01,-2,,,,3,);
 10599+$dist1;
