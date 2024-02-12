@@ -1,20 +1,25 @@
 BveTs Signal Aspects List 2.00
-#四灯 YG
-type1,Signal1L0,,Signal1L2,Signal1L3,Signal1L4,,
-,Signal1G0,,Signal1G2,Signal1G3,Signal1G4,,
-#四灯 YY
-type4,Signal4L0,Signal4L1,Signal4L2,,Signal4L4,,
-,Signal4G0,Signal4G1,Signal4G2,,Signal4G4,,
-#预告
-Rep0,Rep0,Rep1,Rep1,Rep1,Rep4,Rep4,
-#RepGG,RepGGN,RepGGN,RepGGN,RepGGN,RepGGN,RepGG,
+
+#信号
 #入换信号机
-SigI_LED,SigI0W_LED,,,SigI4_LED,,,
-shunt,Sw_R_Y,,,,,Sw_Y,
-#,Sw_R_R,,,,,Sw_Y,
-shunt2,Sw_Off,,,,,Sw_On,
-#,Sw_Off,,,,,Sw_On,
-BveTs Signal Aspects List 2.00:shift_jis
+# 白タイプ
+SigIW,             SigI0W,,,                                           SigI4,,,
+
+# 赤タイプ
+SigIR,             SigI0R,,,                                           SigI4,,,
+
+#入換信号機識別標識
+Sigib,          Sigib_off,,,                                        Sigib_on,,,
+
+#入换信号机(LED式)
+# 白タイプ
+SigI_LEDW,     SigI0W_LED,,,                                       SigI4_LED,,,
+
+# 赤タイプ
+SigI_LEDR,     SigI0R_LED,,,                                       SigI4_LED,,,
+
+#入換信号機識別標識(LED式)
+Sigib_LED,  Sigib_off_LED,,,                                    Sigib_on_LED,,,
 
 #信号
 #2灯式(GR型)
@@ -94,6 +99,72 @@ Relay,        Relay0,        Relay1,                  ,               ,    Relay
 #中継信号(LED式)
 Relay_LED,   Relay0_LED,  Relay1_LED,                 ,               ,Relay4_LED
             ,FlareR0,        FlareR1,                 ,               ,   FlareR4
+
+#信号
+##進路予告機
+#2進路用(L)
+SigR2L,           SigR20,      SigR2L,      SigR2L,      SigR2L,      SigR2L
+
+#2進路用(R)
+SigR2R,           SigR20,      SigR2R,      SigR2R,      SigR2R,      SigR2R
+
+#2進路用LED(L)
+SigR2L_LED,   SigR20_LED,  SigR2L_LED,  SigR2L_LED,  SigR2L_LED,  SigR2L_LED
+
+#2進路用LED(R)
+SigR2R_LED,   SigR20_LED,  SigR2R_LED,  SigR2R_LED,  SigR2R_LED,  SigR2R_LED
+
+#3進路用(L)
+SigR3L,           SigR30,      SigR3L,      SigR3L,      SigR3L,      SigR3L
+
+#3進路用(C)
+SigR3C,           SigR30,      SigR3C,      SigR3C,      SigR3C,      SigR3C
+
+#3進路用(R)
+SigR3R,           SigR30,      SigR3R,      SigR3R,      SigR3R,      SigR3R
+
+#3進路用LED(L)
+SigR3L_LED,   SigR30_LED,  SigR3L_LED,  SigR3L_LED,  SigR3L_LED,  SigR3L_LED
+
+#3進路用LED(C)
+SigR3C_LED,   SigR30_LED,  SigR3C_LED,  SigR3C_LED,  SigR3C_LED,  SigR3C_LED
+
+#3進路用LED(R)
+SigR3R_LED,   SigR30_LED,  SigR3R_LED,  SigR3R_LED,  SigR3R_LED,  SigR3R_LED
+
+#入換3進路用(X)
+SigIR3X,         SigIR30,,,                                          SigIR3X,,,
+
+#入換3進路用(L)
+SigIR3L,         SigIR30,,,                                          SigIR3L,,,
+
+#入換3進路用(C)
+SigIR3C,         SigIR30,,,                                          SigIR3C,,,
+
+#入換3進路用(R)
+SigIR3R,         SigIR30,,,                                          SigIR3R,,,
+
+#信号
+##進路表示機
+#背板ありLED(L)
+SigYL_LED,        SigY0_LED,   SigYL_LED,   SigYL_LED,   SigYL_LED,   SigYL_LED
+         ,                 ,    Flare_yl,    Flare_yl,    Flare_yl,    Flare_yl
+#背板ありLED(C)
+SigYC_LED,        SigY0_LED,   SigYC_LED,   SigYC_LED,   SigYC_LED,   SigYC_LED
+         ,                 ,    Flare_yc,    Flare_yc,    Flare_yc,    Flare_yc
+#背板ありLED(R)
+SigYR_LED,        SigY0_LED,   SigYR_LED,   SigYR_LED,   SigYR_LED,   SigYR_LED
+         ,                 ,    Flare_yr,    Flare_yr,    Flare_yr,    Flare_yr
+
+#背板なしLED(L)
+SigYnL_LED,      SigYn0_LED,  SigYnL_LED,  SigYnL_LED,  SigYnL_LED,  SigYnL_LED
+
+#背板なしLED(C)
+SigYnC_LED,      SigYn0_LED,  SigYnC_LED,  SigYnC_LED,  SigYnC_LED,  SigYnC_LED 
+
+#背板なしLED(R)
+SigYnR_LED,      SigYn0_LED,  SigYnR_LED,  SigYnR_LED,  SigYnR_LED,  SigYnR_LED
+
 
 
 track,Track_N,,,,,Track_2,
