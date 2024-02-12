@@ -115,7 +115,7 @@ The creator of this vehicle has strict distribution terms for their work. Theref
 ## Operating method
 Please visit the train creator's website
 ## Contact us
-mail：2147483647e308@gmail.com
+mail：2147483647e308@gmail.com<br>
 Youtube/bilibili：札幌人形
 ## License
 MIT License<br>
