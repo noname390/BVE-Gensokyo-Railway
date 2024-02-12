@@ -116,7 +116,7 @@ The creator of this vehicle has strict distribution terms for their work. Theref
 Please visit the train creator's website
 ## Contact us
 mail：2147483647e308@gmail.com<br>
-Youtube/bilibili：札幌人形
+Youtube/bilibili：札幌人形<br>
 ## License
 MIT License<br>
 The copyright owner of the E127 series vehicle data is "BVE Workshop".<br>
