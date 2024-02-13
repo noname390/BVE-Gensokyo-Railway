@@ -582,41 +582,95 @@ Jonai_NW    ,Structures\e_line\Sign\Kanko\Jonai_NW.x
 Shuppatsu_N ,Structures\e_line\Sign\Kanko\Shuppatsu_N.x
 Shuppatsu_NW,Structures\e_line\Sign\Kanko\Shuppatsu_NW.x
 
-#中继
-Rep0,Structures\Default\signalrep0.x
-Rep1,Structures\Default\signalrep1.x
-Rep4,Structures\Default\signalrep4.x
-#RepGGN,..\Nagoya_Common/Railway_Obj/Signal/Rep/GGN.x,
-#RepGG,..\Nagoya_Common/Railway_Obj/Signal/Rep/GG.x,
-
-#進路表示
-#CR1,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\1.x,
-#CR2,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\2.x,
-#CR3,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\3.x,
-CR4,Structures\CR\CR4.x,
-,,
-
 #信号標識
-ATSPcheck,          Structures\JRE_common\other\ATSPcheck.x
-ATSPtoScheck,       Structures\JRE_common\other\ATSPtoScheck.x
-ATSStoPcheck,       Structures\JRE_common\other\ATSStoPcheck.x
-ATSPcheck1,         Structures\JRE_common\other\ATSPcheck1.x
-ATSPtoScheck1,      Structures\JRE_common\other\ATSPtoScheck1.x
-ATSStoPcheck1,      Structures\JRE_common\other\ATSStoPcheck1.x
-car_stopper,        Structures\JRE_common\other\car stopper.x
-klaxon,             Structures\JRE_common\other\klaxon.x
-off_for_rapid,      Structures\JRE_common\other\off for rapid.x
-off,                Structures\JRE_common\other\off.x
-on,                 Structures\JRE_common\other\on.x
-regulations_end,    Structures\JRE_common\other\regulations end.x
-regulations_start,  Structures\JRE_common\other\regulations start.x
-stic1,              Structures\JRE_common\other\stic1.x
-stic2,              Structures\JRE_common\other\stic2.x
-stic3,              Structures\JRE_common\other\stic3.x
-stic4,              Structures\JRE_common\other\stic4.x
-Stop_for_a_while,   Structures\JRE_common\other\Stop for a while.x
-stop_EOA,           Structures\JRE_common\other\stop.x
-tsunami_regulations,Structures\JRE_common\other\tsunami regulations.x
+ATSPcheck,          Structures\JRE_common\other\ATSPcheck.x,#,          ATS確認板
+ATSPtoScheck,       Structures\JRE_common\other\ATSPtoScheck.x,#,
+ATSStoPcheck,       Structures\JRE_common\other\ATSStoPcheck.x,#,
+ATSPcheck1,         Structures\JRE_common\other\ATSPcheck1.x,#,         ATS確認板(縦型)
+ATSPtoScheck1,      Structures\JRE_common\other\ATSPtoScheck1.x,#,
+ATSStoPcheck1,      Structures\JRE_common\other\ATSStoPcheck1.x,#,
+car_stopper,        Structures\JRE_common\other\car stopper.x,#,        車止め標識
+klaxon,             Structures\JRE_common\other\klaxon.x,#,             気笛吹鳴標
+off_for_rapid,      Structures\JRE_common\other\off for rapid.x,#,      惰行標(快速)
+off,                Structures\JRE_common\other\off.x,#,                惰行標
+on,                 Structures\JRE_common\other\on.x,#,                 力行標
+regulations_end,    Structures\JRE_common\other\regulations end.x,#,    要注意箇所標
+regulations_start,  Structures\JRE_common\other\regulations start.x,#,
+stic1,              Structures\JRE_common\other\stic1.x,#,              棒
+stic2,              Structures\JRE_common\other\stic2.x,#,
+stic3,              Structures\JRE_common\other\stic3.x,#,
+stic4,              Structures\JRE_common\other\stic4.x,#,
+Stop_for_a_while,   Structures\JRE_common\other\Stop for a while.x,#,   一旦停止
+stop_EOA,           Structures\JRE_common\other\stop.x,#,               車両停止
+tsunami_regulations,Structures\JRE_common\other\tsunami regulations.x,#,津波注意箇所標
+
+#徐行信号機
+j_alert,        Structures\JRE_common\signal\j alert.x,#,       徐行予告信号機
+j_end,          Structures\JRE_common\signal\j end.x,#,         徐行解除信号機
+j_for_cargo,    Structures\JRE_common\signal\j for cargo.x,#,   貨物列車用
+j_for_cargo1,   Structures\JRE_common\signal\j for cargo1.x,#,
+j_start,        Structures\JRE_common\signal\j start.x,#,       徐行信号機
+j_start1,       Structures\JRE_common\signal\j start1.x,#,
+j_end15,        Structures\JRE_common\signal\jend15.x,#,        徐行解除目標15両
+
+#エアセクション標識
+section_alert,  Structures\JRE_common\air section\section alert.x,#,    セクションゾーン予告
+section_clear3, Structures\JRE_common\air section\section clear3.x,#,   セクションクリア標(3,6,7,8,9,11,13両)
+section_clear6, Structures\JRE_common\air section\section clear6.x,#,
+section_clear7, Structures\JRE_common\air section\section clear7.x,#,
+section_clear8, Structures\JRE_common\air section\section clear8.x,#,
+section_clear9, Structures\JRE_common\air section\section clear9.x,#,
+section_clear11,Structures\JRE_common\air section\section clear11.x,#,
+section_clear13,Structures\JRE_common\air section\section clear13.x,#,
+section,        Structures\JRE_common\air section\section.x,#,          セクションゾーン標識
+section_in,     Structures\JRE_common\air section\section in.x,#,
+section_stop,   Structures\JRE_common\air section\section stop.x,#,     セクション外停止位置表示標
+
+#駅関連標識
+arrow,          Structures\JRE_common\station\arrow.x,#,                誤認防止用矢印
+close_station,  Structures\JRE_common\station\close station.x,#,        停車場接近標
+signal_sign,    Structures\JRE_common\station\signal sign.x,#,          軌道回路境界位置目標(ホーム床)
+
+#信号箱
+SigBox,             Structures\Uchibo20\Signal\Sig_Accessory\SigBox.x,
+
+#信号名
+LabelBS0,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS0.x,#,
+LabelBS1,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS1.x,#,
+LabelBS2,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS2.x,#,
+LabelBS3,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS3.x,#,
+LabelBS4,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS4.x,#,
+LabelBS5,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS5.x,#,
+LabelBS6,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS6.x,#,
+LabelBS7,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS7.x,#,
+LabelBS8,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS8.x,#,
+LabelBS9,           Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS9.x,#,
+LabelBS0_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS0_L.x,#,      少し大きめのタイプ
+LabelBS1_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS1_L.x,#,
+LabelBS2_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS2_L.x,#,
+LabelBS3_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS3_L.x,#,
+LabelBS4_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS4_L.x,#,
+LabelBS5_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS5_L.x,#,
+LabelBS6_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS6_L.x,#,
+LabelBS7_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS7_L.x,#,
+LabelBS8_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS8_L.x,#,
+LabelBS9_L,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\LabelBS9_L.x,#,
+#Label_Uchi-Jo,     Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_Uchi-Jo.x,#,   内場
+#Label_Uchi-Shu,    Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_Uchi-Shu.x,#,  内出
+Label_Soto-Jo,      Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_Soto-Jo.x,#,   外場
+Label_Soto-Shu,     Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_Soto-Shu.x,#,  外出
+Label_1-Jo,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_1-Jo.x,#,      1場
+Label_2-Jo,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_2-Jo.x,#,      2場
+Label_3-Jo,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_3-Jo.x,#,      3場
+Label_1-Shu,        Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_1-Shu.x,#,     1出
+Label_2-Shu,        Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_2-Shu.x,#,     2出
+Label_3-Shu,        Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_3-Shu.x,#,     3出
+Label_Soto,         Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_Soto.x,#,      環外
+Label_center,       Structures\Uchibo20\Signal\Sig_Accessory\Sig_Label\Label_center.x,#,    車両センター
+
+#信号喚呼位置標(内房線)
+ConfEN,             Structures\Uchibo20\Signal\Sig_Accessory\Conf\ConfEN.x,
+ConfNull,           Structures\Uchibo20\Signal\Sig_Accessory\Conf\ConfNull.x,
 
 #信号ポール
 SigPole,Structures\Default\Sigpole.x
@@ -636,3 +690,17 @@ Track_N,Structures\CR\N.x
 Track_2,Structures\CR\2.x
 SN1,Structures\Default\Beacon0.x
 SN2,Structures\Default\Beacon1.x
+
+#中继
+Rep0,Structures\Default\signalrep0.x
+Rep1,Structures\Default\signalrep1.x
+Rep4,Structures\Default\signalrep4.x
+#RepGGN,..\Nagoya_Common/Railway_Obj/Signal/Rep/GGN.x,
+#RepGG,..\Nagoya_Common/Railway_Obj/Signal/Rep/GG.x,
+
+#進路表示
+#CR1,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\1.x,
+#CR2,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\2.x,
+#CR3,..\Nagoya_Common\Railway_Obj\Signal\Switch\Course\Number\3.x,
+CR4,Structures\CR\CR4.x,
+,,
