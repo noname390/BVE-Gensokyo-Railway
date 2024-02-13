@@ -628,8 +628,8 @@ section_stop,   Structures\JRE_common\air section\section stop.x,#,     セク�
 
 #駅関連標識
 arrow,          Structures\JRE_common\station\arrow.x,#,                誤認防止用矢印
-close_station,  Structures\JRE_common\station\close_station.x,#,        停車場接近標
-signal_sign,    Structures\JRE_common\station\signal_sign.x,#,          軌道回路境界位置目標(ホーム床)
+close_station,  Structures\JRE_common\station\close station.x,#,        停車場接近標
+signal_sign,    Structures\JRE_common\station\signal sign.x,#,          軌道回路境界位置目標(ホーム床)
 
 #信号箱
 SigBox,             Structures\Uchibo20\Signal\Sig_Accessory\SigBox.x,
