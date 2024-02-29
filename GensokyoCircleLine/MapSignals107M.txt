@@ -719,7 +719,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(0,1,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
-30311+$dist1; //北命莲寺出发
+30331+$dist1; //北命莲寺出发
 	Section.Begin(0,2,4);
 	Signal['Type3'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -814,7 +814,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(0,1,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
-34982+$dist1; //树海出发
+35012+$dist1; //树海出发
 	Section.Begin(0,2,4);
 	Signal['Type3'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['Sig_Pole'].Put('1',-2.4,-0.6,0,,,,,5);
@@ -877,7 +877,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(0,1,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
-37563+$dist1; //草田出发
+37583+$dist1; //草田出发
 	Section.Begin(0,2,4);
 	Signal['Type3'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
