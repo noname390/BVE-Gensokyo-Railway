@@ -33,7 +33,7 @@ include 'mapA.txt';
 21050+$dist1;
 	Station['5'].Put(-1,-5,5);
 22405+$dist1;
-	Station['6'].Put(1,-5,5);
+	Station['6'].Put(-1,-5,5);
 24433+$dist1;
 	Station['7'].Put(1,-5,5);
 28989+$dist1;
