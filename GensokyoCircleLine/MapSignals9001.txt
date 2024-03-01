@@ -1,5 +1,6 @@
 BveTs Map 2.00
-
+0+$dist1;
+	beacon.put(80, 0, 1);
 50+$dist1;
 	$sig=distance;
 	$sig-30;
