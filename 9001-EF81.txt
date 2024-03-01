@@ -1,6 +1,6 @@
 BveTs Scenario 2.00:UTF-8
 
-Title = [Test]GSR Extra Express 9001(Hakurei-Ningen-Moriya)
+Title = GSR Extra Express 9001(Hakurei-Ningen-Moriya)
 Author = SapporoNingyo&Contributors on Github
 Route = GensokyoCircleLine\Map9001.txt
 RouteTitle = Gensokyo Loop Line
