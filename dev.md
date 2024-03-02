@@ -237,6 +237,10 @@ Note: Due to the lack of geography information, some station names were original
 使用路線：環状線全線<br>
 最高速度：110km/h<br>
 列車種別：普通、快速<br>
+##### JNR EF81
+使用路線：環状線（急行と臨時列車）、冥界方面<br>
+最高速度：110km/h<br>
+列車種別：寝台/臨時急行、特急<br>
 #### Not in Use (or not implemented):
 ##### JR East 701 Series
 使用路線：湖東線、冥界方面<br>
@@ -246,9 +250,5 @@ Note: Due to the lack of geography information, some station names were original
 使用路線：環状線、湖東線特急，冥界方面、博麗守矢ライン<br>
 最高速度：150km/h<br>
 列車種別：特急、急行<br>
-##### JNR EF81
-使用路線：環状線（急行と臨時列車）、冥界方面<br>
-最高速度：110km/h<br>
-列車種別：寝台急行、特急<br>
 ### Experimental Features
 #### Platform lights at Minami-ningennosato station
