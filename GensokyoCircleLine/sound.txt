@@ -4,6 +4,7 @@ hakurei2,sound\station\hakureijinjya2.wav
 105m-hakurei2,sound\station\105m-hakurei2.wav
 107m-hakurei2,sound\station\107m-hakurei2.wav
 15m-hakurei2,sound\station\15m-hakurei2.wav
+9001-hakurei2,sound\station\9001-hakurei2.wav
 minamihakurei,sound\station\minami-hakurei.wav
 eientei,sound\station\eientei.wav
 chikurin,sound\station\chikurin.wav
@@ -12,6 +13,7 @@ minaminingen2,sound\station\minami-ningennosato2.wav
 ningen1,sound\station\ningennosato1.wav
 105m-ningen,sound\station\105m-ningen.wav
 107m-ningen,sound\station\107m-ningen.wav
+9001-ningen,sound\station\9001-ningen.wav
 nishiningen1,sound\station\nishiningen1.wav
 nishiningen2,sound\station\nishiningen2.wav
 myorenji,sound\station\myorenji.wav
