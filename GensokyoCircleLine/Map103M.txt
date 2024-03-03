@@ -1,6 +1,11 @@
 BveTs Map 2.02
 $dist1=1490;
-
+#RollingNoise Setting(E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
+$runlong=0;
+$run25m=2;
+$runbri=3;
+$runtun=4;
+#RollingNoise Setting(E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
 Structure.Load('Structures.txt');
 Sound.Load('sound.txt');
 Station.Load('Stations103M.txt');
