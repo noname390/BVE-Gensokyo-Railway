@@ -1,0 +1,10 @@
+BveTs Scenario 2.00:UTF-8
+
+Title = GSR Extra Express 9001(Hakurei-Ningen-Moriya)
+Author = SapporoNingyo&Contributors on Github
+Route = GensokyoCircleLine\Map9001.txt
+RouteTitle = Gensokyo Loop Line
+Vehicle = ..\DF50\vehicle\50_vehicle51.txt
+VehicleTitle = DF50 Locomotive x2+10 series（6 car）
+Image = GensokyoCircleLine\samune.jpg
+Comment = [ATS-S] Max speed：100km/h Platform: Hakurei② Ningen④ Moriya②
