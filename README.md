@@ -27,6 +27,7 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 - 2023-11-22:Release v1.8 preview
 - 2023-11-27:Release v1.9 preview
 - [x] **2023-12-1:Release v2.0(Loop line from NNS-MRY)**
+- [ ] **2024-3-16:Release v2.0.1(Loop line from NNS-MRY)**
 - [ ] ?-?-?:Release v2.5(Loop line from KMK-HKR)
 - [ ] ?-?-?:Release v3.0(Loop line complete)
 - [ ] ?-?-?:Release v4.0(Koto line)
@@ -46,7 +47,7 @@ Notice:
 1. If the routes don't display on the interface of "select route" in BVE 5.8, please check the paths in the text files such as 103M.txt and so on. If the problem still exists, report it in "Issues".    
 
 ## Route Information
-The current route includes one-way operation between the Hakurei Shrine and the Moriya Shrine on Gensokyo Loop Line, with a maximum speed of 110 km/h. The route includes 12 stations:  Hakurei Shrine, South Hakurei, Eientei, Chikurin, South Ningennosato,Ningennosato,West Ningennosato,Myorenji,North Myorenji,Youkai no Jyukai,Kusada,and Moriya Shrine.Currently, the route contains local and rapid service. 
+The current route includes one-way operation between the Hakurei Shrine and the Moriya Shrine on Gensokyo Loop Line, with a maximum speed of 110 km/h. The route includes 12 stations:  Hakurei Shrine, South Hakurei, Eientei, Chikurin, South Ningennosato,Ningennosato,West Ningennosato,Myorenji,North Myorenji,Youkai no Jyukai,Kusada,and Moriya Shrine.Currently, the route contains local,rapid and extra express service. 
 
 If you use this simulated train route as a derivative work in the Touhou Project, please note that many of the details are the author's own interpretation and may differ from others' imaginations or the official work. The geographic information of Gensokyo in the route comes from the following website:<br>
 [幻想郷・最新版地理考察](https://yotogiluminary.wixsite.com/website/post/000014)<br>
@@ -84,21 +85,21 @@ View [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/ma
 ### Timetable
 #### Loop Line
 
-|駅名      |普通 103M|普通 101M|普通 105M|快速もりや 107M|
-|---       |---      |---     |---      |---           |
-|博麗神社  |    0851  |0721    |0940     |1002          |  
-|南博麗    | 	0855  |0725   |0945      |↓             | 
-|永遠亭    | 	0900  |0730    |0950     |1010          | 
-|竹林      | 	0903  |0733   |0953      |↓             | 
-|南人間の里| 	0910  |0740    |1000      |↓             | 
-|人間の里  | 	0912  |0742    |1004      |1022          | 
-|西人間の里| 	=	  | =      |1007      |1025          | 
-|命蓮寺    | 		  |       |1012       |1029          | 
-|北命蓮寺   | 		  |        |1015      |↓             | 
-|妖怪の樹海| 		  |        |1020      |↓             | 
-|草田     | 		  |        |1023      |↓             | 
-|守矢神社 | 		  |        |1026      |1038          | 
-|         | 		  |        |=         |=             | 
+|駅名      |普通 103M|普通 101M|普通 105M|快速もりや 107M|臨時急行 9001|
+|---       |---      |---     |---      |---           |---         |
+|博麗神社  |    0851  |0721    |0940     |1002          |1050        |  
+|南博麗    | 	0855  |0725   |0945      |↓             |↓          | 
+|永遠亭    | 	0900  |0730    |0950     |1010          |↓           |
+|竹林      | 	0903  |0733   |0953      |↓             |↓           |
+|南人間の里| 	0910  |0740    |1000      |↓             |↓          |
+|人間の里  | 	0912  |0742    |1004      |1022          |1112       |
+|西人間の里| 	=	  | =      |1007      |1025          |↓          |
+|命蓮寺    | 		  |       |1012       |1029          |↓          |
+|北命蓮寺   | 		  |        |1015      |↓             |↓          |
+|妖怪の樹海| 		  |        |1020      |↓             |↓           |
+|草田     | 		  |        |1023      |↓             |↓          |
+|守矢神社 | 		  |        |1026      |1038          |1128        |
+|         | 		  |        |=         |=             |=          |
 
 ## Train information
 The following are recommended trains that can be adjusted as needed, using train data supported by Bve5.
