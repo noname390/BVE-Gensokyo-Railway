@@ -1,10 +1,10 @@
 BveTs Scenario 2.00:UTF-8
 
-Title = Gensokyo Loop Line Local 101M(Hakurei Shrine-Ningennosato)
+Title = Gensokyo Loop Line Local 103M(Hakurei Shrine-Ningennosato)
 Author = SapporoNingyo&Contributors on Github
-Route = GensokyoCircleLine\Map101M.txt
+Route = GensokyoCircleLine\Map103M.txt
 RouteTitle = Gensokyo Loop Line
-Vehicle = ..\E129\Nii-B11.txt 
+Vehicle = ..\..\E129\Nii-B11.txt 
 VehicleTitle = JR East E129 series（4 car）
 Image = GensokyoCircleLine\samune.jpg
 Comment = [ATS-P] Max speed：110km/h Platform: Hakurei② Ningen④
