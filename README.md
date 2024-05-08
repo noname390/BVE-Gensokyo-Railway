@@ -1,7 +1,7 @@
 # Gensokyo Railway Bve Trainsim 5 route
 [中文版Readme](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/README_zh_cn.md)<br>
 [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md)<br>
-
+[開発ガイド（日本語）](https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/dev.md)<br>
 ## Introduction
 The Gensokyo Railway is a fictional railway system developed by me and the contributors. It is an imaginary railway system located in Gensokyo of the Touhou Project, and operated by the fictional company Gensokyo Passenger Railway Corporation. The development of this simulated route was based on the real-life railway system in the Shinetsu region of Japan, which is believed by some to be the area where Gensokyo exists.<br>
 If you are not familiar with the Touhou Project, you can also enjoy it as a general fictional railway.
@@ -118,8 +118,19 @@ Operating with the "81_vehicle4" hensei is recommended<br>
 ## Operating method
 Please visit the train creator's website
 ## Contact us
-mail：2147483647e308@gmail.com<br>
-Youtube/bilibili：札幌人形<br>
+Personal:
+[Twitter](https://twitter.com/Sapporo_Ningyo)  
+[Bilibili](https://space.bilibili.com/1881172321)<br>
+[Github](https://github.com/noname390)  
+[Pixiv](https://www.pixiv.net/users/71235356)<br>
+Mail: 2147483647e308@gmail.com
+
+Group Chat:
+[discord](https://discord.gg/XsHNX8n8)<br>
+Tencent QQ（会中文的话推荐这个）:
+892694757
+↑入群问题：说出一个车万角色或一款日本铁道车辆的名称。<br>
+[Line](https://line.me/ti/g2/xnSYtOFgf7f2rqLc8mlA0O79Z-FOZ5mlq3GHrA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default)
 ## License
 MIT License<br>
 The copyright owner of the E127 series vehicle data is "BVE Workshop".<br>
