@@ -1,0 +1,11 @@
+共用部分说明
+common1：博丽神社 - 人间之里
+common2：人间之里 - 西人间之里
+common3：人里车辆中心信号机 - 守矢神社
+
+其他部分已标明适用的插件以及个别车站所对应的站台
+
+后缀说明：
+Notsuki：汎用ATS插件
+ask&CT：ask&CT的ATS-P插件
+snp：Rock_On的snp.dll插件
