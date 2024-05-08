@@ -118,14 +118,14 @@ Operating with the "81_vehicle4" hensei is recommended<br>
 ## Operating method
 Please visit the train creator's website
 ## Contact us
-Personal:
+Personal:<br>
 [Twitter](https://twitter.com/Sapporo_Ningyo)  
 [Bilibili](https://space.bilibili.com/1881172321)<br>
 [Github](https://github.com/noname390)  
 [Pixiv](https://www.pixiv.net/users/71235356)<br>
 Mail: 2147483647e308@gmail.com
 
-Group Chat:
+Group Chat:<br>
 [discord](https://discord.gg/XsHNX8n8)<br>
 Tencent QQ（会中文的话推荐这个）:
 892694757
