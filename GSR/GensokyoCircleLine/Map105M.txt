@@ -11,7 +11,7 @@ Sound.Load('sound.txt');
 Sound3D.Load('sound3d.txt');
 Station.Load('Stations105M.txt');
 Signal.Load('Signals.csv');
-Signal.SpeedLimit(0,25,55,75,110);
+Signal.SpeedLimit(0,25,55,75,95);
 include 'MapSignals105M.txt';
 include 'Mapsound105M.txt';
 include 'rumia105M.txt';
