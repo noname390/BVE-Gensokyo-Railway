@@ -13,19 +13,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
@@ -52,19 +43,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
@@ -84,19 +66,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
@@ -124,19 +97,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
@@ -251,19 +215,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
@@ -283,19 +238,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
@@ -315,19 +261,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
@@ -347,25 +284,15 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-
 10599+$dist1;
 
 10600+$dist1; //永远亭场内
@@ -381,7 +308,7 @@ BveTs Map 2.00
 	Structure['Sig2T_Arm'].Put('1',-2.4,2.2,0,,,,,5);
 	$sig=distance;
 	$sig-25;
-	Beacon.Put(5,-1,0);
+	Beacon.Put(4,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-50;
@@ -442,19 +369,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
@@ -474,19 +392,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
@@ -570,19 +479,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
@@ -602,19 +502,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
@@ -634,19 +525,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
@@ -666,19 +548,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
@@ -701,19 +574,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
@@ -730,19 +594,10 @@ BveTs Map 2.00
 	Beacon.Put(5,-1,0);
     
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-50;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);	
 	$sig-85;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-130;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-180;
-	Beacon.Put(3,-1,0);
-	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-	$sig-280;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
 	$sig-600;
