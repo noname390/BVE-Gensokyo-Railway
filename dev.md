@@ -100,7 +100,6 @@ Hakurei Moriya Line:<br>
 
 Mist Lake Line:<br>
 #### Ningennosato Main Station->Koumakan
-
 |#   |駅名  　|キロ| 最高速度| 線路数| ホーム   |駅構造| 
 |--- |--- 　 |--- |---    |---    |---       |---   |
 |0|人里中央  | 0  |90	　 | 複線  |3面5線    | 地下 | 
