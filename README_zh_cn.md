@@ -1,5 +1,9 @@
 # 幻想乡铁道 Bve Trainsim 5线路
-
+## 重要：如果你从未接触过BVE Trainsim这款模拟软件，请先观看下面的教程再继续操作
+(【BVE新手向教程（1）本体下载与线路下载】) [https://www.bilibili.com/video/BV1se4y1A7NW/]<br>
+(【BVE新手向教程（2）线路管理和版权问题】) [https://www.bilibili.com/video/BV1Nd4y1H7u1/]<br>
+(【BVE新手向教程（3）实操键位和部分保安装置确认方法介绍】)[https://www.bilibili.com/video/BV1C8411M73X/]<br>
+(【BVE新手向教程（4）番外篇】)[https://www.bilibili.com/video/BV1CY411q7ia/]
 ## 简介
 幻想乡铁道，是由我（noname390）和Github上的贡献者（见页面右侧）开发的一条虚构线路。是假想的位于东方project幻想乡的铁路系统。
 这个模拟线路最初以现实中日本信越地方的铁路系统为参考进行开发（此地区被一些人认为是幻想乡存在的区域），不过在后续的版本中，将会加入一些来自世界各地的铁路的要素。<br>
