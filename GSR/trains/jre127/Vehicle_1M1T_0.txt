@@ -5,5 +5,3 @@ Panel = Panel\Panel.txt
 Sound = Sound\Sound.txt
 Ats = Ats\Ats.dll
 MotorNoise = MotorNoise\MotorNoise.txt
-
-;E127ån0î‘ë‰ÅE2óºï“ê¨
