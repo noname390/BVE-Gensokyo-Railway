@@ -261,27 +261,6 @@ Hakurei East・Mist Lake・Standard Gauge Experimental Line of Mt.Youkai<br>
 |北博麗　 | 		  |        |↓            |          |              ||
 |博麗神社 | 		  |        |             |          |              ||
 ### Trains
-#### In Use:
-##### JR East E129 Series
-使用路線：環状線全線<br>
-最高速度：110km/h<br>
-列車種別：普通、快速<br>
-##### JR East E127 Series
-使用路線：環状線全線<br>
-最高速度：110km/h<br>
-列車種別：普通、快速<br>
-##### JNR EF81
-使用路線：環状線（急行と臨時列車）、冥界方面<br>
-最高速度：110km/h<br>
-列車種別：寝台/臨時急行、特急<br>
-#### Not in Use (or not implemented):
-##### JR East 701 Series
-使用路線：湖東線、冥界方面<br>
-最高速度：95km/h（110km/h）<br>
-列車種別：普通<br>
-##### JNR 485 Series
-使用路線：環状線、湖東線特急，冥界方面、博麗守矢ライン<br>
-最高速度：150km/h<br>
-列車種別：特急、急行<br>
+Trains other than the E127 series will gradually no longer be recommended trains. Additionally, scenarios corresponding to different signaling systems will be provided, players can use suitable trains on their own.
 ### Experimental Features
 #### Platform lights at Minami-ningennosato station
