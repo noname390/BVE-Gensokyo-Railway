@@ -101,7 +101,7 @@ View [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/ma
 |         | 		  |        |=         |=             |=          |
 
 ## Train information
-The following are recommended trains that can be adjusted as needed, using train data supported by Bve5.
+The following are recommended trains that can be adjusted as needed, using train data supported by Bve5.<br>
 Note: In future versions, trains other than the E127 series will gradually no longer be recommended trains. Additionally, scenarios corresponding to different signaling systems will be provided, players can use suitable trains on their own.
 ### JR East E127 Series
 E127 series EMU train is a type of direct current commuter train operated by East Japan Railway Company since May 8, 1995. Currently, this simulated route uses a 2-car formation of this train.<br>
