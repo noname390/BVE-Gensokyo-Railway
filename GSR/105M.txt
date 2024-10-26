@@ -1,6 +1,6 @@
 BveTs Scenario 2.00:UTF-8
 
-Title = Gensokyo Loop Line Local 105M(Hakurei Shrine-Moriya Shrine)
+Title = Local 105M(Hakurei Shrine-Moriya Shrine)
 Author = SapporoNingyo&Contributors on Github
 Route = GensokyoCircleLine\Map105M.txt
 RouteTitle = Gensokyo Loop Line

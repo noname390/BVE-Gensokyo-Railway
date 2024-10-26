@@ -1,6 +1,6 @@
 BveTs Scenario 2.00:UTF-8
 
-Title = Gensokyo Loop Line Local 101M(Hakurei Shrine-Ningennosato)
+Title = Local 101M(Depot - Hakurei Shrine - Ningennosato)
 Author = SapporoNingyo&Contributors on Github
 Route = GensokyoCircleLine\Map101M.txt
 RouteTitle = Gensokyo Loop Line
