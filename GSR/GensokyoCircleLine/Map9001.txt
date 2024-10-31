@@ -5,7 +5,9 @@ $runlong=4;
 $run25m=0;
 $runbri=2;
 $runtun=3;
-#RollingNoise Setting(EF81)-> 0=25mrail 2=bridge 3=tunnel 4=longrail
+#For tilting trains:(Curve speed limit +x km/h)
+$tilt_speed=0;
+
 Structure.Load('Structures.txt');
 Sound.Load('sound.txt');
 Station.Load('Stations9001.txt');
