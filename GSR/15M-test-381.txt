@@ -6,5 +6,5 @@ Route = GensokyoCircleLine\TestMap15M.txt
 RouteTitle = Gensokyo Loop Line
 Vehicle = ..\..\..\Rock_On\Train\JR\Formation\hine\D601.txt
 VehicleTitle = JR 381 series（6 car）
-Image = GensokyoCircleLine\samune.jpg
+Image = rollsign\L Express sanae-15M.jpg
 Comment = [ATS-SN] Max speed：120km/h Platform: Hakurei② Ningen④ Moriya②
