@@ -1,0 +1,11 @@
+BveTs Scenario 2.00:UTF-8
+
+Title = Rapid "Moriya" 107M(Hakurei Shrine-Moriya Shrine)
+Author = SapporoNingyo&Contributors on Github
+Route = GensokyoCircleLine\Map107M.txt
+RouteTitle = Gensokyo Loop Line
+Vehicle = ..\..\E129\Nii-A23.txt
+;↑ Paste the path of your train data to replace the default train ↑
+VehicleTitle = E129 Series (2 car)
+Image = rollsign\Rapid-moriya.jpg
+Comment = [ATS-SN] Max speed：110km/h Platform: Hakurei② Ningen④ Moriya②
