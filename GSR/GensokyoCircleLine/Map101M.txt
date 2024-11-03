@@ -6,6 +6,7 @@ $runbri=3;
 $runtun=4;
 #For tilting trains:(Curve speed limit +x km/h)
 $tilt_speed=0;
+$tilt_index=0;
 
 $dist1=1490;
 Structure.Load('Structures.txt');
