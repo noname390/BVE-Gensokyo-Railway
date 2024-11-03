@@ -2,9 +2,11 @@ BveTs Structure List 1.00:UTF-8
 #rail
 rail,Structures\Rail\Ballast01\BallastPC_h_5a.x
 railtwo,Structures\Rail\Ballast01\BallastPC_k_5a.x
+railtwonew,Structures\Rail\Ballast01\BallastPC_k_5a_whi.x
 railthree,Structures\Rail\Ballast01\BallastTR_H_5a.x
 railfour,Structures\Rail\Ballast01\BallastTR_K_5a.x
 slabrailwhite,Structures\Rail\Ballast11\DBallast_5m.x
+newrail,Structures\Rail\Ballast11\DBallast_5m.x
 slabrail,Structures\Rail\Slab01\SlabS5m.x
 slabraildark,Structures\Rail\Slab01\SlabS5mdark.x
 slabrailtwo,Structures\Rail\Slab01\Slab2S5m.x
