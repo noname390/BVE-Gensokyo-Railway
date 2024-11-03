@@ -235,7 +235,7 @@ adboard,Structures\adboard\out.x
 kirisame,Structures\adboard\kirisame.x
 nitori,Structures\adboard\nitoricomputer.x
 arrlight,Structures\arrlights\arrlight.x
-#Limit
+#Limit(white)
 9,Structures\Default\SpeedLim9.x
 8,Structures\Default\SpeedLim8.x
 7,Structures\Default\SpeedLim7.x
@@ -246,6 +246,18 @@ arrlight,Structures\arrlights\arrlight.x
 2,Structures\Default\SpeedLim2.x
 1,Structures\Default\SpeedLim1.x
 0,Structures\Default\SpeedLim0.x
+#Limit(black)
+9b,Structures\Default\SpeedLim9b.x
+8b,Structures\Default\SpeedLim8b.x
+7b,Structures\Default\SpeedLim7b.x
+6b,Structures\Default\SpeedLim6b.x
+5b,Structures\Default\SpeedLim5b.x
+4b,Structures\Default\SpeedLim4b.x
+3b,Structures\Default\SpeedLim3b.x
+2b,Structures\Default\SpeedLim2b.x
+1b,Structures\Default\SpeedLim1b.x
+0b,Structures\Default\SpeedLim0b.x
+#Limit(other)
 end,Structures\Default\SpeedLimEnd.x
 L,Structures\Default\SpeedLimL.x
 R,Structures\Default\SpeedLimR.x
