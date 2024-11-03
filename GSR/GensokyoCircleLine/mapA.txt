@@ -1562,6 +1562,7 @@ Curve.SetGauge(1.067);
 	Repeater['Rail'].End();
 	Repeater['railnew'].Begin('1', 0, 0, 0, , , , 3,4.99,5, 'newrail');
 	Repeater['railnewbottom'].Begin('1', 0,-0.01,0, , , , 3,4.99,5, 'railtwonew');	
+	rollingNoise.Change($runlong);
 17067+$dist1;
 	Track['2'].Position(47,0,500,0);
 	SpeedLimit.Begin(75+$tilt_speed);
