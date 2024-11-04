@@ -1249,7 +1249,7 @@ Curve.SetGauge(1.067);
 10833+$dist1;
 	Structure['stop'].Put('1',-2,-0.3,0,,,,,);
 10833+50+$dist1;
-	Structure['stop'].Put('1',-2,-0.3,0,,,,,);
+	Structure['stop6'].Put('1',-2,-0.3,0,,,,,);
 10843+$dist1;
 	Repeater['formL1'].End();
 	Repeater['formR1'].End();
