@@ -4635,7 +4635,7 @@ track['road'].Position(200,0,0,0);
 32140+$dist1;
 	Curve.BeginTransition();
 32160+$dist1;
-	Curve.Begin(-500,-0.06+$tilt_index);
+	Curve.Begin(-500,-0.06-$tilt_index);
 	SpeedLimit.Begin(75+$tilt_speed);
 	Structure['7'].Put('1',-2.5,-0.25,0,,,,,);
 	Structure['5'].Put('1',-2.3,-0.25,0,,,,,);
