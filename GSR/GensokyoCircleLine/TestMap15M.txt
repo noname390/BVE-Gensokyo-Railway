@@ -30,7 +30,7 @@ include 'mapA.txt';
 	Station['1'].Put(-1,-5,5);
 5110+$dist1;
 	Station['2'].Put(-1,-5,5);
-10833+50+$dist1;
+10833+50+$dist1;//6 car stop sign
 	Station['3'].Put(1,-5,5);
 13910+$dist1;
 	Station['4'].Put(-1,-5,5);
