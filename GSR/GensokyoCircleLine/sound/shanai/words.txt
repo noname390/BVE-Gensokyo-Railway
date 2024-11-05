@@ -10,7 +10,7 @@ hakurei-mhakurei1-105m:
 Thank you for using Gensokyo Railway.This is the local train bound for Moriya Shrine.The next station is Minami-Hakurei.It may be neccesary for the train to stop suddenly,to emergency accident.So please be careful.
 感谢您乘坐幻想乡铁道。本次列车是普通列车，开往守失神社。下一站是南博丽。为了防止事故，列车在行驶中可能会突然刹车，请您多加小心。
 
-ご乗車くださいましてありがとうございます。この電車は普通電車守矢神社行きです。南博麗、永遠亭、竹林、南人間の里、人間の里、西人間の里、命蓮寺、北命蓮寺、妖怪の樹海、草田の順に、終点の守矢神社まで各駅に停車して参ります。この先、各駅の到着時刻をご案内します。次の南博麗には九時十四分、永遠亭九時十九分、竹林九時二十二分、南人間の里九時二十九分、人間の里九時三十一分、西人間の里九時三十六分、命蓮寺九時四十分、北命蓮寺九時四十三分、妖怪の樹海九時四十八分、草田九時五十一分。終点の守矢神社には九時五十四分の到着です。列車は四両編成です。お手洗いは二か所、い両目と一番後ろ、四両目の車両にございます。ご乗車くださいましてありがとうございます。次は、南博麗、南博麗に止まります。
+ご乗車くださいましてありがとうございます。この電車は普通電車守矢神社行きです。終点の守矢神社まで各駅に停車して参ります。この先、主な駅の到着時刻をご案内します。永遠亭九時十九分、人間の里九時三十一分、命蓮寺九時四十分。終点の守矢神社には九時五十四分に到着です。次は、南博麗、南博麗に止まります。
 
 hakurei-eientei1-107m:
 本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、環状線、快速もりや、守矢神社ゆきです。永遠亭、人間の里、西人間の里、命蓮寺、終点、守矢神社の順に止まります。列車は事故防止のため、やむを得ず急停車することがありますので、お立ちの客様は、つり革や手すりにおつかまりください。次は、永遠亭、永遠亭です。
@@ -60,11 +60,11 @@ The next station is Ningennosato terminal.
 下一站是终点，人间之里站。
 
 minaminingennosato-ningennosato2:
-まもなく、終点人間の里、人間の里です。お出口は左側です。幻想郷モノレールはお乗り換えです。お忘れ物、落とし物の無いようご注意ください。本日も、幻想郷鉄道をご利用くださいまして、ありがとうございました。
-We will soon arrive at Ningennosato terminal.The doors on the left side will open.Please change here for the Gensokyo Monorail.Please make sure you have  all belogings when leaving the train.Thank you for traveling with us and we look forward to seving you again.
-列车即将到达终点人间之里站，左侧的车门将会打开。可换乘幻想乡单轨电车。请带齐您的行李物品在此站下车，感谢您今天乘坐幻想乡铁道。
+まもなく、終点人間の里、人間の里です。お出口は左側です。お忘れ物、落とし物の無いようご注意ください。本日も、幻想郷鉄道をご利用くださいまして、ありがとうございました。
+We will soon arrive at Ningennosato terminal.The doors on the left side will open.Please make sure you have  all belogings when leaving the train.Thank you for traveling with us and we look forward to seving you again.
+列车即将到达终点人间之里站，左侧的车门将会打开。请带齐您的行李物品在此站下车，感谢您今天乘坐幻想乡铁道。
 
-ご乗車くださいましてありがとうございました。まもなく、終点の人間の里です。四番線に到着します。お出口は左側です。この電車は終点の人間の里に着きますと繰り返し博麗神社ゆきの普通電車です。ご乗車には博麗神社方面の乗車券が必要ですにご注意ください。本日も幻想郷鉄道をご利用くださいましてありがとうございました。まもなく、終点の人間の里です。
+ご乗車くださいましてありがとうございました。まもなく、終点の人間の里です。四番線に到着します。お出口は左側です。この電車は終点の人間の里に着きますと折り返し博麗神社ゆきの普通電車です。ご乗車には博麗神社方面の乗車券が必要ですにご注意ください。本日も幻想郷鉄道をご利用くださいましてありがとうございました。まもなく、終点の人間の里です。
 
 minaminingennosato-ningennosato1-105107m:
 次は、人間の里、人間の里です。
@@ -72,7 +72,7 @@ The next station is Ningennosato.
 列车前方停车站是，人间之里。
 
 minaminingennosato-ningennosato2-105107m:
-まもなく、人間の里、人間の里です。お出口は、左側です。幻想郷モノレールはお乗り換えです。
+まもなく、人間の里、人間の里です。お出口は、左側です。
 We will soon arrive at Ningennosato.The doors on the left side will open.Please change here for the Gensokyo Monorail.
 列车即将到达人间之里站，左侧的车门将会打开。可换乘幻想乡单轨电车。
 
@@ -97,9 +97,9 @@ The next station is Myorenji.
 列车前方停车站是，命莲寺。
 
 nishiningennosato-myorenji2-105107m:
-まもなく、命蓮寺、命蓮寺です。お出口は、右側です。幻想郷モノレールはお乗り換えです。
-We will soon arrive at Myorenji.The doors on the right side will open.Please change here for the Gensokyo Monorail.
-列车即将到达命莲寺站，右侧的车门将会打开。可换乘幻想乡单轨电车。
+まもなく、命蓮寺、命蓮寺です。お出口は、右側です。
+We will soon arrive at Myorenji.The doors on the right side will open.
+列车即将到达命莲寺站，右侧的车门将会打开。
 
 myoren-Kmyoren1:
 次は、北命蓮寺、北命蓮寺です。
