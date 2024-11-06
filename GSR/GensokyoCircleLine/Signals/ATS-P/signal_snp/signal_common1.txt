@@ -156,7 +156,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,1);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-5160+$dist1;//南博丽出发
+5160-2+$dist1;//南博丽出发
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -224,7 +224,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,1);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-7280+$dist1;
+7280-2+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -247,7 +247,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,-1,1);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-8480+$dist1;
+8480-2+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -356,7 +356,7 @@ BveTs Map 2.00
 	$sig-180;
 	Beacon.Put(3,-1,1);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-11600+$dist1;
+11600-2+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
