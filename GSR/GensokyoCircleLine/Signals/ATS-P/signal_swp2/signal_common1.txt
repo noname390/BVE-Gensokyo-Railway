@@ -52,7 +52,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(3,1,1);Beacon.Put(3,2,2);Beacon.Put(3,3,3);Beacon.Put(3,4,4);Beacon.Put(3,5,9);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
-3000+$dist1;
+3000-2+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3_LED'].Put(0,'1',-2.4,4.4,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -122,7 +122,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('1',6,4.4,0,,15,,,5);
 	Structure['Sig_Arm_SD'].Put('1',6,3.5,0,,15,,,5);
 	Structure['Sig_Base_Step'].Put('1',6,-0.6,0,,15,,,5);
-4800+$dist1;
+4800-2+$dist1;
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg_LED'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
