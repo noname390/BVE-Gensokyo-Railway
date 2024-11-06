@@ -15,7 +15,7 @@ BveTs Map 2.00
 	Beacon.Put(0,1,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 22117+$dist1;
-	Section.Begin(0,1,2,4);
+	Section.Begin(0,2,3,4);
 	Signal['Type4yy'].Put(0,'1',-1.65,5.0,-0.05,,,,,);
 	Structure['Sig4yy0'].Put('1',-2.25,4.6,-0.05,,,,,);
 	//Structure['CR4'].Put('1',-2,3.1,0.5,,,,,);	
@@ -27,18 +27,8 @@ BveTs Map 2.00
 	Beacon.Put(0,1,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 22255+$dist1;
-	Section.Begin(0,1,2,4);
-	Signal['Type4yy'].Put(0,'1',-1.72,3.5,-0.05,,,,,);
 	Structure['Sig_Arm_SU'].Put('1',-2.11,3.6,-0.38,,-90,,,5);
 	Structure['Sig_Arm_SD'].Put('1',-2.11,2.38,-0.38,,-90,,,5);
-	//Structure['SigTun_L'].Put('1',-2,3.5,0,,,,,);
-	$sig=distance;
-	$sig-25;
-	Beacon.Put(1,1,0);
-	Structure['ATS-S_S'].Put('1',0,0.05,0,,,,3,);
-	$sig-600;
-	Beacon.Put(0,3,0);
-	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 22435+$dist1;//人里出发
 	Section.Begin(0,2,4);
 	Signal['Type4yg'].Put(0,'1',-1.72,3.5,-0.05,,,,,);
