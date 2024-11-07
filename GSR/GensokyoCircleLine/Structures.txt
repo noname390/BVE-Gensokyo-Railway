@@ -457,8 +457,10 @@ Sig54_LED    ,Structures\FCS_TM\ColorSignal\Sig5b4_LED.x
 #地上子
 ATS-P_1way   ,Structures\FCS_TM\Beacon\ATS-P_1way.x
 ATS-P_2way1  ,Structures\FCS_TM\Beacon\ATS-P_2way1.x
+ATS-P_2way1Y ,Structures\FCS_TM\Beacon\ATS-P_2way1Y.x # 直下
 ATS-P_2way1P ,Structures\FCS_TM\Beacon\ATS-P_2way1P.x
 ATS-P_2way2  ,Structures\FCS_TM\Beacon\ATS-P_2way2.x
+ATS-P_2way2Y ,Structures\FCS_TM\Beacon\ATS-P_2way2Y.x # 直下
 ATS-P_2way2P ,Structures\FCS_TM\Beacon\ATS-P_2way2P.x
 ATS-P_Muden  ,Structures\FCS_TM\Beacon\ATS-P_Muden.x
 ATS-S_L      ,Structures\FCS_TM\Beacon\ATS-S_L.x      # ロング
