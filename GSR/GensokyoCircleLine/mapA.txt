@@ -2367,13 +2367,19 @@ track['road'].Position(200,0,0,0);
 	Repeater['slabRail4'].End();
 #Ningenosato Station:
 #T1=4番線,T2=5番線,T3=8番線,T4=1番線,T5=2番線,T6=3番線,T7=6番線T8=7番線
-22255-168.55+$dist1;
-	Track['3'].Position(4,-0.01,300,0);
-	Track['4'].Position(0,-0.01,-300,0);
+22255-185.04+$dist1;
+	Track['3'].Position(4,-0.01,0,0);
+	Track['4'].Position(0,-0.01,0,0);
 	Repeater['slabRail3'].Begin0('3',1,4.99,5,'slabrailtwodark');
 	Repeater['slabRail4'].Begin0('4',1,4.99,5,'slabrailtwodark');
+22255-175.04+$dist1;
+	Structure['4'].Put('1',-1.9,-0,0,,,,,);
+	Structure['5'].Put('1',-1.7,-0,0,,,,,);
+	Structure['L'].Put('1',-1.8,-0,0,,,,,);
+	Track['3'].Position(4,-0.01,270,0);
+	Track['4'].Position(0,-0.01,-270,0);
 	JointNoise.Play(0);
-22136+$dist1;
+22118+$dist1;
 	#Repeater['tunnelwall'].Begin('1',1.9,-0.25,1.6, , , ,1,,4.99, 'Tunnellp');
 	Structure['Tunwall'].Put('1',2,6.5,-4,,,-90,,);
 	Structure['Tunwall'].Put('1',2,6.5,-5.9,,,-90,,);
@@ -2382,31 +2388,31 @@ track['road'].Position(200,0,0,0);
 	#pointroofend
 	Repeater['roofdark'].End();
 	#Roofwide-4,5ban sen
-	Repeater['tunwallL4'].Begin('1',-2.1,4.4,0, , , ,3,,5, 'tunwall');
-	Repeater['tunwallR4'].Begin('2',2.1,4.4,0, , , ,3,,5, 'tunwallR');
-	Repeater['tunwallL5'].Begin('1',-2.2,5.5,0, , , -45,3,,5, 'tunwall');
-	Repeater['tunwallR5'].Begin('2',2.2,5.5,0,, ,45 ,3,,5, 'tunwallR');
-	Repeater['tunwallL6'].Begin('1',-1.5,6.5,0, , , -90,3,,5, 'tunwall');
-	Repeater['tunwallR6'].Begin('2',1.5,6.5,0,, ,90,3,,5, 'tunwallR');
-	Repeater['tunwallL7'].Begin('1',0.3,6.5,0, , , -90,3,,5, 'tunwall');
-	Repeater['tunwallR7'].Begin('2',-0.3,6.5,0,, ,90,3,,5, 'tunwallR');
+	Repeater['tunwallL4'].Begin('1',-2.1,4.4,0, , , ,3,5,5, 'tunwall');
+	Repeater['tunwallR4'].Begin('2',2.1,4.4,0, , , ,3,5,5, 'tunwallR');
+	Repeater['tunwallL5'].Begin('1',-2.2,5.5,0, , , -45,3,5,5, 'tunwall');
+	Repeater['tunwallR5'].Begin('2',2.2,5.5,0,, ,45 ,3,5,5, 'tunwallR');
+	Repeater['tunwallL6'].Begin('1',-1.5,6.5,0, , , -90,3,5,5, 'tunwall');
+	Repeater['tunwallR6'].Begin('2',1.5,6.5,0,, ,90,3,5,5, 'tunwallR');
+	Repeater['tunwallL7'].Begin('1',0.3,6.5,0, , , -90,3,5,5, 'tunwall');
+	Repeater['tunwallR7'].Begin('2',-0.3,6.5,0,, ,90,3,5,5, 'tunwallR');
 	#wall-1ban sen
 	22055+$dist1;
-	Repeater['tunwallL10'].Begin('4',-2.1,-1,0, , , ,3,,5, 'tunwall');
-	Repeater['tunwallL20'].Begin('4',-2.1,0.8,0, , , ,3,,5, 'tunwall');
-	Repeater['tunwallL30'].Begin('4',-2.1,2.6,0, , , ,3,,5, 'tunwall');
+	Repeater['tunwallL10'].Begin('4',-2.1,-1,0, , , ,3,5,5, 'tunwall');
+	Repeater['tunwallL20'].Begin('4',-2.1,0.8,0, , , ,3,5,5, 'tunwall');
+	Repeater['tunwallL30'].Begin('4',-2.1,2.6,0, , , ,3,5,5, 'tunwall');
 	#tunroof-1ban sen
-	Repeater['tunwallL40'].Begin('4',-2.1,4.4,0, , , ,3,,5, 'tunwall');
-	Repeater['tunwallL50'].Begin('4',-2.2,5.5,0, , , -45,3,,5, 'tunwall');
-	Repeater['tunwallL60'].Begin('4',-1.5,6.5,0, , , -90,3,,5, 'tunwall');
-	22136+$dist1;
-	Repeater['tunwallR10'].Begin('4',2.1,-1,0, , , ,3,,5, 'tunwallR');
-	Repeater['tunwallR20'].Begin('4',2.1,0.8,0, , , ,3,,5, 'tunwallR');
-	Repeater['tunwallR30'].Begin('4',2.1,2.6,0, , , ,3,,5, 'tunwallR');
+	Repeater['tunwallL40'].Begin('4',-2.1,4.4,0, , , ,3,5,5, 'tunwall');
+	Repeater['tunwallL50'].Begin('4',-2.2,5.5,0, , , -45,3,5,5, 'tunwall');
+	Repeater['tunwallL60'].Begin('4',-1.5,6.5,0, , , -90,3,5,5, 'tunwall');
+	22118+$dist1;
+	Repeater['tunwallR10'].Begin('4',2.1,-1,0, , , ,3,5,5, 'tunwallR');
+	Repeater['tunwallR20'].Begin('4',2.1,0.8,0, , , ,3,5,5, 'tunwallR');
+	Repeater['tunwallR30'].Begin('4',2.1,2.6,0, , , ,3,5,5, 'tunwallR');
 	#tunroof-1ban sen
-	Repeater['tunwallR40'].Begin('4',2.1,4.4,0, , , ,3,,5, 'tunwallR');
-	Repeater['tunwallR50'].Begin('4',2.2,5.5,0,, ,45 ,3,,5, 'tunwallR');
-	Repeater['tunwallR60'].Begin('4',1.5,6.5,0,, ,90,3,,5, 'tunwallR');
+	Repeater['tunwallR40'].Begin('4',2.1,4.4,0, , , ,3,5,5, 'tunwallR');
+	Repeater['tunwallR50'].Begin('4',2.2,5.5,0,, ,45 ,3,5,5, 'tunwallR');
+	Repeater['tunwallR60'].Begin('4',1.5,6.5,0,, ,90,3,5,5, 'tunwallR');
 	#wall-4,5ban sen
 	Repeater['tunwallL1'].Begin('1',-2.1,-1,0, , , ,3,,5, 'tunwall');
 	Repeater['tunwallL2'].Begin('1',-2.1,0.8,0, , , ,3,,5, 'tunwall');
@@ -2416,27 +2422,27 @@ track['road'].Position(200,0,0,0);
 	Repeater['tunwallR3'].Begin('2',2.1,2.6,0, , , ,3,,5, 'tunwallR');
 	#wall-8ban sen
 	22055+$dist1;
-	Repeater['tunwallR18'].Begin('3',2.1,-1,0, , , ,3,,5, 'tunwallR');
-	Repeater['tunwallR28'].Begin('3',2.1,0.8,0, , , ,3,,5, 'tunwallR');
-	Repeater['tunwallR38'].Begin('3',2.1,2.6,0, , , ,3,,5, 'tunwallR');
+	Repeater['tunwallR18'].Begin('3',2.1,-1,0, , , ,3,5,5, 'tunwallR');
+	Repeater['tunwallR28'].Begin('3',2.1,0.8,0, , , ,3,5,5, 'tunwallR');
+	Repeater['tunwallR38'].Begin('3',2.1,2.6,0, , , ,3,5,5, 'tunwallR');
 	#tunroof-8ban sen
-	Repeater['tunwallR48'].Begin('3',2.1,4.4,0, , , ,3,,5, 'tunwallR');
-	Repeater['tunwallR58'].Begin('3',2.2,5.5,0,, ,45 ,3,,5, 'tunwallR');
-	Repeater['tunwallR68'].Begin('3',1.5,6.5,0,, ,90,3,,5, 'tunwallR');
-	22136+$dist1;
-	Repeater['tunwallL18'].Begin('3',-2.1,-1,0, , , ,3,,5, 'tunwall');
-	Repeater['tunwallL28'].Begin('3',-2.1,0.8,0, , , ,3,,5, 'tunwall');
-	Repeater['tunwallL38'].Begin('3',-2.1,2.6,0, , , ,3,,5, 'tunwall');
+	Repeater['tunwallR48'].Begin('3',2.1,4.4,0, , , ,3,5,5, 'tunwallR');
+	Repeater['tunwallR58'].Begin('3',2.2,5.5,0,, ,45 ,3,5,5, 'tunwallR');
+	Repeater['tunwallR68'].Begin('3',1.5,6.5,0,, ,90,3,5,5, 'tunwallR');
+	22118+$dist1;
+	Repeater['tunwallL18'].Begin('3',-2.1,-1,0, , , ,3,5,5, 'tunwall');
+	Repeater['tunwallL28'].Begin('3',-2.1,0.8,0, , , ,3,5,5, 'tunwall');
+	Repeater['tunwallL38'].Begin('3',-2.1,2.6,0, , , ,3,5,5, 'tunwall');
 	#tunroof-8ban sen
-	Repeater['tunwallL48'].Begin('3',-2.1,4.4,0, , , ,3,,5, 'tunwall');
-	Repeater['tunwallL58'].Begin('3',-2.2,5.5,0, , , -45,3,,5, 'tunwall');
-	Repeater['tunwallL68'].Begin('3',-1.5,6.5,0, , , -90,3,,5, 'tunwall');
-22255-168.55+77.64+$dist1;
-	Track['3'].Position(14.222,-0.01,0,0);
-	Track['4'].Position(-10.222,-0.01,0,0);
-22255-77.64+$dist1;
-	Track['3'].Position(17.778,-0.01,-300,0);
-	Track['4'].Position(-13.778,-0.01,300,0);
+	Repeater['tunwallL48'].Begin('3',-2.1,4.4,0, , , ,3,5,5, 'tunwall');
+	Repeater['tunwallL58'].Begin('3',-2.2,5.5,0, , , -45,3,5,5, 'tunwall');
+	Repeater['tunwallL68'].Begin('3',-1.5,6.5,0, , , -90,3,5,5, 'tunwall');
+22255-175.04+35.95+$dist1;
+	Track['3'].Position(8.1,-0.01,0,0);
+	Track['4'].Position(-4.1,-0.01,0,0);
+22255-52.09+$dist1;
+	Track['3'].Position(23.44,-0.01,-300,0);
+	Track['4'].Position(-19.44,-0.01,300,0);
 22230+$dist1;
 	CabIlluminance.Set(0);
 22235+$dist1;
@@ -2499,10 +2505,11 @@ track['road'].Position(200,0,0,0);
 	Repeater['slabRail52'].Begin0('6',1,4.99,5,'slabrailtwo');
 	Track['3'].Position(28,-0.01,0,0);
 	Track['4'].Position(-24,-0.01,0,0);
-
 	Track['5'].Position(-14,-0.01,0,0);
+
 	Track['6'].Position(-10,-0.01,0,0);
 	Track['7'].Position(14,-0.01,0,0);
+	
 	Track['8'].Position(18,-0.01,0,0);
 	#station piers
 	Repeater['pier02'].Begin('5',-4.9,10,0, ,-90,,3,,30, 'stapier');

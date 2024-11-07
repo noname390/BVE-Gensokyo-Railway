@@ -67,7 +67,7 @@ Structure['Shuppatsu_N'].Put('1',-2.15,2.5,-0.15,0,0,0,,);
 Structure['1_N'].Put('1',-2.15,2.5,-0.25,0,0,0,,);
 23400-1490+$dist1;
 Structure['Jonai_N'].Put('1',-2.15,2.5,-0.2,0,0,0,,);
-22136+$dist1;
+22118+$dist1;
 Structure['Jonai_N'].Put('1',-2.05,2.5,-0.2,0,0,0,,);
 23745-1490+$dist1;
 Structure['Shuppatsu_N'].Put('1',-2,1,-0.15,0,0,0,,);
