@@ -47,15 +47,15 @@ Note: This document contains untranslated parts.(Chinese and Japanese words)<br>
 #### Kyuto Main Line（旧都本線）
 从永远亭站与环状线分开，向南穿过太阳花田后进入幻想风穴。先在天然洞穴内走行，在黑谷~下人里间进入人工开挖的隧道，沿螺旋隧道向地下进发。出隧道后到达旧都所在的巨大地下洞窟的上壁，经过一段“悬空式”线路后沿洞窟侧壁，以N字形长下坡线路缓慢接近旧都地面。在接近旧都地表时经由人工开凿的隧道到达深道站，在天然洞穴内走行一段距离后到达水桥站，通过桥梁进入旧都内。在旧都依次沿街道、河谷走行，最后到达终点地灵殿站。
 ### Route Design
-#### HakureiShrine->Ningennosato
+#### Loop Line・Koto Line・HakureiMoriya Line  
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/N01_N06.jpg" alt="routemap";>
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_Loop-Koto-HMLine.png" alt="routemap";>
 </p>
 <br>
 
-#### Ningennosato->MoriyaShrine
+#### Youkaizan Line・Mist Lake Line・Hakurei East Line・Standard Gauge Experimental Line of Mt.Youkai
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/GO06_GO12.png" alt="routemap";>
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_NHB-Yakumotei.jpg" alt="routemap";>
 </p>
 <br>
 
