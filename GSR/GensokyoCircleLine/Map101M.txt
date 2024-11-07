@@ -6,13 +6,14 @@ $runbri=3;
 $runtun=4;
 #For tilting trains:(Curve speed limit +x km/h)
 $tilt_speed=0;
+$tilt_index=0;
 
 $dist1=1490;
 Structure.Load('Structures.txt');
 Sound.Load('sound.txt');
 Station.Load('Stations101M.txt');
 Signal.Load('Signals.csv');
-Signal.SpeedLimit(0,25,55,75,110,45);
+Signal.SpeedLimit(0,25,55,75,95,25);
 include 'MapSignals101M.txt';
 include 'Mapsound101M.txt';
 include 'Mapot103M.txt';
@@ -40,4 +41,4 @@ include 'Mapot103M.txt';
 21050+$dist1;
 	Station['5'].Put(-1,-5,5);
 22405+$dist1;
-	Station['6'].Put(1,-5,5);
+	Station['6'].Put(-1,-5,5);

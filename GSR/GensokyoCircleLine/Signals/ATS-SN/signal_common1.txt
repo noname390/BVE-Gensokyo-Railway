@@ -38,7 +38,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(0,1,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
-3000+$dist1;
+3000-2+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3'].Put(0,'1',-2.4,4.4,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -95,7 +95,7 @@ BveTs Map 2.00
 	Structure['Sig_Arm_SU'].Put('1',6,4.4,0,,15,,,5);
 	Structure['Sig_Arm_SD'].Put('1',6,3.5,0,,15,,,5);
 	Structure['Sig_Base_Step'].Put('1',6,-0.6,0,,15,,,5);
-4800+$dist1;
+4800-2+$dist1;
 	Section.Begin(0,2,3,4);
 	Signal['Type4yg'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -113,7 +113,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(0,1,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
-5160+$dist1;//南博丽出发
+5160-2+$dist1;//南博丽出发
 	Section.Begin(0,2,4);
 	Signal['Type3'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -161,7 +161,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(0,1,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
-7280+$dist1;
+7280-2+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -177,7 +177,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(0,1,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
-8480+$dist1;
+8480-2+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -229,7 +229,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(0,1,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
-10880+$dist1; //永远亭出发
+10880+50+$dist1; //永远亭出发
 	Section.Begin(0,2,4);
 	Signal['Type3'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -245,7 +245,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(0,2,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
-11600+$dist1;
+11600-2+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -312,7 +312,7 @@ BveTs Map 2.00
 	Beacon.Put(0,2,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
 
-15000+$dist1;
+15000-2+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);
@@ -344,7 +344,7 @@ BveTs Map 2.00
 	$sig-600;
 	Beacon.Put(0,1,0);
 	Structure['ATS-S_L'].Put('1',0,0.05,0,,,,3,);
-17000+$dist1;
+17000-2+$dist1;
 	Section.Begin(0,2,4);
 	Signal['Type3'].Put(0,'1',-2.4,4.5,-0.05,,,,,);
 	Structure['SigBox'].Put('1',-2.4,0,3,,,,,5);

@@ -2,9 +2,11 @@ BveTs Structure List 1.00:UTF-8
 #rail
 rail,Structures\Rail\Ballast01\BallastPC_h_5a.x
 railtwo,Structures\Rail\Ballast01\BallastPC_k_5a.x
+railtwonew,Structures\Rail\Ballast01\BallastPC_k_5a_whi.x
 railthree,Structures\Rail\Ballast01\BallastTR_H_5a.x
 railfour,Structures\Rail\Ballast01\BallastTR_K_5a.x
 slabrailwhite,Structures\Rail\Ballast11\DBallast_5m.x
+newrail,Structures\Rail\Ballast11\DBallast_5m.x
 slabrail,Structures\Rail\Slab01\SlabS5m.x
 slabraildark,Structures\Rail\Slab01\SlabS5mdark.x
 slabrailtwo,Structures\Rail\Slab01\Slab2S5m.x
@@ -209,6 +211,7 @@ crost,Structures\structure_Cro_st\Cro_st.x
 metalfence,Structures\structure_NF\NF.x
 metalfenceL,Structures\structure_RF\RF.x
 stop,Structures\Default\Stop.x
+stop6,Structures\Default\Stop6.x
 ropeway,Structures\GSR\signs\ropeway.x
 #bulidings
 koudanapr,Structures\lopoli_houses\x\kodan_apart\kodan.x
@@ -233,7 +236,7 @@ adboard,Structures\adboard\out.x
 kirisame,Structures\adboard\kirisame.x
 nitori,Structures\adboard\nitoricomputer.x
 arrlight,Structures\arrlights\arrlight.x
-#Limit
+#Limit(white)
 9,Structures\Default\SpeedLim9.x
 8,Structures\Default\SpeedLim8.x
 7,Structures\Default\SpeedLim7.x
@@ -244,6 +247,18 @@ arrlight,Structures\arrlights\arrlight.x
 2,Structures\Default\SpeedLim2.x
 1,Structures\Default\SpeedLim1.x
 0,Structures\Default\SpeedLim0.x
+#Limit(black)
+9b,Structures\Default\SpeedLim9b.x
+8b,Structures\Default\SpeedLim8b.x
+7b,Structures\Default\SpeedLim7b.x
+6b,Structures\Default\SpeedLim6b.x
+5b,Structures\Default\SpeedLim5b.x
+4b,Structures\Default\SpeedLim4b.x
+3b,Structures\Default\SpeedLim3b.x
+2b,Structures\Default\SpeedLim2b.x
+1b,Structures\Default\SpeedLim1b.x
+0b,Structures\Default\SpeedLim0b.x
+#Limit(other)
 end,Structures\Default\SpeedLimEnd.x
 L,Structures\Default\SpeedLimL.x
 R,Structures\Default\SpeedLimR.x

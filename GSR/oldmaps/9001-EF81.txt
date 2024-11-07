@@ -6,5 +6,5 @@ Route = GensokyoCircleLine\Map9001.txt
 RouteTitle = Gensokyo Loop Line
 Vehicle = ..\..\EF80_81\vehicle\81_vehicle4.txt
 VehicleTitle = EF81 Locomotive+24 series（9 car）
-Image = GensokyoCircleLine\samune.jpg
+Image = 
 Comment = [ATS-S] Max speed：100km/h Platform: Hakurei② Ningen④ Moriya②
