@@ -146,7 +146,9 @@ formwallgreyR,Structures\lopoli_houses\x\acc\wall\wall_houseR54_5m.x
 formwallbrownR,Structures\lopoli_houses\x\acc\wall\wall_houseR55_5m.x
 #tunnelwall
 tunwall,Structures\lopoli_houses\x\acc\wall\wall_houseL04_5mdark.x
+tunwall-long,Structures\lopoli_houses\x\acc\wall\wall_houseL04_5mdarklong.x
 tunwallR,Structures\lopoli_houses\x\acc\wall\wall_houseR04_5mdark.x
+tunwallR-long,Structures\lopoli_houses\x\acc\wall\wall_houseR04_5mdarklong.x
 stapier,Structures\Wall\pier.x
 #train
 E129F,Structures\e131\e131\e131Mc.x
