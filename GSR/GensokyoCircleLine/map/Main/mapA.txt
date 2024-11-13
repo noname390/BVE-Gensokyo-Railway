@@ -249,7 +249,7 @@ Curve.SetGauge(1.067);
 	Structure['kasenhangL'].Put('1',-1.9,0,0,,,,,);
 	Structure['kasenhangR'].Put('2',1.9,0,0,,,,,);
 316+$dist1;
-	include 'hakureistairs.txt';
+	include 'Other\hakureistairs.txt';
 320+$dist1;
 	JointNoise.Play(0);
 	Track['mountainR'].Position(40,-70,0,0);
