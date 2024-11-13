@@ -72,3 +72,6 @@ BveTs Map 2.00
 	$sig-180;
 	Beacon.Put(3,-1,0);
 	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
+	$sig-280;
+	Beacon.Put(3,-1,0);
+	Structure['ATS-P_2way1'].Put('1',0,0.05,0,,,,3,);
