@@ -80,7 +80,7 @@ DiagramSenIsBold=1
 StopMarkDrawType=EStopMarkDrawType_DrawOnStop
 .
 Ressyasyubetsu.
-Syubetsumei=E653
+Syubetsumei=Express
 JikokuhyouMojiColor=000000FF
 JikokuhyouFontIndex=1
 DiagramSenColor=000000FF
@@ -107,7 +107,7 @@ DiagramSenIsBold=1
 StopMarkDrawType=EStopMarkDrawType_DrawOnStop
 .
 Dia.
-DiaName=General for 2023-12
+DiaName=General for 2024-12
 Kudari.
 Ressya.
 Houkou=Kudari
