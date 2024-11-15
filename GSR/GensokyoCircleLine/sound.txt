@@ -11,6 +11,7 @@ chikurin,sound\station\chikurin.wav
 minaminingen1,sound\station\minami-ningennosato1.wav
 minaminingen2,sound\station\minami-ningennosato2.wav
 ningen1,sound\station\ningennosato1.wav
+ningen1-short,sound\station\ningennosato1-short.wav
 105m-ningen,sound\station\105m-ningen.wav
 107m-ningen,sound\station\107m-ningen.wav
 9001-ningen,sound\station\9001-ningen.wav
