@@ -28,7 +28,7 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 - 2023-11-27:Release v1.9 preview
 - [x] **2023-12-1:Release v2.0(Loop line from NNS-MRY)**
 - [X] **2024-3-16:Release v2.0.1(Loop line from NNS-MRY)**
-- [x] **2024-11-?:Release v2.0.2(Loop line from NNS-MRY)**
+- [x] **2024-11-17:Release v2.0.2(Loop line from NNS-MRY)**
 - [ ] ?-?-?:Release v3.0(Loop line complete)
 - [ ] ?-?-?:Release v4.0(Koto line)
 - [ ] ?-?-?:Release v5.0(YoukainoYama line)
