@@ -2229,6 +2229,9 @@ track['road'].Position(200,0,0,0);
 	Structure['ele-front'].Put('2',6,1.1,0,,90,,,);
 	Structure['ele-side'].Put('2',7.75,1.1,-1.25,,0,,,);
 	Structure['ele-side'].Put('2',7.75,1.1,1.25,,180,,,);
+	#Poster(experimental)
+	Structure['adboard'].Put('1',-6.98,1.4,20,,-90,,,);
+	Structure['nitori'].Put('1',-6.981,1.4,20,,-90,,,);
 21020+$dist1;
 	Structure['stairsup'].Put('1',-5.8,1.1,0,,0,,,);
 	Structure['stairsside'].Put('1',-4.55,1.1,0,,-90,,,);
@@ -2241,6 +2244,9 @@ track['road'].Position(200,0,0,0);
 	Structure['ele-front'].Put('2',6.5,1.1,0,,90,,,);
 	Structure['ele-side'].Put('2',7.75,1.1,-1.25,,0,,,);
 	Structure['ele-side'].Put('2',7.75,1.1,1.25,,180,,,);
+	#Poster(experimental)
+	Structure['adboard'].Put('1',-6.98,1.4,10,,-90,,,);
+	Structure['nitori'].Put('1',-6.981,1.4,10,,-90,,,);
 21050-600+$dist1;
 	Structure['Tmningen'].Put('1',-2,0.25,0,,,,,);
 21050-500+$dist1;
