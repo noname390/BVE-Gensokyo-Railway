@@ -3,5 +3,5 @@ PerformanceCurve = Notch\Notch.txt
 Parameters = Parameters\Parameters.txt
 Panel = Panel\Panel.txt
 Sound = Sound\Sound.txt
-Ats = Ats\Ats.dll
+Ats = Ats\Detail\DetailManager.dll
 MotorNoise = MotorNoise\MotorNoise.txt
