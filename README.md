@@ -28,7 +28,7 @@ Currently, the simulated line operates in one direction from the Hakurei Shrine 
 - 2023-11-27:Release v1.9 preview
 - [x] **2023-12-1:Release v2.0(Loop line from NNS-MRY)**
 - [X] **2024-3-16:Release v2.0.1(Loop line from NNS-MRY)**
-- [ ] **2024-11-?:Release v2.0.2(Loop line from NNS-MRY)**
+- [x] **2024-11-17:Release v2.0.2(Loop line from NNS-MRY)**
 - [ ] ?-?-?:Release v3.0(Loop line complete)
 - [ ] ?-?-?:Release v4.0(Koto line)
 - [ ] ?-?-?:Release v5.0(YoukainoYama line)
@@ -85,21 +85,21 @@ View [Developer Guide](https://github.com/noname390/BVE-Gensokyo-Railway/blob/ma
 ### Timetable
 #### Loop Line
 
-|駅名      |普通 103M|普通 101M|普通 105M|快速もりや 107M|臨時急行 9001|
-|---       |---      |---     |---      |---           |---         |
-|博麗神社  |    0851  |0721    |0940     |1002          |1050        |  
-|南博麗    | 	0855  |0725   |0945      |↓             |↓          | 
-|永遠亭    | 	0900  |0730    |0950     |1010          |↓           |
-|竹林      | 	0903  |0733   |0953      |↓             |↓           |
-|南人間の里| 	0910  |0740    |1000      |↓             |↓          |
-|人間の里  | 	0912  |0742    |1004      |1022          |1112       |
-|西人間の里| 	=	  | =      |1007      |1025          |↓          |
-|命蓮寺    | 		  |       |1012       |1029          |↓          |
-|北命蓮寺   | 		  |        |1015      |↓             |↓          |
-|妖怪の樹海| 		  |        |1020      |↓             |↓           |
-|草田     | 		  |        |1023      |↓             |↓          |
-|守矢神社 | 		  |        |1026      |1038          |1128        |
-|         | 		  |        |=         |=             |=          |
+|駅名      |普通 121M|普通 123M|快速もりや 101M|
+|---       |---      |---     |---           |
+|博麗神社  |    0721  |0820    |1018          |
+|南博麗    | 	0726  |0825    |↓             |
+|永遠亭    | 	0732  |0831    |1026          |
+|竹林      | 	0735  |0835    |↓             |
+|南人間の里| 	0742  |0841    |↓             |
+|人間の里  | 	0744  |0846    |1036          |
+|西人間の里| 	=	  |0849    |1039          |
+|命蓮寺    | 		  |0854    |1044          |
+|北命蓮寺   | 		  |0856    |↓             |
+|妖怪の樹海| 		  |0901    |↓             |
+|草田     | 		  |0904    |↓             |
+|守矢神社 | 		  |0907    |1052          |
+|         | 	     |        |=             |
 
 ## Train information
 The following are recommended trains that can be adjusted as needed, using train data supported by Bve5.<br>

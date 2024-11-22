@@ -73,8 +73,14 @@ The next station is Ningennosato.
 
 minaminingennosato-ningennosato2-105107m:
 まもなく、人間の里、人間の里です。お出口は、左側です。
-We will soon arrive at Ningennosato.The doors on the left side will open.Please change here for the Gensokyo Monorail.
-列车即将到达人间之里站，左侧的车门将会打开。可换乘幻想乡单轨电车。
+We will soon arrive at Ningennosato.The doors on the left side will open.
+列车即将到达人间之里站，左侧的车门将会打开。
+
+exchange-ningen-101M:
+お客様に接続列車を案内いたします。十時四十分発、普通電車守矢神社ゆき、降りたホームの向かい側、3番線発です。
+北命蓮寺、妖怪の樹海、草田駅へ降りの客様は、人間の里でこの列車にお乗り換えでください。
+We will guide you to a connecting train. The local train bound for Moriya Shrine will departs at 10:40 from Track 3, on the opposite side of the platform you arrived on. Passengers heading to Kita-myorenji, Youkaionjyukai and Kusada Station,please transfer to this train at Ningennosato.
+现在为您播报换乘列车信息，开往守失神社的普通列车，将会在 10点40分 发车，请在下车的站台对侧的3站台乘坐。去往北命莲寺、妖怪之树海、草田站的旅客，请在人间之里站换乘此列车。
 
 ningennosato-nishiningennosato1-105m:
 本日も、幻想郷鉄道をご利用くださいましてありがとうございます。この電車は、普通電車、守矢神社ゆきです。次は、西人間の里、西人間の里です。
