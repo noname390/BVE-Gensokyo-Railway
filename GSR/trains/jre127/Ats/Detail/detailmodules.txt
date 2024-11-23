@@ -4,3 +4,4 @@
 ../../../../Rock_On\Train\JR\Plugin\MC.dll
 ../../../../Rock_On\Train\JR\Plugin\VVVF.dll
 ../ASK\ATS-Ps.dll
+../Win_Update\E127.dll

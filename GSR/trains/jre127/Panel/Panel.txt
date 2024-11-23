@@ -135,14 +135,14 @@ Layer = 1
 
 
 [PilotLamp]
-Subject = ats20
+Subject = ats41
 Location = 1315, 1517
 DaytimeImage = Unit1_d.png
 NighttimeImage = Unit1_n.png
 Layer = 1
 
 [PilotLamp]
-Subject = ats21
+Subject = ats10
 Location = 931, 1200
 DaytimeImage = Eb_d.png
 NighttimeImage = Eb_n.png
