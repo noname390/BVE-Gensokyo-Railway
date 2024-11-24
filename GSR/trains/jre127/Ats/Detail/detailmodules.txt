@@ -3,4 +3,5 @@
 ../../../../Rock_On\Train\JR\Plugin\DIR.dll
 ../../../../Rock_On\Train\JR\Plugin\MC.dll
 ../../../../Rock_On\Train\JR\Plugin\VVVF.dll
+../../../../Rock_On\Train\JR\Plugin\EB.dll
 ../ASK\ATS-Ps.dll
