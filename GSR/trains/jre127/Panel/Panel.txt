@@ -12,7 +12,7 @@ Center = 1024, 1000
 Origin = 1024, 800
 
 [Needle]
-Subject = ats10
+Subject = kmph
 Location = 917, 1450
 DaytimeImage = Speed_d.png
 NighttimeImage = Speed_n.png
@@ -22,7 +22,7 @@ Radius = 81
 InitialAngle = -122
 LastAngle = 118
 Minimum = 0
-Maximum = 12000
+Maximum = 120
 NaturalFreq = 6.3
 DampingRatio = 0.5
 
@@ -135,15 +135,66 @@ Layer = 1
 
 
 [PilotLamp]
-Subject = ats20
+Subject = ats41
 Location = 1315, 1517
 DaytimeImage = Unit1_d.png
 NighttimeImage = Unit1_n.png
 Layer = 1
 
 [PilotLamp]
-Subject = ats21
+Subject = ats10
 Location = 931, 1200
 DaytimeImage = Eb_d.png
 NighttimeImage = Eb_n.png
 Layer = 1
+
+[PilotLamp]
+Subject = ats13
+Location = 337, 1040
+DaytimeImage = Ps/Pocc.bmp
+TransparentColor = 0000FF
+Layer = 3
+
+[PilotLamp]
+Subject = ats14
+Location = 392, 1038
+DaytimeImage = Ps/Papp.bmp
+TransparentColor = 0000FF
+Layer = 3
+
+[PilotLamp]
+Subject = ats15
+Location = 447, 1036
+DaytimeImage = Ps/Bbeh.bmp
+TransparentColor = 0000FF
+Layer = 3
+
+[PilotLamp]
+Subject = ats16
+Location = 501, 1034
+DaytimeImage = Ps/Brel.bmp
+TransparentColor = 0000FF
+Layer = 3
+
+[PilotLamp]
+Subject = ats17
+Location = 556, 1032
+DaytimeImage = Ps/mal.bmp
+TransparentColor = 0000FF
+Layer = 3
+
+[DigitalNumber]
+Subject = ats18
+Location = 343, 993
+DaytimeImage = Ps/speed_g.bmp
+TransparentColor = 0000FF
+Interval = 21
+Layer = 3
+
+[DigitalNumber]
+Subject = ats19
+Location = 343, 993
+DaytimeImage = Ps/speed_y.bmp
+TransparentColor = 0000FF
+Interval = 21
+Layer = 3

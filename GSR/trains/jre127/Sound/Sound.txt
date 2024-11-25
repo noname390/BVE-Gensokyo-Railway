@@ -66,12 +66,19 @@ CloseLeft = DoorClsL.wav
 CloseRight = DoorClsR.wav
 
 [Ats]
-0 = Ats.wav
-1 = AtsCnt.wav
-10 = Eb.wav
-11 = RunRelayOn.wav
-12 = RunRelayOff.wav
-13 = Buzz.wav
+0 = CT/ATSbell.wav
+20 = CT/ATSbell_stop.wav
+21 = CT/ATSChime1.wav
+22 = CT/ATSChime2.wav
+3 = Eb.wav
+10 = CT/PStrt.wav
+11 = CT/PApp.wav
+12 = CT/PFin.wav
+13 = CT/PApp.wav
+30 = CT/ATSI.wav
+95 = RunRelayOn.wav
+96 = RunRelayOff.wav
+180 = Buzz.wav
 
 [Buzzer]
 
