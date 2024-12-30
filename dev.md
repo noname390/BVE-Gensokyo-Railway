@@ -53,6 +53,12 @@ Note: This document contains untranslated parts.(Chinese and Japanese words)<br>
 </p>
 <br>
 
+#### Kyuto Main Line  
+<p align="center">
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_KyutoMainLIne.png" alt="routemap";>
+</p>
+<br>
+
 #### Youkaizan Line・Mist Lake Line・Hakurei East Line・Standard Gauge Experimental Line of Mt.Youkai
 <p align="center">
     <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_NHB-Yakumotei.jpg" alt="routemap";>
