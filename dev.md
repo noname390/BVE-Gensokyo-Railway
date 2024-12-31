@@ -65,6 +65,11 @@ Note: This document contains untranslated parts.(Chinese and Japanese words)<br>
 </p>
 <br>
 
+#### Yuumei-kekkai Line・Meikai Line
+<p align="center">
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_Yakumotei-Saigyoayakashi.jpg" alt="routemap";>
+</p>
+<br>
 ### Stations(In Japanese)
 Loop Line:<br>
 #### HakureiShrine->Ningennosato
@@ -184,7 +189,7 @@ Note: Due to the lack of geography information, some station names were original
 |U 49|恵川      | 	↓	    |    |           |             |		 |       |1面1線   | 地面 |
 |U 50|小野塚      | 	↓	    |    |           |             |		 |       |1面1線   | 地面 |
 |U 51|飯岡      | 	↓	    |    |           |             |		 |       |1面1線   | 地面 |
-|U 52|宇佐見       | 	↓	    |    |           |             |		 |       |島式2面2線   | 地面 |
+|U 52|宇佐見       | 	↓	    |    |           |             |		 |       |2面2線   | 地面 |
 |53|北宇佐見（信）| 	↓	     |    |           |             |140	  |複線     |0面2線   | 地面 |
 |U 54|メリー湿原    | 	↓	    |    |           |             |		 |       |相対式2面2線   | 地面 |
 |U 55|冥界口       | 	○	    |    |           |             |  		 |      |島式2面4線   | 地面 | 
