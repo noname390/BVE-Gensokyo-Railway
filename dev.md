@@ -70,6 +70,7 @@ Note: This document contains untranslated parts.(Chinese and Japanese words)<br>
     <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_Yakumotei-Saigyoayakashi.jpg" alt="routemap";>
 </p>
 <br>
+
 ### Stations(In Japanese)
 Loop Line:<br>
 #### HakureiShrine->Ningennosato
