@@ -67,7 +67,7 @@ Note: This document contains untranslated parts.(Chinese and Japanese words)<br>
 
 #### Yuumei-kekkai Line・Meikai Line
 <p align="center">
-    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_Yakumotei-Saigyoayakashi.jpg" alt="routemap";>
+    <img src="https://github.com/noname390/BVE-Gensokyo-Railway/blob/main/assets/haisennryakuzu/route_design_Yakumotei-Saigyoayakashi.png" alt="routemap";>
 </p>
 <br>
 
