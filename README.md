@@ -128,9 +128,6 @@ Mail: 2147483647e308@gmail.com
 
 Group Chat:<br>
 [discord](https://discord.gg/XsHNX8n8)<br>
-Tencent QQ（会中文的话推荐这个）:<br>
-892694757<br>
-↑入群问题：说出一个车万角色或一款日本铁道车辆的名称。<br>
 [Line](https://line.me/ti/g2/xnSYtOFgf7f2rqLc8mlA0O79Z-FOZ5mlq3GHrA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default)
 ## License
 MIT License<br>
