@@ -4,6 +4,8 @@ E129-B11:
 (Notch-Speed:Stop distance)
 B4-110km/h:824m
 B3-45km/h:188m
+SKS200:
+B4-120km/h:1775m
 
 300 0.10
 400 0.08
