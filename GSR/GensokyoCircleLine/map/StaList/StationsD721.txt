@@ -1,4 +1,4 @@
 ﻿BveTs Station List 1.00
 #stationKey,stationText,arrivalTime,depertureTime,stoppageTime,defaultTime,signalFlag,alightingTime,passengers,arrivalSoundKey,depertureSoundKey,doorReopen,stuckInDoor
 1,博麗神社東,10:00:20,10:01:10,47,10:00:20,0,0,0,,,0,0
-2,新紅魔,10:06:00,t,30,,0,0,0,,,0,0
+2,新紅魔,10:07:00,t,30,,0,0,0,,,0,0

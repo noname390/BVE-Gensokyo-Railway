@@ -1,1 +1,4 @@
 BveTs Map 2.02
+7377;//12 car Shinkansen stop position
+    Structure['stopsks12'].Put('1',-2.5,-0.2,0.3,,,,,);
+	Structure['limitpole'].Put('1',-2.5,-0.2,0.3,,,,,);

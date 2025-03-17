@@ -1,6 +1,7 @@
 BveTs Map 2.02
 0+$distA;
 Structure['limitpole'].Put('1',-2.5,-0.2,0.3,,,,,);
+Irregularity.Change(0.0001,0.0001,0.0001,300,300,300);
 1055-10+$distA;
 Curve.BeginTransition();
 1055+10+$distA;
