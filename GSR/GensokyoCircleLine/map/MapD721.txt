@@ -1,0 +1,33 @@
+BveTs Map 2.02
+$distA=1490;
+#RollingNoise Setting(E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
+$runlong=0;
+$run25m=2;
+$runbri=3;
+$runtun=4;
+
+Structure.Load('..\Structures.txt');
+Sound.Load('..\sound.txt');
+Sound3D.Load('..\sound3d.txt');
+Station.Load('StaList\StationsD721.txt');
+Signal.Load('..\Signals.csv');
+Signal.SpeedLimit(0,25,55,75,120);
+//include 'SignalMap\?.txt';
+//include 'SoundMap\?.txt';
+//include 'MoveableObj\?.txt';
+include 'Main\HakureiEastLine\MapHEL.txt';
+include 'Main\HakureiEastLine\HakureiEastSta_Track1.txt';
+0;
+	Background.Change('Bg_mt');
+	Irregularity.Change(0.001,0.0005,0.0004,150,150,150);
+	Adhesion.Change(0.35, 0, 0.01);
+	Curve.SetGauge(1.435);
+	Light.Ambient(1,1,1);
+900;
+	Station['1'].Put(-1,-5,5);
+0+$distA;
+
+10+$distA;
+
+7377;
+	Station['2'].Put(1,-5,5);

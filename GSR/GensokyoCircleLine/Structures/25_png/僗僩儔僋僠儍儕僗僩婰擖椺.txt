@@ -1,0 +1,23 @@
+・ファイルパスは適宜書き換えてください。
+
+■昼(本体00～05 , 標＆尾灯滅06 , 標＆尾灯点07)
+25_00,structures\initg_pcset\25_00.x
+25_01,structures\initg_pcset\25_01.x
+25_02,structures\initg_pcset\25_02.x
+25_03,structures\initg_pcset\25_03.x
+25_04,structures\initg_pcset\25_04.x
+25_05,structures\initg_pcset\25_05.x
+25_06,structures\initg_pcset\25_06.x
+25_07,structures\initg_pcset\25_07.x
+shadow_p,structures\initg_pcset\shadow_p.x
+
+■夜(本体00～05 , 標＆尾灯滅06 , 標＆尾灯点07)
+25_00,structures\initg_pcset\25_00_n.x
+25_01,structures\initg_pcset\25_01_n.x
+25_02,structures\initg_pcset\25_02_n.x
+25_03,structures\initg_pcset\25_03_n.x
+25_04,structures\initg_pcset\25_04_n.x
+25_05,structures\initg_pcset\25_05_n.x
+25_06,structures\initg_pcset\25_06_n.x
+25_07,structures\initg_pcset\25_07_n.x
+shadow_p,structures\initg_pcset\shadow_p_n.x

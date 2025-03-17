@@ -242,7 +242,7 @@ Hakurei East・Mist Lake・Standard Gauge Experimental Line of Mt.Youkai<br>
 |#   |駅名          |優等列車停車駅|キロ |普通‐運行時間|快速‐運行時間| 最高速度| 線路数| ホーム      |駅構造| 
 |--- |---          |---          |--- |---         |---         |---    |---    |---         |---   |
 | 　 |新紅魔  　　　| 	○    　　 |    |           |             |165		 |       |島式2面4線 |高架|
-| 　 |新无缘冢（分岐点） | 	↓	      |    |         |           |230	 |複線     |0面2線   | 地面/橋上 |
+| 　 |新无缘冢（分岐点） | 	↓	      |    |         |           |240	 |複線     |0面2線   | 地面/橋上 |
 | Y 26|河城          | 	○	     |    |           |             |    	|        |島式2面2線   | 地面 |
 | Y 31|文            | 	○	    |    |           |             |   		 |        |島式2面2線+通過線 | 地面 |
 | Y 35|もみじ山      | 	↓	    |    |           |             |   		 |        |1面1線+通過線| 地面 |
@@ -275,5 +275,38 @@ Hakurei East・Mist Lake・Standard Gauge Experimental Line of Mt.Youkai<br>
 |博麗神社 | 		  |        |             |          |              ||
 ### Trains
 Trains other than the E127 series will gradually no longer be recommended trains. Additionally, scenarios corresponding to different signaling systems will be provided, players can use suitable trains on their own.
+### Express trains(Planned)
+#### L Limited Express "Sanae"/ L特急 さなえ
+Rolling stock:JNR 381 Series(6 car)<br>
+Operating speed:120km/h(Signal 125km/h)<br>
+Stops:Ningennosato---Myorenji---Moriya Shrine---Korindomae---Koumakan---Hakurei Shrine---Eientei---Ningennosato(Loop)<br>
+#### Moonlight Koma/ムーンライト紅魔
+Rolling stock:JNR 381 Series(6 car)<br>
+Max operating speed:120km/h(Signal 125km/h)<br>
+Stops:Koumakan---Hakurei Shrine---Ningennosato---Moriya Shrine---Korindomae---Koumakan<br>
+#### Limited Express "Ayakashi"/ 特急 あやかし
+Rolling stock:JNR 485 Series(4 car)<br>
+Max operating speed:140km/h(Signal 145km/h)<br>
+Stops:Ningennosato---Moriya Shrine---Koumakan---Muenzuka---Kawashiro---Aya---Yakumotei---Meikaiguchi---Yuumei---Hakugyokurou--->Saigyoayakashi<<br>
+#### Sleeper Limited Express "Inaba"/ 寝台特急 因幡
+Rolling stock:JNR 24 series sleeping cars+EF81 electric locomotive(10 car)<br>
+Max operating speed:110km/h<br>
+Stops:Eientei---Ningennosato---Moriya Shrine---Koumakan---Muenzuka---Kawashiro---Aya---Yakumotei---Meikaiguchi---Yuumei---Hakugyokurou--->Saigyoayakashi<<br>
+#### Express "Kirisame"/ 急行 きりさめ
+Rolling stock:681 Series(9 car)<br>
+Max operating speed:160km/h<br>
+Stops:Hakurei Shrine---Ningennosato---Myorenji---Moriya Shrine(via Hakurei-Moriya Line)<br>
+#### High-Speed Express "Murasaki"/ 高速特急 むらさき
+Rolling stock:200 Series Shinkansen/CRH1A<br>
+Max operating speed:240km/h<br>
+Stops:Hakurei Shrine East---ShinKouma---Kawashiro---Aya---Yakumotei<<br>
+#### YSE(Yokaizan Super Express)
+Rolling stock:200 Series Shinkansen/Baureihe 402(ICE2)<br>
+Max operating speed:240km/h<br>
+Stops:Ningennosato Hbf---Koumakan---ShinKouma---Kawashiro---Aya---Momiji Hill---Yakumotei<br>
+#### Limited Express "Utsuho"/ 特急 うつほ
+Rolling stock:681 Series(9 car)<br>
+Max operating speed:120km/h<br>
+Stops:Ningennosato---Moriya Shrine---Gensokazana---Mizubashi---Kyuto---Chireiden<br>
 ### Experimental Features
 #### Platform lights at Minami-ningennosato station

@@ -1,0 +1,28 @@
+・ファイルパスは適宜書き換えてください。
+
+■内訳
+本体　  　xxx_00～xxx_04
+尾灯＆標  xxx_05～xxx_06
+前灯      xxx_07～xxx_08
+・昼
+485_00,structures\initg_ecset\485_00.x
+485_01,structures\initg_ecset\485_01.x
+485_02,structures\initg_ecset\485_02.x
+485_03,structures\initg_ecset\485_03.x
+485_04,structures\initg_ecset\485_04.x
+485_05,structures\initg_ecset\485_05.x
+485_06,structures\initg_ecset\485_06.x
+485_07,structures\initg_ecset\485_07.x
+485_08,structures\initg_ecset\485_08.x
+shadow_e,structures\initg_ecset\shadow_e.x
+・夜
+485_00,structures\initg_ecset\485_00_n.x
+485_01,structures\initg_ecset\485_01_n.x
+485_02,structures\initg_ecset\485_02_n.x
+485_03,structures\initg_ecset\485_03_n.x
+485_04,structures\initg_ecset\485_04_n.x
+485_05,structures\initg_ecset\485_05_n.x
+485_06,structures\initg_ecset\485_06_n.x
+485_07,structures\initg_ecset\485_07_n.x
+485_08,structures\initg_ecset\485_08_n.x
+shadow_e,structures\initg_ecset\shadow_e_n.x
