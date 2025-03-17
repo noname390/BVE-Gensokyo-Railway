@@ -1,16 +1,21 @@
 BveTs Map 2.02
+$distA+$distB-10;
+CabIlluminance.Set(0);
 0+$distA+$distB;
     Track['3'].Position(-5,0,0,0);
     Track['4'].Position(20,0,0,0);
-    Repeater['rail1'].Begin0('1',3,5,5,'rail1435');
-    Repeater['rail2'].Begin0('2',3,5,5,'rail1435');
-    Repeater['rail3'].Begin0('3',3,5,5,'rail1435');
-    Repeater['rail4'].Begin0('4',3,5,5,'rail1435');
+    Repeater['rail1'].Begin0('1',3,0,5,'rail1435');
+    Repeater['rail2'].Begin0('2',3,0,5,'rail1435');
+    Repeater['rail3'].Begin0('3',3,0,5,'rail1435');
+    Repeater['rail4'].Begin0('4',3,0,5,'rail1435');
+    rollingNoise.Change($runlong);
+    CabIlluminance.Set(1);
 50+$distA+$distB;
     Track['31'].Position(0,0,-415,0);
     Track['41'].Position(15,0,415,0);
-    Repeater['rail31'].Begin0('31',3,5,5,'rail1435');
-    Repeater['rail41'].Begin0('41',3,5,5,'rail1435');
+    Repeater['rail31'].Begin0('31',3,0,5,'rail1435');
+    Repeater['rail41'].Begin0('41',3,0,5,'rail1435');
+    JointNoise.Play(0);
 50+45.48+$distA+$distB;
     Track['31'].Position(-2.5,0,415,0);
     Track['41'].Position(17.5,0,-415,0);
@@ -54,3 +59,5 @@ BveTs Map 2.02
     Track['4'].Position(15,0,0,0);
     Repeater['rail3'].End();
     Repeater['rail4'].End();
+767+$distA+$distB;
+    JointNoise.Play(0);

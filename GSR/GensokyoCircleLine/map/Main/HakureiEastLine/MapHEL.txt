@@ -5,30 +5,42 @@ BveTs Map 2.02
 0+$distA;//Kita-Hakurei Tunnel
     Repeater['rail1'].Begin0('1',3,5,5,'rail1435dark');
     Repeater['rail2'].Begin0('2',3,5,5,'rail1435dark');
+    rollingNoise.Change($runtun);
+    CabIlluminance.Set(1);
+10+$distA;
+    CabIlluminance.Set(0);
 485-10+$distA;
     Curve.BeginTransition();
 485+10+$distA;
-    Curve.Begin(-2000,-0.01);
+    Curve.Begin(-2000,-0.02);
+1375+$distA;
+    CabIlluminance.Set(0);
 1385+$distA;//End of Kita-Hakurei Tunnel
     Repeater['rail1'].Begin0('1',3,5,5,'rail1435');
     Repeater['rail2'].Begin0('2',3,5,5,'rail1435');
+    rollingNoise.Change($runlong);
+    CabIlluminance.Set(1);
 1524-10+$distA;
     Curve.BeginTransition();
 1524+10+$distA;
     Curve.End();
-2430+$distA;
+2230+$distA;
     Repeater['rail3'].End();
     Repeater['rail4'].End();
-    Legacy.Curve(-3000,0);
-    Track['2'].Position(5,0,1500,0);
-2430+122.52+$distA;
-    Legacy.Curve(3000,0);
-    Track['2'].Position(10,0,-1500,0);
-2430+122.52*2+$distA;
+    Legacy.Curve(-6000,0);
+    Track['2'].Position(5,0,3000,0);
+2230+173.21+$distA;
+    Legacy.Curve(6000,0);
+    Track['2'].Position(10,0,-3000,0);
+2230+173.21*2+$distA;
     Legacy.Curve(0,0);
     Track['2'].Position(15,0,0,0);
 2730+$distA;//No1 Shin-Kouma Tunnel
     Repeater['rail1'].Begin0('1',3,5,5,'rail1435dark');
     Repeater['rail2'].Begin0('2',3,5,5,'rail1435dark');
+    rollingNoise.Change($runtun);
+    CabIlluminance.Set(1);
+2740+$distA;
+    CabIlluminance.Set(0);
 4060+$distA;//End of No1 Shin-Kouma Tunnel
     
