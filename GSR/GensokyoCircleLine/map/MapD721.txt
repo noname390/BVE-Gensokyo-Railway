@@ -17,6 +17,7 @@ Signal.SpeedLimit(0,25,55,75,120);
 //include 'MoveableObj\?.txt';
 include 'Main\HakureiEastLine\MapHEL.txt';
 include 'Main\HakureiEastLine\HakureiEastSta_Track1.txt';
+include 'Main\HakureiEastLine\ShinkoumaSta_Track2.txt';
 0;
 900;
 	Station['1'].Put(-1,-5,5);
