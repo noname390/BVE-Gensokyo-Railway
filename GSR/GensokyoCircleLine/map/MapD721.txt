@@ -1,5 +1,7 @@
 BveTs Map 2.02
-$distA=2150;
+$distA=2720;
+$distB=4060;
+$sks200=1420;
 #RollingNoise Setting(E129series)-> 0=longrail 2=25mrail 3=bridge 4=tunnel
 $runlong=0;
 $run25m=2;
@@ -24,3 +26,31 @@ include 'Main\HakureiEastLine\ShinkoumaSta_Track2.txt';
 
 7377;
 	Station['2'].Put(1,-5,5);
+
+$sks200+275;
+	Structure['200_6'].Put('4',0,0,0,,,,,);
+	Repeater['Shadow200'].End();
+$sks200+250;
+	Structure['200_2'].Put('4',0,0,0,,,,,);
+$sks200+225;
+	Structure['200_1'].Put('4',0,0,0,,,,,);
+$sks200+200;
+	Structure['200_3'].Put('4',0,0,0,,,,,);
+$sks200+175;
+	Structure['200_5'].Put('4',0,0,0,,,,,);
+$sks200+150;
+	Structure['200_4'].Put('4',0,0,0,,,,,);
+$sks200+125;
+	Structure['200_1'].Put('4',0,0,0,,,,,);
+$sks200+100;
+	Structure['200_2'].Put('4',0,0,0,,,,,);
+$sks200+75;
+	Structure['200_5'].Put('4',0,0,0,,,,,);
+$sks200+50;
+	Structure['200_2'].Put('4',0,0,0,,,,,);
+$sks200+25;
+	Structure['200_1'].Put('4',0,0,0,,,,,);
+$sks200;
+	Structure['200_0'].Put('4',0,0,0,,,,,);
+	Repeater['Shadow200'].Begin0('4',3,25,25,'shadow_s2');
+	

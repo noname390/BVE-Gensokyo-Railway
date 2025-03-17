@@ -6,7 +6,7 @@ BveTs Map 2.02
 	Adhesion.Change(0.35, 0, 0.01);
 	Curve.SetGauge(1.435);
 	Light.Ambient(1,1,1);
-    
+
     Track['ground'].Position(0,-3.64,0,0);
     Track['3'].Position(5,0,0,0);
     Track['4'].Position(10,0,0,0);
@@ -19,7 +19,7 @@ BveTs Map 2.02
     Repeater['rail2'].Begin0('2',3,5,5,'rail1435');
     Repeater['rail5'].Begin0('5',3,5,5,'rail1435');
     Repeater['rail6'].Begin0('6',3,5,5,'rail1435');
-	Repeater['dikegrsL'].Begin('1',-1.8,0.2,0, ,, ,3,25,25, 'dikegrassL');
+	//Repeater['dikegrsL'].Begin('1',-1.8,0.2,0, ,, ,3,25,25, 'dikegrassL');
 	//Repeater['dikegrsR'].Begin('4',1.8,0.2,0, ,, ,3,25,25, 'dikegrassR');
 410;
     Repeater['modernformR1'].Begin('4',0, 0, 0, , , ,3,5,5, 'modernformR');
@@ -119,6 +119,10 @@ BveTs Map 2.02
 1730;
     Repeater['rail3'].End();
     Repeater['rail4'].End();
+    Track['3'].Position(5,0,0,0);
+    Track['4'].Position(10,0,0,0);
+    Structure['carstop'].Put('3',0,0,-5,,,,,);
+    Structure['carstop'].Put('4',0,0,-5,,,,,);
     Legacy.Curve(3000,0);
     Track['2'].Position(15,0,-1500,0);
 1730+122.52;
@@ -139,7 +143,7 @@ BveTs Map 2.02
 2000+36.76*4;
     Track['31'].Position(0,0,0,0);
     Repeater['rail31'].End();
-2150;
+2720;
 
 
 

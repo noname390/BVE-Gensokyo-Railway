@@ -1,4 +1,56 @@
 BveTs Map 2.02
-7377;//12 car Shinkansen stop position
+0+$distA+$distB;
+    Track['3'].Position(-5,0,0,0);
+    Track['4'].Position(20,0,0,0);
+    Repeater['rail1'].Begin0('1',3,5,5,'rail1435');
+    Repeater['rail2'].Begin0('2',3,5,5,'rail1435');
+    Repeater['rail3'].Begin0('3',3,5,5,'rail1435');
+    Repeater['rail4'].Begin0('4',3,5,5,'rail1435');
+50+$distA+$distB;
+    Track['31'].Position(0,0,-415,0);
+    Track['41'].Position(15,0,415,0);
+    Repeater['rail31'].Begin0('31',3,5,5,'rail1435');
+    Repeater['rail41'].Begin0('41',3,5,5,'rail1435');
+50+45.48+$distA+$distB;
+    Track['31'].Position(-2.5,0,415,0);
+    Track['41'].Position(17.5,0,-415,0);
+50+45.48*2+$distA+$distB;
+    Track['31'].Position(-5,0,0,0);
+    Track['41'].Position(20,0,0,0);
+    Repeater['rail31'].End();
+    Repeater['rail41'].End();
+207+$distA+$distB;
+    Repeater['modernformL1'].Begin('3',0, 0, 0, , , ,3,5,5, 'modernformL');
+	Repeater['formgroundL1'].Begin('3',-0.3, 0, 0, , , ,3,5,5, 'formgroundL');
+    Repeater['modernformR1'].Begin('1',0, 0, 0, , , ,3,5,5, 'modernformR');
+	Repeater['formgroundR1'].Begin('1',0.3, 0, 0, , , ,3,5,5, 'formgroundR');
+    Repeater['modernformL2'].Begin('2',0, 0, 0, , , ,3,5,5, 'modernformL');
+	Repeater['formgroundL2'].Begin('2',-0.3, 0, 0, , , ,3,5,5, 'formgroundL');
+    Repeater['modernformR2'].Begin('4',0, 0, 0, , , ,3,5,5, 'modernformR');
+	Repeater['formgroundR2'].Begin('4',0.3, 0, 0, , , ,3,5,5, 'formgroundR');
+547+$distA+$distB;//8 car Shinkansen/CRH/ICE stop position
+    Structure['halt'].Put('1',-2.5,-0.2,0.3,,,,,);
+	Structure['limitpole'].Put('1',-2.5,-0.2,0.3,,,,,);
+597+$distA+$distB;//12 car Shinkansen stop position
     Structure['stopsks12'].Put('1',-2.5,-0.2,0.3,,,,,);
 	Structure['limitpole'].Put('1',-2.5,-0.2,0.3,,,,,);
+687+$distA+$distB;
+    Repeater['modernformL1'].End();
+    Repeater['formgroundL1'].End();
+    Repeater['modernformR1'].End();
+    Repeater['formgroundR1'].End();
+    Repeater['modernformL2'].End();
+    Repeater['formgroundL2'].End();
+    Repeater['modernformR2'].End();
+    Repeater['formgroundR2'].End();
+710+$distA+$distB;
+    Track['3'].Position(-5,0,415,0);
+    Track['4'].Position(20,0,-415,0);
+710+45.48+$distA+$distB;
+    Track['3'].Position(-2.5,0,-415,0);
+    Track['4'].Position(17.5,0,415,0);
+710+45.48*2+$distA+$distB;
+    Track['3'].Position(0,0,0,0);
+    Track['4'].Position(15,0,0,0);
+    Repeater['rail3'].End();
+    Repeater['rail4'].End();
