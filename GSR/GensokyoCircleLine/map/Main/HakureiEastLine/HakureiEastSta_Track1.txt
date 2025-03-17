@@ -24,10 +24,10 @@ BveTs Map 2.02
     Repeater['formgroundL1'].Begin('1',-0.3,0, 0, , , ,3,5,5, 'formgroundL');
 560;
     Repeater['modernformR2'].Begin('6',0, 0, 0, , , ,3,5,5, 'modernformR');
-850;
+850;//8 car Shinkansen/CRH/ICE stop position
     Structure['halt'].Put('1',2.5,-0.2,0.3,,,,,);
 	Structure['limitpole'].Put('1',2.5,-0.2,0.3,,,,,);
-900;
+900;//12 car Shinkansen stop position
     Structure['stopsks12'].Put('1',2.5,-0.2,0.3,,,,,);
 	Structure['limitpole'].Put('1',2.5,-0.2,0.3,,,,,);
 890;
@@ -71,11 +71,13 @@ BveTs Map 2.02
     Track['5'].Position(21.2,0,0,0);
 1067.5;
     Legacy.Curve(-270,0);
+    SpeedLimit.Begin(35);
     Track['3'].Position(1.02,0,270,0);
     Track['2'].Position(16.02,0,270,0);
     Track['5'].Position(17.04,0,135,0);
 1091.03;
     Legacy.Curve(0,0);
+    SpeedLimit.End();
     Track['3'].Position(0,0,0,0);
     Track['2'].Position(15,0,0,0);
     Track['5'].Position(15,0,0,0);
